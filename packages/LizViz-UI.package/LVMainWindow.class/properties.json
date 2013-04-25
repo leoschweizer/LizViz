@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "LVMainWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

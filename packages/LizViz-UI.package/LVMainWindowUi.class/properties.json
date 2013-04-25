@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationContainer",
+		"interfacesArea" ],
+	"name" : "LVMainWindowUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
