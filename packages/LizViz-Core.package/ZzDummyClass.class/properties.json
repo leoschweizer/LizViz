@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzDummyClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
