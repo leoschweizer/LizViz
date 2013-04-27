@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"pushButton",
+		"popButton" ],
 	"name" : "LVStackUi",
 	"pools" : [
 		 ],

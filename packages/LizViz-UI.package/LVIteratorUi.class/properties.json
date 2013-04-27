@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"firstButton",
+		"nextButton" ],
 	"name" : "LVIteratorUi",
 	"pools" : [
 		 ],

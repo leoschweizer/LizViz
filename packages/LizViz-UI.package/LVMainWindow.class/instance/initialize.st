@@ -1,7 +1,9 @@
 as yet unclassified
 initialize
 	super initialize.
-	self ui: LVMainWindowUi new.
-	self ui setupUi: self.
 	
+	self animatedDatatype: ZzDummyClass new.
+	self availableInterfaces
+		add: LVIteratorUi;
+		add: LVStackUi.
 	self setupInterfaces.

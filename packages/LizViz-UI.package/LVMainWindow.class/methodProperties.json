@@ -2,7 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "or 4/25/2013 17:05:15.206",
-		"setupInterfaces" : "or 4/25/2013 17:17:58.972",
-		"ui" : "or 4/25/2013 16:17:38.33",
-		"ui:" : "or 4/25/2013 16:17:38.371" } }
+		"animatedDatatype" : "or 4/27/2013 18:33:06.595",
+		"animatedDatatype:" : "or 4/27/2013 18:33:06.63",
+		"availableInterfaces" : "or 4/27/2013 18:53:09.518",
+		"availableInterfaces:" : "or 4/27/2013 18:52:41.752",
+		"connectSignalsFor:" : "or 4/27/2013 19:00:16.624",
+		"initialize" : "or 4/27/2013 19:01:43.607",
+		"setupInterfaces" : "or 4/27/2013 19:00:36.415",
+		"title" : "or 4/27/2013 18:43:57.492",
+		"uiClass" : "or 4/27/2013 18:41:12.596" } }

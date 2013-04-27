@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	panel color: (Color transparent).
 	panel borderWidth: (1).
 	panel borderStyle2: (#simple).
@@ -54,73 +54,75 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 text: ('Stack').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
 	panel addChild: unnamedMorph1.
-	unnamedMorph2 := UiPushButton new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (33@21).
-	unnamedMorph2 position: (52@36).
-	unnamedMorph2 hResizing: (#shrinkWrap).
-	unnamedMorph2 vResizing: (#shrinkWrap).
-	unnamedMorph2 minWidth: (2).
-	unnamedMorph2 minHeight: (2).
-	unnamedMorph2 cellInset: (4).
-	unnamedMorph2 cellPositioning: (#center).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (2@0 corner: 2@0).
-	unnamedMorph2 listCentering: (#center).
-	unnamedMorph2 listDirection: (#leftToRight).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
-	unnamedMorph2 enabled: (true).
-	unnamedMorph2 setProperty: #iconByDesigner toValue: 'nil'.
-	unnamedMorph2 icon: (nil).
-	unnamedMorph2 text: ('Push').
-	unnamedMorph2 color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	unnamedMorph2 checkable: (false).
-	unnamedMorph2 checked: (false).
-	unnamedMorph2 autoExclusive: (false).
-	panel addChild: unnamedMorph2.
-	unnamedMorph3 := UiPushButton new.
-	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (29@21).
-	unnamedMorph3 position: (55@64).
-	unnamedMorph3 hResizing: (#shrinkWrap).
-	unnamedMorph3 vResizing: (#shrinkWrap).
-	unnamedMorph3 minWidth: (2).
-	unnamedMorph3 minHeight: (2).
-	unnamedMorph3 cellInset: (4).
-	unnamedMorph3 cellPositioning: (#center).
-	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (2@0 corner: 2@0).
-	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
-	unnamedMorph3 listSpacing: (#none).
-	unnamedMorph3 maxCellSize: (1073741823).
-	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
-	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
-	unnamedMorph3 enabled: (true).
-	unnamedMorph3 setProperty: #iconByDesigner toValue: 'nil'.
-	unnamedMorph3 icon: (nil).
-	unnamedMorph3 text: ('Pop').
-	unnamedMorph3 color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	unnamedMorph3 checkable: (false).
-	unnamedMorph3 checked: (false).
-	unnamedMorph3 autoExclusive: (false).
-	panel addChild: unnamedMorph3.
+	pushButton := UiPushButton new.
+	pushButton changeTableLayout.
+	pushButton extent: (33@21).
+	pushButton position: (52@36).
+	pushButton hResizing: (#shrinkWrap).
+	pushButton vResizing: (#shrinkWrap).
+	pushButton minWidth: (2).
+	pushButton minHeight: (2).
+	pushButton cellInset: (4).
+	pushButton cellPositioning: (#center).
+	pushButton cellSpacing: (#none).
+	pushButton layoutInset: (2@0 corner: 2@0).
+	pushButton listCentering: (#center).
+	pushButton listDirection: (#leftToRight).
+	pushButton listSpacing: (#none).
+	pushButton maxCellSize: (1073741823).
+	pushButton minCellSize: (0).
+	pushButton wrapCentering: (#topLeft).
+	pushButton wrapDirection: (#none).
+	pushButton frameFractions: (0@0 corner: 1@1).
+	pushButton frameOffsets: (0@0 corner: 0@0).
+	pushButton balloonText: (nil).
+	pushButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	pushButton enabled: (true).
+	pushButton setProperty: #iconByDesigner toValue: 'nil'.
+	pushButton icon: (nil).
+	pushButton text: ('Push').
+	pushButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	pushButton checkable: (false).
+	pushButton checked: (false).
+	pushButton autoExclusive: (false).
+	pushButton setProperty: #objectName toValue: 'pushButton'.
+	panel addChild: pushButton.
+	popButton := UiPushButton new.
+	popButton changeTableLayout.
+	popButton extent: (29@21).
+	popButton position: (55@64).
+	popButton hResizing: (#shrinkWrap).
+	popButton vResizing: (#shrinkWrap).
+	popButton minWidth: (2).
+	popButton minHeight: (2).
+	popButton cellInset: (4).
+	popButton cellPositioning: (#center).
+	popButton cellSpacing: (#none).
+	popButton layoutInset: (2@0 corner: 2@0).
+	popButton listCentering: (#topLeft).
+	popButton listDirection: (#leftToRight).
+	popButton listSpacing: (#none).
+	popButton maxCellSize: (1073741823).
+	popButton minCellSize: (0).
+	popButton wrapCentering: (#topLeft).
+	popButton wrapDirection: (#none).
+	popButton frameFractions: (0@0 corner: 1@1).
+	popButton frameOffsets: (0@0 corner: 0@0).
+	popButton balloonText: (nil).
+	popButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	popButton enabled: (true).
+	popButton setProperty: #iconByDesigner toValue: 'nil'.
+	popButton icon: (nil).
+	popButton text: ('Pop').
+	popButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	popButton checkable: (false).
+	popButton checked: (false).
+	popButton autoExclusive: (false).
+	popButton setProperty: #objectName toValue: 'popButton'.
+	panel addChild: popButton.
 	panel setProperty: #uiClassName toValue: 'LVStack'.

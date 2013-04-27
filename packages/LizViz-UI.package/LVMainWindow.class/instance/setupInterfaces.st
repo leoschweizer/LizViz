@@ -1,14 +1,13 @@
 as yet unclassified
 setupInterfaces
 	
-	| iterator stack interfacesMorph |
+	| interfacesMorph |
 	
 	interfacesMorph := Morph new.
-	
-	iterator := LVIteratorUi new.
-	iterator setupUi: interfacesMorph.
-	
-	stack := LVStackUi new.
-	stack setupUi: interfacesMorph.
-	
+	self availableInterfaces do: [:i | | interface |
+		interface := i new.
+		interface setupUi: interfacesMorph.
+		self connectSignalsFor: interface.
+	].
+				
 	self ui interfacesArea widget: interfacesMorph.

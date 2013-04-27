@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"animatedDatatype",
+		"availableInterfaces" ],
 	"name" : "LVMainWindow",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UiWindow",
 	"type" : "normal" }

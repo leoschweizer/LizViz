@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeProportionalLayout.
-	panel extent: (528@300).
+	panel extent: (540@300).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	panel color: (Color white).
 	panel borderWidth: (2).
 	panel borderStyle2: (#simple).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	animationContainer := UiContainer new.
 	animationContainer changeProportionalLayout.
-	animationContainer extent: (387@288).
+	animationContainer extent: (396@288).
 	animationContainer position: (6@6).
 	animationContainer hResizing: (#spaceFill).
 	animationContainer vResizing: (#spaceFill).
@@ -63,8 +63,8 @@ initializePanel
 	panel addChild: animationContainer.
 	interfacesArea := UiScrollArea new.
 	interfacesArea changeProportionalLayout.
-	interfacesArea extent: (127@274).
-	interfacesArea position: (395@20).
+	interfacesArea extent: (130@274).
+	interfacesArea position: (404@20).
 	interfacesArea hResizing: (#spaceFill).
 	interfacesArea vResizing: (#spaceFill).
 	interfacesArea minWidth: (2).
@@ -83,7 +83,7 @@ initializePanel
 	interfacesArea frameFractions: (0.75@0.05 corner: 1@1).
 	interfacesArea frameOffsets: (2@0 corner: 0@0).
 	interfacesArea balloonText: (nil).
-	interfacesArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	interfacesArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	interfacesArea widgetResizable: (false).
 	interfacesArea horizontalScrollBarPolicy: (#alwaysOff).
 	interfacesArea verticalScrollBarPolicy: (#alwaysOn).
@@ -93,8 +93,8 @@ initializePanel
 	panel addChild: interfacesArea.
 	unnamedMorph1 := UiLabel new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (129@19).
-	unnamedMorph1 position: (393@1).
+	unnamedMorph1 extent: (132@19).
+	unnamedMorph1 position: (402@1).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
 	unnamedMorph1 minWidth: (2).
@@ -113,7 +113,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0.75@0 corner: 1@0.05).
 	unnamedMorph1 frameOffsets: (0@ -5 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 text: ('Interfaces').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
