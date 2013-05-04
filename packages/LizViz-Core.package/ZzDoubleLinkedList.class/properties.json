@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ZzDummyClass",
+		"lastItem" ],
+	"name" : "ZzDoubleLinkedList",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ZzSingleLinkedList",
 	"type" : "normal" }

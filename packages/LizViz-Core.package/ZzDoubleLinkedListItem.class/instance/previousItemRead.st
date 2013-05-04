@@ -1,0 +1,4 @@
+signals
+previousItemRead
+	
+	self emit.

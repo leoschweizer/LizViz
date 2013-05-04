@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"nextItem" ],
+	"name" : "ZzListItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

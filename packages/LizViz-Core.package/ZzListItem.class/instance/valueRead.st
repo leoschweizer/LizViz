@@ -1,0 +1,4 @@
+signals
+valueRead
+	
+	self emit.

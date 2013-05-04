@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousItem" ],
+	"name" : "ZzDoubleLinkedListItem",
+	"pools" : [
+		 ],
+	"super" : "ZzListItem",
+	"type" : "normal" }

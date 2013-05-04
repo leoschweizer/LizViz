@@ -1,1 +1,1 @@
-(name 'LizViz-Core-ls.1' message 'repo init' id '79f00fbf-9bbe-374f-8662-9f2f8fdb039b' date '25 April 2013' time '1:06:08.488 pm' author 'ls' ancestors () stepChildren ())
+(name 'LizViz-Core-ls.2' message 'eventful implementation of single / double linked list' id 'fce01214-586d-0c4e-9863-e5ed660fdb08' date '4 May 2013' time '11:15:55.732 am' author 'ls' ancestors ((name 'LizViz-Core-ls.1' message 'repo init' id '79f00fbf-9bbe-374f-8662-9f2f8fdb039b' date '25 April 2013' time '1:06:08.488 pm' author 'ls' ancestors () stepChildren ())) stepChildren ())
