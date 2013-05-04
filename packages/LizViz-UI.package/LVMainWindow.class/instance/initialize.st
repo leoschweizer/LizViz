@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	self animatedDatatype: ZzDummyClass new.
+	self animatedDatatype: ZzSingleLinkedList new.
 	self availableInterfaces
 		add: LVIteratorUi;
 		add: LVStackUi.
