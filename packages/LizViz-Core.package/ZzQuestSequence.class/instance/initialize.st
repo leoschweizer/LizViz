@@ -1,5 +1,6 @@
 as yet unclassified
 initialize
 	
-	index := 0.
+	title := 'Untitled'.
 	quests := OrderedCollection new.
+	self reset.

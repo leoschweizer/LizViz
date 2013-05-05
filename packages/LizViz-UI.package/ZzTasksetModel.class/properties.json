@@ -2,13 +2,15 @@
 	"category" : "LizViz-UI",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tasksets" ],
-	"name" : "ZzQuestContainerMorph",
+		 ],
+	"name" : "ZzTasksetModel",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
 	"type" : "normal" }

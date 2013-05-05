@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"questStack",
-		"tasksetSelectionList" ],
+		"taskStackedWidget",
+		"tasksetList",
+		"taskSubmitButton" ],
 	"name" : "ZzQuestContainerUi",
 	"pools" : [
 		 ],

@@ -3,9 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Sequences" ],
 	"commentStamp" : "",
 	"instvars" : [
+		"title",
 		"quests",
 		"index" ],
 	"name" : "ZzQuestSequence",
