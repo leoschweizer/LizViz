@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationContainer",
-		"interfacesArea",
-		"questContainer" ],
-	"name" : "LVMainWindowUi",
+		 ],
+	"name" : "ZzQuestContainerMorph",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "Morph",
 	"type" : "normal" }

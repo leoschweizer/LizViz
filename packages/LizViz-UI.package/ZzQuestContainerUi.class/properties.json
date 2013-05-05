@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationContainer",
-		"interfacesArea",
-		"questContainer" ],
-	"name" : "LVMainWindowUi",
+		"questStack",
+		"tasksetSelectionList" ],
+	"name" : "ZzQuestContainerUi",
 	"pools" : [
 		 ],
 	"super" : "UserInterface",

@@ -6,4 +6,6 @@ initialize
 	self availableInterfaces
 		add: LVIteratorUi;
 		add: LVStackUi.
-	self setupInterfaces.
+	self
+		setupInterfaces;
+		setupQuestContainer.

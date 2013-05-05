@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddQuests" : "JR 5/5/2013 18:06:00.305",
+		"testEmptySequenceHasNext" : "JR 5/5/2013 17:48:50.351",
+		"testEmptySequenceNext" : "JR 5/5/2013 17:49:08.613",
+		"testNext" : "JR 5/5/2013 17:45:19.882",
+		"testNextReturnNilIfEmpty" : "JR 5/5/2013 18:07:24.232" } }

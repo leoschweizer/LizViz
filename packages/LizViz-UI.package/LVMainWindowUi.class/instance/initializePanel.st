@@ -6,10 +6,10 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeProportionalLayout.
-	panel extent: (540@300).
+	panel extent: (490@272).
 	panel position: (0@0).
-	panel hResizing: (#spaceFill).
-	panel vResizing: (#spaceFill).
+	panel hResizing: (#shrinkWrap).
+	panel vResizing: (#shrinkWrap).
 	panel minWidth: (2).
 	panel minHeight: (2).
 	panel cellInset: (4).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	animationContainer := UiContainer new.
 	animationContainer changeProportionalLayout.
-	animationContainer extent: (396@288).
+	animationContainer extent: (359@182).
 	animationContainer position: (6@6).
 	animationContainer hResizing: (#spaceFill).
 	animationContainer vResizing: (#spaceFill).
@@ -51,7 +51,7 @@ initializePanel
 	animationContainer minCellSize: (0).
 	animationContainer wrapCentering: (#topLeft).
 	animationContainer wrapDirection: (#none).
-	animationContainer frameFractions: (0@0 corner: 0.75@1).
+	animationContainer frameFractions: (0@0 corner: 0.75@0.7).
 	animationContainer frameOffsets: (0@0 corner: 0@0).
 	animationContainer balloonText: (nil).
 	animationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
@@ -63,8 +63,8 @@ initializePanel
 	panel addChild: animationContainer.
 	interfacesArea := UiScrollArea new.
 	interfacesArea changeProportionalLayout.
-	interfacesArea extent: (130@274).
-	interfacesArea position: (404@20).
+	interfacesArea extent: (117@169).
+	interfacesArea position: (367@19).
 	interfacesArea hResizing: (#spaceFill).
 	interfacesArea vResizing: (#spaceFill).
 	interfacesArea minWidth: (2).
@@ -80,10 +80,10 @@ initializePanel
 	interfacesArea minCellSize: (0).
 	interfacesArea wrapCentering: (#topLeft).
 	interfacesArea wrapDirection: (#none).
-	interfacesArea frameFractions: (0.75@0.05 corner: 1@1).
+	interfacesArea frameFractions: (0.75@0.05 corner: 1@0.7).
 	interfacesArea frameOffsets: (2@0 corner: 0@0).
 	interfacesArea balloonText: (nil).
-	interfacesArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	interfacesArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	interfacesArea widgetResizable: (false).
 	interfacesArea horizontalScrollBarPolicy: (#alwaysOff).
 	interfacesArea verticalScrollBarPolicy: (#alwaysOn).
@@ -93,8 +93,8 @@ initializePanel
 	panel addChild: interfacesArea.
 	unnamedMorph1 := UiLabel new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (132@19).
-	unnamedMorph1 position: (402@1).
+	unnamedMorph1 extent: (119@18).
+	unnamedMorph1 position: (365@1).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
 	unnamedMorph1 minWidth: (2).
@@ -113,9 +113,38 @@ initializePanel
 	unnamedMorph1 frameFractions: (0.75@0 corner: 1@0.05).
 	unnamedMorph1 frameOffsets: (0@ -5 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph1 text: ('Interfaces').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
 	panel addChild: unnamedMorph1.
+	questContainer := UiContainer new.
+	questContainer changeTableLayout.
+	questContainer extent: (478@78).
+	questContainer position: (6@188).
+	questContainer hResizing: (#spaceFill).
+	questContainer vResizing: (#spaceFill).
+	questContainer minWidth: (2).
+	questContainer minHeight: (2).
+	questContainer cellInset: (4).
+	questContainer cellPositioning: (#center).
+	questContainer cellSpacing: (#none).
+	questContainer layoutInset: (0).
+	questContainer listCentering: (#topLeft).
+	questContainer listDirection: (#topToBottom).
+	questContainer listSpacing: (#none).
+	questContainer maxCellSize: (1073741823).
+	questContainer minCellSize: (0).
+	questContainer wrapCentering: (#topLeft).
+	questContainer wrapDirection: (#none).
+	questContainer frameFractions: (0@0.7 corner: 1@1).
+	questContainer frameOffsets: (0@0 corner: 0@0).
+	questContainer balloonText: (nil).
+	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	questContainer color: (Color lightGray).
+	questContainer borderWidth: (0).
+	questContainer borderStyle2: (#simple).
+	questContainer borderColor: (Color black).
+	questContainer setProperty: #objectName toValue: 'questContainer'.
+	panel addChild: questContainer.
 	panel setProperty: #uiClassName toValue: 'LVMainWindow'.
