@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfLizViz",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfLizViz",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
