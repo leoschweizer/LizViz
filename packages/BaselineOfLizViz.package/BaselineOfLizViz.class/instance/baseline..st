@@ -15,7 +15,7 @@ baseline: spec
 			spec
 				package: 'LizViz-Core' with: [spec requires: #('SwaUtil')];
 				package: 'LizViz-Ui';
-				package: 'TraitClasses-Tests' with: [ spec requires: #('LizViz-Core') ].
+				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core') ].
 			
 			spec
 				group: 'default' with: #('LizViz-Core');
