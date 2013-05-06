@@ -6,12 +6,7 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 Metacello new
   baseline: 'LizViz';
   repository: 'filetree://', gitPath, '/LizViz/packages';
-  get.
-
-Metacello new
-  baseline: 'LizViz';
-  repository: 'filetree://', gitPath, '/LizViz/packages';
-  load: 'TravisCI'.
+  load: 'Tests'.
 
 "Run the tests"
 TravisCIHarness
