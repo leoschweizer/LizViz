@@ -1,0 +1,16 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationContainer",
+		"interfacesArea",
+		"questContainer" ],
+	"name" : "ZzMainWindowUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

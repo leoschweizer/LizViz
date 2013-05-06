@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animatedDatatype",
+		"availableInterfaces" ],
+	"name" : "ZzMainWindow",
+	"pools" : [
+		 ],
+	"super" : "UiWindow",
+	"type" : "normal" }
