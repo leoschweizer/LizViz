@@ -8,6 +8,8 @@ Metacello new
   repository: 'filetree://', gitPath, '/LizViz/packages';
   load: 'Tests'.
 
+Utilities setAuthorInitials: 'travis'.
+
 "Run the tests"
 TravisCIHarness
   value: #('BaselineOfLizViz')
