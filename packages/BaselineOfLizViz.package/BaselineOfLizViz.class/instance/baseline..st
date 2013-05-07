@@ -16,12 +16,14 @@ baseline: spec
 			spec
 				className: 'ConfigurationOfRefactoringBrowser';
 				repository: 'http://ss3.gemstone.com/ss/rb'].
+			
+			spec package: 'LizViz-Traits' with: [spec repository: 'http://ss3.gemstone.com/ss/LizViz-Traits'].
 
 			spec
-				package: 'LizViz-Core' with: [spec requires: #('SwaUtil' 'Refactoring Engine')];
+				package: 'LizViz-Core' with: [spec requires: #('LizViz-Traits' 'SwaUtil' 'Refactoring Engine')];
 				package: 'LizViz-Ui';
 				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core') ].
 			
 			spec
-				group: 'default' with: #('LizViz-Core');
-				group: 'Tests' with: #('LizViz-Tests') ].
+				group: 'default' with: #('LizViz-Core' 'LizViz-Ui');
+				group: 'Tests' with: #('LizViz-Tests')].
