@@ -1,10 +1,12 @@
 as yet unclassified
 nextItemChanged: aListItem
 	
-	| item |
-	aListItem ifNil: [^ self].
-	item := ZzLinkedListMorph new.
-	self owner addMorph: item.
-	item 
+	aListItem ifNil: [
+		self nextItemMorph abandon.
+		^ self nextItemMorph: nil].
+	self nextItemMorph: ZzLinkedListMorph new.
+	self connect: aListItem signal: #nextItemChanged: to: self nextItemMorph selector: #nextItemChanged:.
+	self owner addMorph: self nextItemMorph.
+	self nextItemMorph 
 		left: self right;
 		top: self top.

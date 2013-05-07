@@ -4,5 +4,8 @@
 		"itemForm" : "or 5/7/2013 14:31:25.474",
 		"resetImages" : "or 5/7/2013 14:31:46.683" },
 	"instance" : {
+		"abandon" : "or 5/7/2013 15:40:11.515",
 		"initialize" : "or 5/7/2013 14:25:17.645",
-		"nextItemChanged:" : "or 5/7/2013 13:21:16.331" } }
+		"nextItemChanged:" : "or 5/7/2013 15:37:02.836",
+		"nextItemMorph" : "or 5/7/2013 15:33:47.851",
+		"nextItemMorph:" : "or 5/7/2013 15:33:47.89" } }
