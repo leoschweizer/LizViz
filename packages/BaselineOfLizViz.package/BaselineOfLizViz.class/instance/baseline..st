@@ -11,9 +11,14 @@ baseline: spec
 			spec
 				className: 'ConfigurationOfSwaUtil';
 				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository'].
+			
+			spec project: 'Refactoring Engine' with: [
+			spec
+				className: 'ConfigurationOfRefactoringBrowser';
+				repository: 'http://ss3.gemstone.com/ss/'].
 
 			spec
-				package: 'LizViz-Core' with: [spec requires: #('SwaUtil')];
+				package: 'LizViz-Core' with: [spec requires: #('SwaUtil' 'Refactoring Engine')];
 				package: 'LizViz-Ui';
 				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core') ].
 			
