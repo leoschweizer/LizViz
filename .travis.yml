@@ -1,7 +1,6 @@
 language: erlang
 
 env:
-   - ST=Squeak-4.3
    - ST=Squeak-4.4
 
 install:
