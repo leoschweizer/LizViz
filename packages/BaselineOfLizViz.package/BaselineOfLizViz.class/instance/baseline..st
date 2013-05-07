@@ -15,7 +15,7 @@ baseline: spec
 			spec project: 'Refactoring Engine' with: [
 			spec
 				className: 'ConfigurationOfRefactoringBrowser';
-				repository: 'http://ss3.gemstone.com/ss/'].
+				repository: 'http://ss3.gemstone.com/ss/rb'].
 
 			spec
 				package: 'LizViz-Core' with: [spec requires: #('SwaUtil' 'Refactoring Engine')];
