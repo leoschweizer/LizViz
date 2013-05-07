@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSource:" : "ls 5/7/2013 09:35:15.382",
+		"addTrait:" : "ls 5/7/2013 10:24:13.038",
+		"addTraits:" : "ls 5/7/2013 09:34:49.08",
+		"addTraitsTo:" : "ls 5/7/2013 10:24:50.224",
+		"baseClass" : "ls 5/7/2013 09:33:05.9",
+		"baseClass:" : "ls 5/7/2013 09:33:09.646",
+		"compile" : "ls 5/7/2013 10:16:16.679",
+		"compileSourcesIn:" : "ls 5/7/2013 10:15:18.083",
+		"createClass" : "ls 5/7/2013 10:12:23.059",
+		"makeDoubleLinked" : "ls 5/7/2013 09:35:42.945",
+		"makeSingleLinked" : "ls 5/7/2013 09:35:31.031",
+		"randomName" : "ls 5/7/2013 09:58:43.785",
+		"sources" : "ls 5/7/2013 09:33:21.733",
+		"traits" : "ls 5/7/2013 10:23:57.269" } }
