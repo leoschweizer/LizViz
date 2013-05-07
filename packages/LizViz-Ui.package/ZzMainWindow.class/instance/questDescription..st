@@ -2,7 +2,6 @@ as yet unclassified
 questDescription: aText
 	
 	| htmlText |
-	htmlText := 'Task: ' asHtmlText.
-	htmlText addAttribute: (TextEmphasis italic).
-	htmlText := htmlText, aText asHtmlText.
-	self ui questDescriptionLabel text: htmlText
+	htmlText := aText asHtmlText.
+	htmlText addAttribute: (TextAlignment justified).
+	self ui questDescriptionLabel theText: htmlText

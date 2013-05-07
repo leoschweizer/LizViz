@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"visualizationContainer",
 		"headerContainer",
 		"headlineLabel",
 		"questTitleLabel",
-		"questContainer" ],
+		"visualizationContainer",
+		"questDescriptionLabel",
+		"questContainer",
+		"submitQuestButton" ],
 	"name" : "ZzMainWindowUi",
 	"pools" : [
 		 ],

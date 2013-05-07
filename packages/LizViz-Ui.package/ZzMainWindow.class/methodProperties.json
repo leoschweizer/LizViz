@@ -4,11 +4,11 @@
 	"instance" : {
 		"animatedDatatype" : "or 4/27/2013 18:33:06.595",
 		"animatedDatatype:" : "or 4/27/2013 18:33:06.63",
-		"initialize" : "or 5/7/2013 17:23:38.383",
-		"setupDatatypeAnimation" : "or 5/7/2013 17:46:47.66",
+		"initialize" : "JR 5/7/2013 22:56:55.344",
+		"initializeUi" : "JR 5/7/2013 23:17:59.062",
 		"lectureTitle:" : "JR 5/7/2013 20:13:25.818",
-		"questDescription:" : "JR 5/7/2013 19:55:11.134",
+		"questDescription:" : "JR 5/7/2013 22:50:14.779",
 		"questTitle:" : "JR 5/7/2013 20:15:30.673",
-		"setupQuestContainer" : "JR 5/5/2013 20:41:01.391",
+		"setupDatatypeAnimation" : "or 5/7/2013 17:46:47.66",
 		"title" : "or 4/27/2013 18:43:57.492",
 		"uiClass" : "ls 5/6/2013 23:08:43.721" } }
