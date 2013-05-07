@@ -10,6 +10,7 @@
 		"headlineLabel",
 		"questTitleLabel",
 		"visualizationContainer",
+		"bottomContainer",
 		"questDescriptionLabel",
 		"questContainer",
 		"submitQuestButton" ],

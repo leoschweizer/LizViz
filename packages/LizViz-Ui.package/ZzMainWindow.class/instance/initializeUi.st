@@ -2,5 +2,6 @@ as yet unclassified
 initializeUi
 	
 	self ui questDescriptionLabel
-		color: Color lightGray;
-		colorFocusBackground: Color lightGray
+		color: Color transparent;
+		colorFocusBackground: Color transparent;
+		colorHighlightedBackground: Color transparent

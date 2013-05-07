@@ -2,11 +2,11 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (461@400).
+	panel extent: (461@407).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -118,7 +118,7 @@ initializePanel
 	headerContainer addChild: questTitleLabel.
 	panel addChild: headerContainer.
 	visualizationContainer := UiContainer new.
-	visualizationContainer extent: (461@184).
+	visualizationContainer extent: (461@191).
 	visualizationContainer position: (0@63).
 	visualizationContainer hResizing: (#spaceFill).
 	visualizationContainer vResizing: (#spaceFill).
@@ -145,36 +145,37 @@ initializePanel
 	visualizationContainer borderColor: (Color lightGray).
 	visualizationContainer setProperty: #objectName toValue: 'visualizationContainer'.
 	panel addChild: visualizationContainer.
-	unnamedMorph1 := UiContainer new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (461@151).
-	unnamedMorph1 position: (0@249).
-	unnamedMorph1 hResizing: (#spaceFill).
-	unnamedMorph1 vResizing: (#shrinkWrap).
-	unnamedMorph1 minWidth: (400).
-	unnamedMorph1 minHeight: (150).
-	unnamedMorph1 cellInset: (4).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (9).
-	unnamedMorph1 listCentering: (#topLeft).
-	unnamedMorph1 listDirection: (#topToBottom).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0@0.7 corner: 1@1).
-	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	unnamedMorph1 color: (Color transparent).
-	unnamedMorph1 borderWidth: (0).
-	unnamedMorph1 borderStyle2: (#simple).
-	unnamedMorph1 borderColor: (Color black).
+	bottomContainer := UiContainer new.
+	bottomContainer changeTableLayout.
+	bottomContainer extent: (461@151).
+	bottomContainer position: (0@256).
+	bottomContainer hResizing: (#spaceFill).
+	bottomContainer vResizing: (#shrinkWrap).
+	bottomContainer minWidth: (400).
+	bottomContainer minHeight: (150).
+	bottomContainer cellInset: (4).
+	bottomContainer cellPositioning: (#center).
+	bottomContainer cellSpacing: (#none).
+	bottomContainer layoutInset: (9).
+	bottomContainer listCentering: (#topLeft).
+	bottomContainer listDirection: (#topToBottom).
+	bottomContainer listSpacing: (#none).
+	bottomContainer maxCellSize: (1073741823).
+	bottomContainer minCellSize: (0).
+	bottomContainer wrapCentering: (#topLeft).
+	bottomContainer wrapDirection: (#none).
+	bottomContainer frameFractions: (0@0.7 corner: 1@1).
+	bottomContainer frameOffsets: (0@0 corner: 0@0).
+	bottomContainer balloonText: (nil).
+	bottomContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	bottomContainer color: ((Color r: 0.865 g: 0.86 b: 0.86)).
+	bottomContainer borderWidth: (0).
+	bottomContainer borderStyle2: (#simple).
+	bottomContainer borderColor: (Color black).
+	bottomContainer setProperty: #objectName toValue: 'bottomContainer'.
 	questDescriptionLabel := UiTextEdit new.
 	questDescriptionLabel extent: (443@19).
-	questDescriptionLabel position: (9@258).
+	questDescriptionLabel position: (9@265).
 	questDescriptionLabel hResizing: (#spaceFill).
 	questDescriptionLabel vResizing: (#rigid).
 	questDescriptionLabel minWidth: (2).
@@ -207,45 +208,46 @@ initializePanel
 	questDescriptionLabel scrollingMode: (#limit).
 	questDescriptionLabel scrollingLimit: (3).
 	questDescriptionLabel setProperty: #objectName toValue: 'questDescriptionLabel'.
-	unnamedMorph1 addChild: questDescriptionLabel.
-	unnamedMorph2 := UiContainer new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (443@109).
-	unnamedMorph2 position: (9@281).
-	unnamedMorph2 hResizing: (#spaceFill).
-	unnamedMorph2 vResizing: (#spaceFill).
-	unnamedMorph2 minWidth: (2).
-	unnamedMorph2 minHeight: (2).
-	unnamedMorph2 cellInset: (4).
-	unnamedMorph2 cellPositioning: (#topLeft).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (0).
-	unnamedMorph2 listCentering: (#topLeft).
-	unnamedMorph2 listDirection: (#leftToRight).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
-	unnamedMorph2 color: (Color transparent).
-	unnamedMorph2 borderWidth: (0).
-	unnamedMorph2 borderStyle2: (#simple).
-	unnamedMorph2 borderColor: (Color black).
+	bottomContainer addChild: questDescriptionLabel.
+	unnamedMorph1 := UiContainer new.
+	unnamedMorph1 changeTableLayout.
+	unnamedMorph1 extent: (443@109).
+	unnamedMorph1 position: (9@288).
+	unnamedMorph1 hResizing: (#spaceFill).
+	unnamedMorph1 vResizing: (#spaceFill).
+	unnamedMorph1 minWidth: (2).
+	unnamedMorph1 minHeight: (2).
+	unnamedMorph1 cellInset: (4).
+	unnamedMorph1 cellPositioning: (#topLeft).
+	unnamedMorph1 cellSpacing: (#none).
+	unnamedMorph1 layoutInset: (0).
+	unnamedMorph1 listCentering: (#topLeft).
+	unnamedMorph1 listDirection: (#leftToRight).
+	unnamedMorph1 listSpacing: (#none).
+	unnamedMorph1 maxCellSize: (1073741823).
+	unnamedMorph1 minCellSize: (0).
+	unnamedMorph1 wrapCentering: (#topLeft).
+	unnamedMorph1 wrapDirection: (#none).
+	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph1 balloonText: (nil).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph1 color: (Color transparent).
+	unnamedMorph1 borderWidth: (0).
+	unnamedMorph1 borderStyle2: (#simple).
+	unnamedMorph1 borderColor: (Color black).
 	questContainer := UiContainer new.
+	questContainer changeTableLayout.
 	questContainer extent: (369@109).
-	questContainer position: (9@281).
+	questContainer position: (9@288).
 	questContainer hResizing: (#spaceFill).
 	questContainer vResizing: (#spaceFill).
 	questContainer minWidth: (2).
 	questContainer minHeight: (2).
-	questContainer cellInset: (4).
+	questContainer cellInset: (0).
 	questContainer cellPositioning: (#center).
 	questContainer cellSpacing: (#none).
-	questContainer layoutInset: (4).
+	questContainer layoutInset: (0).
 	questContainer listCentering: (#topLeft).
 	questContainer listDirection: (#topToBottom).
 	questContainer listSpacing: (#none).
@@ -256,17 +258,17 @@ initializePanel
 	questContainer frameFractions: (0@0 corner: 1@1).
 	questContainer frameOffsets: (0@0 corner: 0@0).
 	questContainer balloonText: (nil).
-	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	questContainer color: (Color transparent).
 	questContainer borderWidth: (0).
 	questContainer borderStyle2: (#simple).
 	questContainer borderColor: (Color black).
 	questContainer setProperty: #objectName toValue: 'questContainer'.
-	unnamedMorph2 addChild: questContainer.
+	unnamedMorph1 addChild: questContainer.
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.
 	submitQuestButton extent: (70@109).
-	submitQuestButton position: (382@281).
+	submitQuestButton position: (382@288).
 	submitQuestButton hResizing: (#shrinkWrap).
 	submitQuestButton vResizing: (#spaceFill).
 	submitQuestButton minWidth: (70).
@@ -295,7 +297,7 @@ initializePanel
 	submitQuestButton checked: (false).
 	submitQuestButton autoExclusive: (false).
 	submitQuestButton setProperty: #objectName toValue: 'submitQuestButton'.
-	unnamedMorph2 addChild: submitQuestButton.
-	unnamedMorph1 addChild: unnamedMorph2.
-	panel addChild: unnamedMorph1.
+	unnamedMorph1 addChild: submitQuestButton.
+	bottomContainer addChild: unnamedMorph1.
+	panel addChild: bottomContainer.
 	panel setProperty: #uiClassName toValue: 'ZzMainWindow'.
