@@ -7,6 +7,6 @@ setupDatatypeAnimation
 	
 	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #nextItemChanged:.
 	
-	self ui animationContainer addMorph: listMorph.
-	listMorph topLeft: 5@ (self ui animationContainer height / 2)
+	self ui visualizationContainer addMorph: listMorph.
+	listMorph topLeft: 5@ (self ui visualizationContainer height / 2)
 	

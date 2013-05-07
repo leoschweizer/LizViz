@@ -1,5 +1,5 @@
 accessing
-interfacesArea
+questTitleLabel
 	"No description given."
 	
-	^ interfacesArea
+	^ questTitleLabel

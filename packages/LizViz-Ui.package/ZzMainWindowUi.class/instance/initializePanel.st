@@ -2,20 +2,20 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 |
+	|  |
 	
 	panel := UiContainer new.
 	panel changeProportionalLayout.
-	panel extent: (490@272).
+	panel extent: (417@286).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
 	panel minWidth: (2).
 	panel minHeight: (2).
-	panel cellInset: (4).
+	panel cellInset: (1).
 	panel cellPositioning: (#center).
 	panel cellSpacing: (#none).
-	panel layoutInset: (4).
+	panel layoutInset: (0).
 	panel listCentering: (#topLeft).
 	panel listDirection: (#topToBottom).
 	panel listSpacing: (#none).
@@ -28,100 +28,125 @@ initializePanel
 	panel balloonText: (nil).
 	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	panel color: (Color white).
-	panel borderWidth: (2).
+	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	animationContainer := UiContainer new.
-	animationContainer changeProportionalLayout.
-	animationContainer extent: (359@182).
-	animationContainer position: (6@6).
-	animationContainer hResizing: (#spaceFill).
-	animationContainer vResizing: (#spaceFill).
-	animationContainer minWidth: (2).
-	animationContainer minHeight: (2).
-	animationContainer cellInset: (4).
-	animationContainer cellPositioning: (#center).
-	animationContainer cellSpacing: (#none).
-	animationContainer layoutInset: (4).
-	animationContainer listCentering: (#topLeft).
-	animationContainer listDirection: (#topToBottom).
-	animationContainer listSpacing: (#none).
-	animationContainer maxCellSize: (1073741823).
-	animationContainer minCellSize: (0).
-	animationContainer wrapCentering: (#topLeft).
-	animationContainer wrapDirection: (#none).
-	animationContainer frameFractions: (0@0 corner: 0.75@0.7).
-	animationContainer frameOffsets: (0@0 corner: 0@0).
-	animationContainer balloonText: (nil).
-	animationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	animationContainer color: (Color white).
-	animationContainer borderWidth: (1).
-	animationContainer borderStyle2: (#simple).
-	animationContainer borderColor: (Color black).
-	animationContainer setProperty: #objectName toValue: 'animationContainer'.
-	panel addChild: animationContainer.
-	interfacesArea := UiScrollArea new.
-	interfacesArea changeProportionalLayout.
-	interfacesArea extent: (117@169).
-	interfacesArea position: (367@19).
-	interfacesArea hResizing: (#spaceFill).
-	interfacesArea vResizing: (#spaceFill).
-	interfacesArea minWidth: (2).
-	interfacesArea minHeight: (2).
-	interfacesArea cellInset: (0).
-	interfacesArea cellPositioning: (#center).
-	interfacesArea cellSpacing: (#none).
-	interfacesArea layoutInset: (0).
-	interfacesArea listCentering: (#topLeft).
-	interfacesArea listDirection: (#topToBottom).
-	interfacesArea listSpacing: (#none).
-	interfacesArea maxCellSize: (1073741823).
-	interfacesArea minCellSize: (0).
-	interfacesArea wrapCentering: (#topLeft).
-	interfacesArea wrapDirection: (#none).
-	interfacesArea frameFractions: (0.75@0.05 corner: 1@0.7).
-	interfacesArea frameOffsets: (2@0 corner: 0@0).
-	interfacesArea balloonText: (nil).
-	interfacesArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	interfacesArea widgetResizable: (false).
-	interfacesArea horizontalScrollBarPolicy: (#alwaysOff).
-	interfacesArea verticalScrollBarPolicy: (#alwaysOn).
-	interfacesArea outerBorderWidth: (0).
-	interfacesArea scrollBarThickness: (9).
-	interfacesArea setProperty: #objectName toValue: 'interfacesArea'.
-	panel addChild: interfacesArea.
-	unnamedMorph1 := UiLabel new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (119@18).
-	unnamedMorph1 position: (365@1).
-	unnamedMorph1 hResizing: (#spaceFill).
-	unnamedMorph1 vResizing: (#spaceFill).
-	unnamedMorph1 minWidth: (2).
-	unnamedMorph1 minHeight: (2).
-	unnamedMorph1 cellInset: (0).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (0).
-	unnamedMorph1 listCentering: (#center).
-	unnamedMorph1 listDirection: (#leftToRight).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0.75@0 corner: 1@0.05).
-	unnamedMorph1 frameOffsets: (0@ -5 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
-	unnamedMorph1 text: ('Interfaces').
-	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph1 form: (nil).
-	panel addChild: unnamedMorph1.
+	visualizationContainer := UiContainer new.
+	visualizationContainer extent: (417@128).
+	visualizationContainer position: (0@72).
+	visualizationContainer hResizing: (#spaceFill).
+	visualizationContainer vResizing: (#spaceFill).
+	visualizationContainer minWidth: (2).
+	visualizationContainer minHeight: (2).
+	visualizationContainer cellInset: (4).
+	visualizationContainer cellPositioning: (#center).
+	visualizationContainer cellSpacing: (#none).
+	visualizationContainer layoutInset: (4).
+	visualizationContainer listCentering: (#topLeft).
+	visualizationContainer listDirection: (#topToBottom).
+	visualizationContainer listSpacing: (#none).
+	visualizationContainer maxCellSize: (1073741823).
+	visualizationContainer minCellSize: (0).
+	visualizationContainer wrapCentering: (#topLeft).
+	visualizationContainer wrapDirection: (#none).
+	visualizationContainer frameFractions: (0@0.25 corner: 1@0.7).
+	visualizationContainer frameOffsets: (0@0 corner: 0@0).
+	visualizationContainer balloonText: (nil).
+	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	visualizationContainer color: (Color transparent).
+	visualizationContainer borderWidth: (1).
+	visualizationContainer borderStyle2: (#simple).
+	visualizationContainer borderColor: (Color lightGray).
+	visualizationContainer setProperty: #objectName toValue: 'visualizationContainer'.
+	panel addChild: visualizationContainer.
+	headerContainer := UiContainer new.
+	headerContainer changeTableLayout.
+	headerContainer extent: (417@72).
+	headerContainer position: (0@0).
+	headerContainer hResizing: (#spaceFill).
+	headerContainer vResizing: (#spaceFill).
+	headerContainer minWidth: (2).
+	headerContainer minHeight: (2).
+	headerContainer cellInset: (4).
+	headerContainer cellPositioning: (#topLeft).
+	headerContainer cellSpacing: (#none).
+	headerContainer layoutInset: (10).
+	headerContainer listCentering: (#topLeft).
+	headerContainer listDirection: (#topToBottom).
+	headerContainer listSpacing: (#none).
+	headerContainer maxCellSize: (1073741823).
+	headerContainer minCellSize: (0).
+	headerContainer wrapCentering: (#topLeft).
+	headerContainer wrapDirection: (#none).
+	headerContainer frameFractions: (0@0 corner: 1@0.25).
+	headerContainer frameOffsets: (0@0 corner: 0@0).
+	headerContainer balloonText: (nil).
+	headerContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	headerContainer color: (Color transparent).
+	headerContainer borderWidth: (1).
+	headerContainer borderStyle2: (#simple).
+	headerContainer borderColor: (Color lightGray).
+	headerContainer setProperty: #objectName toValue: 'headerContainer'.
+	headlineLabel := UiLabel new.
+	headlineLabel extent: (152@19).
+	headlineLabel position: (11@11).
+	headlineLabel hResizing: (#shrinkWrap).
+	headlineLabel vResizing: (#shrinkWrap).
+	headlineLabel minWidth: (2).
+	headlineLabel minHeight: (2).
+	headlineLabel cellInset: (0).
+	headlineLabel cellPositioning: (#center).
+	headlineLabel cellSpacing: (#none).
+	headlineLabel layoutInset: (0).
+	headlineLabel listCentering: (#topLeft).
+	headlineLabel listDirection: (#leftToRight).
+	headlineLabel listSpacing: (#none).
+	headlineLabel maxCellSize: (1073741823).
+	headlineLabel minCellSize: (0).
+	headlineLabel wrapCentering: (#topLeft).
+	headlineLabel wrapDirection: (#none).
+	headlineLabel frameFractions: (0@0 corner: 1@1).
+	headlineLabel frameOffsets: (0@0 corner: 0@0).
+	headlineLabel balloonText: (nil).
+	headlineLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	headlineLabel text: ('Headline Label Superspaß').
+	headlineLabel setProperty: #formByDesigner toValue: 'nil'.
+	headlineLabel form: (nil).
+	headlineLabel setProperty: #objectName toValue: 'headlineLabel'.
+	headerContainer addChild: headlineLabel.
+	questTitleLabel := UiLabel new.
+	questTitleLabel extent: (265@19).
+	questTitleLabel position: (11@34).
+	questTitleLabel hResizing: (#shrinkWrap).
+	questTitleLabel vResizing: (#shrinkWrap).
+	questTitleLabel minWidth: (2).
+	questTitleLabel minHeight: (2).
+	questTitleLabel cellInset: (0).
+	questTitleLabel cellPositioning: (#center).
+	questTitleLabel cellSpacing: (#none).
+	questTitleLabel layoutInset: (0).
+	questTitleLabel listCentering: (#topLeft).
+	questTitleLabel listDirection: (#leftToRight).
+	questTitleLabel listSpacing: (#none).
+	questTitleLabel maxCellSize: (1073741823).
+	questTitleLabel minCellSize: (0).
+	questTitleLabel wrapCentering: (#topLeft).
+	questTitleLabel wrapDirection: (#none).
+	questTitleLabel frameFractions: (0@0 corner: 1@1).
+	questTitleLabel frameOffsets: (0@0 corner: 0@0).
+	questTitleLabel balloonText: (nil).
+	questTitleLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	questTitleLabel text: ('I am your task description. Can you imagine?!').
+	questTitleLabel setProperty: #formByDesigner toValue: 'nil'.
+	questTitleLabel form: (nil).
+	questTitleLabel setProperty: #objectName toValue: 'questTitleLabel'.
+	headerContainer addChild: questTitleLabel.
+	panel addChild: headerContainer.
 	questContainer := UiContainer new.
 	questContainer changeTableLayout.
-	questContainer extent: (478@78).
-	questContainer position: (6@188).
+	questContainer extent: (417@86).
+	questContainer position: (0@200).
 	questContainer hResizing: (#spaceFill).
 	questContainer vResizing: (#spaceFill).
 	questContainer minWidth: (2).
@@ -129,7 +154,7 @@ initializePanel
 	questContainer cellInset: (4).
 	questContainer cellPositioning: (#center).
 	questContainer cellSpacing: (#none).
-	questContainer layoutInset: (0).
+	questContainer layoutInset: (9).
 	questContainer listCentering: (#topLeft).
 	questContainer listDirection: (#topToBottom).
 	questContainer listSpacing: (#none).
@@ -140,11 +165,11 @@ initializePanel
 	questContainer frameFractions: (0@0.7 corner: 1@1).
 	questContainer frameOffsets: (0@0 corner: 0@0).
 	questContainer balloonText: (nil).
-	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	questContainer color: (Color lightGray).
 	questContainer borderWidth: (0).
 	questContainer borderStyle2: (#simple).
 	questContainer borderColor: (Color black).
 	questContainer setProperty: #objectName toValue: 'questContainer'.
 	panel addChild: questContainer.
-	panel setProperty: #uiClassName toValue: 'LVMainWindow'.
+	panel setProperty: #uiClassName toValue: 'ZzMainWindow'.

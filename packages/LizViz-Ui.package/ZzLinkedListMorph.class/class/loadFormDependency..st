@@ -3,4 +3,4 @@ loadFormDependency: name
 	
 	^ ImageReadWriter formFromStream: (
 		HTTPSocket httpGet: 
-		'http://www.nixis.de/~jan/hpi/irda-ss13/dependencies/', name)
+		'http://leoschweizer.github.io/LizViz/dependencies/images/', name)

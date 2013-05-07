@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationContainer",
-		"interfacesArea",
+		"visualizationContainer",
+		"headerContainer",
+		"headlineLabel",
+		"questTitleLabel",
 		"questContainer" ],
 	"name" : "ZzMainWindowUi",
 	"pools" : [

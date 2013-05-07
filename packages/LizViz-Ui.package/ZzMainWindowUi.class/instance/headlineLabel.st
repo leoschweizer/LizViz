@@ -1,5 +1,5 @@
 accessing
-firstButton
+headlineLabel
 	"No description given."
 	
-	^ firstButton
+	^ headlineLabel

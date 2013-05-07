@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animatedDatatype",
-		"availableInterfaces" ],
+		"animatedDatatype" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],
