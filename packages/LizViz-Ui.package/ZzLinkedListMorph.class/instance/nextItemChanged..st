@@ -2,7 +2,7 @@ as yet unclassified
 nextItemChanged: aListItem
 	
 	aListItem ifNil: [
-		self nextItemMorph abandon.
+		self nextItemMorph ifNotNilDo: [:m | m abandon].
 		^ self nextItemMorph: nil].
 	self nextItemMorph: ZzLinkedListMorph new.
 	self connect: aListItem signal: #nextItemChanged: to: self nextItemMorph selector: #nextItemChanged:.

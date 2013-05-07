@@ -9,7 +9,9 @@
 		"resetImages" : "or 5/7/2013 14:31:46.683" },
 	"instance" : {
 		"abandon" : "or 5/7/2013 15:40:11.515",
+		"firstItemChanged:" : "or 5/7/2013 18:30:47.132",
 		"initialize" : "or 5/7/2013 14:25:17.645",
-		"nextItemChanged:" : "or 5/7/2013 15:37:02.836",
+		"nextItemChanged:" : "or 5/7/2013 18:33:04.472",
 		"nextItemMorph" : "or 5/7/2013 15:33:47.851",
-		"nextItemMorph:" : "or 5/7/2013 15:33:47.89" } }
+		"nextItemMorph:" : "or 5/7/2013 15:33:47.89",
+		"repaintOn:" : "or 5/7/2013 18:24:55.026" } }
