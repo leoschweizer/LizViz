@@ -7,5 +7,6 @@ initialize
 		add: ZzIteratorUi;
 		add: ZzStackUi.
 	self
+		setupDatatypeAnimation;
 		setupInterfaces;
 		setupQuestContainer.

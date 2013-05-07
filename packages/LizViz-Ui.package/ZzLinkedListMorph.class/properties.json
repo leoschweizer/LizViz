@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		"headForm",
+		"itemForm" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzLinkedListMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }
