@@ -36,8 +36,7 @@ baseline: spec
 			spec project: 'Refactoring Engine' with: [
 			spec
 				className: 'ConfigurationOfRefactoringBrowser';
-				versionString: #bleedingEdge;
-				repository: 'http://ss3.gemstone.com/ss/rb'].
+				repository: 'http://www.squeaksource.com/MetacelloRepository/'].
 			
 			spec package: 'LizViz-Traits' with: [spec repository: 'http://ss3.gemstone.com/ss/LizViz-Traits'].
 
