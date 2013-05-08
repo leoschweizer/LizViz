@@ -1,6 +1,6 @@
 as yet unclassified
 resetUi
 	
-	(ui = nil) ifTrue: [ ^ self ].
+	ui ifNil: [ ^ self ].
 	
 	self removeMorph: ui panel
