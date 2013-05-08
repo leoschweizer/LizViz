@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animatedDatatype" ],
+		"animatedDatatype",
+		"ui" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],
-	"super" : "UiWindow",
+	"super" : "Morph",
 	"type" : "normal" }
