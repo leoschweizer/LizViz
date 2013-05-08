@@ -29,14 +29,14 @@ baseline: spec
 					loads: #(full)].
 			
 			spec project: 'SwaUtil' with: [
-			spec
-				className: 'ConfigurationOfSwaUtil';
-				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository'].
+				spec
+					className: 'ConfigurationOfSwaUtil';
+					repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository'].
 			
 			spec project: 'Refactoring Engine' with: [
-			spec
-				className: 'ConfigurationOfRefactoringBrowser';
-				repository: 'http://www.squeaksource.com/MetacelloRepository/'].
+				spec
+					className: 'ConfigurationOfRefactoringBrowser';
+					repository: 'http://www.squeaksource.com/MetacelloRepository/'].
 			
 			spec package: 'LizViz-Traits' with: [spec repository: 'http://ss3.gemstone.com/ss/LizViz-Traits'].
 
