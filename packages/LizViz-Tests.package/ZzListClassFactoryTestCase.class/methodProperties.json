@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"tearDown" : "ls 5/8/2013 19:53:31.735",
+		"testDoubleLinkedInheritance" : "ls 5/8/2013 19:57:39.25",
+		"testSingleLinkedInheritance" : "ls 5/8/2013 19:57:45.995",
+		"testSourceComposition" : "ls 5/8/2013 19:53:38.983",
+		"testTraitComposition" : "ls 5/8/2013 19:53:45.619" } }
