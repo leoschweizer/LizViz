@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (500@300).
+	panel extent: (340@130).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph1 text: ('TODO').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).

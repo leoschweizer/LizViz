@@ -1,12 +1,7 @@
-as yet unclassified
+initialization
 initialize
 	
 	| ui |
 	super initialize.
 	
-	tasksets := ZzUnit all.
-	
-	ui := ZzQuestCodingUi new
-		setupUi: self;
-		yourself.
-	
+	self connect: self signal: #questChanged toSelector: #updateUi

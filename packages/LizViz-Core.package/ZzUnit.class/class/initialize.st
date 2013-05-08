@@ -9,4 +9,6 @@ initialize
 	Sequences at: #'linked-list' put: (
 		self new
 			title: 'Linked List';
+			add: ZzQuestCoding new;
+			add: ZzQuestMultipleChoice new;
 			yourself).

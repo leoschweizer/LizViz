@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (343@131).
+	panel extent: (340@130).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -54,13 +54,13 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph1 text: ('Please enter your solution here:').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
 	panel addChild: unnamedMorph1.
 	unnamedMorph2 := ViMethodSourceCodeEdit new.
-	unnamedMorph2 extent: (335@100).
+	unnamedMorph2 extent: (332@99).
 	unnamedMorph2 position: (4@27).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#spaceFill).
@@ -80,7 +80,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph2 widgetResizable: (true).
 	unnamedMorph2 horizontalScrollBarPolicy: (#alwaysOff).
 	unnamedMorph2 verticalScrollBarPolicy: (#alwaysOn).

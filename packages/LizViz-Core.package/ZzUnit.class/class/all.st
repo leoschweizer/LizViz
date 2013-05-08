@@ -1,4 +1,4 @@
 as yet unclassified
 all
 	
-	^ Sequences values
+	^ Sequences values deepCopy
