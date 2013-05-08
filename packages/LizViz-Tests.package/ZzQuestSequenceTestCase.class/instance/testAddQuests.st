@@ -2,7 +2,7 @@ as yet unclassified
 testAddQuests
 	
 	| seq quest1 quest2 |
-	seq := ZzQuestSequence new.
+	seq := ZzUnit new.
 	self assert: seq size = 0.
 	quest1 := ZzQuest new.
 	seq add: quest1.

@@ -2,7 +2,7 @@ as yet unclassified
 testEmptySequenceNext
 	
 	| seq |
-	seq := ZzQuestSequence new
+	seq := ZzUnit new
 		quests: OrderedCollection new.
 	self assert: seq next isNil
 	

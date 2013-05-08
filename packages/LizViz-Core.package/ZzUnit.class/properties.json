@@ -9,7 +9,7 @@
 		"title",
 		"quests",
 		"index" ],
-	"name" : "ZzQuestSequence",
+	"name" : "ZzUnit",
 	"pools" : [
 		 ],
 	"super" : "Object",

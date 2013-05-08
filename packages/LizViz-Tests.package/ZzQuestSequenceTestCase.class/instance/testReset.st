@@ -2,7 +2,7 @@ as yet unclassified
 testReset
 	
 	| seq |
-	seq := ZzQuestSequence new.
+	seq := ZzUnit new.
 	seq add: ZzQuest new.
 	seq next.
 	self assert: seq index = 1.

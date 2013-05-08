@@ -2,5 +2,5 @@ as yet unclassified
 testNextReturnNilIfEmpty
 	
 	| seq |
-	seq := ZzQuestSequence new.
+	seq := ZzUnit new.
 	self assert: seq next = nil

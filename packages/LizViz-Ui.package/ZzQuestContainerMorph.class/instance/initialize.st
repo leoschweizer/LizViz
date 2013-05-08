@@ -4,9 +4,9 @@ initialize
 	| ui |
 	super initialize.
 	
-	tasksets := ZzQuestSequence all.
+	tasksets := ZzUnit all.
 	
-	ui := ZzQuestContainerUi new
+	ui := ZzQuestCodingUi new
 		setupUi: self;
 		yourself.
 	

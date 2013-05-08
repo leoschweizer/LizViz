@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddQuests" : "JR 5/5/2013 18:06:00.305",
-		"testEmptySequenceHasNext" : "JR 5/5/2013 17:48:50.351",
-		"testEmptySequenceNext" : "JR 5/5/2013 17:49:08.613",
-		"testNext" : "JR 5/5/2013 17:45:19.882",
-		"testNextReturnNilIfEmpty" : "JR 5/5/2013 18:07:24.232",
-		"testReset" : "JR 5/5/2013 21:48:01.787" } }
+		"testAddQuests" : "JR 5/8/2013 19:42:01.9",
+		"testEmptySequenceHasNext" : "JR 5/8/2013 19:42:04.627",
+		"testEmptySequenceNext" : "JR 5/8/2013 19:42:06.962",
+		"testNext" : "JR 5/8/2013 19:42:10.391",
+		"testNextReturnNilIfEmpty" : "JR 5/8/2013 19:42:12.559",
+		"testReset" : "JR 5/8/2013 19:42:15.357" } }

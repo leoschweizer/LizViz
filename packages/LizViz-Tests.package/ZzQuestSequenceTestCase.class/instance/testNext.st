@@ -5,7 +5,7 @@ testNext
 	quest1 := ZzQuest new.
 	quest2 := ZzQuest new.
 	quests := OrderedCollection with: quest1 with: quest2.
-	seq := ZzQuestSequence new
+	seq := ZzUnit new
 		quests: quests.
 	self assert: seq hasNext.
 	self assert: seq next = quest1.
