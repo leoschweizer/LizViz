@@ -1,4 +1,4 @@
-as yet unclassified
+signals
 questChanged
 	
 	self emit.

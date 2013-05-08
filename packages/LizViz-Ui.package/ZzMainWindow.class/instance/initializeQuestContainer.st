@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeQuestContainer
 	
 	self connect: self ui submitQuestButton signal: #pressed toSelector: #submit.

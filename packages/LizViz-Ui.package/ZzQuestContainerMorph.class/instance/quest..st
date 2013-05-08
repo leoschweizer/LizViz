@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 quest: aQuest
 	
 	(self quest = aQuest) ifTrue: [ ^ self ].

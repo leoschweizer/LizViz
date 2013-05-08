@@ -1,4 +1,4 @@
-as yet unclassified
+iterating
 hasNext
 	
 	^ index < self quests size

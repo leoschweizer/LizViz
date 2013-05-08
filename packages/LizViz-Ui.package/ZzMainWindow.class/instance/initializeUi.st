@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeUi
 	
 	self ui setupUi: self.

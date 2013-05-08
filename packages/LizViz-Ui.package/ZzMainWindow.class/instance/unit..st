@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 unit: aUnit
 	
 	(self unit = aUnit) ifTrue: [ ^ self ].

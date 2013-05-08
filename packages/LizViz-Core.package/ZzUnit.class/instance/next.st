@@ -1,4 +1,4 @@
-as yet unclassified
+iterating
 next
 	
 	self hasNext ifFalse: [ ^ nil ].
