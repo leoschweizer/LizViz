@@ -36,7 +36,7 @@ baseline: spec
 			spec project: 'Refactoring Engine' with: [
 			spec
 				className: 'ConfigurationOfRefactoringBrowser';
-				versionString: '2.2';
+				versionString: #bleedingEdge;
 				repository: 'http://ss3.gemstone.com/ss/rb'].
 			
 			spec package: 'LizViz-Traits' with: [spec repository: 'http://ss3.gemstone.com/ss/LizViz-Traits'].
