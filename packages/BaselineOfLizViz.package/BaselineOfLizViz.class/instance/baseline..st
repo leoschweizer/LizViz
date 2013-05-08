@@ -21,8 +21,8 @@ baseline: spec
 
 			spec
 				package: 'LizViz-Core' with: [spec requires: #('LizViz-Traits' 'SwaUtil' 'Refactoring Engine')];
-				package: 'LizViz-Ui';
-				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core') ].
+				package: 'LizViz-Ui' with: [spec requires: #('LizViz-Core')];
+				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core' 'LizViz-Ui') ].
 			
 			spec
 				group: 'default' with: #('LizViz-Core' 'LizViz-Ui');
