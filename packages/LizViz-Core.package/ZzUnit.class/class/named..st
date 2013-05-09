@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 named: aKey
 	
 	^ Sequences at: aKey

@@ -5,7 +5,3 @@ initializeQuestContainer
 	
 	questMorph := ZzQuestContainerMorph new.
 	self ui questContainer addChild: questMorph.
-	
-	self flag: #jrremove.
-	self unit: ZzUnit all first.
-	questMorph quest: self unit next

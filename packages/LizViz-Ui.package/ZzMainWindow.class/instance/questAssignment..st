@@ -1,5 +1,5 @@
 ui
-questDescription: aText
+questAssignment: aText
 	
 	| htmlText |
 	htmlText := aText asHtmlText.

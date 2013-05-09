@@ -1,5 +1,5 @@
 ui
-lectureTitle: aText
+unitTitle: aText
 	
 	| htmlText font |
 	htmlText := aText asHtmlText.
