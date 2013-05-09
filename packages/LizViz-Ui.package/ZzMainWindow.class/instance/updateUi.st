@@ -1,9 +1,11 @@
 ui
 updateUi
 	
+	| quest |
 	self unitTitle: self unit title.
 	
-	self currentQuest ifNil: [ ^ self ].
 	self
-		questTitle: self currentQuest title;
-		questAssignment: self currentQuest assignment
+		questTitle: (self currentQuest
+			ifNil: [''] ifNotNilDo: [:q | q title]);
+		questAssignment: (self currentQuest
+			ifNil: [''] ifNotNilDo: [:q | q assignment])

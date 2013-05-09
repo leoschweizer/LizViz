@@ -2,9 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setUp" : "JR 5/9/2013 10:51:45.628",
+		"signalCount" : "JR 5/9/2013 10:52:56.862",
+		"signalOccured" : "JR 5/9/2013 10:52:01.699",
+		"tearDown" : "JR 5/9/2013 10:51:23.345",
 		"testAddQuests" : "JR 5/8/2013 19:42:01.9",
+		"testCurrent" : "JR 5/9/2013 10:27:59.432",
 		"testEmptySequenceHasNext" : "JR 5/8/2013 19:42:04.627",
 		"testEmptySequenceNext" : "JR 5/8/2013 19:42:06.962",
+		"testEndReached" : "JR 5/9/2013 10:56:26.311",
 		"testNext" : "JR 5/8/2013 19:42:10.391",
 		"testNextReturnNilIfEmpty" : "JR 5/8/2013 19:42:12.559",
 		"testReset" : "JR 5/8/2013 19:42:15.357" } }

@@ -1,7 +1,11 @@
 iterating
 next
 	
-	self hasNext ifFalse: [ ^ nil ].
+	self isAfterEnd ifTrue: [ ^ nil ].
 	
 	index := index + 1.
-	^ self current
+	self isAfterEnd ifTrue: [
+		self endReached.
+		^ nil ].
+	
+	^ self quests at: index

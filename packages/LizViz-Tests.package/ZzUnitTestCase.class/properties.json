@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ZzQuestSequenceTestCase",
+		"signalCount" ],
+	"name" : "ZzUnitTestCase",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
