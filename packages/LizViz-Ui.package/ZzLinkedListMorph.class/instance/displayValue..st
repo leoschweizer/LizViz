@@ -2,8 +2,8 @@ as yet unclassified
 displayValue: aValue
 	
 	| label |
-	label := StringMorph contents: aValue.
+	label := StringMorph contents: aValue asString.
 	self 
 		removeAllMorphs;
 		addMorph: label.
-	label center.
+	label center: self center.
