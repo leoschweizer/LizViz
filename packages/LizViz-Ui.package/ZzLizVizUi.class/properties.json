@@ -1,0 +1,16 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"titleImage",
+		"unitScrollArea",
+		"achievementScrollArea" ],
+	"name" : "ZzLizVizUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

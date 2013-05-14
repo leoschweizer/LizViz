@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzLizViz",
+	"pools" : [
+		 ],
+	"super" : "UiWindow",
+	"type" : "normal" }
