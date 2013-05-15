@@ -13,6 +13,7 @@
 		"bottomContainer",
 		"questDescriptionLabel",
 		"questContainer",
+		"menuButton",
 		"submitQuestButton" ],
 	"name" : "ZzMainWindowUi",
 	"pools" : [

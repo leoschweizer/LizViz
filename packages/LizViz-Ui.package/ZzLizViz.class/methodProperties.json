@@ -1,8 +1,12 @@
 {
 	"class" : {
-		 },
+		"bannerForm" : "or 5/15/2013 17:03:55.814",
+		"loadFormDependency:" : "or 5/15/2013 17:03:23.781",
+		"open" : "or 5/15/2013 17:17:55.092" },
 	"instance" : {
-		"initialize" : "or 5/15/2013 11:59:51.725",
-		"openInWindowLabeled:inWorld:" : "or 5/15/2013 12:07:11.501",
-		"title" : "or 5/14/2013 18:20:15.492",
-		"uiClass" : "or 5/14/2013 18:20:06.416" } }
+		"initialize" : "or 5/15/2013 17:54:18.912",
+		"initializeMenu" : "or 5/15/2013 18:09:59.459",
+		"menuUi" : "or 5/15/2013 17:21:18.119",
+		"menuUi:" : "or 5/15/2013 17:20:47.806",
+		"open" : "or 5/15/2013 18:12:26.728",
+		"openInWindowLabeled:inWorld:" : "or 5/15/2013 12:07:11.501" } }

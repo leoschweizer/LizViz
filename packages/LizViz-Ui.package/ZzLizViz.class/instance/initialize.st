@@ -1,11 +1,11 @@
 as yet unclassified
 initialize
 
-	| container button |
-	
+	| unitMorph |
 	super initialize.
-	container := Morph new color: Color white.
-	button := UiToolButton new text: 'Linked List'.
-	self connect: button signal: #pressed to: ZzMainWindow selector: #open.
-	container addMorph: button.
-	self ui unitScrollArea widget: container.
+	self initializeMenu.
+	
+	unitMorph := ZzMainWindow new.
+	self addPage: unitMorph.
+	self connect: unitMorph ui menuButton signal: #pressed to: self selector: #previousPage.
+	self currentIndex: 1.

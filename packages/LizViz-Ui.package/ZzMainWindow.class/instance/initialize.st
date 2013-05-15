@@ -6,7 +6,7 @@ initialize
 		initializeUi;
 		animatedDatatype: ZzSingleLinkedList new;
 		setupDatatypeAnimation.
-	
+
 	self connect: questMorph signal: #questChanged toSelector: #updateUi.
 	
 	self flag: #jrremove.
