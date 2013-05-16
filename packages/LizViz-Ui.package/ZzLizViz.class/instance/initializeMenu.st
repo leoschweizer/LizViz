@@ -12,6 +12,6 @@ initializeMenu
 	container := Morph new color: Color white.
 	self menuUi unitScrollArea widget: container.
 	
-	ZzUnit all do: [:unit |
-		self addUnitToMenu: unit].
+	ZzUnit all withIndexDo: [:unit :i |
+		self addUnitToMenu: i].
 	

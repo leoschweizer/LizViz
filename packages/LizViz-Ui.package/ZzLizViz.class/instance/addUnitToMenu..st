@@ -1,11 +1,12 @@
 as yet unclassified
-addUnitToMenu: aUnit
+addUnitToMenu: aUnitNumber
 
-	| containerMorph ui |
+	| aUnit containerMorph ui |
 	containerMorph := Morph new.
 	ui :=	ZzUnitContainerUi new.
 	ui setupUi: containerMorph.
 	
+	aUnit := ZzUnit all at: aUnitNumber.
 	ui titleLabel text: aUnit title.
 	aUnit quests withIndexDo: [:q :i | 
 		ui questView addItem: (UiPropertyItemNode new
@@ -13,7 +14,7 @@ addUnitToMenu: aUnit
 			at: #text put: (q title) asHtmlText;
 			yourself)].
 	
-	self connect: ui startButton signal: #pressed to: self selector: #startUnit: pattern: {#=. aUnit}.
+	self connect: ui startButton signal: #pressed to: self selector: #startUnit: pattern: {#=. aUnitNumber}.
 	self connect: ui startButton signal: #pressed to: ui startButton selector: #flatten.
 	self connect: ui questView signal: #clicked: to: ui questView selector: #selectNone.
 	self menuUi unitScrollArea widget addMorph: containerMorph.
