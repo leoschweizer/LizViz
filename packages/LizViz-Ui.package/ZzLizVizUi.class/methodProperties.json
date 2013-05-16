@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"achievementScrollArea" : "or 5/14/2013 18:19:28.623",
-		"initializePanel" : "or 5/14/2013 18:19:28.657",
-		"titleImage" : "or 5/14/2013 18:19:28.578",
-		"unitScrollArea" : "or 5/14/2013 18:19:28.596" } }
+		"achievementLabel" : "or 5/16/2013 15:51:29.681",
+		"achievementScrollArea" : "or 5/16/2013 15:51:29.705",
+		"initializePanel" : "or 5/16/2013 15:51:29.808",
+		"titleImage" : "or 5/16/2013 15:51:29.656",
+		"unitLabel" : "or 5/16/2013 15:51:29.722",
+		"unitScrollArea" : "or 5/16/2013 15:51:29.759" } }

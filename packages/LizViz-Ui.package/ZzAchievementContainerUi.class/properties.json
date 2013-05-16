@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"titleImage",
-		"achievementLabel",
-		"achievementScrollArea",
-		"unitLabel",
-		"unitScrollArea" ],
-	"name" : "ZzLizVizUi",
+		"titleLabel",
+		"imageArea" ],
+	"name" : "ZzAchievementContainerUi",
 	"pools" : [
 		 ],
 	"super" : "UserInterface",

@@ -4,12 +4,15 @@
 		"loadFormDependency:" : "or 5/15/2013 17:03:23.781",
 		"open" : "or 5/15/2013 17:17:55.092" },
 	"instance" : {
-		"addUnitToMenu:" : "or 5/16/2013 15:03:26.504",
-		"initialize" : "or 5/16/2013 14:45:05.802",
+		"addUnitToMenu:" : "or 5/16/2013 15:16:15.067",
+		"initialize" : "or 5/16/2013 15:55:03.396",
+		"initializeAchievements" : "or 5/16/2013 15:50:14.978",
+		"initializeHeadlines" : "or 5/16/2013 16:03:07.927",
 		"initializeMenu" : "or 5/16/2013 14:14:14.161",
 		"menuUi" : "or 5/15/2013 17:21:18.119",
 		"menuUi:" : "or 5/15/2013 17:20:47.806",
 		"open" : "or 5/15/2013 18:12:26.728",
 		"openInWindowLabeled:inWorld:" : "or 5/15/2013 12:07:11.501",
+		"startUnit:" : "or 5/16/2013 15:15:43.163",
 		"unitMorph" : "or 5/16/2013 14:43:10.23",
 		"unitMorph:" : "or 5/16/2013 14:43:10.281" } }

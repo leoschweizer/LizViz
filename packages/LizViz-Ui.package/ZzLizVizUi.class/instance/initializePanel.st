@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -53,7 +53,7 @@ initializePanel
 	titleImage frameFractions: (0@0 corner: 1@1).
 	titleImage frameOffsets: (0@0 corner: 0@0).
 	titleImage balloonText: (nil).
-	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	titleImage setProperty: #objectName toValue: 'titleImage'.
 	panel addChild: titleImage.
 	unnamedMorph1 := UiContainer new.
@@ -78,7 +78,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -86,7 +86,7 @@ initializePanel
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (246@252).
-	unnamedMorph2 position: (4@44).
+	unnamedMorph2 position: (250@44).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#spaceFill).
 	unnamedMorph2 minWidth: (2).
@@ -95,48 +95,134 @@ initializePanel
 	unnamedMorph2 cellPositioning: (#center).
 	unnamedMorph2 cellSpacing: (#none).
 	unnamedMorph2 layoutInset: (4).
-	unnamedMorph2 listCentering: (#center).
+	unnamedMorph2 listCentering: (#topLeft).
 	unnamedMorph2 listDirection: (#topToBottom).
 	unnamedMorph2 listSpacing: (#none).
 	unnamedMorph2 maxCellSize: (1073741823).
 	unnamedMorph2 minCellSize: (0).
 	unnamedMorph2 wrapCentering: (#center).
 	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 0.5@1).
+	unnamedMorph2 frameFractions: (0.5@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
 	unnamedMorph2 borderColor: (Color black).
-	unnamedMorph3 := UiLabel new.
+	achievementLabel := UiLabel new.
+	achievementLabel changeTableLayout.
+	achievementLabel extent: (79@19).
+	achievementLabel position: (334@48).
+	achievementLabel hResizing: (#shrinkWrap).
+	achievementLabel vResizing: (#shrinkWrap).
+	achievementLabel minWidth: (2).
+	achievementLabel minHeight: (2).
+	achievementLabel cellInset: (0).
+	achievementLabel cellPositioning: (#center).
+	achievementLabel cellSpacing: (#none).
+	achievementLabel layoutInset: (0).
+	achievementLabel listCentering: (#topLeft).
+	achievementLabel listDirection: (#leftToRight).
+	achievementLabel listSpacing: (#none).
+	achievementLabel maxCellSize: (1073741823).
+	achievementLabel minCellSize: (0).
+	achievementLabel wrapCentering: (#topLeft).
+	achievementLabel wrapDirection: (#none).
+	achievementLabel frameFractions: (0@0 corner: 1@1).
+	achievementLabel frameOffsets: (0@0 corner: 0@0).
+	achievementLabel balloonText: (nil).
+	achievementLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	achievementLabel text: ('Achievements').
+	achievementLabel setProperty: #formByDesigner toValue: 'nil'.
+	achievementLabel form: (nil).
+	achievementLabel setProperty: #objectName toValue: 'achievementLabel'.
+	unnamedMorph2 addChild: achievementLabel.
+	achievementScrollArea := UiScrollArea new.
+	achievementScrollArea extent: (238@221).
+	achievementScrollArea position: (254@71).
+	achievementScrollArea hResizing: (#spaceFill).
+	achievementScrollArea vResizing: (#spaceFill).
+	achievementScrollArea minWidth: (2).
+	achievementScrollArea minHeight: (2).
+	achievementScrollArea cellInset: (0).
+	achievementScrollArea cellPositioning: (#center).
+	achievementScrollArea cellSpacing: (#none).
+	achievementScrollArea layoutInset: (0).
+	achievementScrollArea listCentering: (#center).
+	achievementScrollArea listDirection: (#topToBottom).
+	achievementScrollArea listSpacing: (#none).
+	achievementScrollArea maxCellSize: (1073741823).
+	achievementScrollArea minCellSize: (0).
+	achievementScrollArea wrapCentering: (#topLeft).
+	achievementScrollArea wrapDirection: (#none).
+	achievementScrollArea frameFractions: (0@0 corner: 1@1).
+	achievementScrollArea frameOffsets: (0@0 corner: 0@0).
+	achievementScrollArea balloonText: (nil).
+	achievementScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	achievementScrollArea widgetResizable: (false).
+	achievementScrollArea horizontalScrollBarPolicy: (#alwaysOn).
+	achievementScrollArea verticalScrollBarPolicy: (#asNeeded).
+	achievementScrollArea outerBorderWidth: (0).
+	achievementScrollArea scrollBarThickness: (3).
+	achievementScrollArea setProperty: #objectName toValue: 'achievementScrollArea'.
+	unnamedMorph2 addChild: achievementScrollArea.
+	unnamedMorph1 addChild: unnamedMorph2.
+	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (29@19).
-	unnamedMorph3 position: (113@48).
-	unnamedMorph3 hResizing: (#shrinkWrap).
-	unnamedMorph3 vResizing: (#shrinkWrap).
+	unnamedMorph3 extent: (246@252).
+	unnamedMorph3 position: (4@44).
+	unnamedMorph3 hResizing: (#spaceFill).
+	unnamedMorph3 vResizing: (#spaceFill).
 	unnamedMorph3 minWidth: (2).
 	unnamedMorph3 minHeight: (2).
-	unnamedMorph3 cellInset: (0).
+	unnamedMorph3 cellInset: (4).
 	unnamedMorph3 cellPositioning: (#center).
 	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (0).
-	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
+	unnamedMorph3 layoutInset: (4).
+	unnamedMorph3 listCentering: (#center).
+	unnamedMorph3 listDirection: (#topToBottom).
 	unnamedMorph3 listSpacing: (#none).
 	unnamedMorph3 maxCellSize: (1073741823).
 	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
+	unnamedMorph3 wrapCentering: (#center).
 	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph3 frameFractions: (0@0 corner: 0.5@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
 	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
-	unnamedMorph3 text: ('Units').
-	unnamedMorph3 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph3 form: (nil).
-	unnamedMorph2 addChild: unnamedMorph3.
+	unnamedMorph3 color: (Color transparent).
+	unnamedMorph3 borderWidth: (0).
+	unnamedMorph3 borderStyle2: (#simple).
+	unnamedMorph3 borderColor: (Color black).
+	unitLabel := UiLabel new.
+	unitLabel changeTableLayout.
+	unitLabel extent: (29@19).
+	unitLabel position: (113@48).
+	unitLabel hResizing: (#shrinkWrap).
+	unitLabel vResizing: (#shrinkWrap).
+	unitLabel minWidth: (2).
+	unitLabel minHeight: (2).
+	unitLabel cellInset: (0).
+	unitLabel cellPositioning: (#center).
+	unitLabel cellSpacing: (#none).
+	unitLabel layoutInset: (0).
+	unitLabel listCentering: (#topLeft).
+	unitLabel listDirection: (#leftToRight).
+	unitLabel listSpacing: (#none).
+	unitLabel maxCellSize: (1073741823).
+	unitLabel minCellSize: (0).
+	unitLabel wrapCentering: (#topLeft).
+	unitLabel wrapDirection: (#none).
+	unitLabel frameFractions: (0@0 corner: 1@1).
+	unitLabel frameOffsets: (0@0 corner: 0@0).
+	unitLabel balloonText: (nil).
+	unitLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unitLabel text: ('Units').
+	unitLabel setProperty: #formByDesigner toValue: 'nil'.
+	unitLabel form: (nil).
+	unitLabel setProperty: #objectName toValue: 'unitLabel'.
+	unnamedMorph3 addChild: unitLabel.
 	unitScrollArea := UiScrollArea new.
 	unitScrollArea extent: (238@221).
 	unitScrollArea position: (8@71).
@@ -158,98 +244,14 @@ initializePanel
 	unitScrollArea frameFractions: (0@0 corner: 1@1).
 	unitScrollArea frameOffsets: (0@0 corner: 0@0).
 	unitScrollArea balloonText: (nil).
-	unitScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unitScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unitScrollArea widgetResizable: (false).
 	unitScrollArea horizontalScrollBarPolicy: (#asNeeded).
 	unitScrollArea verticalScrollBarPolicy: (#alwaysOn).
 	unitScrollArea outerBorderWidth: (0).
 	unitScrollArea scrollBarThickness: (3).
 	unitScrollArea setProperty: #objectName toValue: 'unitScrollArea'.
-	unnamedMorph2 addChild: unitScrollArea.
-	unnamedMorph1 addChild: unnamedMorph2.
-	unnamedMorph4 := UiContainer new.
-	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (246@252).
-	unnamedMorph4 position: (250@44).
-	unnamedMorph4 hResizing: (#spaceFill).
-	unnamedMorph4 vResizing: (#spaceFill).
-	unnamedMorph4 minWidth: (2).
-	unnamedMorph4 minHeight: (2).
-	unnamedMorph4 cellInset: (4).
-	unnamedMorph4 cellPositioning: (#center).
-	unnamedMorph4 cellSpacing: (#none).
-	unnamedMorph4 layoutInset: (4).
-	unnamedMorph4 listCentering: (#topLeft).
-	unnamedMorph4 listDirection: (#topToBottom).
-	unnamedMorph4 listSpacing: (#none).
-	unnamedMorph4 maxCellSize: (1073741823).
-	unnamedMorph4 minCellSize: (0).
-	unnamedMorph4 wrapCentering: (#center).
-	unnamedMorph4 wrapDirection: (#none).
-	unnamedMorph4 frameFractions: (0.5@0 corner: 1@1).
-	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
-	unnamedMorph4 color: (Color transparent).
-	unnamedMorph4 borderWidth: (0).
-	unnamedMorph4 borderStyle2: (#simple).
-	unnamedMorph4 borderColor: (Color black).
-	unnamedMorph5 := UiLabel new.
-	unnamedMorph5 changeTableLayout.
-	unnamedMorph5 extent: (79@19).
-	unnamedMorph5 position: (334@48).
-	unnamedMorph5 hResizing: (#shrinkWrap).
-	unnamedMorph5 vResizing: (#shrinkWrap).
-	unnamedMorph5 minWidth: (2).
-	unnamedMorph5 minHeight: (2).
-	unnamedMorph5 cellInset: (0).
-	unnamedMorph5 cellPositioning: (#center).
-	unnamedMorph5 cellSpacing: (#none).
-	unnamedMorph5 layoutInset: (0).
-	unnamedMorph5 listCentering: (#topLeft).
-	unnamedMorph5 listDirection: (#leftToRight).
-	unnamedMorph5 listSpacing: (#none).
-	unnamedMorph5 maxCellSize: (1073741823).
-	unnamedMorph5 minCellSize: (0).
-	unnamedMorph5 wrapCentering: (#topLeft).
-	unnamedMorph5 wrapDirection: (#none).
-	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
-	unnamedMorph5 text: ('Achievements').
-	unnamedMorph5 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph5 form: (nil).
-	unnamedMorph4 addChild: unnamedMorph5.
-	achievementScrollArea := UiScrollArea new.
-	achievementScrollArea extent: (238@221).
-	achievementScrollArea position: (254@71).
-	achievementScrollArea hResizing: (#spaceFill).
-	achievementScrollArea vResizing: (#spaceFill).
-	achievementScrollArea minWidth: (2).
-	achievementScrollArea minHeight: (2).
-	achievementScrollArea cellInset: (0).
-	achievementScrollArea cellPositioning: (#center).
-	achievementScrollArea cellSpacing: (#none).
-	achievementScrollArea layoutInset: (0).
-	achievementScrollArea listCentering: (#topLeft).
-	achievementScrollArea listDirection: (#topToBottom).
-	achievementScrollArea listSpacing: (#none).
-	achievementScrollArea maxCellSize: (1073741823).
-	achievementScrollArea minCellSize: (0).
-	achievementScrollArea wrapCentering: (#topLeft).
-	achievementScrollArea wrapDirection: (#none).
-	achievementScrollArea frameFractions: (0@0 corner: 1@1).
-	achievementScrollArea frameOffsets: (0@0 corner: 0@0).
-	achievementScrollArea balloonText: (nil).
-	achievementScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
-	achievementScrollArea widgetResizable: (false).
-	achievementScrollArea horizontalScrollBarPolicy: (#alwaysOn).
-	achievementScrollArea verticalScrollBarPolicy: (#asNeeded).
-	achievementScrollArea outerBorderWidth: (0).
-	achievementScrollArea scrollBarThickness: (3).
-	achievementScrollArea setProperty: #objectName toValue: 'achievementScrollArea'.
-	unnamedMorph4 addChild: achievementScrollArea.
-	unnamedMorph1 addChild: unnamedMorph4.
+	unnamedMorph3 addChild: unitScrollArea.
+	unnamedMorph1 addChild: unnamedMorph3.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'ZzLizViz'.
