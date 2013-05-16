@@ -1,11 +1,11 @@
 as yet unclassified
 initialize
 
-	| unitMorph |
 	super initialize.
+	
+	self unitMorph: ZzMainWindow new.
 	self initializeMenu.
 	
-	unitMorph := ZzMainWindow new.
-	self addPage: unitMorph.
-	self connect: unitMorph ui menuButton signal: #pressed to: self selector: #previousPage.
+	self addPage: self unitMorph.
+	self connect: self unitMorph ui menuButton signal: #pressed to: self selector: #currentIndex: pattern: #(=1).
 	self currentIndex: 1.

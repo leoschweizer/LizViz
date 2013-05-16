@@ -13,6 +13,8 @@ addUnitToMenu: aUnit
 			at: #text put: (q title) asHtmlText;
 			yourself)].
 	
+	self connect: ui startButton signal: #pressed to: aUnit selector: #reset.
+	self connect: ui startButton signal: #pressed to: self unitMorph selector: #unit: pattern: {#=. aUnit}.
 	self connect: ui startButton signal: #pressed to: self selector: #nextPage.
 	self connect: ui startButton signal: #pressed to: ui startButton selector: #flatten.
 	self connect: ui questView signal: #clicked: to: ui questView selector: #selectNone.
