@@ -9,7 +9,8 @@
 		"animatedDatatype",
 		"ui",
 		"unit",
-		"questMorph" ],
+		"questMorph",
+		"lizViz" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],

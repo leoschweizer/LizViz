@@ -1,9 +1,9 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	
-	self unitMorph: ZzMainWindow new.
+	self unitMorph: (ZzMainWindow new lizViz: self).
 	self 
 		initializeMenu;
 		initializeAchievements;

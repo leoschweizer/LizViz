@@ -1,0 +1,16 @@
+{
+	"category" : "LizViz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Sequences" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"methods",
+		"unlockedMethods" ],
+	"name" : "ZzAchievement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeAchievements
 	
 	| container containerMorph ui |
@@ -10,11 +10,11 @@ initializeAchievements
 	self menuUi achievementScrollArea widget: container.
 	
 	containerMorph := Morph new.
-	ui :=	ZzAchievementContainerUi new.
-	ui setupUi: containerMorph.
-	
-	ui titleLabel text: '!!! Linked List Achievement !!!'.
-	2 timesRepeat: [ui imageArea addMorph: UiFugueIcons leafWormholeIcon asMorph].
-	3 timesRepeat: [ui imageArea addMorph: UiFugueIcons leafIcon asMorph].
+	self currentSavegame achievements do: [:a |
+		ui :=	ZzAchievementContainerUi new.
+		ui setupUi: containerMorph.
+		ui titleLabel text: a title.
+		(a methods size - a unlockedMethods size) timesRepeat: [ui imageArea addMorph: UiFugueIcons leafWormholeIcon asMorph].
+		a unlockedMethods size timesRepeat: [ui imageArea addMorph: UiFugueIcons leafIcon asMorph]].
 	
 	self menuUi achievementScrollArea widget addMorph: containerMorph.

@@ -1,0 +1,4 @@
+accessing
+currentSavegame
+
+	^ ZzSavegame defaultSlot

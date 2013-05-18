@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeMenu
 
 	| container menuMorph |
@@ -12,6 +12,6 @@ initializeMenu
 	container := Morph new color: Color white.
 	self menuUi unitScrollArea widget: container.
 	
-	ZzUnit all withIndexDo: [:unit :i |
+	self currentSavegame units withIndexDo: [:unit :i |
 		self addUnitToMenu: i].
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 addUnitToMenu: aUnitNumber
 
 	| aUnit containerMorph ui |
@@ -6,7 +6,7 @@ addUnitToMenu: aUnitNumber
 	ui :=	ZzUnitContainerUi new.
 	ui setupUi: containerMorph.
 	
-	aUnit := ZzUnit all at: aUnitNumber.
+	aUnit := self currentSavegame units at: aUnitNumber.
 	ui titleLabel text: aUnit title.
 	aUnit quests withIndexDo: [:q :i | 
 		ui questView addItem: (UiPropertyItemNode new

@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-Core",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"achievements",
+		"units" ],
+	"name" : "ZzSavegame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
