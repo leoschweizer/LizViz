@@ -1,4 +1,4 @@
 ui
 uiClass
 	
-	^ ZzQuestMultipleChoiceUi
+	^ ZzMultipleChoiceUi

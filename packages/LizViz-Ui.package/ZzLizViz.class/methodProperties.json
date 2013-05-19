@@ -2,7 +2,9 @@
 	"class" : {
 		"bannerForm" : "or 5/15/2013 17:03:55.814",
 		"loadFormDependency:" : "or 5/15/2013 17:03:23.781",
-		"open" : "or 5/15/2013 17:17:55.092" },
+		"open" : "or 5/15/2013 17:17:55.092",
+		"widgetCategory" : "JR 5/19/2013 22:17:56.795",
+		"widgetClassName" : "JR 5/19/2013 22:18:24.292" },
 	"instance" : {
 		"addUnitToMenu:" : "or 5/18/2013 14:54:10.716",
 		"currentSavegame" : "or 5/18/2013 14:49:07.51",

@@ -1,6 +1,7 @@
 ui
 open
 	
-	^ ViSystemWindow
+	ViSystemWindow
 		morph: self 
-		label: self title
+		label: self title.
+	^ self

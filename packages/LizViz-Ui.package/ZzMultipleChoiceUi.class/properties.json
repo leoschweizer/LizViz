@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"quest",
-		"ui" ],
-	"name" : "ZzQuestContainerMorph",
+		"multipleChoiceInput" ],
+	"name" : "ZzMultipleChoiceUi",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UserInterface",
 	"type" : "normal" }

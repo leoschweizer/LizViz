@@ -6,4 +6,5 @@ updateUi
 	
 	ui := self quest uiClass new
 		setupUi: self;
-		yourself
+		yourself.
+	self initializeUi: self quest

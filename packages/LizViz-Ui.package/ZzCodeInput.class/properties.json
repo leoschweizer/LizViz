@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"quest",
-		"ui" ],
-	"name" : "ZzQuestContainerMorph",
+		 ],
+	"name" : "ZzCodeInput",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UiTextEdit",
 	"type" : "normal" }
