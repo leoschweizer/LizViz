@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"multipleChoiceInput" ],
+		"multipleChoice" ],
 	"name" : "ZzMultipleChoiceUi",
 	"pools" : [
 		 ],

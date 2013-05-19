@@ -6,6 +6,7 @@ addOption: aSelector named: aName
 	checkbox text: aName.
 	checkbox setProperty: #objectName toValue: aSelector.
 	self addChild: checkbox.
+	checkboxes at: aSelector put: checkbox.
 	"checkbox changeTableLayout.
 	checkbox extent: (75@25).
 	checkbox position: (4@4).

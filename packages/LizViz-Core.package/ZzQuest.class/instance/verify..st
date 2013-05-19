@@ -1,4 +1,4 @@
 as yet unclassified
-uiClass
+verify: data
 	
 	self subclassResponsibility

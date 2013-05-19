@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"collectResultData" : "JR 5/20/2013 00:07:46.997",
 		"initialize" : "JR 5/8/2013 20:37:05.506",
-		"initializeUi:" : "JR 5/19/2013 23:04:14.687",
+		"initializeUi:" : "JR 5/19/2013 23:51:17.133",
 		"quest" : "JR 5/8/2013 19:50:18.439",
 		"quest:" : "JR 5/8/2013 20:21:31.914",
 		"questChanged" : "JR 5/8/2013 19:50:52.957",
 		"resetUi" : "JR 5/8/2013 21:17:08.928",
-		"uiClass" : "JR 5/19/2013 21:20:58.206",
 		"updateUi" : "JR 5/19/2013 23:04:25.144" } }

@@ -1,5 +1,5 @@
 accessing
-codeInput
+multipleChoice
 	"No description given."
 	
-	^ codeInput
+	^ multipleChoice

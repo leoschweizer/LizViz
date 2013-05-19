@@ -26,40 +26,40 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	multipleChoiceInput := ZzMultipleChoiceInput new.
-	multipleChoiceInput changeTableLayout.
-	multipleChoiceInput extent: (340@130).
-	multipleChoiceInput position: (0@0).
-	multipleChoiceInput hResizing: (#spaceFill).
-	multipleChoiceInput vResizing: (#spaceFill).
-	multipleChoiceInput minWidth: (2).
-	multipleChoiceInput minHeight: (2).
-	multipleChoiceInput cellInset: (4).
-	multipleChoiceInput cellPositioning: (#center).
-	multipleChoiceInput cellSpacing: (#none).
-	multipleChoiceInput layoutInset: (4).
-	multipleChoiceInput listCentering: (#topLeft).
-	multipleChoiceInput listDirection: (#topToBottom).
-	multipleChoiceInput listSpacing: (#none).
-	multipleChoiceInput maxCellSize: (1073741823).
-	multipleChoiceInput minCellSize: (0).
-	multipleChoiceInput wrapCentering: (#topLeft).
-	multipleChoiceInput wrapDirection: (#none).
-	multipleChoiceInput frameFractions: (0@0 corner: 1@1).
-	multipleChoiceInput frameOffsets: (0@0 corner: 0@0).
-	multipleChoiceInput balloonText: (nil).
-	multipleChoiceInput balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
-	multipleChoiceInput color: (Color transparent).
-	multipleChoiceInput borderWidth: (0).
-	multipleChoiceInput borderStyle2: (#simple).
-	multipleChoiceInput borderColor: (Color black).
-	multipleChoiceInput setProperty: #objectName toValue: 'multipleChoiceInput'.
+	multipleChoice := ZzMultipleChoiceInput new.
+	multipleChoice changeTableLayout.
+	multipleChoice extent: (340@130).
+	multipleChoice position: (0@0).
+	multipleChoice hResizing: (#spaceFill).
+	multipleChoice vResizing: (#spaceFill).
+	multipleChoice minWidth: (2).
+	multipleChoice minHeight: (2).
+	multipleChoice cellInset: (4).
+	multipleChoice cellPositioning: (#center).
+	multipleChoice cellSpacing: (#none).
+	multipleChoice layoutInset: (4).
+	multipleChoice listCentering: (#topLeft).
+	multipleChoice listDirection: (#topToBottom).
+	multipleChoice listSpacing: (#none).
+	multipleChoice maxCellSize: (1073741823).
+	multipleChoice minCellSize: (0).
+	multipleChoice wrapCentering: (#topLeft).
+	multipleChoice wrapDirection: (#none).
+	multipleChoice frameFractions: (0@0 corner: 1@1).
+	multipleChoice frameOffsets: (0@0 corner: 0@0).
+	multipleChoice balloonText: (nil).
+	multipleChoice balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	multipleChoice color: (Color transparent).
+	multipleChoice borderWidth: (0).
+	multipleChoice borderStyle2: (#simple).
+	multipleChoice borderColor: (Color black).
+	multipleChoice setProperty: #objectName toValue: 'multipleChoice'.
 	unnamedMorph1 := UiCheckBox new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (75@25).
@@ -82,7 +82,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 enabled: (true).
 	unnamedMorph1 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph1 icon: (nil).
@@ -91,7 +91,7 @@ initializePanel
 	unnamedMorph1 checkable: (true).
 	unnamedMorph1 checked: (false).
 	unnamedMorph1 autoExclusive: (false).
-	multipleChoiceInput addChild: unnamedMorph1.
+	multipleChoice addChild: unnamedMorph1.
 	unnamedMorph2 := UiCheckBox new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (75@21).
@@ -114,7 +114,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	unnamedMorph2 enabled: (true).
 	unnamedMorph2 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph2 icon: (nil).
@@ -123,7 +123,7 @@ initializePanel
 	unnamedMorph2 checkable: (true).
 	unnamedMorph2 checked: (false).
 	unnamedMorph2 autoExclusive: (false).
-	multipleChoiceInput addChild: unnamedMorph2.
+	multipleChoice addChild: unnamedMorph2.
 	unnamedMorph3 := UiCheckBox new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (75@21).
@@ -146,7 +146,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph3 enabled: (true).
 	unnamedMorph3 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph3 icon: (nil).
@@ -155,6 +155,6 @@ initializePanel
 	unnamedMorph3 checkable: (true).
 	unnamedMorph3 checked: (false).
 	unnamedMorph3 autoExclusive: (false).
-	multipleChoiceInput addChild: unnamedMorph3.
-	panel addChild: multipleChoiceInput.
-	panel setProperty: #uiClassName toValue: 'ZzQuestMultipleChoice'.
+	multipleChoice addChild: unnamedMorph3.
+	panel addChild: multipleChoice.
+	panel setProperty: #uiClassName toValue: 'ZzMultipleChoice'.

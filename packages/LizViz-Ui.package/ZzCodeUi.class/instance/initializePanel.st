@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -59,40 +59,40 @@ initializePanel
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
 	panel addChild: unnamedMorph1.
-	codeInput := ZzCodeInput new.
-	codeInput extent: (332@99).
-	codeInput position: (4@27).
-	codeInput hResizing: (#spaceFill).
-	codeInput vResizing: (#spaceFill).
-	codeInput minWidth: (2).
-	codeInput minHeight: (2).
-	codeInput cellInset: (0).
-	codeInput cellPositioning: (#center).
-	codeInput cellSpacing: (#none).
-	codeInput layoutInset: (0).
-	codeInput listCentering: (#topLeft).
-	codeInput listDirection: (#topToBottom).
-	codeInput listSpacing: (#none).
-	codeInput maxCellSize: (1073741823).
-	codeInput minCellSize: (0).
-	codeInput wrapCentering: (#topLeft).
-	codeInput wrapDirection: (#none).
-	codeInput frameFractions: (0@0 corner: 1@1).
-	codeInput frameOffsets: (0@0 corner: 0@0).
-	codeInput balloonText: (nil).
-	codeInput balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
-	codeInput widgetResizable: (true).
-	codeInput horizontalScrollBarPolicy: (#alwaysOff).
-	codeInput verticalScrollBarPolicy: (#alwaysOn).
-	codeInput outerBorderWidth: (1).
-	codeInput scrollBarThickness: (9).
-	codeInput theText: ('').
-	codeInput readOnly: (false).
-	codeInput autoConvert: (false).
-	codeInput autoAccept: (false).
-	codeInput acceptOnFocusLost: (false).
-	codeInput scrollingMode: (#none).
-	codeInput scrollingLimit: (10).
-	codeInput setProperty: #objectName toValue: 'codeInput'.
-	panel addChild: codeInput.
-	panel setProperty: #uiClassName toValue: 'ZzQuestCoding'.
+	code := ZzCodeInput new.
+	code extent: (332@99).
+	code position: (4@27).
+	code hResizing: (#spaceFill).
+	code vResizing: (#spaceFill).
+	code minWidth: (2).
+	code minHeight: (2).
+	code cellInset: (0).
+	code cellPositioning: (#center).
+	code cellSpacing: (#none).
+	code layoutInset: (0).
+	code listCentering: (#topLeft).
+	code listDirection: (#topToBottom).
+	code listSpacing: (#none).
+	code maxCellSize: (1073741823).
+	code minCellSize: (0).
+	code wrapCentering: (#topLeft).
+	code wrapDirection: (#none).
+	code frameFractions: (0@0 corner: 1@1).
+	code frameOffsets: (0@0 corner: 0@0).
+	code balloonText: (nil).
+	code balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	code widgetResizable: (true).
+	code horizontalScrollBarPolicy: (#alwaysOff).
+	code verticalScrollBarPolicy: (#alwaysOn).
+	code outerBorderWidth: (1).
+	code scrollBarThickness: (9).
+	code theText: ('').
+	code readOnly: (false).
+	code autoConvert: (false).
+	code autoAccept: (false).
+	code acceptOnFocusLost: (false).
+	code scrollingMode: (#none).
+	code scrollingLimit: (10).
+	code setProperty: #objectName toValue: 'code'.
+	panel addChild: code.
+	panel setProperty: #uiClassName toValue: 'ZzCode'.
