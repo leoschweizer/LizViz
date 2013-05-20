@@ -3,6 +3,7 @@ submit
 	
 	| quest data |
 	quest := self questMorph quest.
+	quest ifNil: [ ^ self ].
 	data := self questMorph collectResultData.
 	(quest verify: data)
 		ifTrue: [
