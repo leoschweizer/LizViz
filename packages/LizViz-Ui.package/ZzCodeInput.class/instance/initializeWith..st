@@ -1,4 +1,4 @@
 as yet unclassified
 initializeWith: quest
 	
-	self theText: quest initialSourceCode
+	self theText: quest code

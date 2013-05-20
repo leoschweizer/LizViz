@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"testset",
+		"code" ],
 	"name" : "ZzQuestCoding",
 	"pools" : [
 		 ],
