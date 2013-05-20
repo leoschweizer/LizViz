@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 solution: aCollection
 	
 	solution := aCollection

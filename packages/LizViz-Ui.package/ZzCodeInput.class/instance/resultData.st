@@ -1,4 +1,4 @@
-as yet unclassified
+data accessing
 resultData
 	
 	^ self theText

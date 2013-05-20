@@ -1,4 +1,4 @@
-as yet unclassified
+data accessing
 initializeWith: quest
 	
 	self removeAllMorphs.

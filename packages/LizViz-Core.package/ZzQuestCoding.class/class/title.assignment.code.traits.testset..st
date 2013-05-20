@@ -1,5 +1,5 @@
-as yet unclassified
-title: aTitle assignment: anAssignment code: aText traits: traits testset: aCollectionOfTestClasses
+initialize-release
+title: aTitle assignment: anAssignment code: aText traits: aCollectionOfTraits testset: aCollectionOfTestClasses
 	
 	"ZzQuestCoding
 		title: 'Test' assignment: 'Please do this!'
@@ -9,6 +9,6 @@ title: aTitle assignment: anAssignment code: aText traits: traits testset: aColl
 	
 	^ (self title: aTitle assignment: anAssignment)
 		code: aText;
-		traits: traits;
+		traits: aCollectionOfTraits;
 		testset: aCollectionOfTestClasses;
 		yourself

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 title: aTitle assignment: anAssignment choices: aDictionary solution: aCollection
 	
 	"ZzQuestMultipleChoice

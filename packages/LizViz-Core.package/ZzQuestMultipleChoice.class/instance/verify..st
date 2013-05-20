@@ -1,4 +1,4 @@
-as yet unclassified
+verification
 verify: data
 	
 	| checked solution |

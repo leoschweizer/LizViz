@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 solution
 	
 	"collection type does not matter, e.g. sequenced or unordered"

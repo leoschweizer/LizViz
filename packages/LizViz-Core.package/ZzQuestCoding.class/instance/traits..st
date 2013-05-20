@@ -1,4 +1,4 @@
-as yet unclassified
-traits: aCollection
+accessing
+traits: aCollectionOfTraits
 	
-	traits := aCollection
+	traits := aCollectionOfTraits

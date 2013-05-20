@@ -1,4 +1,4 @@
-as yet unclassified
+data accessing
 addOption: aSelector named: aName
 	
 	| checkbox |

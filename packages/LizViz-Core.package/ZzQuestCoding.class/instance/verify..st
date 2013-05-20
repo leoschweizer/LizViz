@@ -1,8 +1,9 @@
-as yet unclassified
+verification
 verify: data
 	
-	"1) build list"
-	"2) execute tests against list"
-	"3) delete list?"
-	self notYetImplemented.
-	^ true
+	| code list |
+	code := data at: #code ifAbsent: [ ^ false ].
+	
+	list := self buildList: code.
+	^ self test: list against: self testset.
+	"delete list?"

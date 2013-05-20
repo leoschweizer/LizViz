@@ -1,4 +1,4 @@
-as yet unclassified
+data accessing
 initializeUi: data
 	
 	ui instanceVariableValues do: [ :ins |
