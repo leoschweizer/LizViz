@@ -1,4 +1,10 @@
 data accessing
 initializeWith: quest
 	
-	self theText: quest code
+	self textMorph
+		font: Preferences standardCodeFont;
+		styler: ZzCodeStyler new;
+		margins: (8@8 corner: 8@8).
+	
+	self classOrMetaClass: quest listClassForHighlighting.
+	self theText: quest code.
