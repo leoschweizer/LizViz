@@ -39,11 +39,16 @@ baseline: spec
 					repository: 'http://www.squeaksource.com/MetacelloRepository/'].
 			
 			spec package: 'LizViz-Traits' with: [spec repository: 'http://ss3.gemstone.com/ss/LizViz-Traits'].
+			
+			spec project: 'Connectors' with: [
+				spec
+					className: 'ConfigurationOfConnectors';
+					repository: 'http://www.squeaksource.com/MetacelloRepository/'].
 
 			spec
 				package: 'LizViz-Core' with: [spec requires: #('LizViz-Traits' SwaUtil 'Refactoring Engine' Animations Signals Designer Widgets)];
-				package: 'LizViz-Ui' with: [spec requires: #('LizViz-Core')];
-				package: 'LizViz-Tests' with: [ spec requires: #('LizViz-Core' 'LizViz-Ui') ].
+				package: 'LizViz-Ui' with: [spec requires: #('LizViz-Core' Connectors)];
+				package: 'LizViz-Tests' with: [spec requires: #('LizViz-Core' 'LizViz-Ui')].
 			
 			spec
 				group: 'default' with: #('LizViz-Core' 'LizViz-Ui');
