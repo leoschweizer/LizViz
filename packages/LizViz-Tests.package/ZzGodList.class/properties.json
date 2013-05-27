@@ -2,7 +2,7 @@
 	"category" : "LizViz-Tests-AnswerVerification",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TZzAddFirstOperation classTrait + TZzRemoveFirstOperation classTrait",
+	"classtraitcomposition" : "TZzAddFirstOperation classTrait + TZzRemoveFirstOperation classTrait + TZzSizeOperation classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "ZzDoubleLinkedList",
-	"traitcomposition" : "TZzAddFirstOperation + TZzRemoveFirstOperation",
+	"traitcomposition" : "TZzAddFirstOperation + TZzRemoveFirstOperation + TZzSizeOperation",
 	"type" : "normal" }
