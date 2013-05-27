@@ -1,4 +1,4 @@
 accessing
 animatedDatatype: anObject
-
-	animatedDatatype := anObject
+	
+	animatedDatatype := anObject.

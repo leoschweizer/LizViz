@@ -14,7 +14,9 @@ initializeAchievements
 		ui :=	ZzAchievementContainerUi new.
 		ui setupUi: containerMorph.
 		ui titleLabel text: a title.
-		(a methods size - a unlockedMethods size) timesRepeat: [ui imageArea addMorph: UiFugueIcons leafWormholeIcon asMorph].
-		a unlockedMethods size timesRepeat: [ui imageArea addMorph: UiFugueIcons leafIcon asMorph]].
+		(a methods size - a unlockedMethods size) timesRepeat: 
+			[ui imageArea addMorph: UiFugueIcons leafWormholeIcon asMorph].
+		a unlockedMethods size timesRepeat: 
+			[ui imageArea addMorph: UiFugueIcons leafIcon asMorph]].
 	
 	self menuUi achievementScrollArea widget addMorph: containerMorph.

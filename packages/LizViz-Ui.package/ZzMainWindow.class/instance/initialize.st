@@ -1,10 +1,11 @@
 initialization
 initialize
+	
 	super initialize.
 	
 	self
 		initializeUi;
-		animatedDatatype: ZzSingleLinkedList new;
+		animatedDatatype: ZzTempListFSHMFYXTPFDM new;
 		setupDatatypeAnimation.
 
 	self connect: questMorph signal: #questChanged toSelector: #updateUi.

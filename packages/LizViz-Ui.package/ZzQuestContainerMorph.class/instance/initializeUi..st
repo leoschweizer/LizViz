@@ -1,6 +1,6 @@
 data accessing
 initializeUi: data
 	
-	ui instanceVariableValues do: [ :ins |
+	ui instanceVariableValues do: [:ins |
 		(ins respondsTo: #initializeWith:)
-			ifTrue: [ ins initializeWith: quest ]]
+			ifTrue: [ins initializeWith: quest]].

@@ -8,14 +8,14 @@
 		"resetImages" : "or 5/7/2013 14:31:46.683" },
 	"instance" : {
 		"abandon" : "ls 5/27/2013 11:19:55.454",
-		"archTopOf:inDistance:" : "ls 5/27/2013 11:01:07.732",
+		"archTopOf:inDistance:" : "ls 5/27/2013 11:41:00.508",
 		"connector" : "ls 5/27/2013 11:13:51.42",
 		"connector:" : "ls 5/27/2013 11:14:01.111",
 		"defaultAttachmentPointSpecs" : "ls 5/27/2013 11:05:28.296",
 		"displayValue:" : "or 5/13/2013 17:39:23.436",
-		"firstItemChanged:" : "or 5/8/2013 16:45:09.607",
-		"initialize" : "or 5/7/2013 14:25:17.645",
+		"firstItemChanged:" : "ls 5/27/2013 12:40:05.591",
+		"initialize" : "ls 5/27/2013 12:40:30.391",
 		"nextItemChanged:" : "ls 5/27/2013 11:15:13.827",
-		"nextItemMorph" : "or 5/7/2013 15:33:47.851",
+		"nextItemMorph" : "ls 5/27/2013 12:40:21.333",
 		"nextItemMorph:" : "ls 5/27/2013 11:12:58.872",
-		"updateConnectors" : "ls 5/27/2013 11:29:10.723" } }
+		"updateConnectors" : "ls 5/27/2013 11:41:48.9" } }

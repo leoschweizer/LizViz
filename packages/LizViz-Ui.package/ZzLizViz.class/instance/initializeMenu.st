@@ -1,6 +1,6 @@
 initialization
 initializeMenu
-
+	
 	| container menuMorph |
 	
 	menuMorph := Morph new.
@@ -14,4 +14,3 @@ initializeMenu
 	
 	self currentSavegame units withIndexDo: [:unit :i |
 		self addUnitToMenu: i].
-	

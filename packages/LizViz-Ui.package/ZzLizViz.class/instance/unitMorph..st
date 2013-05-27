@@ -1,4 +1,4 @@
 accessing
 unitMorph: anObject
-
-	unitMorph := anObject
+	
+	unitMorph := anObject.

@@ -1,7 +1,7 @@
 accessing
 unit: aUnit
 	
-	(self unit = aUnit) ifTrue: [ ^ self ].
+	(self unit = aUnit) ifTrue: [^ self].
 	
 	unit := aUnit.
-	self unitChanged
+	self unitChanged.

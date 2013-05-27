@@ -1,4 +1,4 @@
 accessing
 questMorph: anObject
-
-	questMorph := anObject
+	
+	questMorph := anObject.

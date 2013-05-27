@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"collectResultData" : "JR 5/20/2013 00:07:46.997",
+		"collectResultData" : "ls 5/27/2013 12:43:22.296",
 		"initialize" : "JR 5/8/2013 20:37:05.506",
-		"initializeUi:" : "JR 5/19/2013 23:51:17.133",
+		"initializeUi:" : "ls 5/27/2013 12:43:34.323",
 		"quest" : "JR 5/8/2013 19:50:18.439",
 		"quest:" : "JR 5/8/2013 20:21:31.914",
 		"questChanged" : "JR 5/8/2013 19:50:52.957",

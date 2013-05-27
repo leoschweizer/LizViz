@@ -12,7 +12,7 @@ updateConnectors
 		connectToNearestAttachmentPoint.
 	self connector line setVertices: {
 		self connector vertices first. 
-		self archTopOf: self connector inDistance: 20.
+		self archTopOf: self connector inDistance: -20.
 		self connector vertices last
 	}.
 	self connector changed.

@@ -10,4 +10,4 @@ unitTitle: aText
 			(StrikeFont
 				familyName: font familyName
 				pointSize: font pointSize + 4)).
-	self ui headlineLabel text: htmlText
+	self ui headlineLabel text: htmlText.

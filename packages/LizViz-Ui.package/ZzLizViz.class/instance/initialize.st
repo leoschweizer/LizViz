@@ -1,6 +1,6 @@
 initialization
 initialize
-
+	
 	super initialize.
 	
 	self unitMorph: (ZzMainWindow new lizViz: self).

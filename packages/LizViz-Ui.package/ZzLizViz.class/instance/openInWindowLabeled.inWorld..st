@@ -16,4 +16,4 @@ openInWindowLabeled: aString inWorld: aWorld
 	aWorld addMorph: window.
 	window activate.
 	aWorld startSteppingSubmorphsOf: window.
-	^window
+	^ window

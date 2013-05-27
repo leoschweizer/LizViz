@@ -1,6 +1,6 @@
 initialization
 initializeHeadlines
-
+	
 	| units achievements |
 	units := 'Units' asHtmlText.
 	units

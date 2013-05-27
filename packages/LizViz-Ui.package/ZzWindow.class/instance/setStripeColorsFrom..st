@@ -1,3 +1,3 @@
 as yet unclassified
-setStripeColorsFrom: paneColor 
+setStripeColorsFrom: paneColor
 	"do not want!"

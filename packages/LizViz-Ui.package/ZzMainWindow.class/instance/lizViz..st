@@ -1,4 +1,4 @@
 accessing
 lizViz: anObject
-
-	lizViz := anObject
+	
+	lizViz := anObject.
