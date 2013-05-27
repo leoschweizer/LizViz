@@ -1,0 +1,16 @@
+{
+	"category" : "LizViz-Tests-AnswerVerification",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TZzAddFirstOperation classTrait + TZzRemoveFirstOperation classTrait + TZzSizeOperation classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzGodList",
+	"pools" : [
+		 ],
+	"super" : "ZzDoubleLinkedList",
+	"traitcomposition" : "TZzAddFirstOperation + TZzRemoveFirstOperation + TZzSizeOperation",
+	"type" : "normal" }

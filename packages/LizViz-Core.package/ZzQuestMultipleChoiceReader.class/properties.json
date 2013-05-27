@@ -1,0 +1,15 @@
+{
+	"category" : "LizViz-Core-Reader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"choices",
+		"solution" ],
+	"name" : "ZzQuestMultipleChoiceReader",
+	"pools" : [
+		 ],
+	"super" : "ZzQuestReader",
+	"type" : "normal" }

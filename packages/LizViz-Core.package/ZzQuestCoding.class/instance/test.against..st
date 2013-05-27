@@ -1,5 +1,10 @@
 verification
-test: aList against: aBunchOfTestClasses
+test: aList against: aBunchOfTests
 	
-	self notYetImplemented.
-	^ true
+	| testResult |
+	testResult := TestResult new.
+	aBunchOfTests do: [:each | | testCase | 
+		testCase := each methodClass new.
+		testCase setTestSelector: each selector.
+		testCase run: testResult].
+	^ testResult

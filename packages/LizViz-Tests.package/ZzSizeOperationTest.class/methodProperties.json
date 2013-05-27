@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testSideEffects" : "ls 5/27/2013 19:37:19.441",
+		"testSizeOfEmptyList" : "ls 5/27/2013 19:25:47.956",
+		"testSizeOfNonEmptyList" : "ls 5/27/2013 19:26:43.438" } }

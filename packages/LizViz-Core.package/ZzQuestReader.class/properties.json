@@ -1,0 +1,17 @@
+{
+	"category" : "LizViz-Core-Reader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"description",
+		"assignment",
+		"title",
+		"achievements" ],
+	"name" : "ZzQuestReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Tests-AnswerVerification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzAddFirstOperationTest",
+	"pools" : [
+		 ],
+	"super" : "ZzAnswerVerificationTest",
+	"type" : "normal" }
