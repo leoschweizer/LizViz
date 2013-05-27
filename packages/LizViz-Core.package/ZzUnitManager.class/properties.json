@@ -3,14 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Sequences" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"quests",
-		"index",
-		"description" ],
-	"name" : "ZzUnit",
+		 ],
+	"name" : "ZzUnitManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

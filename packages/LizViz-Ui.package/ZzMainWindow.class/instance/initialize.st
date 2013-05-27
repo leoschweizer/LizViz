@@ -5,7 +5,7 @@ initialize
 	
 	self
 		initializeUi;
-		animatedDatatype: ZzTempListFSHMFYXTPFDM new;
+		animatedDatatype: ZzSingleLinkedList new;
 		setupDatatypeAnimation.
 
 	self connect: questMorph signal: #questChanged toSelector: #updateUi.

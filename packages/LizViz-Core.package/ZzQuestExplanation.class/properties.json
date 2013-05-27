@@ -3,15 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Sequences" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"quests",
-		"index",
-		"description" ],
-	"name" : "ZzUnit",
+		 ],
+	"name" : "ZzQuestExplanation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ZzQuest",
 	"type" : "normal" }
