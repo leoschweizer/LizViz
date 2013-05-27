@@ -12,6 +12,7 @@ Implementation	#isEmpty Operation
 Description	Let the User implement an isEmpty test on the list
 Context	
 Achievements	
+Taskset	ZzQuestTestCase>>#testImplementsUiClass
 	
 Implementation	#size Operation
 Description	Let the User implement a size operation on the list
