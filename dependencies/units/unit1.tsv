@@ -1,0 +1,29 @@
+Unit 1	
+Some Description	
+	
+Explanation	Visualize Insertion
+Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Context	
+Achievements	
+Given Traits	
+Test Cases	
+	
+Implementation	#isEmpty Operation
+Description	Let the User implement an isEmpty test on the list
+Context	
+Achievements	
+	
+Implementation	#size Operation
+Description	Let the User implement a size operation on the list
+Context	
+Achievements	
+	
+Explanation	Explain O-Notation
+Description	Explain the basics of O-Notation
+Context	
+Achievements	
+	
+Multiple Choice	Complexity of #size Operation
+Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Context	
+Achievements	List
