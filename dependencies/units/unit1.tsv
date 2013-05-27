@@ -1,30 +1,28 @@
-Unit 1	
-Some Description	
+Title (Unit)	
+Description (Unit)	
 	
-Explanation	Visualize Insertion
+Task	Explanation: Visualize Insertion
 Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
 Context	
 Achievements	
-Given Traits	
-Test Cases	
 	
-Implementation	#isEmpty Operation
-Description	Let the User implement an isEmpty test on the list
-Context	
-Achievements	
-Taskset	ZzQuestTestCase>>#testImplementsUiClass
-	
-Implementation	#size Operation
+Task	Implementation: #size Operation
 Description	Let the User implement a size operation on the list
 Context	
-Achievements	
+Achievements	List
+Taskset	ZzQuestTestCase>>#testImplementsUiClass
 	
-Explanation	Explain O-Notation
-Description	Explain the basics of O-Notation
-Context	
-Achievements	
-	
-Multiple Choice	Complexity of #size Operation
-Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Task	Implementation: #isEmpty Operation
+Description	Let the User implement an isEmpty test on the list
 Context	
 Achievements	List
+	
+Task	Explanation: Explain O-Notation
+Description	Explain the basics of O-Notation
+Context	
+Achievements	O-Notation
+	
+Task	Multiple Choice: Complexity of #size Operation
+Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Context	
+Achievements	List, O-Notation
