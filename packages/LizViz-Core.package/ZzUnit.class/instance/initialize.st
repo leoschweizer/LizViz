@@ -3,4 +3,4 @@ initialize
 	
 	title := 'Untitled'.
 	quests := OrderedCollection new.
-	self reset.
+	self reset

@@ -6,7 +6,7 @@ from: aStream
 	[ self handleProperty: aStream ]
 		whileTrue.
 	
-	self
+	^ self
 		finish;
 		validate;
 		create
