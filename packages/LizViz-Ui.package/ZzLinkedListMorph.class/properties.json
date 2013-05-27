@@ -7,7 +7,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nextItemMorph" ],
+		"nextItemMorph",
+		"connector" ],
 	"name" : "ZzLinkedListMorph",
 	"pools" : [
 		 ],

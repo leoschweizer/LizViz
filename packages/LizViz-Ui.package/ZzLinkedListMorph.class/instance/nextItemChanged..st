@@ -12,5 +12,7 @@ nextItemChanged: aListItem
 		top: self top;
 		displayValue: aListItem value;
 		lighten.
+	
+	self updateConnectors.
 		
 	self nextItemMorph nextItemChanged: aListItem nextItem.

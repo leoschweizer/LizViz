@@ -117,7 +117,7 @@ initializePanel
 	questTitleLabel setProperty: #objectName toValue: 'questTitleLabel'.
 	headerContainer addChild: questTitleLabel.
 	panel addChild: headerContainer.
-	visualizationContainer := UiContainer new.
+	visualizationContainer := PasteUpMorph new.
 	visualizationContainer extent: (461@190).
 	visualizationContainer position: (0@63).
 	visualizationContainer hResizing: (#spaceFill).
@@ -141,7 +141,6 @@ initializePanel
 	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	visualizationContainer color: (Color white).
 	visualizationContainer borderWidth: (0).
-	visualizationContainer borderStyle2: (#simple).
 	visualizationContainer borderColor: (Color lightGray).
 	visualizationContainer setProperty: #objectName toValue: 'visualizationContainer'.
 	panel addChild: visualizationContainer.

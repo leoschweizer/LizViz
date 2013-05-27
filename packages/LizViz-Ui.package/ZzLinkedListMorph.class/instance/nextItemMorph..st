@@ -1,4 +1,4 @@
 accessing
 nextItemMorph: anObject
-
-	nextItemMorph := anObject
+	
+	nextItemMorph := anObject.
