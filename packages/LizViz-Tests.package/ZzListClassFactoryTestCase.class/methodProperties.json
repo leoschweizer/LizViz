@@ -7,4 +7,5 @@
 		"testRBAddClassRefactoringDependency" : "JR 5/8/2013 22:33:06.794",
 		"testSingleLinkedInheritance" : "ls 5/8/2013 19:57:45.995",
 		"testSourceComposition" : "ls 5/8/2013 19:53:38.983",
+		"testSourceCompositionForMethodAvailableInObject" : "JR 5/28/2013 10:17:37.933",
 		"testTraitComposition" : "ls 5/8/2013 19:53:45.619" } }
