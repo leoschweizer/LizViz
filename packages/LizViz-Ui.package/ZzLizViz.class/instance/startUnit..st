@@ -1,9 +1,5 @@
 as yet unclassified
-startUnit: aUnitNumber
+startUnit: anUnit
 
-	| aUnit |
-	aUnit := self currentSavegame units at: aUnitNumber.
-	aUnit reset.
-	self unitMorph unit: aUnit.
-	self nextPage.
-	
+	self unitMorph unit: anUnit.
+	self nextPage

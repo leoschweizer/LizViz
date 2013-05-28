@@ -10,8 +10,9 @@
 		"achievementLabel",
 		"achievementScrollArea",
 		"unitLabel",
-		"unitScrollArea",
-		"unitSelection" ],
+		"unitSelection",
+		"unitContinueLastButton",
+		"unitStartSelectedButton" ],
 	"name" : "ZzLizVizUi",
 	"pools" : [
 		 ],

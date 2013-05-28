@@ -14,6 +14,7 @@ updateUnits
 			node addChild: (
 				UiPropertyItemNode new
 					at: #quest put: quest;
+					at: #parent put: unit;
 					yourself)]].
 	
 	self modelReset.

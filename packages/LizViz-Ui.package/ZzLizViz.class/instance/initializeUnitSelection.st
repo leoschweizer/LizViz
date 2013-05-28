@@ -23,5 +23,9 @@ initializeUnitSelection
 				ifTrue: ['Status: TODO']]);
 			
 		model: ZzUnitModel new.
-		
+	
+	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startNode:.
+	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedNode.
+	self connect: self menuUi unitContinueLastButton signal: #clicked: toSelector: #startFromSavegame.
+	
 	self expandUnitSelection
