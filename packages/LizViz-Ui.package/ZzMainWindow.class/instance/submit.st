@@ -10,7 +10,8 @@ submit
 		ifTrue: [
 			quest cleanup.
 			self solved: quest.
-			self questMorph quest: self unit next ]
+			self questMorph quest: self unit next.
+			self setupDatatypeAnimation]
 		ifFalse: [
 			self failed: quest ]
 	] on: Error do: [ :ex | self failed: quest with: ex ] "value"

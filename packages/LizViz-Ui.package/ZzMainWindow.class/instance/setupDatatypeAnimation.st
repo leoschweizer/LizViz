@@ -5,8 +5,11 @@ setupDatatypeAnimation
 	listMorph := ZzLinkedListMorph new.
 	listMorph image: (ZzLinkedListMorph headForm scaledToSize: 64@64).
 	
+	self animatedDatatype: (self currentQuest ifNil: [ZzSingleLinkedList new] ifNotNilDo: [:q | q listClass new]).	
 	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #firstItemChanged:.
 	
-	self ui visualizationContainer addMorph: listMorph.
-	listMorph topLeft: 5@ (self ui visualizationContainer height / 2).
+	self ui visualizationContainer 
+		removeAllMorphs;
+		addMorph: listMorph.
+	listMorph topLeft: (self ui visualizationContainer left + 5) @ (self ui visualizationContainer height / 2).
 	
