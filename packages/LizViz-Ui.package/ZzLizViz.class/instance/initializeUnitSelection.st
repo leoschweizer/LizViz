@@ -17,7 +17,11 @@ initializeUnitSelection
 			
 		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Status'. #icon -> #yourself. #balloonText -> #yourself})
 			iconConverter: [:node | (node includesKey: #quest)
-				ifTrue: [UiFugueIcons exclamationFrameIcon]];
+				ifTrue: [UiSilkIcons bulletKeyIcon]];
+				"UiFugueIcons lockIcon"
+				"UiSilkIcons bulletKeyIcon"
+				"UiSilkIcons bulletGreenIcon"
+				"UiSilkIcons bulletRedIcon"
 			
 			balloonTextConverter: [:node | (node includesKey: #quest)
 				ifTrue: ['Status: TODO']]);
