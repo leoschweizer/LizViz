@@ -1,11 +1,11 @@
 testing
 testCurrent
 	
-	| seq |
+	| seq it |
 	seq := ZzUnit new.
 	seq add: ZzQuest new.
-	seq next.
-	self assert: seq index = 1.
-	seq next.
-	self assert: seq current isNil.
-	self flag: #jr
+	it := ZzUnitIterator for: seq.
+	it next.
+	self assert: it index = 1.
+	it next.
+	self assert: it current isNil

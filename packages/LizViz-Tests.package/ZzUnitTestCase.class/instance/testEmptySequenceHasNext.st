@@ -4,5 +4,5 @@ testEmptySequenceHasNext
 	| seq |
 	seq := ZzUnit new
 		quests: OrderedCollection new.
-	self assert: seq hasNext not
+	self assert: (ZzUnitIterator for: seq) hasNext not
 	

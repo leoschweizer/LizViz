@@ -1,10 +1,11 @@
 testing
 testReset
 	
-	| seq |
+	| seq it |
 	seq := ZzUnit new.
 	seq add: ZzQuest new.
-	seq next.
-	self assert: seq index = 1.
-	seq reset.
-	self assert: seq index = 0.
+	it := ZzUnitIterator for: seq.
+	it next.
+	self assert: it index = 1.
+	it reset.
+	self assert: it index = 0.
