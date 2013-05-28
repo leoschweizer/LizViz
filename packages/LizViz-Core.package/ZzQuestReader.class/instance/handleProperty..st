@@ -6,7 +6,7 @@ handleProperty: aStream
 		ifTrue: [ ^ false ].
 	key := aStream nextDelimited: Character tab.
 	key = '' ifTrue: [ ^ false ].
-	value := aStream nextLine.
+	value := self readMultiLineValue: aStream.
 	self handleProperty: key value: value.
 	^ true
 	

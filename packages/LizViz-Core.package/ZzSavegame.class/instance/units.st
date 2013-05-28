@@ -1,4 +1,4 @@
 accessing
 units
 
-	^ units ifNil: [units := ZzUnitManager default units]
+	^ units ifNil: [units := ZzUnitManager new units]
