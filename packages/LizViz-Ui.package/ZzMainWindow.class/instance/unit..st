@@ -4,4 +4,6 @@ unit: aUnit
 	(self unit = aUnit) ifTrue: [^ self].
 	
 	unit := aUnit.
-	self unitChanged.
+	unit index: 1.
+	self questMorph quest: unit current.
+	self questMorph quest animatedListInstance: self animatedDatatype.

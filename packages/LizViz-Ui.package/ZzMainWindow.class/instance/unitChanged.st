@@ -1,4 +1,0 @@
-signals
-unitChanged
-	
-	self emit
