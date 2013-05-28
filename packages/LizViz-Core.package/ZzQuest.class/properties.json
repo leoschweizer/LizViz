@@ -9,8 +9,12 @@
 		"title",
 		"assignment",
 		"animatedListInstance" ],
+		"assignment",
+		"achievements",
+		"description" ],
 	"name" : "ZzQuest",
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"type" : "normal" }
 	"type" : "normal" }

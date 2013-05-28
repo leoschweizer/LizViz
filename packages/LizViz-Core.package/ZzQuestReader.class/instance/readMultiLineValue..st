@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 readMultiLineValue: aStream
 	
 	| value |
