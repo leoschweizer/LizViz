@@ -1,8 +1,4 @@
 utilities
 compileSourcesIn: aClass
 	
-	self sources do: [:each | 
-		(RBAddMethodRefactoring 
-			addMethod: each 
-			toClass: aClass 
-			inProtocols: {'user-defined'}) execute].
+	self sources do: [:each | aClass compile: each classified: 'user-defined'].
