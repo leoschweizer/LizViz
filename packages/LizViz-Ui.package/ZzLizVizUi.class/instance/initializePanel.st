@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -53,7 +53,7 @@ initializePanel
 	titleImage frameFractions: (0@0 corner: 1@1).
 	titleImage frameOffsets: (0@0 corner: 0@0).
 	titleImage balloonText: (nil).
-	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	titleImage setProperty: #objectName toValue: 'titleImage'.
 	panel addChild: titleImage.
 	unnamedMorph1 := UiContainer new.
@@ -78,7 +78,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -105,7 +105,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0.5@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -132,7 +132,7 @@ initializePanel
 	achievementLabel frameFractions: (0@0 corner: 1@1).
 	achievementLabel frameOffsets: (0@0 corner: 0@0).
 	achievementLabel balloonText: (nil).
-	achievementLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	achievementLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	achievementLabel text: ('Achievements').
 	achievementLabel setProperty: #formByDesigner toValue: 'nil'.
 	achievementLabel form: (nil).
@@ -159,7 +159,7 @@ initializePanel
 	achievementScrollArea frameFractions: (0@0 corner: 1@1).
 	achievementScrollArea frameOffsets: (0@0 corner: 0@0).
 	achievementScrollArea balloonText: (nil).
-	achievementScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	achievementScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	achievementScrollArea widgetResizable: (false).
 	achievementScrollArea horizontalScrollBarPolicy: (#alwaysOn).
 	achievementScrollArea verticalScrollBarPolicy: (#asNeeded).
@@ -190,7 +190,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 0.5@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
@@ -217,14 +217,14 @@ initializePanel
 	unitLabel frameFractions: (0@0 corner: 1@1).
 	unitLabel frameOffsets: (0@0 corner: 0@0).
 	unitLabel balloonText: (nil).
-	unitLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unitLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unitLabel text: ('Units').
 	unitLabel setProperty: #formByDesigner toValue: 'nil'.
 	unitLabel form: (nil).
 	unitLabel setProperty: #objectName toValue: 'unitLabel'.
 	unnamedMorph3 addChild: unitLabel.
 	unitScrollArea := UiScrollArea new.
-	unitScrollArea extent: (238@221).
+	unitScrollArea extent: (238@108).
 	unitScrollArea position: (8@71).
 	unitScrollArea hResizing: (#spaceFill).
 	unitScrollArea vResizing: (#spaceFill).
@@ -244,7 +244,7 @@ initializePanel
 	unitScrollArea frameFractions: (0@0 corner: 1@1).
 	unitScrollArea frameOffsets: (0@0 corner: 0@0).
 	unitScrollArea balloonText: (nil).
-	unitScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unitScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	unitScrollArea widgetResizable: (false).
 	unitScrollArea horizontalScrollBarPolicy: (#asNeeded).
 	unitScrollArea verticalScrollBarPolicy: (#alwaysOn).
@@ -252,6 +252,40 @@ initializePanel
 	unitScrollArea scrollBarThickness: (3).
 	unitScrollArea setProperty: #objectName toValue: 'unitScrollArea'.
 	unnamedMorph3 addChild: unitScrollArea.
+	unitSelection := UiTreeView new.
+	unitSelection extent: (238@109).
+	unitSelection position: (8@183).
+	unitSelection hResizing: (#spaceFill).
+	unitSelection vResizing: (#spaceFill).
+	unitSelection minWidth: (2).
+	unitSelection minHeight: (2).
+	unitSelection cellInset: (0).
+	unitSelection cellPositioning: (#center).
+	unitSelection cellSpacing: (#none).
+	unitSelection layoutInset: (0).
+	unitSelection listCentering: (#topLeft).
+	unitSelection listDirection: (#topToBottom).
+	unitSelection listSpacing: (#none).
+	unitSelection maxCellSize: (1073741823).
+	unitSelection minCellSize: (0).
+	unitSelection wrapCentering: (#topLeft).
+	unitSelection wrapDirection: (#none).
+	unitSelection frameFractions: (0@0 corner: 1@1).
+	unitSelection frameOffsets: (0@0 corner: 0@0).
+	unitSelection balloonText: (nil).
+	unitSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unitSelection widgetResizable: (false).
+	unitSelection horizontalScrollBarPolicy: (#asNeeded).
+	unitSelection verticalScrollBarPolicy: (#asNeeded).
+	unitSelection outerBorderWidth: (0).
+	unitSelection scrollBarThickness: (9).
+	unitSelection modelClass: (ZzUnitModel).
+	unitSelection horizontalHeaderVisible: (false).
+	unitSelection verticalHeaderVisible: (false).
+	unitSelection selectionBehavior: (#selectRows).
+	unitSelection selectionMode: (UiViewSingleSelection).
+	unitSelection setProperty: #objectName toValue: 'unitSelection'.
+	unnamedMorph3 addChild: unitSelection.
 	unnamedMorph1 addChild: unnamedMorph3.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'ZzLizViz'.

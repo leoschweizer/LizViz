@@ -4,8 +4,9 @@ initialize
 	super initialize.
 	
 	self unitMorph: (ZzMainWindow new lizViz: self).
-	self 
+	self
 		initializeMenu;
+		initializeUnitSelection;
 		initializeAchievements;
 		initializeHeadlines.
 	
