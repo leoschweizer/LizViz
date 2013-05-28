@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"title",
-		"assignment" ],
+		"assignment",
+		"achievements",
+		"description" ],
 	"name" : "ZzQuest",
 	"pools" : [
 		 ],
