@@ -8,13 +8,11 @@
 	"instvars" : [
 		"title",
 		"assignment",
-		"animatedListInstance" ],
-		"assignment",
+		"animatedListInstance",
 		"achievements",
 		"description" ],
 	"name" : "ZzQuest",
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"type" : "normal" }
 	"type" : "normal" }
