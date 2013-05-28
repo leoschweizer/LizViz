@@ -8,4 +8,4 @@ next
 		self endReached.
 		^ nil ].
 	
-	^ self quests at: index
+	^ unit quests at: index

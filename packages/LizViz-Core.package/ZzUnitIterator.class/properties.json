@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"quests",
-		"description",
-		"id" ],
-	"name" : "ZzUnit",
+		"index",
+		"unit" ],
+	"name" : "ZzUnitIterator",
 	"pools" : [
 		 ],
 	"super" : "Object",

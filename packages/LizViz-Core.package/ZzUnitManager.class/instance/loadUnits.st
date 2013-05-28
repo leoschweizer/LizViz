@@ -3,6 +3,7 @@ loadUnits
 	
 	| names units |
 	names := self loadUnitNames.
-	units := OrderedCollection new.
-	names do: [ :name | units add: (self loadUnit: name) ].
+	units := Dictionary new.
+	names do: [ :name |
+		units at: name asSymbol put: (self loadUnit: name) ].
 	^ units

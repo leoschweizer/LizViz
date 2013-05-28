@@ -1,4 +1,4 @@
-as yet unclassified
+syntax highlighting
 listClassForHighlighting
 	
 	^ ZzListClassFactory new

@@ -1,4 +1,8 @@
 accessing
 units
 	
-	^ units ifNil: [ units := self loadUnits ]
+	| iterators |
+	iterators := OrderedCollection new.
+	self unitsDict values do: [ :unit |
+		iterators add: (ZzUnitIterator for: unit) ].
+	^ iterators

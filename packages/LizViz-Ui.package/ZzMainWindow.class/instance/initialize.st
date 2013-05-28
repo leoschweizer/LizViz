@@ -11,5 +11,5 @@ initialize
 	self connect: questMorph signal: #questChanged toSelector: #updateUi.
 	
 	self flag: #jrremove.
-	self unit: ZzUnit all first.
+	self unit: ZzUnitManager default units first.
 	questMorph quest: self unit next.
