@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 choices: aDictionary
 	
 	choices := aDictionary

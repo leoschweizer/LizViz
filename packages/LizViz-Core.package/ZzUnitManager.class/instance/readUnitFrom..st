@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 readUnitFrom: aStream
 	
 	| title description unit task |

@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 readerFor: aType
 	
 	^ self readers

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 description: aString
 	
 	description := aString

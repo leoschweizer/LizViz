@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 validate
 	
 	title ifNil: [ self error: 'title may not be null' ].

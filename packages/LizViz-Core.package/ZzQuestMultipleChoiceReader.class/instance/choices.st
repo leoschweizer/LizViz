@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 choices
 	
 	^ choices ifNil: [ Dictionary new ]

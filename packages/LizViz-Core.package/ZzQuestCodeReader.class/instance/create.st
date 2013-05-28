@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 create
 	
 	^ ZzQuestCoding

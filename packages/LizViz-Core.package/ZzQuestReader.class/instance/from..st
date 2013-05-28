@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 from: aStream
 	
 	self title: (aStream next; nextLine).

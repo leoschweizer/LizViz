@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 testset
 	
 	^ testset ifNil: [ Set new ]

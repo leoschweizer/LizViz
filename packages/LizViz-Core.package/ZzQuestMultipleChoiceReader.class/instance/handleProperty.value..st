@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 handleProperty: key value: value
 	
 	key = 'Solution' ifTrue: [
