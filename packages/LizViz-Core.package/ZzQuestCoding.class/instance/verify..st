@@ -1,8 +1,9 @@
 verification
 verify: data
 	
-	| code list |
+	| code list result |
 	code := data at: #code ifAbsent: [ ^ false ].
 	
 	list := self buildList: code.
-	^ self test: list against: self testset
+	result := self test: list against: self testset.
+	^ result runCount = result passedCount

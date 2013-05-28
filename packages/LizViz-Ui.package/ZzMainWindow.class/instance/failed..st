@@ -1,4 +1,4 @@
-signals
+signals - private
 failed: aQuest
 	
-	self emit
+	self failed: aQuest with: nil

@@ -9,6 +9,7 @@ initialize
 		setupDatatypeAnimation.
 
 	self connect: questMorph signal: #questChanged toSelector: #updateUi.
+	self connect: self signal: #failed:with: toSelector: #onError: pattern: #(2).
 	
 	self flag: #jrremove.
 	self unit: ZzUnitManager default units first.
