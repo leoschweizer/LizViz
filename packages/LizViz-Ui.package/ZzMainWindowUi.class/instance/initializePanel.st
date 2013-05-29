@@ -118,7 +118,7 @@ initializePanel
 	headerContainer addChild: questTitleLabel.
 	panel addChild: headerContainer.
 	visualizationContainer := PasteUpMorph new.
-	visualizationContainer extent: (461@190).
+	visualizationContainer extent: (461@193).
 	visualizationContainer position: (0@63).
 	visualizationContainer hResizing: (#spaceFill).
 	visualizationContainer vResizing: (#spaceFill).
@@ -139,15 +139,12 @@ initializePanel
 	visualizationContainer frameOffsets: (0@0 corner: 0@0).
 	visualizationContainer balloonText: (nil).
 	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	visualizationContainer color: (Color white).
-	visualizationContainer borderWidth: (0).
-	visualizationContainer borderColor: (Color lightGray).
 	visualizationContainer setProperty: #objectName toValue: 'visualizationContainer'.
 	panel addChild: visualizationContainer.
 	bottomContainer := UiContainer new.
 	bottomContainer changeTableLayout.
-	bottomContainer extent: (461@153).
-	bottomContainer position: (0@255).
+	bottomContainer extent: (461@150).
+	bottomContainer position: (0@258).
 	bottomContainer hResizing: (#spaceFill).
 	bottomContainer vResizing: (#shrinkWrap).
 	bottomContainer minWidth: (400).
@@ -174,7 +171,7 @@ initializePanel
 	bottomContainer setProperty: #objectName toValue: 'bottomContainer'.
 	questDescriptionLabel := UiTextEdit new.
 	questDescriptionLabel extent: (443@19).
-	questDescriptionLabel position: (9@264).
+	questDescriptionLabel position: (9@267).
 	questDescriptionLabel hResizing: (#spaceFill).
 	questDescriptionLabel vResizing: (#rigid).
 	questDescriptionLabel minWidth: (2).
@@ -193,7 +190,7 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	questDescriptionLabel widgetResizable: (true).
 	questDescriptionLabel horizontalScrollBarPolicy: (#alwaysOff).
 	questDescriptionLabel verticalScrollBarPolicy: (#alwaysOff).
@@ -210,8 +207,8 @@ initializePanel
 	bottomContainer addChild: questDescriptionLabel.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (443@112).
-	unnamedMorph1 position: (9@287).
+	unnamedMorph1 extent: (443@109).
+	unnamedMorph1 position: (9@290).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
 	unnamedMorph1 minWidth: (2).
@@ -237,8 +234,8 @@ initializePanel
 	unnamedMorph1 borderColor: (Color black).
 	questContainer := UiContainer new.
 	questContainer changeTableLayout.
-	questContainer extent: (339@112).
-	questContainer position: (9@287).
+	questContainer extent: (335@109).
+	questContainer position: (9@290).
 	questContainer hResizing: (#spaceFill).
 	questContainer vResizing: (#spaceFill).
 	questContainer minWidth: (2).
@@ -265,9 +262,9 @@ initializePanel
 	questContainer setProperty: #objectName toValue: 'questContainer'.
 	unnamedMorph1 addChild: questContainer.
 	unnamedMorph2 := UiContainer new.
-	unnamedMorph2 changeProportionalLayout.
-	unnamedMorph2 extent: (100@112).
-	unnamedMorph2 position: (352@287).
+	unnamedMorph2 changeTableLayout.
+	unnamedMorph2 extent: (100@109).
+	unnamedMorph2 position: (348@290).
 	unnamedMorph2 hResizing: (#rigid).
 	unnamedMorph2 vResizing: (#spaceFill).
 	unnamedMorph2 minWidth: (2).
@@ -286,7 +283,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -294,7 +291,7 @@ initializePanel
 	menuButton := UiPushButton new.
 	menuButton changeTableLayout.
 	menuButton extent: (92@21).
-	menuButton position: (356@368).
+	menuButton position: (356@295).
 	menuButton hResizing: (#shrinkWrap).
 	menuButton vResizing: (#shrinkWrap).
 	menuButton minWidth: (70).
@@ -313,7 +310,7 @@ initializePanel
 	menuButton frameFractions: (0@0 corner: 1@1).
 	menuButton frameOffsets: (0@70 corner: 0@0).
 	menuButton balloonText: (nil).
-	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	menuButton enabled: (true).
 	menuButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0306Normal'.
 	menuButton icon: (UiDiagonaIcons icon0306Normal).
@@ -324,14 +321,81 @@ initializePanel
 	menuButton autoExclusive: (false).
 	menuButton setProperty: #objectName toValue: 'menuButton'.
 	unnamedMorph2 addChild: menuButton.
+	stepSlider := UiSlider new.
+	stepSlider changeTableLayout.
+	stepSlider extent: (100@14).
+	stepSlider position: (352@321).
+	stepSlider hResizing: (#rigid).
+	stepSlider vResizing: (#rigid).
+	stepSlider minWidth: (2).
+	stepSlider minHeight: (2).
+	stepSlider cellInset: (0).
+	stepSlider cellPositioning: (#center).
+	stepSlider cellSpacing: (#none).
+	stepSlider layoutInset: (0).
+	stepSlider listCentering: (#center).
+	stepSlider listDirection: (#topToBottom).
+	stepSlider listSpacing: (#none).
+	stepSlider maxCellSize: (1073741823).
+	stepSlider minCellSize: (0).
+	stepSlider wrapCentering: (#topLeft).
+	stepSlider wrapDirection: (#none).
+	stepSlider frameFractions: (0@0 corner: 1@1).
+	stepSlider frameOffsets: (0@0 corner: 0@0).
+	stepSlider balloonText: (nil).
+	stepSlider balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	stepSlider orientation: (#horizontal).
+	stepSlider minimum: (0).
+	stepSlider maximum: (5).
+	stepSlider currentValue: (0).
+	stepSlider sliderPosition: (0).
+	stepSlider tracking: (true).
+	stepSlider singleStep: (1).
+	stepSlider pageStep: (10).
+	stepSlider truncate: (true).
+	stepSlider setProperty: #objectName toValue: 'stepSlider'.
+	unnamedMorph2 addChild: stepSlider.
+	stepButton := UiPushButton new.
+	stepButton changeTableLayout.
+	stepButton extent: (45@21).
+	stepButton position: (380@342).
+	stepButton hResizing: (#shrinkWrap).
+	stepButton vResizing: (#shrinkWrap).
+	stepButton minWidth: (2).
+	stepButton minHeight: (2).
+	stepButton cellInset: (4).
+	stepButton cellPositioning: (#center).
+	stepButton cellSpacing: (#none).
+	stepButton layoutInset: (2@0 corner: 2@0).
+	stepButton listCentering: (#topLeft).
+	stepButton listDirection: (#leftToRight).
+	stepButton listSpacing: (#none).
+	stepButton maxCellSize: (1073741823).
+	stepButton minCellSize: (0).
+	stepButton wrapCentering: (#topLeft).
+	stepButton wrapDirection: (#none).
+	stepButton frameFractions: (0@0 corner: 1@1).
+	stepButton frameOffsets: (0@0 corner: 0@0).
+	stepButton balloonText: (nil).
+	stepButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	stepButton enabled: (false).
+	stepButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0133Small'.
+	stepButton icon: (UiDiagonaIcons icon0133Small).
+	stepButton text: ('step').
+	stepButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	stepButton checkable: (false).
+	stepButton checked: (false).
+	stepButton autoExclusive: (false).
+	stepButton setProperty: #objectName toValue: 'stepButton'.
+	unnamedMorph2 addChild: stepButton.
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.
-	submitQuestButton extent: (70@50).
-	submitQuestButton position: (367@292).
+	submitQuestButton extent: (70@25).
+	submitQuestButton position: (367@369).
 	submitQuestButton hResizing: (#shrinkWrap).
 	submitQuestButton vResizing: (#shrinkWrap).
 	submitQuestButton minWidth: (70).
-	submitQuestButton minHeight: (50).
+	submitQuestButton minHeight: (20).
 	submitQuestButton cellInset: (4).
 	submitQuestButton cellPositioning: (#center).
 	submitQuestButton cellSpacing: (#none).

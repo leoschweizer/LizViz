@@ -1,6 +1,9 @@
-as yet unclassified
+stepping and presenter
 step
 
-	[self signalQueue isEmpty] whileFalse: [
-		[self signalQueue next value.
-		submitProcess ifNotNilDo: [:p | p isSuspended ifTrue: [p resume]]] on: Error do: []]
+	self ui stepButton enabled: self signalQueue isEmpty not.
+	self ui stepSlider currentValue > 0 ifTrue: [
+		((DateAndTime millisecondClockValue - self lastAnimationStep) > (self ui stepSlider currentValue * 1000)) 
+		ifTrue: [
+			self handleNextSignal.
+			self lastAnimationStep: DateAndTime millisecondClockValue]]

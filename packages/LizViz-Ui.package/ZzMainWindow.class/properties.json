@@ -11,7 +11,8 @@
 		"unit",
 		"questMorph",
 		"lizViz",
-		"signalQueue" ],
+		"signalQueue",
+		"lastAnimationStep" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],

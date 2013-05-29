@@ -6,7 +6,7 @@ submit
 	quest ifNil: [ ^ self ].
 	data := self questMorph collectResultData.
 	[
-	(quest verify: data withSignalQueue: self signalQueue)
+	(quest verify: data)
 		ifTrue: [
 			[self signalQueue isEmpty] whileFalse: [Processor yield].
 			self solved: quest]

@@ -5,10 +5,12 @@
 		"bottomContainer" : "or 5/15/2013 18:00:57.125",
 		"headerContainer" : "or 5/15/2013 18:00:57.012",
 		"headlineLabel" : "or 5/15/2013 18:00:57.055",
-		"initializePanel" : "ls 5/27/2013 11:27:21.371",
+		"initializePanel" : "or 5/29/2013 14:41:01.596",
 		"menuButton" : "or 5/15/2013 18:00:57.213",
 		"questContainer" : "or 5/15/2013 18:00:57.185",
 		"questDescriptionLabel" : "or 5/15/2013 18:00:57.154",
 		"questTitleLabel" : "or 5/15/2013 18:00:57.084",
+		"stepButton" : "or 5/29/2013 14:41:01.536",
+		"stepSlider" : "or 5/29/2013 14:41:01.52",
 		"submitQuestButton" : "or 5/15/2013 18:00:57.244",
 		"visualizationContainer" : "or 5/15/2013 18:00:57.101" } }

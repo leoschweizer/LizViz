@@ -1,4 +1,4 @@
 quest-management
 submitForked
 	
-	[self submit] fork.
+	[self submit] forkAt: 30.
