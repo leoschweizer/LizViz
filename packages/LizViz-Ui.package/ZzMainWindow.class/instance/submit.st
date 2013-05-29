@@ -6,12 +6,10 @@ submit
 	quest ifNil: [ ^ self ].
 	data := self questMorph collectResultData.
 	[
-	(quest verify: data)
+	(quest verify: data withSignalQueue: self signalQueue)
 		ifTrue: [
-			quest cleanup.
-			self solved: quest.
-			self questMorph quest: self unit next.
-			self setupDatatypeAnimation]
+			[self signalQueue isEmpty] whileFalse: [Processor yield].
+			self solved: quest]
 		ifFalse: [
 			self failed: quest ]
-	] on: Error do: [ :ex | self failed: quest with: ex ] "value"
+	] on: Error do: [ :ex | self failed: quest with: ex ]. "value"

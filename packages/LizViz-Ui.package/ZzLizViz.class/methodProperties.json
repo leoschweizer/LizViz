@@ -7,6 +7,7 @@
 		"widgetCategory" : "JR 5/19/2013 22:17:56.795",
 		"widgetClassName" : "JR 5/19/2013 22:18:24.292" },
 	"instance" : {
+		"addUnitToMenu:" : "ls 5/27/2013 12:38:34.982",
 		"currentSavegame" : "ls 5/27/2013 12:38:04.325",
 		"expandUnitSelection" : "JR 5/28/2013 15:36:35.391",
 		"initialize" : "JR 5/28/2013 15:17:32.542",

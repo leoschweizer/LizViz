@@ -10,7 +10,8 @@
 		"ui",
 		"unit",
 		"questMorph",
-		"lizViz" ],
+		"lizViz",
+		"signalQueue" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],
