@@ -12,4 +12,4 @@ submit
 			self solved: quest]
 		ifFalse: [
 			self failed: quest ]
-	] on: Error do: [ :ex | self failed: quest with: ex ]. "value"
+	] "on: Error do: [ :ex | self failed: quest with: ex ]. "value

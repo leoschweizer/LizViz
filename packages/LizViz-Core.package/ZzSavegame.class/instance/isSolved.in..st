@@ -1,4 +1,4 @@
 as yet unclassified
 isSolved: aQuest in: anUnit
 	
-	^ true
+	^ self solvedQuests includes: aQuest

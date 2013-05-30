@@ -2,7 +2,7 @@ as yet unclassified
 initializeUnitSelection
 	
 	| model |
-	model := ZzUnitModel for: ZzUnitManager new units.
+	model := ZzUnitModel for: self currentSavegame units.
 	self menuUi unitSelection
 		removeAllColumns; model: nil;
 		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Tasks'. #text -> #yourself. #icon -> #yourself. #balloonText -> #yourself})

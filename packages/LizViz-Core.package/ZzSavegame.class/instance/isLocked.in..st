@@ -1,4 +1,5 @@
 as yet unclassified
 isLocked: aQuest in: aUnit
 	
-	^ true
+	self flag: #todo.
+	^ false
