@@ -1,14 +1,15 @@
 as yet unclassified
-updateUnits
+updateNodes
 	"cf. UiWidgetModel#updateWidgets"
 	
-	units := OrderedCollection new.
-	ZzUnitManager new units do: [ :unit | | node |
+	nodes := OrderedCollection new.
+	
+	self units do: [ :unit | | node |
 		node := UiPropertyItemNode new
 			addDefaultGroup;
 			at: #unit put: unit;
 			yourself.
-		units add: node.
+		nodes add: node.
 		
 		unit quests do: [ :quest |
 			node addChild: (

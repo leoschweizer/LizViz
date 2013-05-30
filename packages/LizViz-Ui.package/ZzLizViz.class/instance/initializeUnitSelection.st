@@ -1,6 +1,8 @@
 as yet unclassified
 initializeUnitSelection
 	
+	| model |
+	model := ZzUnitModel for: ZzUnitManager new units.
 	self menuUi unitSelection
 		removeAllColumns; model: nil;
 		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Tasks'. #text -> #yourself. #icon -> #yourself. #balloonText -> #yourself})
@@ -17,7 +19,15 @@ initializeUnitSelection
 			
 		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Status'. #icon -> #yourself. #balloonText -> #yourself})
 			iconConverter: [:node | (node includesKey: #quest)
-				ifTrue: [UiSilkIcons bulletKeyIcon]];
+				ifTrue: [ | quest unit |
+					quest := node at: #quest.
+					unit := node at: #parent.
+					(self currentSavegame isLocked: quest in: unit)
+						ifTrue: [ UiSilkIcons bulletKeyIcon ]
+						ifFalse: [
+							(self currentSavegame isSolved: quest in: unit)
+								ifTrue: [ UiSilkIcons bulletGreenIcon ]
+								ifFalse: [ UiSilkIcons bulletRedIcon ]]]];
 				"UiFugueIcons lockIcon"
 				"UiSilkIcons bulletKeyIcon"
 				"UiSilkIcons bulletGreenIcon"
@@ -26,7 +36,7 @@ initializeUnitSelection
 			balloonTextConverter: [:node | (node includesKey: #quest)
 				ifTrue: ['Status: TODO']]);
 			
-		model: ZzUnitModel new.
+		model: model.
 	
 	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startNode:.
 	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedNode.

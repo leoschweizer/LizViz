@@ -53,7 +53,7 @@ initializePanel
 	titleImage frameFractions: (0@0 corner: 1@1).
 	titleImage frameOffsets: (0@0 corner: 0@0).
 	titleImage balloonText: (nil).
-	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	titleImage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	titleImage setProperty: #objectName toValue: 'titleImage'.
 	panel addChild: titleImage.
 	unnamedMorph1 := UiContainer new.
@@ -78,7 +78,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -105,7 +105,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0.5@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -132,7 +132,7 @@ initializePanel
 	achievementLabel frameFractions: (0@0 corner: 1@1).
 	achievementLabel frameOffsets: (0@0 corner: 0@0).
 	achievementLabel balloonText: (nil).
-	achievementLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	achievementLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	achievementLabel text: ('Achievements').
 	achievementLabel setProperty: #formByDesigner toValue: 'nil'.
 	achievementLabel form: (nil).
@@ -190,7 +190,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 0.5@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
@@ -244,13 +244,13 @@ initializePanel
 	unitSelection frameFractions: (0@0 corner: 1@1).
 	unitSelection frameOffsets: (0@0 corner: 0@0).
 	unitSelection balloonText: (nil).
-	unitSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unitSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unitSelection widgetResizable: (false).
 	unitSelection horizontalScrollBarPolicy: (#asNeeded).
 	unitSelection verticalScrollBarPolicy: (#asNeeded).
 	unitSelection outerBorderWidth: (0).
 	unitSelection scrollBarThickness: (9).
-	unitSelection modelClass: (ZzUnitModel).
+	unitSelection modelClass: (nil).
 	unitSelection horizontalHeaderVisible: (false).
 	unitSelection verticalHeaderVisible: (false).
 	unitSelection selectionBehavior: (#selectRows).
@@ -279,7 +279,7 @@ initializePanel
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph4 color: (Color transparent).
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
@@ -306,7 +306,7 @@ initializePanel
 	unitContinueLastButton frameFractions: (0@0 corner: 1@1).
 	unitContinueLastButton frameOffsets: (0@0 corner: 0@0).
 	unitContinueLastButton balloonText: (nil).
-	unitContinueLastButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unitContinueLastButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	unitContinueLastButton enabled: (true).
 	unitContinueLastButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0343Normal'.
 	unitContinueLastButton icon: (UiDiagonaIcons icon0343Normal).
@@ -339,7 +339,7 @@ initializePanel
 	unitStartSelectedButton frameFractions: (0@0 corner: 1@1).
 	unitStartSelectedButton frameOffsets: (0@0 corner: 0@0).
 	unitStartSelectedButton balloonText: (nil).
-	unitStartSelectedButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unitStartSelectedButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unitStartSelectedButton enabled: (true).
 	unitStartSelectedButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0331Normal'.
 	unitStartSelectedButton icon: (UiDiagonaIcons icon0331Normal).
