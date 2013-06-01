@@ -19,8 +19,7 @@ Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
 Traits	TZzAddFirstOperation
 Testset	ZzQuestTestCase>>#testImplementsUiClass
-Code	size
-	    ^ 42
+Code	size ^42
 Achievements	List
 		
 Task	Explanation: Run-time complexity
