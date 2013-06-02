@@ -1,0 +1,72 @@
+Unit 1: Linked Lists	
+In this unit you are going to learn all about Linked Lists, get basic understanding of their API and insight into their internals.	
+	
+Task	Explanation: Basics of Lists
+Description	Explain the basic data structure of a list in general and describes its characteristics.
+Assignment	A "List" is a data type, which is equally available in most programming languages. Though the internal implementation might differ, it always provides means for inserting and accessing elements in an ordered fashion. Thus, each added element might be accessed by its index position within the list.
+Achievements	List, Common Datatype
+	
+Task	Multiple Choice: Duplicated Elements
+Description	Can an element be added twice?
+Assignment	Can the same object, e.g. the number "6", added twice into the list preserving independend indexes?
+Choices	yes => yes, no => no, dependes => it depends
+Solution	yes
+Achievements	List, Common Datatype
+	
+Task	Explanation: Implementation Strategy
+Description	Analyses implementation strategies for lists.
+Assignment	Indexed collections, such as lists, are implemented by facilitating one of two main strategies: array- or node-based.
+	
+	In the array-based approach an continues block of memory is allocated and the fixed-size list elements added continuesly. Indexed elements are accessed by calculating their memory position by multiplying their index with the lists element's size. 
+	
+	On the other hand, a list might be constructed using nodes linking each other in insert-order. Access is then performed by traversing the node's graph until the node with the requested index is found.
+Achievements	List, Linked List, Array List
+	
+Task	Multiple Choice: Access Performance
+Description	Points out the performance of the two list types.
+Assignment	After inserting seven elements in order you try to access the fifths. Which implementation provides faster access?
+Choices	linked => Linked List, arrayed => Arrayed List, both => access is equally fast
+Solution	arrayed
+Achievements	Linked List, Array List
+	
+Task	Multiple Choice: Capacity of Linked Lists
+Description	Questions and explains the capacity of linked lists.
+Assignment	In the following we facilitate linked lists if not stated different. In a linked list elements are stored within nodes, which are linked to each other. Does this imply an implementation-inherent capacity limitation?
+Choices	yes => yes, no => no
+Solution	no
+Achievements	Linked List
+	
+Task	Explanation: Visualize Insertion
+Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements.
+Assignment	In the following we facilitate arrayed lists if not stated different.
+Achievements	
+	
+Task	Implementation: #size Operation
+Description	Let the User implement a size operation on the list
+Assignment	Let the User implement a size operation on the list
+Traits	TZzAddFirstOperation
+Testset	ZzQuestTestCase>>#testImplementsUiClass
+Code	size
+	    code "multi-line"
+Achievements	List
+	
+Task	Implementation: #isEmpty Operation
+Description	Let the User implement an isEmpty test on the list
+Assignment	Let the User implement an isEmpty test on the list
+Traits	
+Testset	
+Code	isEmpty code
+Achievements	List
+	
+Task	Explanation: Explain O-Notation
+Description	Explain the basics of O-Notation
+Assignment	Explain the basics of O-Notation
+Context	
+Achievements	O-Notation
+	
+Task	Multiple Choice: Complexity of #size Operation
+Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Assignment	Explain the basic data structure of a single linked list and visualize the insertion of three list elements
+Choices	a => Text A, b => Text B, c => Text C
+Solution	a
+Achievements	List, O-Notation
