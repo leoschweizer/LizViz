@@ -12,11 +12,11 @@
 		"visualizationContainer",
 		"bottomContainer",
 		"questDescriptionLabel",
-		"questContainer",
 		"menuButton",
 		"stepSlider",
 		"stepButton",
-		"submitQuestButton" ],
+		"submitQuestButton",
+		"questContainer" ],
 	"name" : "ZzMainWindowUi",
 	"pools" : [
 		 ],

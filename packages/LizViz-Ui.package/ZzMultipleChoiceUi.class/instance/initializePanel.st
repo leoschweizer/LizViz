@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -44,17 +44,17 @@ initializePanel
 	multipleChoice cellPositioning: (#center).
 	multipleChoice cellSpacing: (#none).
 	multipleChoice layoutInset: (4).
-	multipleChoice listCentering: (#topLeft).
+	multipleChoice listCentering: (#justified).
 	multipleChoice listDirection: (#topToBottom).
 	multipleChoice listSpacing: (#none).
 	multipleChoice maxCellSize: (1073741823).
 	multipleChoice minCellSize: (0).
-	multipleChoice wrapCentering: (#topLeft).
+	multipleChoice wrapCentering: (#justified).
 	multipleChoice wrapDirection: (#none).
 	multipleChoice frameFractions: (0@0 corner: 1@1).
 	multipleChoice frameOffsets: (0@0 corner: 0@0).
 	multipleChoice balloonText: (nil).
-	multipleChoice balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	multipleChoice balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	multipleChoice color: (Color transparent).
 	multipleChoice borderWidth: (0).
 	multipleChoice borderStyle2: (#simple).
@@ -82,7 +82,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	unnamedMorph1 enabled: (true).
 	unnamedMorph1 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph1 icon: (nil).
@@ -95,7 +95,7 @@ initializePanel
 	unnamedMorph2 := UiCheckBox new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (75@21).
-	unnamedMorph2 position: (4@33).
+	unnamedMorph2 position: (4@56).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -114,7 +114,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph2 enabled: (true).
 	unnamedMorph2 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph2 icon: (nil).
@@ -127,7 +127,7 @@ initializePanel
 	unnamedMorph3 := UiCheckBox new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (75@21).
-	unnamedMorph3 position: (4@58).
+	unnamedMorph3 position: (4@105).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -146,7 +146,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph3 enabled: (true).
 	unnamedMorph3 setProperty: #iconByDesigner toValue: 'nil'.
 	unnamedMorph3 icon: (nil).

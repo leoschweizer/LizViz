@@ -2,6 +2,7 @@ initialization
 initializeUi
 	
 	self ui setupUi: self.
+	self ui visualizationContainer color: Color white.
 	self ui questDescriptionLabel
 		color: Color transparent;
 		colorFocusBackground: Color transparent;

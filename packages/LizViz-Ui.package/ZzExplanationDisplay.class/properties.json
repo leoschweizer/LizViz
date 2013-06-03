@@ -1,14 +1,14 @@
 {
-	"category" : "LizViz-Ui-Designs",
+	"category" : "LizViz-Ui",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explanationDisplay" ],
-	"name" : "ZzExplanationUi",
+		 ],
+	"name" : "ZzExplanationDisplay",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "UiContainer",
 	"type" : "normal" }

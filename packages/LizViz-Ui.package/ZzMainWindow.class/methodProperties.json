@@ -8,11 +8,11 @@
 		"currentQuest" : "JR 5/28/2013 07:47:41.969",
 		"failed:" : "JR 5/28/2013 09:54:56.127",
 		"failed:with:" : "JR 5/28/2013 09:54:44.34",
-		"fillAnimatedDatatype" : "or 5/29/2013 14:45:09.127",
+		"fillAnimatedDatatype" : "or 6/3/2013 20:31:07.076",
 		"handleNextSignal" : "or 5/29/2013 14:47:09.729",
 		"initialize" : "JR 5/30/2013 18:04:23.757",
 		"initializeQuestContainer" : "or 5/29/2013 14:34:04.889",
-		"initializeUi" : "JR 5/28/2013 11:21:17.193",
+		"initializeUi" : "or 6/3/2013 19:33:51.518",
 		"lastAnimationStep" : "or 5/29/2013 15:07:10.237",
 		"lastAnimationStep:" : "or 5/29/2013 15:06:55.657",
 		"lizViz" : "ls 5/27/2013 12:41:12.075",
@@ -24,7 +24,7 @@
 		"questMorph" : "JR 5/8/2013 20:47:15.877",
 		"questMorph:" : "ls 5/27/2013 12:41:20.591",
 		"questTitle:" : "ls 5/27/2013 12:42:25.096",
-		"setupDatatypeAnimation" : "or 5/29/2013 12:14:44.277",
+		"setupDatatypeAnimation" : "or 6/3/2013 20:28:59.256",
 		"signalQueue" : "or 5/29/2013 12:09:13.89",
 		"signalQueue:" : "or 5/29/2013 12:08:57.084",
 		"solved:" : "or 5/29/2013 12:48:40.553",
@@ -39,4 +39,4 @@
 		"unit:" : "JR 5/30/2013 18:21:23.635",
 		"unitChanged" : "JR 5/28/2013 16:03:41.263",
 		"unitTitle:" : "ls 5/27/2013 12:42:30.459",
-		"updateUi" : "JR 5/28/2013 11:21:50.179" } }
+		"updateUi" : "or 6/3/2013 20:08:14.401" } }
