@@ -52,7 +52,7 @@ Assignment	A single linked list, which we simply refer to as linked list during 
 	
 	With the addition of more elements (standard implementation: at the end) the node list is traversed beginning from root until a node without successor is found. A new node is created at this position and a reference to it is stored within the previously last node.
 Achievements	Linked List, List (API)
-
+	
 Task	Implementation: Have I got any?
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
@@ -61,7 +61,7 @@ Testset
 Code	isEmpty 
 		^true | false
 Achievements	List (API)
-
+	
 Task	Implementation: How many?
 Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
@@ -70,13 +70,13 @@ Testset	ZzQuestTestCase>>#testImplementsUiClass
 Code	size 
 		^42
 Achievements	List (API)
-
+	
 Task	Explanation: Run-time complexity & O-Notation
 Description	The basics of O-Notation
 Assignment	Read http://en.wikipedia.org/wiki/Big_O_notation
 Context	
 Achievements	O-Notation
-
+	
 Task	Multiple Choice: Can we check the size efficiently?
 Description	The complexity of the size operation
 Assignment	Now that we have implemented a size operation and learned about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
