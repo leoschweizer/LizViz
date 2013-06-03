@@ -36,7 +36,7 @@ Choices	yes => yes, no => no
 Solution	no
 Achievements	Linked List
 	
-Task	Explanation: Visualize Insertion
+Task	Explanation: Types of Linked Lists
 Description	Distinguish the basic data structure of a linked list into double and single linked list.
 Assignment	The group of "Linked Lists" is distinguished into two kinds: the single linked list vs. double linked list.
 	
@@ -58,8 +58,8 @@ Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
 Traits	
 Testset	
-Code	isEmpty 
-		^true | false
+Code	isEmpty
+	^ true | false
 Achievements	List (API)
 	
 Task	Implementation: How many?
@@ -67,9 +67,9 @@ Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
 Traits	TZzAddFirstOperation
 Testset	ZzQuestTestCase>>#testImplementsUiClass
-Code	size 
-		^42
-Achievements	List (API)
+Code	size
+	 ^42
+Achievements	List (API), Linked List
 	
 Task	Explanation: Run-time complexity & O-Notation
 Description	The basics of O-Notation
