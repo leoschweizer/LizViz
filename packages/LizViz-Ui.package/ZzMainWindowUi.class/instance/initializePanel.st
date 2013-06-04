@@ -190,7 +190,7 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	questDescriptionLabel widgetResizable: (true).
 	questDescriptionLabel horizontalScrollBarPolicy: (#alwaysOff).
 	questDescriptionLabel verticalScrollBarPolicy: (#alwaysOff).
@@ -254,7 +254,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0.75@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -281,7 +281,7 @@ initializePanel
 	menuButton frameFractions: (0@0 corner: 1@1).
 	menuButton frameOffsets: (0@70 corner: 0@0).
 	menuButton balloonText: (nil).
-	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	menuButton enabled: (true).
 	menuButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0306Normal'.
 	menuButton icon: (UiDiagonaIcons icon0306Normal).
@@ -314,12 +314,12 @@ initializePanel
 	stepSlider frameFractions: (0@0 corner: 1@1).
 	stepSlider frameOffsets: (0@0 corner: 0@0).
 	stepSlider balloonText: (nil).
-	stepSlider balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	stepSlider balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	stepSlider orientation: (#horizontal).
 	stepSlider minimum: (0).
 	stepSlider maximum: (5).
-	stepSlider currentValue: (0).
-	stepSlider sliderPosition: (0).
+	stepSlider currentValue: (1).
+	stepSlider sliderPosition: (1).
 	stepSlider tracking: (true).
 	stepSlider singleStep: (1).
 	stepSlider pageStep: (10).

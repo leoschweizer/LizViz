@@ -8,7 +8,8 @@ setupDatatypeAnimation
 	self animatedDatatype: (self currentQuest ifNil: [ZzGodList new] ifNotNilDo: [:q | q listClass new]).
 	self flag: #or. "Might be better to use the quest's list instance from tests here instead of coupling them"
 	self currentQuest ifNotNilDo: [:q | q animatedListInstance: self animatedDatatype].	
-	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #firstItemChanged: queue: self signalQueue.
+	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #onFirstItemChanged: queue: self signalQueue.
+	self connect: self animatedDatatype signal: #firstItemRead to: listMorph selector: #onFirstItemRead queue: self signalQueue.
 
 	self ui visualizationContainer 
 		removeAllMorphs;

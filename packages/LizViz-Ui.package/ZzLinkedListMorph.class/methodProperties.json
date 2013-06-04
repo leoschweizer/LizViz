@@ -13,9 +13,11 @@
 		"connector:" : "ls 5/27/2013 11:14:01.111",
 		"defaultAttachmentPointSpecs" : "ls 5/27/2013 11:05:28.296",
 		"displayValue:" : "or 5/13/2013 17:39:23.436",
-		"firstItemChanged:" : "ls 5/27/2013 12:40:05.591",
 		"initialize" : "ls 5/27/2013 12:40:30.391",
-		"nextItemChanged:" : "ls 5/27/2013 11:15:13.827",
 		"nextItemMorph" : "ls 5/27/2013 12:40:21.333",
 		"nextItemMorph:" : "ls 5/27/2013 11:12:58.872",
+		"onFirstItemChanged:" : "or 6/4/2013 12:28:42.244",
+		"onFirstItemRead" : "or 6/4/2013 12:30:15.287",
+		"onNextItemChanged:" : "or 6/4/2013 12:35:46.424",
+		"onNextItemRead" : "or 6/4/2013 12:41:11.359",
 		"updateConnectors" : "ls 5/27/2013 11:41:48.9" } }
