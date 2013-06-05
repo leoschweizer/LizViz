@@ -2,7 +2,7 @@
 	"category" : "LizViz-Tests-AnswerVerification",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TZzAddFirstOperation classTrait + TZzRemoveFirstOperation classTrait + TZzIsEmptyOperation classTrait + TZzSizeOperation classTrait + TZzAddLastOperation classTrait",
+	"classtraitcomposition" : "TZzAddFirstOperation classTrait + TZzRemoveFirstOperation classTrait + TZzIsEmptyOperation classTrait + TZzSizeOperation classTrait + TZzAddLastOperation classTrait + TZzRemoveLastOperation classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "ZzDoubleLinkedList",
-	"traitcomposition" : "TZzAddFirstOperation + TZzRemoveFirstOperation + TZzIsEmptyOperation + TZzSizeOperation + TZzAddLastOperation",
+	"traitcomposition" : "TZzAddFirstOperation + TZzRemoveFirstOperation + TZzIsEmptyOperation + TZzSizeOperation + TZzAddLastOperation + TZzRemoveLastOperation",
 	"type" : "normal" }
