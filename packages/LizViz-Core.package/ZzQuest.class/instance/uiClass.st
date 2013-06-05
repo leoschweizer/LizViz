@@ -1,4 +1,4 @@
 ui
 uiClass
 	
-	self subclassResponsibility
+	^ self subclassResponsibility

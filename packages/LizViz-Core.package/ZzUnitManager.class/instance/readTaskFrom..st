@@ -3,7 +3,7 @@ readTaskFrom: aStream
 	
 	| type reader |
 	(aStream upToAll: 'Task', Character tab) = ''
-		ifTrue: [ ^ nil ].
+		ifTrue: [^ nil].
 	"Task	Explanation: Visualize Insertion"
 	type := aStream nextDelimited: $:.
 	reader := (self readerFor: type) new.

@@ -1,4 +1,4 @@
 accessing
 achievements: aCollection
 	
-	achievements := aCollection
+	achievements := aCollection.

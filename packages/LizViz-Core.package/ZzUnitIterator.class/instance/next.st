@@ -1,12 +1,11 @@
 iterating
 next
 	
-	self isAfterEnd ifTrue: [ ^ nil ].
+	self isAfterEnd ifTrue: [^ nil].
 	
-	index := index + 1.
-	self changed.
-	self isAfterEnd ifTrue: [
-		self endReached.
-		^ nil ].
+	self index: self index + 1.
+	self isAfterEnd ifTrue: 
+		[self endReached.
+		^ nil].
 	
-	^ unit quests at: index
+	^ self unit quests at: self index

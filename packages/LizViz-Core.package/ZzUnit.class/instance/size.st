@@ -1,4 +1,4 @@
 accessing
 size
 	
-	^ quests size
+	^ self quests size

@@ -1,4 +1,4 @@
 accessing
 size
 	
-	^ unit size
+	^ self unit size

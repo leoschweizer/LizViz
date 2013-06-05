@@ -1,4 +1,4 @@
 accessing
 achievements: anObject
-
-	achievements := anObject
+	
+	achievements := anObject.

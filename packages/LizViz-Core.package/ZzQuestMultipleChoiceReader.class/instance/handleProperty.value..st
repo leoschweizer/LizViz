@@ -1,10 +1,10 @@
 stream parsing
 handleProperty: key value: value
 	
-	key = 'Solution' ifTrue: [
-		^ self solution: (value subStrings: ' ') ].
+	key = 'Solution' ifTrue: 
+		[^ self solution: (value subStrings: ' ')].
 	
-	key = 'Choices' ifTrue: [
-		^ self choices: (self transformChoices: value) ].
+	key = 'Choices' ifTrue: 
+		[^ self choices: (self transformChoices: value)].
 	
-	super handleProperty: key value: value
+	super handleProperty: key value: value.

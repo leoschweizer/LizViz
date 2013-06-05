@@ -1,4 +1,4 @@
 verification
 verify: data
 	
-	self subclassResponsibility
+	^ self subclassResponsibility

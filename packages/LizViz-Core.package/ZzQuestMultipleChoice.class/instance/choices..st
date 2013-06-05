@@ -1,4 +1,4 @@
 accessing
 choices: aDictionary
 	
-	choices := aDictionary
+	choices := aDictionary.

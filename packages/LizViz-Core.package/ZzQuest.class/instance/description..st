@@ -1,4 +1,4 @@
 accessing
 description: aString
 	
-	description := aString
+	description := aString.

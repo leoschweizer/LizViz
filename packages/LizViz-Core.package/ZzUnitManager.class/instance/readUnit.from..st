@@ -5,9 +5,11 @@ readUnit: anId from: aStream
 	title := aStream nextLine withBlanksTrimmed.
 	description := aStream nextLine withBlanksTrimmed.
 	
-	unit := ZzUnit id: anId title: title description: description.
+	unit := ZzUnit 
+		id: anId 
+		title: title 
+		description: description.
 	
-	[ task := self readTaskFrom: aStream ]
-		whileNotNil: [ unit add: task ].
+	[task := self readTaskFrom: aStream] whileNotNil: [unit add: task].
 	
 	^ unit

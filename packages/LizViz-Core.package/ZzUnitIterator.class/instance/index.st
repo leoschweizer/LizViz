@@ -1,4 +1,4 @@
 accessing
 index
 	
-	^ index
+	^ index ifNil: [index := 0]

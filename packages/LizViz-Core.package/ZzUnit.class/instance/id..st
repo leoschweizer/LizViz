@@ -1,4 +1,4 @@
 accessing
 id: aString
 	
-	id := aString
+	id := aString.

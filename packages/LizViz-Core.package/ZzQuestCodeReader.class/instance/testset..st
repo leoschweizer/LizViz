@@ -1,4 +1,4 @@
 accessing
 testset: aSet
 	
-	testset := aSet
+	testset := aSet.

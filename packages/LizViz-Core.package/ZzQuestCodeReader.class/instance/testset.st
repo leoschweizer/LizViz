@@ -1,4 +1,4 @@
 accessing
 testset
 	
-	^ testset ifNil: [ Set new ]
+	^ testset ifNil: [testset := Set new]

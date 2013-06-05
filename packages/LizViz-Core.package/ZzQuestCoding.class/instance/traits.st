@@ -1,4 +1,4 @@
 accessing
 traits
 	
-	^ traits ifNil: [ Collection new ]
+	^ traits ifNil: [Collection new]

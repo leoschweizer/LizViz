@@ -1,4 +1,4 @@
 accessing
 animatedListInstance: anObject
-
-	animatedListInstance := anObject
+	
+	animatedListInstance := anObject.

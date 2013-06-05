@@ -5,6 +5,8 @@ test: aList against: aBunchOfTests
 	testResult := TestResult new.
 	aBunchOfTests do: [:each | | testCase | 
 		testCase := each methodClass new.
-		testCase setTestSelector: each selector.
+		testCase 
+			listInstance: aList;
+			setTestSelector: each selector.
 		testCase run: testResult].
 	^ testResult

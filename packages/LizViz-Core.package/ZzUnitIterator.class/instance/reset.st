@@ -1,5 +1,4 @@
 iterating
 reset
 	
-	index := 0.
-	self changed
+	self index: 0.

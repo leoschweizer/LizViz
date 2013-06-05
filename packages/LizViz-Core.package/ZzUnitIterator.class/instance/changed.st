@@ -1,4 +1,4 @@
 signals
 changed
 	
-	self emit
+	self emit.

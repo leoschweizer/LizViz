@@ -1,4 +1,4 @@
 accessing
 title: aTitle
 	
-	title := aTitle
+	title := aTitle.

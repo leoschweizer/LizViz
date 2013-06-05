@@ -3,6 +3,6 @@ verify: data
 	
 	| checked solution |
 	solution := self solution.
-	checked := data at: #multipleChoice ifAbsent: [ ^ false ].
+	checked := data at: #multipleChoice ifAbsent: [^ false].
 	^ (solution size = checked size)
-		and: [ solution includesAllOf: checked ]
+		and: [solution includesAllOf: checked]

@@ -1,4 +1,4 @@
 accessing
 assignment: anAssignment
 	
-	assignment := anAssignment
+	assignment := anAssignment.

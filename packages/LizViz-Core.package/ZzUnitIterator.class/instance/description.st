@@ -1,4 +1,4 @@
 accessing
 description
 	
-	^ unit description
+	^ self unit description

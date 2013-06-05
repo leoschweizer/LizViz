@@ -1,4 +1,4 @@
 accessing
 traits: aSet
 	
-	traits := aSet
+	traits := aSet.

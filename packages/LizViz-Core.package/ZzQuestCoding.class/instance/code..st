@@ -1,4 +1,4 @@
 accessing
 code: aText
 	
-	code := aText
+	code := aText.

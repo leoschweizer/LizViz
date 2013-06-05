@@ -1,4 +1,4 @@
 accessing
 traits: aCollectionOfTraits
 	
-	traits := aCollectionOfTraits
+	traits := aCollectionOfTraits.

@@ -1,8 +1,4 @@
 accessing
 units
 	
-	| iterators |
-	iterators := OrderedCollection new.
-	self unitsDict values do: [ :unit |
-		iterators add: (ZzUnitIterator for: unit) ].
-	^ iterators
+	^ self unitsDict values collect: [:unit | ZzUnitIterator for: unit]

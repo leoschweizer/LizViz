@@ -1,4 +1,4 @@
 accessing
 traits
 	
-	^ traits ifNil: [ Set new ]
+	^ traits ifNil: [traits := Set new]

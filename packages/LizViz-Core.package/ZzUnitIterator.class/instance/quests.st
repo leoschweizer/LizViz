@@ -1,4 +1,4 @@
 accessing
 quests
 	
-	^ unit quests
+	^ self unit quests

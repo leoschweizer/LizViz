@@ -1,4 +1,4 @@
 manipulation
 add: aQuest
 	
-	quests add: aQuest
+	self quests add: aQuest

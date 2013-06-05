@@ -1,4 +1,4 @@
 iterating
 isAfterEnd
 	
-	^ index > unit quests size
+	^ self index > self unit quests size

@@ -1,4 +1,4 @@
 stream parsing
 create
 	
-	self subclassResponsibility
+	self subclassResponsibility.

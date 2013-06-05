@@ -1,6 +1,5 @@
 iterating
 current
 	
-	self isAfterEnd ifTrue: [ ^ nil ].
-	
-	^ unit quests at: index
+	self isAfterEnd ifTrue: [^ nil].
+	^ self unit quests at: self index

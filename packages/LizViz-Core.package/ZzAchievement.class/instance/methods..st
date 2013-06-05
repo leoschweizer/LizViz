@@ -1,4 +1,4 @@
 accessing
 methods: anObject
-
-	methods := anObject
+	
+	methods := anObject.

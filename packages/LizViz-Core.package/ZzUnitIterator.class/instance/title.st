@@ -1,4 +1,4 @@
 accessing
 title
 	
-	^ unit title
+	^ self unit title

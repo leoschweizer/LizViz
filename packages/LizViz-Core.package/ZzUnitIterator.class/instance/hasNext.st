@@ -1,4 +1,4 @@
 iterating
 hasNext
 	
-	^ index < unit quests size
+	^ self index < self unit quests size

@@ -3,4 +3,4 @@ readerFor: aType
 	
 	^ self readers
 		at: aType
-		ifAbsent: [ self error: 'unknown type' ]
+		ifAbsent: [self error: 'unknown type']
