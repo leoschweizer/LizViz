@@ -9,11 +9,12 @@ onNextItemChanged: aListItem
 	self connect: aListItem signal: #nextItemRead to: self nextItemMorph selector: #onNextItemRead.
 	self owner addMorph: self nextItemMorph.
 	self nextItemMorph 
-		left: self right;
-		top: self top;
+		left: self right + 50 atRandom;
+		top: self top + 20 - 40 atRandom;
 		displayValue: aListItem value;
 		lighten.
 	
 	self updateConnectors.
 		
 	self nextItemMorph onNextItemChanged: aListItem nextItem.
+	(self ownerThatIsA: ZzMainWindow) resizeVisualizationArea.

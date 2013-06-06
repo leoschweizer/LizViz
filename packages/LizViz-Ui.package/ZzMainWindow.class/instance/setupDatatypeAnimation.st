@@ -11,9 +11,11 @@ setupDatatypeAnimation
 	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #onFirstItemChanged: queue: self signalQueue.
 	self connect: self animatedDatatype signal: #firstItemRead to: listMorph selector: #onFirstItemRead queue: self signalQueue.
 
-	self ui visualizationContainer 
-		removeAllMorphs;
+	self ui visualizationContainer widget
+		removeAllMorphsIn: (self ui visualizationContainer widget submorphsSatisfying: [:m | m isKindOf: ZzLinkedListMorph]);
 		addMorph: listMorph.
-	listMorph topLeft: self ui visualizationContainer topLeft + (5 @ ((self ui visualizationContainer height / 2) - 32)).
-	self fillAnimatedDatatype.
+	listMorph topLeft: self ui visualizationContainer widget topLeft + (5 @ ((self ui visualizationContainer widget height / 2) - 32)).
+	self 
+		resizeVisualizationArea;
+		fillAnimatedDatatype.
 	
