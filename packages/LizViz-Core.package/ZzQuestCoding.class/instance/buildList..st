@@ -1,8 +1,9 @@
 verification
 buildList: aMethodCode
 	
-	^ ZzListClassFactory new
+	| factory |
+	factory := ZzListClassFactory new
 		addTraits: self traits;
-		addSource: aMethodCode;
-		makeSingleLinked;
-		compile
+		makeSingleLinked.
+	aMethodCode ifNotNil: [factory addSource: aMethodCode].
+	^ factory compile

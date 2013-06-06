@@ -5,7 +5,7 @@ setupDatatypeAnimation
 	listMorph := ZzLinkedListMorph new.
 	listMorph image: (ZzLinkedListMorph headForm scaledToSize: 64@64).
 	
-	self animatedDatatype: (self currentQuest ifNil: [ZzGodList new] ifNotNilDo: [:q | q listClass new]).
+	self animatedDatatype: (self currentQuest ifNil: [ZzGodList new] ifNotNilDo: [:q | (q buildList: nil) new]).
 	self flag: #or. "Might be better to use the quest's list instance from tests here instead of coupling them"
 	self currentQuest ifNotNilDo: [:q | q animatedListInstance: self animatedDatatype].	
 	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #onFirstItemChanged: queue: self signalQueue.

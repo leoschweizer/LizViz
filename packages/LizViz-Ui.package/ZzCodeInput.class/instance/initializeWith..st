@@ -6,5 +6,5 @@ initializeWith: quest
 		styler: ZzCodeStyler new;
 		margins: (8@8 corner: 8@8).
 	
-	self classOrMetaClass: quest listClassForHighlighting.
+	self classOrMetaClass: (quest buildList: nil).
 	self theText: quest code.

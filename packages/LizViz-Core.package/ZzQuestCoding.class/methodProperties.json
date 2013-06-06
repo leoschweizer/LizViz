@@ -2,13 +2,11 @@
 	"class" : {
 		"title:assignment:achievements:description:code:traits:testset:" : "JR 5/28/2013 13:38:11.916" },
 	"instance" : {
-		"buildList:" : "JR 5/20/2013 11:29:56.445",
+		"buildList:" : "ls 6/6/2013 13:07:29.404",
 		"cleanup" : "JR 5/28/2013 07:57:22.359",
 		"code" : "JR 5/20/2013 10:30:13.948",
 		"code:" : "ls 6/5/2013 14:36:27.683",
 		"icon" : "JR 5/28/2013 15:47:10.371",
-		"listClass" : "ls 6/5/2013 14:36:09.742",
-		"listClassForHighlighting" : "ls 5/25/2013 11:22:01.004",
 		"test:against:" : "ls 6/5/2013 14:37:53.823",
 		"testset" : "ls 5/27/2013 17:46:44.013",
 		"testset:" : "ls 5/27/2013 17:47:30.806",
