@@ -4,6 +4,7 @@ In this unit you are going to learn all about Linked Lists, get basic understand
 Task	Explanation: Basics of Lists
 Description	Explain the basic data structure of a list in general and describes its characteristics.
 Assignment	A "List" is a data type, which is equally available in most programming languages. Though the internal implementation might differ, it always provides means for inserting and accessing elements in an ordered fashion. Thus, each added element might be accessed by its index position within the list.
+Actions	#nextItem, #add, #removeFirst
 Achievements	List (API), Common Datatype
 	
 Task	Multiple Choice: Duplicated Elements
@@ -51,6 +52,7 @@ Assignment	A single linked list, which we simply refer to as linked list during 
 	After insertion of a first element [operation: add(E)] a new node referencing the inserted element is created and set as root. It does not contain any reference to a successing node yet.
 	
 	With the addition of more elements (standard implementation: at the end) the node list is traversed beginning from root until a node without successor is found. A new node is created at this position and a reference to it is stored within the previously last node.
+Actions	#add, #nextItem
 Achievements	Linked List, List (API)
 	
 Task	Implementation: Have I got any?
@@ -74,12 +76,11 @@ Achievements	List (API), Linked List
 Task	Explanation: Run-time complexity & O-Notation
 Description	The basics of O-Notation
 Assignment	Read http://en.wikipedia.org/wiki/Big_O_notation
-Context	
 Achievements	O-Notation
 	
 Task	Multiple Choice: Can we check the size efficiently?
 Description	The complexity of the size operation
-Assignment	Now that we have implemented a size operation and learned about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
+Assignment	Now that we have implemented a size operation and learnt about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
 Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
 Solution	b
 Achievements	List (API), O-Notation
