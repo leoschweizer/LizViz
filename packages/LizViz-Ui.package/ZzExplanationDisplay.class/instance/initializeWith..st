@@ -11,7 +11,7 @@ initializeWith: quest
 		wrapFlag: true;
 		width: (self findA: UiScrollArea) width.
 	(self findA: UiScrollArea) widget: label.
-		
+	self connect: label owner signal: #areaChanged toSelector: #resizeLabel.
 	quest actions do: [:a | 
 		button := (UiPushButton new text: a).
 		self connect: button signal: #pressed toSelector: a.
