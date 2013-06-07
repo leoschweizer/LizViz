@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"create" : "JR 5/28/2013 13:35:54.265",
-		"handleProperty:value:" : "ls 6/5/2013 14:59:53.461" } }
+		"actions" : "or 6/7/2013 15:04:53.593",
+		"actions:" : "or 6/7/2013 14:31:01.445",
+		"create" : "or 6/7/2013 15:09:14.868",
+		"handleProperty:value:" : "or 6/7/2013 15:06:46.277",
+		"transformActions:" : "or 6/7/2013 15:14:35.7" } }

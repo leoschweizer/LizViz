@@ -14,9 +14,9 @@
 		"stepButton",
 		"visualizationContainer",
 		"questDescriptionLabel",
+		"questContainer",
 		"menuButton",
-		"submitQuestButton",
-		"questContainer" ],
+		"submitQuestButton" ],
 	"name" : "ZzMainWindowUi",
 	"pools" : [
 		 ],

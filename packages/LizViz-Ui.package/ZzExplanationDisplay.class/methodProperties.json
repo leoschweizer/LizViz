@@ -3,7 +3,10 @@
 		"widgetCategory" : "or 6/3/2013 18:55:18.653",
 		"widgetClassName" : "or 6/3/2013 18:55:34.098" },
 	"instance" : {
+		"add" : "or 6/7/2013 14:58:58.667",
+		"animatedList" : "or 6/7/2013 14:55:33.716",
 		"currentItem" : "or 6/4/2013 12:54:34.987",
 		"currentItem:" : "or 6/4/2013 12:58:28.034",
-		"initializeWith:" : "or 6/7/2013 14:00:26.214",
-		"selectNextItem" : "or 6/4/2013 12:57:51.171" } }
+		"initializeWith:" : "or 6/7/2013 14:59:57.638",
+		"nextItem" : "or 6/7/2013 14:58:42.597",
+		"removeFirst" : "or 6/7/2013 14:59:21.103" } }
