@@ -119,7 +119,7 @@ initializePanel
 	panel addChild: headerContainer.
 	bottomContainer := UiContainer new.
 	bottomContainer changeTableLayout.
-	bottomContainer extent: (536@397).
+	bottomContainer extent: (536@398).
 	bottomContainer position: (0@63).
 	bottomContainer hResizing: (#spaceFill).
 	bottomContainer vResizing: (#spaceFill).
@@ -167,7 +167,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -194,7 +194,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph2 text: ('Animation speed:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
@@ -302,7 +302,7 @@ initializePanel
 	questDescriptionLabel hResizing: (#spaceFill).
 	questDescriptionLabel vResizing: (#shrinkWrap).
 	questDescriptionLabel minWidth: (2).
-	questDescriptionLabel minHeight: (2).
+	questDescriptionLabel minHeight: (20).
 	questDescriptionLabel cellInset: (0).
 	questDescriptionLabel cellPositioning: (#center).
 	questDescriptionLabel cellSpacing: (#none).
@@ -317,13 +317,13 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	questDescriptionLabel setProperty: #objectName toValue: 'questDescriptionLabel'.
 	bottomContainer addChild: questDescriptionLabel.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (532@62).
-	unnamedMorph3 position: (2@396).
+	unnamedMorph3 position: (2@397).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#spaceFill).
 	unnamedMorph3 minWidth: (2).
@@ -350,7 +350,7 @@ initializePanel
 	questContainer := UiContainer new.
 	questContainer changeTableLayout.
 	questContainer extent: (426@62).
-	questContainer position: (2@396).
+	questContainer position: (2@397).
 	questContainer hResizing: (#spaceFill).
 	questContainer vResizing: (#spaceFill).
 	questContainer minWidth: (2).
@@ -379,7 +379,7 @@ initializePanel
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
 	unnamedMorph4 extent: (101@62).
-	unnamedMorph4 position: (432@396).
+	unnamedMorph4 position: (432@397).
 	unnamedMorph4 hResizing: (#shrinkWrap).
 	unnamedMorph4 vResizing: (#spaceFill).
 	unnamedMorph4 minWidth: (2).
@@ -406,7 +406,7 @@ initializePanel
 	menuButton := UiPushButton new.
 	menuButton changeTableLayout.
 	menuButton extent: (92@21).
-	menuButton position: (436@400).
+	menuButton position: (436@401).
 	menuButton hResizing: (#shrinkWrap).
 	menuButton vResizing: (#shrinkWrap).
 	menuButton minWidth: (70).
@@ -439,7 +439,7 @@ initializePanel
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.
 	submitQuestButton extent: (70@25).
-	submitQuestButton position: (448@428).
+	submitQuestButton position: (448@429).
 	submitQuestButton hResizing: (#shrinkWrap).
 	submitQuestButton vResizing: (#shrinkWrap).
 	submitQuestButton minWidth: (70).

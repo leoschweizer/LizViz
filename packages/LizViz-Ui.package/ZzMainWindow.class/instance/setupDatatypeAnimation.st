@@ -10,6 +10,10 @@ setupDatatypeAnimation
 	self currentQuest ifNotNilDo: [:q | q animatedListInstance: self animatedDatatype].	
 	self connect: self animatedDatatype signal: #firstItemChanged: to: listMorph selector: #onFirstItemChanged: queue: self signalQueue.
 	self connect: self animatedDatatype signal: #firstItemRead to: listMorph selector: #onFirstItemRead queue: self signalQueue.
+	(self animatedDatatype respondsTo: #itemAdded:) ifTrue: [
+			self connect: self animatedDatatype signal: #itemAdded: to: listMorph selector: #onItemAdded: queue: self signalQueue].
+	(self animatedDatatype respondsTo: #itemRemoved:) ifTrue: [
+			self connect: self animatedDatatype signal: #itemRemoved: to: listMorph selector: #onItemRemoved: queue: self signalQueue].
 
 	self ui visualizationContainer widget
 		removeAllMorphsIn: (self ui visualizationContainer widget submorphsSatisfying: [:m | 

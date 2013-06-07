@@ -1,0 +1,2 @@
+signal handling
+onItemRemoved: anItem
