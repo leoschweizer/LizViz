@@ -7,8 +7,7 @@ initializeUi
 		borderColor: Color white;
 		extent: self ui visualizationContainer extent).
 	self ui questDescriptionLabel
-		color: Color transparent;
-		colorFocusBackground: Color transparent;
-		colorHighlightedBackground: Color transparent.
+		autoFit: true;
+		wrapFlag: true.
 	
 	self initializeQuestContainer.

@@ -2,10 +2,12 @@ as yet unclassified
 initializeWith: quest
 	
 	| label button |
-	label := self findA: UiTextEdit.
-	label 
-		width: self width;
-		theText: quest assignment.
+	label := self findA: TextMorph.
+	label
+		contents: quest assignment;
+		autoFit: true;
+		wrapFlag: true;
+		extent: self width@self height.
 		
 	button := (UiPushButton new text: 'Add Item').
 	self connect: button signal: #pressed to: (self ownerThatIsA: ZzMainWindow) animatedDatatype selector: #add: 

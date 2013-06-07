@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	explanationDisplay := ZzExplanationDisplay new.
 	explanationDisplay changeTableLayout.
-	explanationDisplay extent: (341@150).
+	explanationDisplay extent: (341@148).
 	explanationDisplay position: (4@4).
 	explanationDisplay hResizing: (#spaceFill).
 	explanationDisplay vResizing: (#spaceFill).
@@ -60,12 +60,12 @@ initializePanel
 	explanationDisplay borderStyle2: (#simple).
 	explanationDisplay borderColor: (Color black).
 	explanationDisplay setProperty: #objectName toValue: 'explanationDisplay'.
-	unnamedMorph1 := UiTextEdit new.
-	unnamedMorph1 extent: (333@19).
+	unnamedMorph1 := TextMorph new.
+	unnamedMorph1 extent: (50@19).
 	unnamedMorph1 position: (8@8).
-	unnamedMorph1 hResizing: (#spaceFill).
+	unnamedMorph1 hResizing: (#rigid).
 	unnamedMorph1 vResizing: (#rigid).
-	unnamedMorph1 minWidth: (300).
+	unnamedMorph1 minWidth: (2).
 	unnamedMorph1 minHeight: (2).
 	unnamedMorph1 cellInset: (0).
 	unnamedMorph1 cellPositioning: (#center).
@@ -81,24 +81,12 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
-	unnamedMorph1 widgetResizable: (true).
-	unnamedMorph1 horizontalScrollBarPolicy: (#alwaysOff).
-	unnamedMorph1 verticalScrollBarPolicy: (#alwaysOff).
-	unnamedMorph1 outerBorderWidth: (1).
-	unnamedMorph1 scrollBarThickness: (9).
-	unnamedMorph1 theText: ('Some explanation').
-	unnamedMorph1 readOnly: (true).
-	unnamedMorph1 autoConvert: (false).
-	unnamedMorph1 autoAccept: (false).
-	unnamedMorph1 acceptOnFocusLost: (false).
-	unnamedMorph1 scrollingMode: (#limit).
-	unnamedMorph1 scrollingLimit: (6).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	explanationDisplay addChild: unnamedMorph1.
 	unnamedMorph2 := UiButtonGroup new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (333@117).
-	unnamedMorph2 position: (8@33).
+	unnamedMorph2 position: (8@31).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -117,7 +105,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).

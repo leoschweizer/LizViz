@@ -167,7 +167,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -194,7 +194,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph2 text: ('Animation speed:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
@@ -288,7 +288,7 @@ initializePanel
 	visualizationContainer frameFractions: (0@0 corner: 1@1).
 	visualizationContainer frameOffsets: (0@0 corner: 0@0).
 	visualizationContainer balloonText: (nil).
-	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	visualizationContainer widgetResizable: (false).
 	visualizationContainer horizontalScrollBarPolicy: (#asNeeded).
 	visualizationContainer verticalScrollBarPolicy: (#asNeeded).
@@ -296,11 +296,11 @@ initializePanel
 	visualizationContainer scrollBarThickness: (9).
 	visualizationContainer setProperty: #objectName toValue: 'visualizationContainer'.
 	bottomContainer addChild: visualizationContainer.
-	questDescriptionLabel := UiTextEdit new.
+	questDescriptionLabel := TextMorph new.
 	questDescriptionLabel extent: (532@19).
 	questDescriptionLabel position: (2@373).
 	questDescriptionLabel hResizing: (#spaceFill).
-	questDescriptionLabel vResizing: (#rigid).
+	questDescriptionLabel vResizing: (#shrinkWrap).
 	questDescriptionLabel minWidth: (2).
 	questDescriptionLabel minHeight: (2).
 	questDescriptionLabel cellInset: (0).
@@ -317,19 +317,7 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	questDescriptionLabel widgetResizable: (true).
-	questDescriptionLabel horizontalScrollBarPolicy: (#alwaysOff).
-	questDescriptionLabel verticalScrollBarPolicy: (#alwaysOff).
-	questDescriptionLabel outerBorderWidth: (0).
-	questDescriptionLabel scrollBarThickness: (9).
-	questDescriptionLabel theText: ('Task Description').
-	questDescriptionLabel readOnly: (true).
-	questDescriptionLabel autoConvert: (false).
-	questDescriptionLabel autoAccept: (false).
-	questDescriptionLabel acceptOnFocusLost: (false).
-	questDescriptionLabel scrollingMode: (#limit).
-	questDescriptionLabel scrollingLimit: (3).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
 	questDescriptionLabel setProperty: #objectName toValue: 'questDescriptionLabel'.
 	bottomContainer addChild: questDescriptionLabel.
 	unnamedMorph3 := UiContainer new.
