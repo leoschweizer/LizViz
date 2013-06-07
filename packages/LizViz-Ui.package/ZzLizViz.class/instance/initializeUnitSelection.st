@@ -33,7 +33,6 @@ initializeUnitSelection
 	
 	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startUnitNode:.
 	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedUnitNode.
-	self connect: self menuUi unitContinueLastButton signal: #clicked: toSelector: #startFromSavegame.
 	
 	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems.
 	
