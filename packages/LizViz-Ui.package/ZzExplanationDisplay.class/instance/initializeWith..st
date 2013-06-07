@@ -2,14 +2,17 @@ as yet unclassified
 initializeWith: quest
 	
 	| label button |
-	label := self findA: TextMorph.
+	label := TextMorph new.
 	label
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
 		contents: quest assignment;
 		autoFit: true;
 		wrapFlag: true;
-		extent: self width@self height.
+		width: (self findA: UiScrollArea) width.
+	(self findA: UiScrollArea) widget: label.
 		
 	quest actions do: [:a | 
 		button := (UiPushButton new text: a).
 		self connect: button signal: #pressed toSelector: a.
-		(self findA: UiButtonGroup) addMorph: button].
+		(self findA: UiContainer) addMorph: button].
