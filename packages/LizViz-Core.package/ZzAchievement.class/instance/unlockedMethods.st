@@ -1,4 +1,5 @@
 accessing
 unlockedMethods
 	
-	^ unlockedMethods ifNil: [unlockedMethods := Set new]
+	self flag: #remove.
+	^ Set new

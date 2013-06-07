@@ -1,8 +1,8 @@
 as yet unclassified
-startSelectedNode
+startSelectedUnitNode
 	
 	| nodes |
 	nodes := self menuUi unitSelection selectedNodes.
 	nodes isEmptyOrNil ifTrue: [ ^ self ].
 	
-	self startNode: nodes first	
+	self startUnitNode: nodes first	

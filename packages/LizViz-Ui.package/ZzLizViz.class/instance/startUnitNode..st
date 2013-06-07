@@ -1,5 +1,5 @@
 as yet unclassified
-startNode: aNode
+startUnitNode: aNode
 	
 	aNode ifNil: [ ^ self ].
 	

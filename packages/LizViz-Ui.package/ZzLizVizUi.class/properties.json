@@ -8,8 +8,7 @@
 	"instvars" : [
 		"titleImage",
 		"achievementLabel",
-		"achievementScrollArea",
-		"achievementsSelection",
+		"achievementSelection",
 		"unitLabel",
 		"unitSelection",
 		"unitContinueLastButton",

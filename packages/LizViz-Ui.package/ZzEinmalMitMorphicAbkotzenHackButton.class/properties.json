@@ -1,16 +1,14 @@
 {
-	"category" : "LizViz-Core",
+	"category" : "LizViz-Ui-Support",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"description",
-		"title",
-		"quests" ],
-	"name" : "ZzAchievement",
+		"clickBlock" ],
+	"name" : "ZzEinmalMitMorphicAbkotzenHackButton",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "UiToolButton",
 	"type" : "normal" }

@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -166,69 +166,40 @@ initializePanel
 	achievementLabel form: (nil).
 	achievementLabel setProperty: #objectName toValue: 'achievementLabel'.
 	unnamedMorph3 addChild: achievementLabel.
-	achievementScrollArea := UiScrollArea new.
-	achievementScrollArea extent: (238@79).
-	achievementScrollArea position: (254@95).
-	achievementScrollArea hResizing: (#spaceFill).
-	achievementScrollArea vResizing: (#spaceFill).
-	achievementScrollArea minWidth: (2).
-	achievementScrollArea minHeight: (2).
-	achievementScrollArea cellInset: (0).
-	achievementScrollArea cellPositioning: (#center).
-	achievementScrollArea cellSpacing: (#none).
-	achievementScrollArea layoutInset: (0).
-	achievementScrollArea listCentering: (#center).
-	achievementScrollArea listDirection: (#topToBottom).
-	achievementScrollArea listSpacing: (#none).
-	achievementScrollArea maxCellSize: (1073741823).
-	achievementScrollArea minCellSize: (0).
-	achievementScrollArea wrapCentering: (#topLeft).
-	achievementScrollArea wrapDirection: (#none).
-	achievementScrollArea frameFractions: (0@0 corner: 1@1).
-	achievementScrollArea frameOffsets: (0@0 corner: 0@0).
-	achievementScrollArea balloonText: (nil).
-	achievementScrollArea balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	achievementScrollArea widgetResizable: (false).
-	achievementScrollArea horizontalScrollBarPolicy: (#asNeeded).
-	achievementScrollArea verticalScrollBarPolicy: (#asNeeded).
-	achievementScrollArea outerBorderWidth: (0).
-	achievementScrollArea scrollBarThickness: (3).
-	achievementScrollArea setProperty: #objectName toValue: 'achievementScrollArea'.
-	unnamedMorph3 addChild: achievementScrollArea.
-	achievementsSelection := UiTableView new.
-	achievementsSelection extent: (238@79).
-	achievementsSelection position: (254@178).
-	achievementsSelection hResizing: (#spaceFill).
-	achievementsSelection vResizing: (#spaceFill).
-	achievementsSelection minWidth: (2).
-	achievementsSelection minHeight: (2).
-	achievementsSelection cellInset: (0).
-	achievementsSelection cellPositioning: (#center).
-	achievementsSelection cellSpacing: (#none).
-	achievementsSelection layoutInset: (0).
-	achievementsSelection listCentering: (#topLeft).
-	achievementsSelection listDirection: (#topToBottom).
-	achievementsSelection listSpacing: (#none).
-	achievementsSelection maxCellSize: (1073741823).
-	achievementsSelection minCellSize: (0).
-	achievementsSelection wrapCentering: (#topLeft).
-	achievementsSelection wrapDirection: (#none).
-	achievementsSelection frameFractions: (0@0 corner: 1@1).
-	achievementsSelection frameOffsets: (0@0 corner: 0@0).
-	achievementsSelection balloonText: (nil).
-	achievementsSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
-	achievementsSelection widgetResizable: (false).
-	achievementsSelection horizontalScrollBarPolicy: (#asNeeded).
-	achievementsSelection verticalScrollBarPolicy: (#asNeeded).
-	achievementsSelection outerBorderWidth: (0).
-	achievementsSelection scrollBarThickness: (9).
-	achievementsSelection modelClass: (nil).
-	achievementsSelection horizontalHeaderVisible: (true).
-	achievementsSelection verticalHeaderVisible: (true).
-	achievementsSelection selectionBehavior: (#selectCells).
-	achievementsSelection selectionMode: (UiViewSingleSelection).
-	achievementsSelection setProperty: #objectName toValue: 'achievementsSelection'.
-	unnamedMorph3 addChild: achievementsSelection.
+	achievementSelection := UiTreeView new.
+	achievementSelection extent: (238@162).
+	achievementSelection position: (254@95).
+	achievementSelection hResizing: (#spaceFill).
+	achievementSelection vResizing: (#spaceFill).
+	achievementSelection minWidth: (2).
+	achievementSelection minHeight: (2).
+	achievementSelection cellInset: (0).
+	achievementSelection cellPositioning: (#center).
+	achievementSelection cellSpacing: (#none).
+	achievementSelection layoutInset: (0).
+	achievementSelection listCentering: (#topLeft).
+	achievementSelection listDirection: (#topToBottom).
+	achievementSelection listSpacing: (#none).
+	achievementSelection maxCellSize: (1073741823).
+	achievementSelection minCellSize: (0).
+	achievementSelection wrapCentering: (#topLeft).
+	achievementSelection wrapDirection: (#none).
+	achievementSelection frameFractions: (0@0 corner: 1@1).
+	achievementSelection frameOffsets: (0@0 corner: 0@0).
+	achievementSelection balloonText: (nil).
+	achievementSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	achievementSelection widgetResizable: (false).
+	achievementSelection horizontalScrollBarPolicy: (#asNeeded).
+	achievementSelection verticalScrollBarPolicy: (#asNeeded).
+	achievementSelection outerBorderWidth: (0).
+	achievementSelection scrollBarThickness: (9).
+	achievementSelection modelClass: (nil).
+	achievementSelection horizontalHeaderVisible: (false).
+	achievementSelection verticalHeaderVisible: (false).
+	achievementSelection selectionBehavior: (#selectRows).
+	achievementSelection selectionMode: (UiViewSingleSelection).
+	achievementSelection setProperty: #objectName toValue: 'achievementSelection'.
+	unnamedMorph3 addChild: achievementSelection.
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
 	unnamedMorph4 extent: (238@30).
@@ -251,7 +222,7 @@ initializePanel
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph4 color: (Color transparent).
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
@@ -278,7 +249,7 @@ initializePanel
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph5 enabled: (true).
 	unnamedMorph5 setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0140Normal'.
 	unnamedMorph5 icon: (UiDiagonaIcons icon0140Normal).
@@ -401,7 +372,7 @@ initializePanel
 	unnamedMorph7 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph7 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph7 balloonText: (nil).
-	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph7 color: (Color transparent).
 	unnamedMorph7 borderWidth: (0).
 	unnamedMorph7 borderStyle2: (#simple).

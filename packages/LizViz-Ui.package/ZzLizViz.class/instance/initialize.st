@@ -7,10 +7,9 @@ initialize
 	self
 		initializeMenu;
 		initializeUnitSelection;
-		initializeAchievements;
+		initializeAchievementSelection;
 		initializeHeadlines.
 	
 	self addPage: self unitMorph.
 	self connect: self unitMorph ui menuButton signal: #pressed toSelector: #currentIndex: pattern: #(=1).
-	self currentIndex: 1.
-	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems
+	self currentIndex: 1

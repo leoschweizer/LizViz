@@ -1,0 +1,17 @@
+{
+	"category" : "LizViz-Ui-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"achievements",
+		"nodes" ],
+	"name" : "ZzAchievementModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }
