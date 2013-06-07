@@ -8,6 +8,7 @@
 		"resetImages" : "or 5/7/2013 14:31:46.683" },
 	"instance" : {
 		"abandon" : "ls 5/27/2013 11:19:55.454",
+		"addNextItemMorph:" : "or 6/7/2013 21:07:34.309",
 		"archTopOf:inDistance:" : "ls 5/27/2013 11:41:00.508",
 		"connector" : "ls 5/27/2013 11:13:51.42",
 		"connector:" : "ls 5/27/2013 11:14:01.111",
@@ -18,6 +19,8 @@
 		"nextItemMorph:" : "ls 5/27/2013 11:12:58.872",
 		"onFirstItemChanged:" : "or 6/4/2013 12:28:42.244",
 		"onFirstItemRead" : "or 6/4/2013 12:30:15.287",
+		"onItemAdded:" : "or 6/7/2013 21:13:50.881",
+		"onItemRemoved:" : "or 6/7/2013 19:15:59.424",
 		"onNextItemChanged:" : "or 6/7/2013 13:35:58.037",
 		"onNextItemRead" : "or 6/4/2013 12:41:11.359",
 		"updateConnectors" : "or 6/7/2013 13:35:20.604" } }
