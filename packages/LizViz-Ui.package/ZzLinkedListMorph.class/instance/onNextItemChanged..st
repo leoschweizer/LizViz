@@ -9,7 +9,7 @@ onNextItemChanged: aListItem
 	self connect: aListItem signal: #nextItemRead to: self nextItemMorph selector: #onNextItemRead.
 	self owner addMorph: self nextItemMorph.
 	self nextItemMorph 
-		left: self right + 50 atRandom;
+		left: self right + 10 + 50 atRandom;
 		top: self top + 20 - 40 atRandom;
 		displayValue: aListItem value;
 		lighten.
