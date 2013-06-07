@@ -3,9 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Sequences" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"description",
 		"title",
 		"methods",
 		"unlockedMethods" ],
