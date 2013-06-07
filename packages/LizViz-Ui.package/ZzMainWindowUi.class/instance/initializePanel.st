@@ -167,7 +167,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -194,7 +194,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph2 text: ('Animation speed:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
@@ -288,7 +288,7 @@ initializePanel
 	visualizationContainer frameFractions: (0@0 corner: 1@1).
 	visualizationContainer frameOffsets: (0@0 corner: 0@0).
 	visualizationContainer balloonText: (nil).
-	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	visualizationContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	visualizationContainer widgetResizable: (false).
 	visualizationContainer horizontalScrollBarPolicy: (#asNeeded).
 	visualizationContainer verticalScrollBarPolicy: (#asNeeded).
@@ -317,11 +317,11 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	questDescriptionLabel setProperty: #objectName toValue: 'questDescriptionLabel'.
 	bottomContainer addChild: questDescriptionLabel.
 	unnamedMorph3 := UiContainer new.
-	unnamedMorph3 changeProportionalLayout.
+	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (532@62).
 	unnamedMorph3 position: (2@396).
 	unnamedMorph3 hResizing: (#spaceFill).
@@ -347,11 +347,40 @@ initializePanel
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
 	unnamedMorph3 borderColor: (Color black).
+	questContainer := UiContainer new.
+	questContainer changeTableLayout.
+	questContainer extent: (426@62).
+	questContainer position: (2@396).
+	questContainer hResizing: (#spaceFill).
+	questContainer vResizing: (#spaceFill).
+	questContainer minWidth: (2).
+	questContainer minHeight: (2).
+	questContainer cellInset: (0).
+	questContainer cellPositioning: (#center).
+	questContainer cellSpacing: (#none).
+	questContainer layoutInset: (0).
+	questContainer listCentering: (#topLeft).
+	questContainer listDirection: (#topToBottom).
+	questContainer listSpacing: (#none).
+	questContainer maxCellSize: (1073741823).
+	questContainer minCellSize: (0).
+	questContainer wrapCentering: (#topLeft).
+	questContainer wrapDirection: (#none).
+	questContainer frameFractions: (0.0@0 corner: 0.78@1).
+	questContainer frameOffsets: (0@0 corner: 0@0).
+	questContainer balloonText: (nil).
+	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	questContainer color: (Color transparent).
+	questContainer borderWidth: (0).
+	questContainer borderStyle2: (#simple).
+	questContainer borderColor: (Color black).
+	questContainer setProperty: #objectName toValue: 'questContainer'.
+	unnamedMorph3 addChild: questContainer.
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (133@62).
-	unnamedMorph4 position: (401@396).
-	unnamedMorph4 hResizing: (#spaceFill).
+	unnamedMorph4 extent: (101@62).
+	unnamedMorph4 position: (432@396).
+	unnamedMorph4 hResizing: (#shrinkWrap).
 	unnamedMorph4 vResizing: (#spaceFill).
 	unnamedMorph4 minWidth: (2).
 	unnamedMorph4 minHeight: (2).
@@ -366,7 +395,7 @@ initializePanel
 	unnamedMorph4 minCellSize: (0).
 	unnamedMorph4 wrapCentering: (#center).
 	unnamedMorph4 wrapDirection: (#none).
-	unnamedMorph4 frameFractions: (0.75@0 corner: 1@1).
+	unnamedMorph4 frameFractions: (0.8@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: (nil).
 	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
@@ -377,7 +406,7 @@ initializePanel
 	menuButton := UiPushButton new.
 	menuButton changeTableLayout.
 	menuButton extent: (92@21).
-	menuButton position: (420@400).
+	menuButton position: (436@400).
 	menuButton hResizing: (#shrinkWrap).
 	menuButton vResizing: (#shrinkWrap).
 	menuButton minWidth: (70).
@@ -410,7 +439,7 @@ initializePanel
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.
 	submitQuestButton extent: (70@25).
-	submitQuestButton position: (432@428).
+	submitQuestButton position: (448@428).
 	submitQuestButton hResizing: (#shrinkWrap).
 	submitQuestButton vResizing: (#shrinkWrap).
 	submitQuestButton minWidth: (70).
@@ -441,35 +470,6 @@ initializePanel
 	submitQuestButton setProperty: #objectName toValue: 'submitQuestButton'.
 	unnamedMorph4 addChild: submitQuestButton.
 	unnamedMorph3 addChild: unnamedMorph4.
-	questContainer := UiContainer new.
-	questContainer changeTableLayout.
-	questContainer extent: (383@62).
-	questContainer position: (2@396).
-	questContainer hResizing: (#spaceFill).
-	questContainer vResizing: (#spaceFill).
-	questContainer minWidth: (2).
-	questContainer minHeight: (2).
-	questContainer cellInset: (0).
-	questContainer cellPositioning: (#center).
-	questContainer cellSpacing: (#none).
-	questContainer layoutInset: (0).
-	questContainer listCentering: (#topLeft).
-	questContainer listDirection: (#topToBottom).
-	questContainer listSpacing: (#none).
-	questContainer maxCellSize: (1073741823).
-	questContainer minCellSize: (0).
-	questContainer wrapCentering: (#topLeft).
-	questContainer wrapDirection: (#none).
-	questContainer frameFractions: (0.0@0 corner: 0.72@1).
-	questContainer frameOffsets: (0@0 corner: 0@0).
-	questContainer balloonText: (nil).
-	questContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	questContainer color: (Color transparent).
-	questContainer borderWidth: (0).
-	questContainer borderStyle2: (#simple).
-	questContainer borderColor: (Color black).
-	questContainer setProperty: #objectName toValue: 'questContainer'.
-	unnamedMorph3 addChild: questContainer.
 	bottomContainer addChild: unnamedMorph3.
 	panel addChild: bottomContainer.
 	panel setProperty: #uiClassName toValue: 'ZzMainWindow'.

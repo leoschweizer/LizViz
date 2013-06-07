@@ -61,10 +61,10 @@ initializePanel
 	explanationDisplay borderColor: (Color black).
 	explanationDisplay setProperty: #objectName toValue: 'explanationDisplay'.
 	unnamedMorph1 := TextMorph new.
-	unnamedMorph1 extent: (50@19).
+	unnamedMorph1 extent: (333@19).
 	unnamedMorph1 position: (8@8).
-	unnamedMorph1 hResizing: (#rigid).
-	unnamedMorph1 vResizing: (#rigid).
+	unnamedMorph1 hResizing: (#spaceFill).
+	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
 	unnamedMorph1 minHeight: (2).
 	unnamedMorph1 cellInset: (0).
@@ -81,7 +81,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	explanationDisplay addChild: unnamedMorph1.
 	unnamedMorph2 := UiButtonGroup new.
 	unnamedMorph2 changeTableLayout.
@@ -105,7 +105,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).

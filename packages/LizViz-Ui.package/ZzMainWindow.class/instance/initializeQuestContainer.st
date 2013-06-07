@@ -5,4 +5,7 @@ initializeQuestContainer
 	self connect: self ui stepButton signal: #pressed toSelector: #handleNextSignal.
 	
 	questMorph := ZzQuestContainerMorph new.
+	questMorph 
+		hResizing: #spaceFill; 
+		vResizing: #spaceFill.
 	self ui questContainer addChild: questMorph.
