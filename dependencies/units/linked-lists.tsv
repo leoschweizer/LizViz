@@ -59,7 +59,7 @@ Task	Implementation: Have I got any?
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
 Traits	
-Testset	
+Testset	ZzIsEmptyOperationTest>>testAll
 Code	isEmpty
 	^ true | false
 Achievements	List (API)
@@ -68,7 +68,7 @@ Task	Implementation: How many?
 Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
 Traits	TZzAddFirstOperation
-Testset	ZzQuestTestCase>>#testImplementsUiClass
+Testset	ZzSizeOperationTest>>testAll
 Code	size
 	 ^42
 Achievements	List (API), Linked List
@@ -81,6 +81,6 @@ Achievements	O-Notation
 Task	Multiple Choice: Can we check the size efficiently?
 Description	The complexity of the size operation
 Assignment	Now that we have implemented a size operation and learnt about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
-Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
+Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(nÂ²)
 Solution	b
 Achievements	List (API), O-Notation
