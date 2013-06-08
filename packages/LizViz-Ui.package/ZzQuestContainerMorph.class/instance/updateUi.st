@@ -2,9 +2,9 @@ ui
 updateUi
 	
 	self resetUi.
-	self quest ifNil: [ ^ self ].
+	self quest ifNil: [^ self].
 	
-	ui := self quest uiClass new
+	self ui: (self quest uiClass new
 		setupUi: self;
-		yourself.
-	self initializeUi: self quest
+		yourself).
+	self initializeUi: self quest.

@@ -1,4 +1,4 @@
 as yet unclassified
 failureMessage
 	
-	self subclassResponsibility.
+	^ self subclassResponsibility

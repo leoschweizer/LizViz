@@ -1,5 +1,4 @@
 stepping and presenter
 handleNextSignal
-
-	self signalQueue isEmpty ifFalse: [
-		self signalQueue next value]
+	
+	self signalQueue isEmpty ifFalse: [self signalQueue next value]

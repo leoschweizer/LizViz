@@ -9,5 +9,5 @@ verify: data
 	self connect: list signal: #firstItemChanged: to: self animatedListInstance selector: #firstItem:.
 	
 	self testResult: (self test: list against: self testset).
-	
+	self halt.
 	^ self testResult runCount = self testResult passedCount

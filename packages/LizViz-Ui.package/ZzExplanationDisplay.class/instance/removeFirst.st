@@ -1,4 +1,4 @@
 action processing
 removeFirst
-
-	self animatedList removeFirst
+	
+	self animatedList removeFirst.

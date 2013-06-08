@@ -3,6 +3,7 @@ updateUi
 	
 	self unitTitle: self unit title.
 	
+	self flag: #wtf.
 	self
 		questTitle: (self currentQuest
 			ifNil: [''] ifNotNilDo: [:q | q title]);

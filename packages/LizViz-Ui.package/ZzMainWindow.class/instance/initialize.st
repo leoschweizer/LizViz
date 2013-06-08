@@ -9,6 +9,7 @@ initialize
 		animatedDatatype: ZzSingleLinkedList new;
 		setupDatatypeAnimation.
 	
-	self connect: self ui menuButton signal: #pressed toSelector: #showStartScreen.
-	self connect: questMorph signal: #questChanged toSelector: #updateUi.
-	self connect: self signal: #failed:with: toSelector: #onError: pattern: #(2)
+	self 
+		connect: self ui menuButton signal: #pressed toSelector: #showStartScreen;
+		connect: self questMorph signal: #questChanged toSelector: #updateUi;
+		connect: self signal: #failed:with: toSelector: #onError: pattern: #(2)

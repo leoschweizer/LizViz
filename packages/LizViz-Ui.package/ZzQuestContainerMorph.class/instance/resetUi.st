@@ -1,6 +1,5 @@
 ui
 resetUi
 	
-	ui ifNil: [ ^ self ].
-	
-	self removeMorph: ui panel
+	self ui ifNil: [^ self].
+	self removeMorph: self ui panel.
