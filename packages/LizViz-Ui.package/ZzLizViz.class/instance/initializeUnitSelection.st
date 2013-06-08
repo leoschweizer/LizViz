@@ -22,17 +22,17 @@ initializeUnitSelection
 				ifTrue: [ | quest unit |
 					quest := node at: #quest.
 					unit := node at: #parent.
-					(self currentSavegame isLocked: quest in: unit)
+					(self currentSavegame isLocked: quest)
 						ifTrue: [ UiFugueIcons lockSmallIcon ]
 						ifFalse: [
-							(self currentSavegame isSolved: quest in: unit)
+							(self currentSavegame isSolved: quest)
 								ifTrue: [ UiSilkIcons bulletGreenIcon ]
 								ifFalse: [ UiSilkIcons bulletRedIcon ]]]]);
 			
 		model: model.
 	
-	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startUnitNode:.
-	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedUnitNode.
+	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startQuestNode:.
+	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode.
 	
 	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems.
 	

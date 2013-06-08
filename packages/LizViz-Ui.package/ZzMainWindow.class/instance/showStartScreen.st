@@ -1,4 +1,4 @@
 as yet unclassified
 showStartScreen
 	
-	self lizViz previousPage
+	self lizViz previousPage.

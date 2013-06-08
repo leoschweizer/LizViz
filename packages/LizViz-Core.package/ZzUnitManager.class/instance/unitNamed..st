@@ -1,4 +1,4 @@
 accessing
 unitNamed: aName
 	
-	^ ZzUnitIterator for: (self unitsDict at: aName)
+	^ self unitsDict at: aName

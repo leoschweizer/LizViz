@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"unit",
 		"title",
 		"assignment",
 		"animatedListInstance",
 		"achievements",
-		"description" ],
+		"description",
+		"next" ],
 	"name" : "ZzQuest",
 	"pools" : [
 		 ],

@@ -29,10 +29,10 @@ itemFor: aNode
 			setProperty: #selectable toValue: false;
 			fullBounds;
 			yourself).
-		button icon: ((self savegame isLocked: quest in: unit)
+		button icon: ((self savegame isLocked: quest)
 			ifTrue: [ self lockedIcon ]
 			ifFalse: [
-				(self savegame isSolved: quest in: unit)
+				(self savegame isSolved: quest)
 					ifTrue: [ self solvedIcon ]
 					ifFalse: [ self unsolvedIcon ]]).
 		self target ifNotNilDo: [:target |

@@ -9,7 +9,8 @@
 		"title",
 		"quests",
 		"description",
-		"id" ],
+		"id",
+		"index" ],
 	"name" : "ZzUnit",
 	"pools" : [
 		 ],

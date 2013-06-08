@@ -1,4 +1,0 @@
-signals
-endReached
-	
-	self emit.
