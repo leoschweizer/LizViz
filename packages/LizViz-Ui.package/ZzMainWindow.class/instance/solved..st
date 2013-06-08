@@ -1,6 +1,8 @@
 signals
 solved: aQuest
 	
+	self emit.
+	
 	aQuest successMessage ifNotNilDo: [:message |
 		(UiMessage success: message asHtmlText)
 			center: (self center - (0@100));
@@ -11,5 +13,3 @@ solved: aQuest
 	
 	self questMorph quest: aQuest next.
 	self setupDatatypeAnimation.
-	
-	self emit.

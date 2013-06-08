@@ -8,7 +8,7 @@ itemFor: aNode
 	(aNode includesKey: #achievement) ifNil: [ ^ nil ].
 	achievement := aNode at: #achievement.
 	
-	container := Morph new "UiContainer"
+	container := Morph new
 		changeTableLayout;
 		hResizing: (#spaceFill);
 		vResizing: (#spaceFill);
@@ -21,6 +21,7 @@ itemFor: aNode
 		setProperty: #selectable toValue: false;
 		color: Color transparent;
 		yourself.
+	
 	achievement quests keysAndValuesDo: [:quest :unit | | button |
 		button := (ZzEinmalMitMorphicAbkotzenHackButton new
 			buttonStyle: #iconOnly;
@@ -30,21 +31,13 @@ itemFor: aNode
 			fullBounds;
 			yourself).
 		button icon: ((self savegame isLocked: quest)
-			ifTrue: [ self lockedIcon ]
+			ifTrue: [self lockedIcon]
 			ifFalse: [
 				(self savegame isSolved: quest)
-					ifTrue: [ self solvedIcon ]
-					ifFalse: [ self unsolvedIcon ]]).
+					ifTrue: [self solvedIcon]
+					ifFalse: [self unsolvedIcon]]).
 		self target ifNotNilDo: [:target |
-			button clickBlock: [ self target startQuest: quest in: unit ].
-			
-			"self connect: button signal: #clicked: to: target selector: #startQuest:in: pattern: {#=. quest. #=. unit}."
-			"self connect: button eventHandler signal: #mouseClicked: to: target selector: #halt:.
-			button on: #mouseDown send: #halt: to: target."
-			"self connect: button signal: #clicked: to: target selector: #halt:"].
-		container addMorphBack: button.
-		"button doClick."
-		"^ button"].
+			button clickBlock: [self target startQuest: quest]].
+		container addMorphBack: button].
 	
-	"self connect: container signal: #selectionChanged: to: self target selector: #halt:."
 	^ container
