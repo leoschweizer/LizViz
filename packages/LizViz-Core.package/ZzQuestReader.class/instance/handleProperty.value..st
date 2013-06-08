@@ -8,4 +8,4 @@ handleProperty: key value: value
 		[^ self assignment: value].
 	
 	key = 'Achievements' ifTrue: 
-		[^ self achievements: (value subStrings: ',')].
+		[^ self achievements: (self separate: value by: ',')].

@@ -17,29 +17,23 @@ initializeUnitSelection
 				ifTrue: [(node at: #unit) description]
 				ifFalse: [(node at: #quest) description]]);
 			
-		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Status'. #icon -> #yourself. #balloonText -> #yourself})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Status'. #icon -> #yourself})
 			iconConverter: [:node | (node includesKey: #quest)
 				ifTrue: [ | quest unit |
 					quest := node at: #quest.
 					unit := node at: #parent.
 					(self currentSavegame isLocked: quest in: unit)
-						ifTrue: [ UiSilkIcons bulletKeyIcon ]
+						ifTrue: [ UiFugueIcons lockSmallIcon ]
 						ifFalse: [
 							(self currentSavegame isSolved: quest in: unit)
 								ifTrue: [ UiSilkIcons bulletGreenIcon ]
-								ifFalse: [ UiSilkIcons bulletRedIcon ]]]];
-				"UiFugueIcons lockIcon"
-				"UiSilkIcons bulletKeyIcon"
-				"UiSilkIcons bulletGreenIcon"
-				"UiSilkIcons bulletRedIcon"
-			
-			balloonTextConverter: [:node | (node includesKey: #quest)
-				ifTrue: ['Status: TODO']]);
+								ifFalse: [ UiSilkIcons bulletRedIcon ]]]]);
 			
 		model: model.
 	
-	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startNode:.
-	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedNode.
-	self connect: self menuUi unitContinueLastButton signal: #clicked: toSelector: #startFromSavegame.
+	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startUnitNode:.
+	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedUnitNode.
+	
+	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems.
 	
 	self expandUnitSelection

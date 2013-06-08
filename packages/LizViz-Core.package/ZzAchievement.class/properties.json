@@ -8,8 +8,7 @@
 	"instvars" : [
 		"description",
 		"title",
-		"methods",
-		"unlockedMethods" ],
+		"quests" ],
 	"name" : "ZzAchievement",
 	"pools" : [
 		 ],

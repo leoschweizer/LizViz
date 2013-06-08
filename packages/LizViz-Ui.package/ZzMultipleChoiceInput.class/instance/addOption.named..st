@@ -6,4 +6,4 @@ addOption: aSelector named: aName
 	checkbox text: aName.
 	checkbox setProperty: #objectName toValue: aSelector.
 	self addChild: checkbox.
-	checkboxes at: aSelector put: checkbox.
+	self checkboxes at: aSelector put: checkbox.

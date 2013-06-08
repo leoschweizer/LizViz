@@ -1,4 +1,4 @@
 as yet unclassified
 units
 	
-	^ units ifNil: [ ZzUnitManager new units ]
+	^ units ifNil: [ units := ZzUnitManager new units ]

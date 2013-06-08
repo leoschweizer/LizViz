@@ -1,4 +1,4 @@
 accessing
 lastAnimationStep: anObject
-
-	lastAnimationStep := anObject
+	
+	lastAnimationStep := anObject.

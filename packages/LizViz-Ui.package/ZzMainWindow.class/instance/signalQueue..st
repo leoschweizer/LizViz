@@ -1,4 +1,4 @@
 accessing
 signalQueue: anObject
-
-	signalQueue := anObject
+	
+	signalQueue := anObject.

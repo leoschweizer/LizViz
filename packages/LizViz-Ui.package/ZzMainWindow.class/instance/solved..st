@@ -1,9 +1,15 @@
 signals
 solved: aQuest
 	
-	self emit.
+	aQuest successMessage ifNotNilDo: [:message |
+		(UiMessage success: message asHtmlText)
+			center: (self center - (0@100));
+			openInWorld].
 	aQuest cleanup.
-	self unit hasNext ifFalse: [ ^ self showStartScreen ].
+	
+	self unit hasNext ifFalse: [^ self showStartScreen].
 	
 	self questMorph quest: self unit next.
-	self setupDatatypeAnimation
+	self setupDatatypeAnimation.
+	
+	self emit.

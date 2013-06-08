@@ -1,4 +1,4 @@
 as yet unclassified
-startFromSavegame
+failureMessage
 	
 	self halt.

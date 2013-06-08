@@ -2,6 +2,7 @@ initialization
 setupDatatypeAnimation
 	
 	| listMorph |
+	self flag: #wtf.
 	listMorph := ZzLinkedListMorph new.
 	listMorph image: (ZzLinkedListMorph headForm scaledToSize: 64@64).
 	
