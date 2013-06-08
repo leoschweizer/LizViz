@@ -147,8 +147,8 @@ initializePanel
 	bottomContainer setProperty: #objectName toValue: 'bottomContainer'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (280@30).
-	unnamedMorph1 position: (128@65).
+	unnamedMorph1 extent: (279@30).
+	unnamedMorph1 position: (129@65).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -175,7 +175,7 @@ initializePanel
 	unnamedMorph2 := UiLabel new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (101@19).
-	unnamedMorph2 position: (132@71).
+	unnamedMorph2 position: (133@71).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -202,7 +202,7 @@ initializePanel
 	stepSlider := UiSlider new.
 	stepSlider changeTableLayout.
 	stepSlider extent: (100@14).
-	stepSlider position: (245@73).
+	stepSlider position: (246@73).
 	stepSlider hResizing: (#rigid).
 	stepSlider vResizing: (#rigid).
 	stepSlider minWidth: (2).
@@ -225,8 +225,8 @@ initializePanel
 	stepSlider orientation: (#horizontal).
 	stepSlider minimum: (0).
 	stepSlider maximum: (5).
-	stepSlider currentValue: (5).
-	stepSlider sliderPosition: (5).
+	stepSlider currentValue: (4).
+	stepSlider sliderPosition: (4).
 	stepSlider tracking: (true).
 	stepSlider singleStep: (1).
 	stepSlider pageStep: (10).
@@ -317,7 +317,7 @@ initializePanel
 	questDescriptionLabel frameFractions: (0@0 corner: 1@1).
 	questDescriptionLabel frameOffsets: (0@0 corner: 0@0).
 	questDescriptionLabel balloonText: (nil).
-	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	questDescriptionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	questDescriptionLabel setProperty: #objectName toValue: 'questDescriptionLabel'.
 	bottomContainer addChild: questDescriptionLabel.
 	unnamedMorph3 := UiContainer new.
