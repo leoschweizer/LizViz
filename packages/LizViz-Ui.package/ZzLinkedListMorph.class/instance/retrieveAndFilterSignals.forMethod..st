@@ -2,6 +2,7 @@ signal handling
 retrieveAndFilterSignals: aQueue forMethod: aSymbol
 
 	| includedSignals queue signal |
+	
 	includedSignals := {#onFirstItemRead. #onFirstItemChanged:. #onNextItemRead}.
 	queue := OrderedCollection new.
 	signal := aQueue nextOrNil.

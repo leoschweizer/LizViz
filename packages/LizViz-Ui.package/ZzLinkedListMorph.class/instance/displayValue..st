@@ -1,4 +1,4 @@
-as yet unclassified
+visual properties
 displayValue: aValue
 	
 	| label |

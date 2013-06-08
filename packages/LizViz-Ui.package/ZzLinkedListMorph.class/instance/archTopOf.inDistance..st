@@ -1,4 +1,4 @@
-as yet unclassified
+visual properties
 archTopOf: aConnector inDistance: aNumber
 	
 	| start end center dv odv |

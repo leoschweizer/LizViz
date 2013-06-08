@@ -4,15 +4,7 @@ onNextItemChanged: aListItem
 	self nextItemMorph ifNotNilDo: [:m | m abandon].
 	aListItem ifNil: [^ self nextItemMorph: nil].
 	
-	self nextItemMorph: ZzLinkedListMorph new.
-	self connect: aListItem signal: #nextItemChanged: to: self nextItemMorph selector: #onNextItemChanged:.
-	self connect: aListItem signal: #nextItemRead to: self nextItemMorph selector: #onNextItemRead.
-	self owner addMorph: self nextItemMorph.
-	self nextItemMorph 
-		left: self right + 10 + 50 atRandom;
-		top: self top + 20 - 40 atRandom;
-		displayValue: aListItem value;
-		lighten.
+	self addNextItemMorph: aListItem atPosition: (self right + 10 + 50 atRandom) @ (self top + 20 - 40 atRandom).
 	
 	self updateConnectors.
 		

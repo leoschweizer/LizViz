@@ -1,7 +1,7 @@
 initialization
 fillAnimatedDatatype
 	
-	self animatedDatatype firstItem: (ZzDoubleLinkedListItem new value: 3).
-	self animatedDatatype firstItem nextItem: (ZzDoubleLinkedListItem new value: 1).
-	self animatedDatatype firstItem nextItem nextItem: (ZzDoubleLinkedListItem new value: 2).
-	self signalQueue flush.
+	self animatedDatatype firstItem: (ZzDoubleLinkedListItem new value: 9 atRandom).
+	self animatedDatatype firstItem nextItem: (ZzDoubleLinkedListItem new value: 9 atRandom).
+	self animatedDatatype firstItem nextItem nextItem: (ZzDoubleLinkedListItem new value: 9 atRandom).
+	6 timesRepeat: [self handleNextSignal]

@@ -10,10 +10,6 @@ onItemRemoved: anItem
 		nextPut: [self updateConnectors];
 		nextPut: [	item nextItemMorph: nil.
 					item abandon];
-		nextPut: [ | m |
-			m := self nextItemMorph.
-			[m isNil] whileFalse: [
-				m x: m x - 80.
-				m := m nextItemMorph]].
+		nextPut: [self moveFollowingItems: -80].
 	queue do: [:s | (self ownerThatIsA: ZzMainWindow) signalQueue nextPut: s]
 

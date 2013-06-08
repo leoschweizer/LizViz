@@ -1,17 +1,13 @@
 signal handling
 onItemAdded: anItem
 
-	| item queue |
+	| queue |
 	
-	item := self nextItemMorph.
-	[item isNil] whileFalse: [
-		item x: item x + 80.
-		item := item nextItemMorph].
-	(self ownerThatIsA: ZzMainWindow) resizeVisualizationArea.
+	self moveFollowingItems: 80.
 	
 	queue := self retrieveAndFilterSignals: (self ownerThatIsA: ZzMainWindow) signalQueue forMethod: #onItemAdded:.
 	(self ownerThatIsA: ZzMainWindow) signalQueue 
-		nextPut: [self addNextItemMorph: anItem value];
+		nextPut: [self addNextItemMorph: anItem atPosition: (self topRight + (15@ (15 + self height) negated))];
 		nextPut: [self nextItemMorph updateConnectors.
 					self connector ifNotNilDo: [:c | c abandon]];
 		nextPut: [self updateConnectors.
