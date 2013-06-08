@@ -10,6 +10,9 @@ readUnit: anId from: aStream
 		title: title 
 		description: description.
 	
-	[task := self readTaskFrom: aStream] whileNotNil: [unit add: task].
+	[task := self readTaskFrom: aStream] whileNotNil: 
+		[unit quests ifNotEmptyDo: [:list | list last next: task].
+		task unit: unit.
+		unit quests add: task].
 	
 	^ unit

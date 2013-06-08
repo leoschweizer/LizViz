@@ -1,4 +1,4 @@
 accessing
-quests: questList
+quests: anOrderedCollection
 	
-	quests := questList.
+	quests := anOrderedCollection.

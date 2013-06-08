@@ -7,9 +7,9 @@ solved: aQuest
 			openInWorld].
 	aQuest cleanup.
 	
-	self unit hasNext ifFalse: [^ self showStartScreen].
+	aQuest hasNext ifFalse: [^ self showStartScreen].
 	
-	self questMorph quest: self unit next.
+	self questMorph quest: aQuest next.
 	self setupDatatypeAnimation.
 	
 	self emit.
