@@ -8,6 +8,7 @@
 	"instvars" : [
 		"traits",
 		"testset",
+		"testResult",
 		"code" ],
 	"name" : "ZzQuestCoding",
 	"pools" : [

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAll" : "ls 6/8/2013 14:09:04.964",
 		"testOnEmptyList" : "ls 5/27/2013 19:49:36.622",
 		"testOnNonEmptyList" : "ls 5/27/2013 19:50:25.689",
 		"testSideEffects" : "ls 5/27/2013 19:51:31.878" } }

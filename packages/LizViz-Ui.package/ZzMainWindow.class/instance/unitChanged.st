@@ -1,4 +1,4 @@
 signals
 unitChanged
 	
-	self emit
+	self emit.
