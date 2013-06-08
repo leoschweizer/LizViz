@@ -2,7 +2,7 @@ as yet unclassified
 updateConnectors
 	
 	self connector ifNotNilDo: [:connector | connector delete].
-	
+	self nextItemMorph ifNil: [^ self].
 	self connector: (NCAAConnectorMorph new
 		fromMorph: self
 		toMorph: self nextItemMorph).
