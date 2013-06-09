@@ -5,14 +5,14 @@ itemFor: aNode
 	"UiFugueIcons leafIcon
 	UiFugueIcons leafWormholeIcon"
 	
-	(aNode includesKey: #achievement) ifNil: [ ^ nil ].
+	(aNode includesKey: #achievement) ifFalse: [^ self emptyCell].
 	achievement := aNode at: #achievement.
 	
 	container := Morph new
 		changeTableLayout;
 		hResizing: (#spaceFill);
-		vResizing: (#spaceFill);
-		extent: (180@21);
+		vResizing: (#rigid);
+		extent: (180@20);
 		listDirection: (#leftToRight);
 		wrapDirection: (#topToBottom);
 		wrapCentering: (#topLeft);
@@ -25,10 +25,10 @@ itemFor: aNode
 	achievement quests keysAndValuesDo: [:quest :unit | | button |
 		button := (ZzEinmalMitMorphicAbkotzenHackButton new
 			buttonStyle: #iconOnly;
-			layoutInset: (0 @ -2 corner: 0 @ -1);
 			balloonText: unit title, Character lf, quest description;
 			setProperty: #selectable toValue: false;
-			fullBounds;
+			"layoutInset: (0 @ -2 corner: 0 @ -1);"
+			"fullBounds;"
 			yourself).
 		button icon: ((self savegame isLocked: quest)
 			ifTrue: [self lockedIcon]
