@@ -4,4 +4,5 @@
 	"instance" : {
 		"testRemovalFromEmptyList" : "ls 5/27/2013 18:40:20.93",
 		"testRemovalFromNonEmptyList" : "ls 5/27/2013 18:53:01.408",
+		"testSelector" : "ls 6/9/2013 17:48:11.191",
 		"testSideEffects" : "ls 5/27/2013 19:37:24.819" } }
