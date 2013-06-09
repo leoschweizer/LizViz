@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"listInstance" ],
+		"listInstance",
+		"description",
+		"failureLog" ],
 	"name" : "ZzAnswerVerificationTest",
 	"pools" : [
 		 ],

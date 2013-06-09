@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAll" : "ls 6/8/2013 14:08:43.995",
+		"testAll" : "ls 6/9/2013 19:22:15.856",
 		"testSelector" : "ls 6/9/2013 17:48:17.495",
 		"testSideEffects" : "ls 5/27/2013 19:37:19.441",
 		"testSizeOfEmptyList" : "ls 5/27/2013 19:25:47.956",

@@ -2,6 +2,14 @@ as yet unclassified
 testAll
 	"This is a convenience method to be used in our quest definitions"
 	
-	self class new testSizeOfNonEmptyList.
-	self class new testSizeOfEmptyList.
-	self class new testSideEffects.
+	self 
+		listInstance: self listInstance class new;
+		testSizeOfNonEmptyList.
+	
+	self
+		listInstance: self listInstance class new;
+		testSizeOfEmptyList.
+	
+	self
+		listInstance: self listInstance class new;
+		testSideEffects.
