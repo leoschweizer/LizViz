@@ -10,5 +10,5 @@
 	"name" : "ZzSingleLinkedList",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ZzAnimatedDatatype",
 	"type" : "normal" }

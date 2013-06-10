@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testOperation" : "ls 6/10/2013 21:25:42.358",
 		"testPushingToEmptyList" : "or 6/10/2013 19:20:39.331",
 		"testSelector" : "or 6/10/2013 19:21:08.755" } }

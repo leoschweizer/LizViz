@@ -1,4 +1,4 @@
 as yet unclassified
 type
 	
-	^ self properties at: #type
+	^ self at: #type

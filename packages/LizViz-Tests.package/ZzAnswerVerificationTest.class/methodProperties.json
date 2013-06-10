@@ -4,6 +4,7 @@
 	"instance" : {
 		"assert:" : "ls 6/9/2013 19:37:06.035",
 		"assertResumable:" : "ls 6/10/2013 11:28:17.377",
+		"createExecutionLog" : "ls 6/10/2013 21:23:45.204",
 		"deny:" : "ls 6/9/2013 19:37:52.6",
 		"denyResumable:" : "ls 6/10/2013 11:28:56.482",
 		"description" : "ls 6/9/2013 19:29:42.02",
@@ -13,4 +14,5 @@
 		"isLogging" : "ls 6/9/2013 19:19:16.831",
 		"listInstance" : "ls 5/27/2013 18:39:03.334",
 		"listInstance:" : "ls 5/27/2013 18:27:35.913",
-		"runIsolated:" : "ls 6/10/2013 11:51:41.027" } }
+		"runIsolated:" : "ls 6/10/2013 11:51:41.027",
+		"testOperation" : "ls 6/10/2013 21:26:59.978" } }

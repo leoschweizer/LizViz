@@ -1,4 +1,6 @@
 signals
 firstItemChanged: newItem
 	
-	self emit.
+	self log: (ZzVisualizationEvent new
+		type: #firstItemChanged:;
+		parameter1: newItem).

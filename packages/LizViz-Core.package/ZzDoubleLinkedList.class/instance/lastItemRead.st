@@ -1,4 +1,5 @@
 signals
 lastItemRead
 	
-	self emit.
+	self log: (ZzVisualizationEvent new
+		type: #lastItemRead).

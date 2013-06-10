@@ -1,4 +1,5 @@
 signals
 nextItemRead
 	
-	self emit.
+	self owner log: (ZzVisualizationEvent new
+		type: #nextItemRead).

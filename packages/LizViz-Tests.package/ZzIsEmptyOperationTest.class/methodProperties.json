@@ -5,6 +5,7 @@
 		"testAll" : "ls 6/10/2013 11:52:53.538",
 		"testOnEmptyList" : "ls 6/10/2013 11:53:41.079",
 		"testOnNonEmptyList" : "ls 6/10/2013 11:53:45.881",
+		"testOperation" : "ls 6/10/2013 21:25:22.73",
 		"testReturnType" : "ls 6/10/2013 11:31:07.538",
 		"testSelector" : "ls 6/9/2013 17:59:21.369",
 		"testSideEffects" : "ls 6/9/2013 19:06:19.603" } }

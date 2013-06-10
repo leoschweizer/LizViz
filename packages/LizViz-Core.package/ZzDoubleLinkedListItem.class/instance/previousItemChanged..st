@@ -1,4 +1,6 @@
 signals
 previousItemChanged: newItem
 	
-	self emit.
+	self owner log: (ZzVisualizationEvent new
+		type: #previousItemChanged:;
+		parameter1: newItem).
