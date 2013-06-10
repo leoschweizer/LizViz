@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzStackVisualization",
+	"pools" : [
+		 ],
+	"super" : "ZzDatatypeVisualization",
+	"type" : "normal" }

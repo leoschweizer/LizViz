@@ -1,4 +1,5 @@
 as yet unclassified
 stepForward
 	
-	self subclassResponsibility.
+	self eventQueue nextOrNil ifNotNilDo: [:event |
+		((self eventMappingFor: event) at: event type ifAbsent: [[]]) value].
