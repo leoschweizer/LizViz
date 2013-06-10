@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateNodes
 	"cf. UiWidgetModel#updateWidgets"
 	

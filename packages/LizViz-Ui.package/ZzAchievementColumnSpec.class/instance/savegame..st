@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 savegame: aSavegame
 	
 	savegame := aSavegame

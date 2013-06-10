@@ -1,9 +1,7 @@
-as yet unclassified
+building
 itemFor: aNode
 
 	| achievement container |
-	"UiFugueIcons leafIcon
-	UiFugueIcons leafWormholeIcon"
 	
 	(aNode includesKey: #achievement) ifFalse: [^ self emptyCell].
 	achievement := aNode at: #achievement.
@@ -27,8 +25,6 @@ itemFor: aNode
 			buttonStyle: #iconOnly;
 			balloonText: unit title, Character lf, quest description;
 			setProperty: #selectable toValue: false;
-			"layoutInset: (0 @ -2 corner: 0 @ -1);"
-			"fullBounds;"
 			yourself).
 		button icon: ((self savegame isLocked: quest)
 			ifTrue: [self lockedIcon]
