@@ -1,9 +1,13 @@
 as yet unclassified
 failureMessage
 	
-	| text |
+	| failures text |
+	failures := OrderedCollection new
+		addAll: self testResult errors;
+		addAll: self testResult failures;
+		yourself.
 	text := 'Your method doesn''t work as expected for the following reasons(s):'.
-	self flag: #TODO. "Also track errors etc"
-	self testResult failures do: [:each |
-		text := text, each failureText, Character cr].
+	failures 
+		do: [:each | text := text, each failureText]
+		separatedBy: [:each | text := text, Character cr].
 	^ text asHtmlText

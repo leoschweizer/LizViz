@@ -8,6 +8,10 @@ testAll
 		
 	self
 		listInstance: self listInstance class new;
+		testReturnType.
+		
+	self
+		listInstance: self listInstance class new;
 		testOnNonEmptyList.
 	
 	self

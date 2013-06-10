@@ -6,4 +6,4 @@ testOnNonEmptyList
 	
 	self 
 		assert: self listInstance firstItem isNil not;
-		deny: self listInstance isEmpty.
+		denyResumable: self listInstance isEmpty.

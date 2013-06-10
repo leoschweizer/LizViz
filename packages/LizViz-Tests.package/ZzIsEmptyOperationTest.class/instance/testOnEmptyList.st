@@ -5,4 +5,4 @@ testOnEmptyList
 	
 	self 
 		assert: self listInstance firstItem isNil;
-		assert: self listInstance isEmpty.
+		assertResumable: self listInstance isEmpty.
