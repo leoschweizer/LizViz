@@ -2,7 +2,7 @@ submorphs-add/remove
 addNextItemMorph: anItem atPosition: aPoint
 
 	| morph |
-	morph := (ZzLinkedListMorph new) displayValue: anItem value.
+	morph := (ZzLinkedListItemMorph new) displayValue: anItem value.
 	morph 
 		position: aPoint;
 		nextItemMorph: self nextItemMorph.

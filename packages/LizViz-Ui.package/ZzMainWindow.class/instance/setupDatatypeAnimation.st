@@ -3,8 +3,8 @@ setupDatatypeAnimation
 	
 	| listMorph |
 	self flag: #wtf.
-	listMorph := ZzLinkedListMorph new.
-	listMorph image: (ZzLinkedListMorph headForm scaledToSize: 64@64).
+	listMorph := ZzLinkedListItemMorph new.
+	listMorph image: (ZzLinkedListItemMorph headForm scaledToSize: 64@64).
 	
 	self animatedDatatype: (self currentQuest ifNil: [ZzGodList new] ifNotNilDo: [:q | (q buildList: nil) new]).
 	self flag: #or. "Might be better to use the quest's list instance from tests here instead of coupling them"
@@ -18,9 +18,9 @@ setupDatatypeAnimation
 
 	self ui visualizationContainer widget
 		removeAllMorphsIn: (self ui visualizationContainer widget submorphsSatisfying: [:m | 
-			(m isKindOf: ZzLinkedListMorph) or: (m isKindOf: NCAAConnectorMorph)]);
+			(m isKindOf: ZzLinkedListItemMorph) or: (m isKindOf: NCAAConnectorMorph)]);
 		addMorph: listMorph.
-	listMorph topLeft: self ui visualizationContainer widget topLeft + (5 @ ((self ui visualizationContainer widget height / 2) - 32)).
+	listMorph topLeft: self ui visualizationContainer widget topLeft + (25 @ ((self ui visualizationContainer widget height / 2) + 32)).
 	self 
 		resizeVisualizationArea;
 		fillAnimatedDatatype.

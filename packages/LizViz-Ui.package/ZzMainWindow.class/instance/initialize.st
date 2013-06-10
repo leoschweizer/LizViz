@@ -3,13 +3,9 @@ initialize
 	
 	super initialize.
 	
-	self
-		signalQueue;
-		initializeUi;
-		animatedDatatype: ZzSingleLinkedList new;
-		setupDatatypeAnimation.
+	self initializeUi.
 	
 	self 
 		connect: self ui menuButton signal: #pressed toSelector: #showStartScreen;
-		connect: self questMorph signal: #questChanged toSelector: #updateUi;
+		connect: self questMorph signal: #questChanged toSelector: #updateUi queue: self signalQueue;
 		connect: self signal: #failed:with: toSelector: #onError: pattern: #(2)

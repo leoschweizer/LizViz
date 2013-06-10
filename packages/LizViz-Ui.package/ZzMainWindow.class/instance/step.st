@@ -2,6 +2,7 @@ stepping and presenter
 step
 	
 	self ui stepButton enabled: self signalQueue isEmpty not.
+	self signalQueue isEmpty ifFalse: [self haltOnce].
 	self flag: #wtf.
 	self ui stepSlider currentValue > 0 ifTrue: 
 		[((DateAndTime millisecondClockValue - self lastAnimationStep) > 

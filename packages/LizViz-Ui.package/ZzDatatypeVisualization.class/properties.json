@@ -6,15 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"unit",
-		"questMorph",
-		"lizViz",
-		"signalQueue",
-		"lastAnimationStep",
-		"visualization" ],
-	"name" : "ZzMainWindow",
+		"items",
+		"panel",
+		"eventQueue" ],
+	"name" : "ZzDatatypeVisualization",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

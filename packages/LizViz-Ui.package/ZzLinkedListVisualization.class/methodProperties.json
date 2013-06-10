@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"animateAddFirstEvent:" : "ls 6/10/2013 15:29:52.705",
+		"animateAddLastEvent:" : "ls 6/10/2013 15:32:21.508",
+		"eventMappingFor:" : "ls 6/10/2013 15:31:50.629",
+		"initializeWith:" : "ls 6/10/2013 15:00:00.995",
+		"stepForward" : "ls 6/10/2013 15:31:06.923" } }

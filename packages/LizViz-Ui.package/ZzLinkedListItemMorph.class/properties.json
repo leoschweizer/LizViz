@@ -9,7 +9,7 @@
 	"instvars" : [
 		"nextItemMorph",
 		"connector" ],
-	"name" : "ZzLinkedListMorph",
+	"name" : "ZzLinkedListItemMorph",
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",

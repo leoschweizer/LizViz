@@ -1,7 +1,9 @@
 ui
 updateUi
 	
-	self unitTitle: self unit title.
+	self 
+		unitTitle: self unit title;
+		initializeVisualization.
 	
 	self flag: #wtf.
 	self

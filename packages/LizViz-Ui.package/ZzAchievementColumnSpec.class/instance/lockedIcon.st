@@ -5,7 +5,7 @@ lockedIcon
 	"^ UiFugueIcons leafExclamationIcon"
 	
 	lock := UiFugueIcons lockSmallIcon deepCopy.
-	main := UiFugueIcons leafIcon deepCopy.
+	main := self unsolvedIcon deepCopy.
 	
 	lock := lock clippedTo: 9@9.
 	
