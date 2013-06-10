@@ -40,10 +40,10 @@ initializePanel
 	multipleChoice vResizing: (#spaceFill).
 	multipleChoice minWidth: (2).
 	multipleChoice minHeight: (2).
-	multipleChoice cellInset: (4).
+	multipleChoice cellInset: (0).
 	multipleChoice cellPositioning: (#topLeft).
 	multipleChoice cellSpacing: (#none).
-	multipleChoice layoutInset: (4).
+	multipleChoice layoutInset: (0).
 	multipleChoice listCentering: (#topLeft).
 	multipleChoice listDirection: (#topToBottom).
 	multipleChoice listSpacing: (#none).
@@ -63,7 +63,7 @@ initializePanel
 	unnamedMorph1 := UiCheckBox new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (75@25).
-	unnamedMorph1 position: (4@4).
+	unnamedMorph1 position: (0@0).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -95,7 +95,7 @@ initializePanel
 	unnamedMorph2 := UiCheckBox new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (75@21).
-	unnamedMorph2 position: (4@33).
+	unnamedMorph2 position: (0@25).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -127,7 +127,7 @@ initializePanel
 	unnamedMorph3 := UiCheckBox new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (75@21).
-	unnamedMorph3 position: (4@58).
+	unnamedMorph3 position: (0@46).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).

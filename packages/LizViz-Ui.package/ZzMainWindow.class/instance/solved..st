@@ -12,4 +12,4 @@ solved: aQuest
 	aQuest hasNext ifFalse: [^ self showStartScreen].
 	
 	self questMorph quest: aQuest next.
-	self setupDatatypeAnimation.
+	"self initializeVisualization."

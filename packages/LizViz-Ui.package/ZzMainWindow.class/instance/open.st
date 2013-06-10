@@ -3,4 +3,4 @@ open
 	
 	ViSystemWindow
 		morph: self 
-		label: self title.
+		label: 'LizViz - Abstract Datatypes'.

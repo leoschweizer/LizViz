@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bottomContainer" : "or 6/8/2013 15:47:57.267",
-		"headerContainer" : "or 6/8/2013 15:47:57.197",
-		"headlineLabel" : "or 6/8/2013 15:47:57.226",
-		"initializePanel" : "or 6/8/2013 15:47:57.476",
-		"menuButton" : "or 6/8/2013 15:47:57.394",
-		"questContainer" : "or 6/8/2013 15:47:57.369",
-		"questDescriptionLabel" : "or 6/8/2013 15:47:57.351",
-		"questTitleLabel" : "or 6/8/2013 15:47:57.242",
-		"stepButton" : "or 6/8/2013 15:47:57.312",
-		"stepSlider" : "or 6/8/2013 15:47:57.289",
-		"submitQuestButton" : "or 6/8/2013 15:47:57.414",
-		"visualizationContainer" : "or 6/8/2013 15:47:57.335" } }
+		"bottomContainer" : "JR 6/10/2013 21:12:33.291",
+		"headerContainer" : "JR 6/10/2013 21:12:33.241",
+		"headlineLabel" : "JR 6/10/2013 21:12:33.258",
+		"initializePanel" : "JR 6/10/2013 21:12:33.448",
+		"menuButton" : "JR 6/10/2013 21:12:33.377",
+		"questContainer" : "JR 6/10/2013 21:12:33.364",
+		"questDescriptionLabel" : "JR 6/10/2013 21:12:33.351",
+		"questTitleLabel" : "JR 6/10/2013 21:12:33.277",
+		"stepButton" : "JR 6/10/2013 21:12:33.318",
+		"stepSlider" : "JR 6/10/2013 21:12:33.299",
+		"submitQuestButton" : "JR 6/10/2013 21:12:33.393",
+		"visualizationContainer" : "JR 6/10/2013 21:12:33.333" } }
