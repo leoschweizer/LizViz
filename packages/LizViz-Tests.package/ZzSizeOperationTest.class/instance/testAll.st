@@ -3,21 +3,8 @@ testAll
 	"This is a convenience method to be used in our quest definitions"
 	
 	self
-		listInstance: self listInstance class new;
-		testSelector.
-	
-	self
-		listInstance: self listInstance class new;
-		testReturnType.
-	
-	self 
-		listInstance: self listInstance class new;
-		testSizeOfNonEmptyList.
-	
-	self
-		listInstance: self listInstance class new;
-		testSizeOfEmptyList.
-	
-	self
-		listInstance: self listInstance class new;
-		testSideEffects.
+		runIsolated: #testSelector;
+		runIsolated: #testReturnType;
+		runIsolated: #testSizeOfNonEmptyList;
+		runIsolated: #testSizeOfEmptyList;
+		runIsolated: #testSideEffects.

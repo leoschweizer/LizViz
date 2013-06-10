@@ -1,6 +1,8 @@
 as yet unclassified
 testSideEffects
 	
+	self description: 'Your method has undesired side effects'.
+	
 	self listInstance
 		addFirst: 3;
 		addFirst: 2;

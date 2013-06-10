@@ -1,7 +1,7 @@
 as yet unclassified
 testOnNonEmptyList
 	
-	self description: 'The size is wrong for non-empty lists'.
+	self description: 'The result is wrong for non-empty lists'.
 	self listInstance addFirst: 1.
 	
 	self 

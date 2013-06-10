@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAll" : "ls 6/10/2013 11:25:53.353",
+		"testAll" : "ls 6/10/2013 11:55:17.066",
 		"testReturnType" : "ls 6/10/2013 11:31:42.307",
 		"testSelector" : "ls 6/9/2013 17:48:17.495",
-		"testSideEffects" : "ls 5/27/2013 19:37:19.441",
-		"testSizeOfEmptyList" : "ls 5/27/2013 19:25:47.956",
-		"testSizeOfNonEmptyList" : "ls 5/27/2013 19:26:43.438" } }
+		"testSideEffects" : "ls 6/10/2013 11:49:59.054",
+		"testSizeOfEmptyList" : "ls 6/10/2013 11:49:39.24",
+		"testSizeOfNonEmptyList" : "ls 6/10/2013 11:49:18.817" } }

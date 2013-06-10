@@ -1,6 +1,8 @@
 as yet unclassified
 testSizeOfEmptyList
 	
+	self description: 'The size is wrong for empty lists'.
+	
 	self 
 		assert: self listInstance firstItem isNil;
-		assert: self listInstance size == 0.
+		assertResumable: self listInstance size == 0.
