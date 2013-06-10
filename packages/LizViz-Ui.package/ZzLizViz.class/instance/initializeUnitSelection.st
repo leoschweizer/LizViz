@@ -29,18 +29,13 @@ initializeUnitSelection
 								ifTrue: [ UiSilkIcons bulletGreenIcon ]
 								ifFalse: [ UiSilkIcons bulletRedIcon ]]]]);
 		
-		addColumn: ((ZzUnitStartColumnSpec newFrom: {#headerText -> 'Start'})
-			savegame: self currentSavegame;
-			target: self;
-			yourself);
-		
 		setResizeModeForColumn: 2 to: #rigid;
 		setWidthForColumn: 2 to: 20;
 		setVAlignmentTo: #center;
 		model: model.
 	
 	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startQuestNode:.
-	"self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode."
+	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode.
 	
 	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems.
 	

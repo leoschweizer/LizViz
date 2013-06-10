@@ -10,7 +10,8 @@
 		"achievementLabel",
 		"achievementSelection",
 		"unitLabel",
-		"unitSelection" ],
+		"unitSelection",
+		"unitStartSelectedButton" ],
 	"name" : "ZzLizVizUi",
 	"pools" : [
 		 ],

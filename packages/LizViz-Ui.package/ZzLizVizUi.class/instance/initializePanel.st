@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -187,7 +187,7 @@ initializePanel
 	achievementSelection frameFractions: (0@0 corner: 1@1).
 	achievementSelection frameOffsets: (0@0 corner: 0@0).
 	achievementSelection balloonText: (nil).
-	achievementSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	achievementSelection balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	achievementSelection widgetResizable: (false).
 	achievementSelection horizontalScrollBarPolicy: (#asNeeded).
 	achievementSelection verticalScrollBarPolicy: (#asNeeded).
@@ -257,7 +257,7 @@ initializePanel
 	unitLabel setProperty: #objectName toValue: 'unitLabel'.
 	unnamedMorph4 addChild: unitLabel.
 	unitSelection := UiTreeView new.
-	unitSelection extent: (238@197).
+	unitSelection extent: (238@162).
 	unitSelection position: (8@95).
 	unitSelection hResizing: (#spaceFill).
 	unitSelection vResizing: (#spaceFill).
@@ -287,9 +287,70 @@ initializePanel
 	unitSelection horizontalHeaderVisible: (false).
 	unitSelection verticalHeaderVisible: (false).
 	unitSelection selectionBehavior: (#selectRows).
-	unitSelection selectionMode: (UiViewNullSelection).
+	unitSelection selectionMode: (UiViewSingleSelection).
 	unitSelection setProperty: #objectName toValue: 'unitSelection'.
 	unnamedMorph4 addChild: unitSelection.
+	unnamedMorph5 := UiContainer new.
+	unnamedMorph5 changeTableLayout.
+	unnamedMorph5 extent: (238@30).
+	unnamedMorph5 position: (8@261).
+	unnamedMorph5 hResizing: (#spaceFill).
+	unnamedMorph5 vResizing: (#shrinkWrap).
+	unnamedMorph5 minWidth: (2).
+	unnamedMorph5 minHeight: (2).
+	unnamedMorph5 cellInset: (4).
+	unnamedMorph5 cellPositioning: (#center).
+	unnamedMorph5 cellSpacing: (#none).
+	unnamedMorph5 layoutInset: (4).
+	unnamedMorph5 listCentering: (#topLeft).
+	unnamedMorph5 listDirection: (#topToBottom).
+	unnamedMorph5 listSpacing: (#none).
+	unnamedMorph5 maxCellSize: (1073741823).
+	unnamedMorph5 minCellSize: (0).
+	unnamedMorph5 wrapCentering: (#topLeft).
+	unnamedMorph5 wrapDirection: (#none).
+	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph5 balloonText: (nil).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph5 color: (Color transparent).
+	unnamedMorph5 borderWidth: (0).
+	unnamedMorph5 borderStyle2: (#simple).
+	unnamedMorph5 borderColor: (Color black).
+	unitStartSelectedButton := UiPushButton new.
+	unitStartSelectedButton changeTableLayout.
+	unitStartSelectedButton extent: (106@21).
+	unitStartSelectedButton position: (12@265).
+	unitStartSelectedButton hResizing: (#shrinkWrap).
+	unitStartSelectedButton vResizing: (#shrinkWrap).
+	unitStartSelectedButton minWidth: (2).
+	unitStartSelectedButton minHeight: (2).
+	unitStartSelectedButton cellInset: (4).
+	unitStartSelectedButton cellPositioning: (#center).
+	unitStartSelectedButton cellSpacing: (#none).
+	unitStartSelectedButton layoutInset: (2@0 corner: 2@0).
+	unitStartSelectedButton listCentering: (#topLeft).
+	unitStartSelectedButton listDirection: (#leftToRight).
+	unitStartSelectedButton listSpacing: (#none).
+	unitStartSelectedButton maxCellSize: (1073741823).
+	unitStartSelectedButton minCellSize: (0).
+	unitStartSelectedButton wrapCentering: (#topLeft).
+	unitStartSelectedButton wrapDirection: (#none).
+	unitStartSelectedButton frameFractions: (0@0 corner: 1@1).
+	unitStartSelectedButton frameOffsets: (0@0 corner: 0@0).
+	unitStartSelectedButton balloonText: (nil).
+	unitStartSelectedButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unitStartSelectedButton enabled: (true).
+	unitStartSelectedButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0331Normal'.
+	unitStartSelectedButton icon: (UiDiagonaIcons icon0331Normal).
+	unitStartSelectedButton text: ('Start Selected').
+	unitStartSelectedButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	unitStartSelectedButton checkable: (false).
+	unitStartSelectedButton checked: (false).
+	unitStartSelectedButton autoExclusive: (false).
+	unitStartSelectedButton setProperty: #objectName toValue: 'unitStartSelectedButton'.
+	unnamedMorph5 addChild: unitStartSelectedButton.
+	unnamedMorph4 addChild: unnamedMorph5.
 	unnamedMorph2 addChild: unnamedMorph4.
 	panel addChild: unnamedMorph2.
 	panel setProperty: #uiClassName toValue: 'ZzLizViz'.
