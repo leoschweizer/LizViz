@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testAll" : "ls 6/10/2013 11:55:17.066",
+		"testOperation" : "ls 6/10/2013 21:26:16.087",
 		"testReturnType" : "ls 6/10/2013 11:31:42.307",
 		"testSelector" : "ls 6/9/2013 17:48:17.495",
 		"testSideEffects" : "ls 6/10/2013 11:49:59.054",
