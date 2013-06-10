@@ -1,6 +1,6 @@
 as yet unclassified
 type: aSymbol
 	
-	self properties
+	self
 		at: #type
 		put: aSymbol.

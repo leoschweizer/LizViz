@@ -1,4 +1,6 @@
 signals
 valueChanged: newValue
 	
-	self emit.
+	self owner log: (ZzVisualizationEvent new
+		type: #valueChanged:;
+		parameter1: newValue).

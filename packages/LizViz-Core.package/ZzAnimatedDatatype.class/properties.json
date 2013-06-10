@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"firstItem" ],
-	"name" : "ZzSingleLinkedList",
+		"isLogging",
+		"executionLog" ],
+	"name" : "ZzAnimatedDatatype",
 	"pools" : [
 		 ],
-	"super" : "ZzAnimatedDatatype",
+	"super" : "Object",
 	"type" : "normal" }

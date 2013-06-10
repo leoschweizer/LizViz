@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"properties" ],
+		 ],
 	"name" : "ZzVisualizationEvent",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Dictionary",
 	"type" : "normal" }
