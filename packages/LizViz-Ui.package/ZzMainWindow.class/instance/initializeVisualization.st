@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeVisualization
 	
 	self visualization: (ZzLinkedListVisualization new

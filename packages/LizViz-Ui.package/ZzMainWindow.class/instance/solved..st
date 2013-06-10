@@ -1,4 +1,4 @@
-signals
+quest-management
 solved: aQuest
 	
 	self emit.

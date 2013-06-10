@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 startQuest: aQuest
 	
 	(self currentSavegame isLocked: aQuest) ifTrue: [^ self].

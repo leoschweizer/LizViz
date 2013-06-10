@@ -6,7 +6,7 @@ initializeWith: quest
 	label
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		contents: quest assignment;
+		contents: quest explanation;
 		autoFit: true;
 		wrapFlag: true;
 		width: (self findA: UiScrollArea) width.

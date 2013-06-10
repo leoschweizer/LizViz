@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actions" ],
+		"actions",
+		"explanation" ],
 	"name" : "ZzQuestExplanation",
 	"pools" : [
 		 ],

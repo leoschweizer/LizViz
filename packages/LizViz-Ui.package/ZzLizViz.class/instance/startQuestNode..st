@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 startQuestNode: aNode
 	
 	aNode ifNil: [^ self].

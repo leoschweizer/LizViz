@@ -1,4 +1,4 @@
-as yet unclassified
+ui
 showStartScreen
 	
-	self lizViz previousPage.
+	self lizViz showStartScreen

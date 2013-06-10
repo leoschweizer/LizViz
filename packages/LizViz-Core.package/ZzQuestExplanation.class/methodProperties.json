@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"title:assignment:achievements:description:actions:" : "or 6/7/2013 15:09:57.214" },
+		"title:assignment:achievements:description:explanation:actions:" : "JR 6/10/2013 19:19:35.833" },
 	"instance" : {
 		"actions" : "or 6/7/2013 14:50:26.175",
 		"actions:" : "or 6/7/2013 14:34:09.31",
+		"explanation" : "JR 6/10/2013 19:18:59.417",
+		"explanation:" : "JR 6/10/2013 19:19:15.816",
 		"failureMessage" : "ls 6/8/2013 13:55:13.485",
 		"icon" : "JR 5/28/2013 15:48:05.122",
 		"successMessage" : "ls 6/8/2013 13:55:18.356",

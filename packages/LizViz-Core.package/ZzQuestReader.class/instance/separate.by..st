@@ -1,4 +1,4 @@
-as yet unclassified
+stream parsing
 separate: aValue by: aDelimiter
 	
 	| values |

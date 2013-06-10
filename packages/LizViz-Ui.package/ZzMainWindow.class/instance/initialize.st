@@ -3,9 +3,7 @@ initialize
 	
 	super initialize.
 	
-	self initializeUi.
-	
-	self 
+	self
+		initializeUi;
 		connect: self ui menuButton signal: #pressed toSelector: #showStartScreen;
-		connect: self questMorph signal: #questChanged toSelector: #updateUi queue: self signalQueue;
-		connect: self signal: #failed:with: toSelector: #onError: pattern: #(2)
+		connect: self questMorph signal: #questChanged toSelector: #updateUi queue: self signalQueue

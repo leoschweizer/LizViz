@@ -1,9 +1,10 @@
-as yet unclassified
+initialization
 initializeUnitSelection
 	
-	| model |
+	| tree model |
 	model := ZzUnitModel for: self currentSavegame units.
-	self menuUi unitSelection
+	tree := self menuUi unitSelection.
+	tree
 		removeAllColumns; model: nil;
 		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Tasks'. #text -> #yourself. #icon -> #yourself. #balloonText -> #yourself})
 			textConverter: [:node | (node includesKey: #unit)
@@ -32,11 +33,10 @@ initializeUnitSelection
 		setResizeModeForColumn: 2 to: #rigid;
 		setWidthForColumn: 2 to: 20;
 		setVAlignmentTo: #center;
-		model: model.
+		model: model;
+		expandAllTopLevelNodes.
 	
-	self connect: self menuUi unitSelection signal: #doubleClicked: toSelector: #startQuestNode:.
+	self connect: tree signal: #doubleClicked: toSelector: #startQuestNode:.
 	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode.
 	
-	self connect: self currentSavegame signal: #changed to: self menuUi unitSelection selector: #changeAllItems.
-	
-	self expandUnitSelection
+	self connect: self currentSavegame signal: #changed to: tree selector: #changeAllItems.
