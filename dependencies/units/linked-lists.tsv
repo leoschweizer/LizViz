@@ -58,7 +58,7 @@ Achievements	Linked List, List (API)
 Task	Implementation: Have I got any?
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
-Traits	
+Traits	TZzAddFirstOperation
 Testset	ZzIsEmptyOperationTest>>#testAll
 Code	isEmpty
 	^ true | false
