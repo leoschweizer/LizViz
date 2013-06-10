@@ -3,7 +3,7 @@ In this unit you are going to learn all about Linked Lists, get basic understand
 	
 Task	Explanation: Basics of Lists
 Description	Explain the basic data structure of a list in general and describes its characteristics.
-Assignment	A "List" is a data type, which is equally available in most programming languages. Though the internal implementation might differ, it always provides means for inserting and accessing elements in an ordered fashion. Thus, each added element might be accessed by its index position within the list.
+Explanation	A "List" is a data type, which is equally available in most programming languages. Though the internal implementation might differ, it always provides means for inserting and accessing elements in an ordered fashion. Thus, each added element might be accessed by its index position within the list.
 Actions	#nextItem, #add, #removeFirst
 Achievements	List (API), Common Datatype
 	
@@ -16,7 +16,7 @@ Achievements	List (API), Common Datatype
 	
 Task	Explanation: Implementation Strategy
 Description	Analyses implementation strategies for lists.
-Assignment	Indexed collections, such as lists, are implemented by facilitating one of two main strategies: array- or node-based.
+Explanation	Indexed collections, such as lists, are implemented by facilitating one of two main strategies: array- or node-based.
 	
 	In the array-based approach an continues block of memory is allocated and the fixed-size list elements added continuesly. Indexed elements are accessed by calculating their memory position by multiplying their index with the lists element's size. 
 	
@@ -39,7 +39,7 @@ Achievements	Linked List
 	
 Task	Explanation: Types of Linked Lists
 Description	Distinguish the basic data structure of a linked list into double and single linked list.
-Assignment	The group of "Linked Lists" is distinguished into two kinds: the single linked list vs. double linked list.
+Explanation	The group of "Linked Lists" is distinguished into two kinds: the single linked list vs. double linked list.
 	
 	In a single linked list for each node a reference to the successing node is stored among with a reference to the root (= first) node.
 	
@@ -48,7 +48,7 @@ Achievements	Linked List
 	
 Task	Explanation: Visualize Insertion
 Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements.
-Assignment	A single linked list, which we simply refer to as linked list during the following tasks, initially keeps no reference as no root node is existing.
+Explanation	A single linked list, which we simply refer to as linked list during the following tasks, initially keeps no reference as no root node is existing.
 	After insertion of a first element [operation: add(E)] a new node referencing the inserted element is created and set as root. It does not contain any reference to a successing node yet.
 	
 	With the addition of more elements (standard implementation: at the end) the node list is traversed beginning from root until a node without successor is found. A new node is created at this position and a reference to it is stored within the previously last node.
@@ -58,8 +58,8 @@ Achievements	Linked List, List (API)
 Task	Implementation: Have I got any?
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
-Traits	
-Testset	
+Traits	TZzAddFirstOperation
+Testset	ZzIsEmptyOperationTest>>#testAll
 Code	isEmpty
 	^ true | false
 Achievements	List (API)
@@ -68,14 +68,14 @@ Task	Implementation: How many?
 Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
 Traits	TZzAddFirstOperation
-Testset	ZzQuestTestCase>>#testImplementsUiClass
+Testset	ZzSizeOperationTest>>#testAll
 Code	size
 	 ^42
 Achievements	List (API), Linked List
 	
 Task	Explanation: Run-time complexity & O-Notation
 Description	The basics of O-Notation
-Assignment	Read http://en.wikipedia.org/wiki/Big_O_notation
+Explanation	Read http://en.wikipedia.org/wiki/Big_O_notation
 Achievements	O-Notation
 	
 Task	Multiple Choice: Can we check the size efficiently?
