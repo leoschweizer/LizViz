@@ -1,4 +1,4 @@
 animation
 animateNextItemChangedEvent: anEvent
 	
-	self halt
+	self halt: anEvent type

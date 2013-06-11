@@ -1,4 +1,4 @@
 animation
 animateAttachToListEvent: anEvent
 	
-	self halt
+	self halt: anEvent type

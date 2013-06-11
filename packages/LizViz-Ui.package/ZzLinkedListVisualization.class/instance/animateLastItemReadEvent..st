@@ -1,4 +1,4 @@
 animation
 animateLastItemReadEvent: anEvent
 	
-	self halt
+	self halt: anEvent type

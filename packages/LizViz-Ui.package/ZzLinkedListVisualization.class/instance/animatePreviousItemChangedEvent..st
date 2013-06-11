@@ -1,4 +1,4 @@
 animation
 animatePreviousItemChangedEvent: anEvent
 	
-	self halt
+	self flag: #todo. "only if we actually want to show double linked list"

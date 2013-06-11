@@ -1,4 +1,4 @@
 animation
 animateValueChangedEvent: anEvent
 	
-	self halt
+	self halt: anEvent type
