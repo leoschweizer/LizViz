@@ -1,4 +1,5 @@
 animation
 animateFirstItemReadEvent: anEvent
 	
-	self halt: anEvent type
+	self index: 0.
+	self headMorph recolorConnector: self readColor.

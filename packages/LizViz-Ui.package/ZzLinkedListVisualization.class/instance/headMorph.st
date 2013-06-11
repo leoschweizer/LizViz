@@ -1,5 +1,8 @@
 accessing
 headMorph
 	
-	self morphs isEmpty ifTrue: [^ nil].
-	^ self morphs first
+	^ headMorph ifNil: [
+			headMorph := self newHeadItemMorph.
+			headMorph position: self panel topLeft + (25 @ ((self panel height / 2) - 32)).
+			self panel addMorph: headMorph.
+			headMorph].

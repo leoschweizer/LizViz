@@ -1,0 +1,4 @@
+accessing
+writeColor
+	
+	^ Color blue

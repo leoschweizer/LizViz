@@ -1,4 +1,8 @@
 animation
 animateNextItemReadEvent: anEvent
 	
-	self halt: anEvent type
+	| morph |
+	morph := self nextItemMorph.
+	self mapToCurrentMorph: anEvent sourceItem.
+	
+	morph connector ifNotNilDo: [:c | c lineColor: self readColor].

@@ -1,4 +1,6 @@
 animation
 animateLastItemChangedEvent: anEvent
 	
-	self halt: anEvent type
+	self flag: #todo. "only if we actually want to show double linked list"
+	self notYetImplemented.
+	^ false

@@ -1,0 +1,4 @@
+accessing
+readColor
+	
+	^ Color yellow

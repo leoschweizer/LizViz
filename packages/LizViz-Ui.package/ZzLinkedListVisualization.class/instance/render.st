@@ -1,21 +1,23 @@
 visualization
 render
 	
-	| morph |
-	self truncatePreserveHead
-		ifFalse: [
-			morph := self newHeadItemMorph.
-			morph position: self panel topLeft + (25 @ ((self panel height / 2) - 32)).
-			self morphs addFirst: morph.
-			self panel addMorph: morph]
-		ifTrue: [morph := self headMorph].
+	| morph lastMorph |
+	morph := self headMorph.
 	
 	self items do: [:each | | previousMorph |
 		previousMorph := morph.
 		morph := self newValueItemMorph: each value.
 		morph topLeft: previousMorph topRight + (10 + 20 atRandom @ 20 negated + 40 atRandom).
-		previousMorph 
+		previousMorph
 			nextItemMorph: morph;
 			updateConnectors.
-		self morphs addLast: morph.
+		self itemMorphs addLast: morph.
 		self panel addMorph: morph].
+	
+	lastMorph := self items isEmpty
+		ifTrue: [self headMorph]
+		ifFalse: [self itemMorphs last].
+	lastMorph
+		nextItemMorph: self deadEndMorph;
+		updateConnectors.
+	self visualizationChanged

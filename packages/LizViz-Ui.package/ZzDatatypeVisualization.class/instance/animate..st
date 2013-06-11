@@ -1,6 +1,11 @@
 visualization
 animate: anEvent
 	
-	self flag: #remove.	
+	| block |
+	self flag: #remove.
 	Transcript show: anEvent; cr.
-	((self eventMappingFor: anEvent) at: anEvent type ifAbsent: [self absentMappingBlock]) value
+	block := (self eventMappingFor: anEvent) at: anEvent type ifAbsent: [self absentMappingBlock].
+	"do not change to ifFalse: - will not allow to return self"
+	block value = false ifTrue: [^ false].
+	self visualizationChanged.
+	^ true

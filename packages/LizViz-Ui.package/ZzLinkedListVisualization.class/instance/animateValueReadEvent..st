@@ -1,4 +1,7 @@
 animation
 animateValueReadEvent: anEvent
 	
-	self halt: anEvent type
+	| morph |
+	morph := self morphForItem: anEvent source.
+	morph recolor: self readColor.
+	self halt: anEvent type.

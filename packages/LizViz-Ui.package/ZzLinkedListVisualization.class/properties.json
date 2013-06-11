@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morphs" ],
+		"index",
+		"deadEndMorph",
+		"headMorph",
+		"itemMorphs",
+		"itemMorphMapping" ],
 	"name" : "ZzLinkedListVisualization",
 	"pools" : [
 		 ],
