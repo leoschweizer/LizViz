@@ -8,3 +8,4 @@ initializeVisualizationFor: aUnit
 		render;
 		yourself.
 	self visualization: visualization.
+	self initializeAnimation.

@@ -1,5 +1,5 @@
 signals
-previousItemRead
+valueRead
 	
 	self log: (ZzVisualizationEvent new
-		type: #previousItemRead).
+		type: #valueRead).

@@ -9,7 +9,7 @@
 		"owner",
 		"value",
 		"nextItem" ],
-	"name" : "ZzListItem",
+	"name" : "ZzSingleLinkedListItem",
 	"pools" : [
 		 ],
 	"super" : "Object",

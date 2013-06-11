@@ -10,5 +10,5 @@
 	"name" : "ZzDoubleLinkedListItem",
 	"pools" : [
 		 ],
-	"super" : "ZzListItem",
+	"super" : "ZzSingleLinkedListItem",
 	"type" : "normal" }

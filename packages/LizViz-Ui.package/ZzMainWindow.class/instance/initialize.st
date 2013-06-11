@@ -5,6 +5,6 @@ initialize
 	
 	self
 		initializeUi;
-		initializeAnimation;
+		stopStepping; "we start it explicitly in initializeAnimation when required"
 		connect: self ui menuButton signal: #pressed toSelector: #showStartScreen;
 		connect: self questMorph signal: #questChanged toSelector: #updateUi
