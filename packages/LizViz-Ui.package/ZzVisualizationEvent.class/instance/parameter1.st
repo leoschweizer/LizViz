@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 parameter1
 	
 	^ self at: #parameter1

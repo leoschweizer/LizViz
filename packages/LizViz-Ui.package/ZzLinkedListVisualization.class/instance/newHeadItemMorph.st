@@ -1,4 +1,4 @@
-as yet unclassified
+item creation
 newHeadItemMorph
 	
 	^ ZzLinkedListItemMorph new

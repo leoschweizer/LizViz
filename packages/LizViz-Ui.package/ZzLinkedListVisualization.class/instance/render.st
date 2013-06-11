@@ -2,13 +2,13 @@ visualization
 render
 	
 	| morph |
-	self clearPreserveHead
+	self truncatePreserveHead
 		ifFalse: [
 			morph := self newHeadItemMorph.
 			morph position: self panel topLeft + (25 @ ((self panel height / 2) - 32)).
 			self morphs addFirst: morph.
 			self panel addMorph: morph]
-		ifTrue: [morph := self morphs first].
+		ifTrue: [morph := self headMorph].
 	
 	self items do: [:each | | previousMorph |
 		previousMorph := morph.

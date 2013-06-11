@@ -1,4 +1,4 @@
 animation
 animateAddFirstEvent: anEvent
 	
-	self flag: #woooot
+	self animateAddEvent: anEvent

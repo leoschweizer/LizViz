@@ -1,5 +1,5 @@
 as yet unclassified
-clearEnd: anIndex
+truncateTo: anIndex
 	
 	[self morphs size > anIndex] whileTrue: [
 		self morphs removeLast abandon.

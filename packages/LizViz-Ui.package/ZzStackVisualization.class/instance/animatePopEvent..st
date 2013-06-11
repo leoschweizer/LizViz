@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 animatePopEvent: anEvent
 
 	

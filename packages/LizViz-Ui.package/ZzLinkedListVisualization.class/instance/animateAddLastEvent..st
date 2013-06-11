@@ -1,4 +1,4 @@
 animation
 animateAddLastEvent: anEvent
 	
-	self flag: #woooot
+	self animateAddEvent: anEvent

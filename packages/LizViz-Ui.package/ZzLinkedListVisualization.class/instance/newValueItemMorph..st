@@ -1,4 +1,4 @@
-as yet unclassified
+item creation
 newValueItemMorph: aValue
 	
 	^ ZzLinkedListItemMorph new

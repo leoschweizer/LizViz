@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 eventMappingFor: anEvent
 	
 	^ Dictionary newFrom:{
