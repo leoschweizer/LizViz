@@ -1,4 +1,4 @@
 accessing
 sourceItem
 	
-	^ self at: #sourceItem ifAbsent: [nil]
+	^ self at: #sourceItem ifAbsent: [nil].

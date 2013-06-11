@@ -1,4 +1,4 @@
-navigation
+item-morph mapping
 clearItemMorphMapping
 	
-	self itemMorphMapping: Dictionary new
+	self itemMorphMapping: Dictionary new.

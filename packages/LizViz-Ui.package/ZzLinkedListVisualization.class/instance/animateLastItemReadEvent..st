@@ -2,10 +2,8 @@ animation
 animateLastItemReadEvent: anEvent
 	
 	| morph |
-	morph := self lastItemMorph.
-	self
-		clearItemMorphMapping;
-		mapToCurrentMorph: anEvent sourceItem.
+	self clearItemMorphMapping.
+	morph := self map: anEvent sourceItem toMorph: self itemMorphs last.
 	
 	self flag: #todo. "only if we actually want to show double linked list"
 	self notYetImplemented.

@@ -2,8 +2,7 @@ animation
 animatePreviousItemReadEvent: anEvent
 	
 	| morph |
-	morph := self previousItemMorph.
-	self mapToCurrentMorph: anEvent sourceItem.
+	morph := self map: anEvent sourceItem toIndex: anEvent sourceItem.
 	
 	self flag: #todo. "only if we actually want to show double linked list"
 	self notYetImplemented.
