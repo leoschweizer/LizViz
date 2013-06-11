@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 truncatePreserveHead
 	
 	^ self truncateTo: 1

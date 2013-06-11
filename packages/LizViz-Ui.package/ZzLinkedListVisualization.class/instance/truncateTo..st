@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 truncateTo: anIndex
 	
 	[self morphs size > anIndex] whileTrue: [

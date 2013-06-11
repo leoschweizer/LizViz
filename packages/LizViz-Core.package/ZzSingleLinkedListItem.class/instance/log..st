@@ -1,4 +1,4 @@
-as yet unclassified
+logging
 log: anEvent
 	
 	self owner log: (anEvent sourceItem: self).
