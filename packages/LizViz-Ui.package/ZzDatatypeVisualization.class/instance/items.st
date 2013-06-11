@@ -1,4 +1,4 @@
 accessing
 items
 	
-	^ items
+	^ items ifNil: [items := OrderedCollection new]

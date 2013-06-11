@@ -1,18 +1,15 @@
 {
-	"category" : "LizViz-Core",
+	"category" : "LizViz-Ui",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"quests",
-		"description",
-		"id",
 		"index",
-		"visualizationClass" ],
-	"name" : "ZzUnit",
+		"eventQueue",
+		"visualization" ],
+	"name" : "ZzAnimationManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

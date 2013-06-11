@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 animateAddLastEvent: anEvent
 	
-	
+	self flag: #woooot

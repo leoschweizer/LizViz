@@ -6,3 +6,5 @@ failed: aQuest
 			center: (self center - (0@100));
 			openInWorld].
 	aQuest cleanup.
+	self flag: #jr. "wire to actual trace"
+	self animate: ZzAddLastOperationTest new createExecutionLog.

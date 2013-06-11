@@ -12,7 +12,8 @@
 		"lizViz",
 		"signalQueue",
 		"lastAnimationStep",
-		"visualization" ],
+		"visualization",
+		"animation" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],

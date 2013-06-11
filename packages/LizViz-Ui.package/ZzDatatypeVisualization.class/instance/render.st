@@ -1,4 +1,4 @@
 visualization
-eventMappingFor: anEvent
-
+render
+	
 	self subclassResponsibility

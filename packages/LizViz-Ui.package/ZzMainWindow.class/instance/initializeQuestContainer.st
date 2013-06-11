@@ -2,7 +2,7 @@ initialization
 initializeQuestContainer
 	
 	self
-		connect: self ui submitQuestButton signal: #pressed toSelector: #submitForked;
+		connect: self ui submitQuestButton signal: #pressed toSelector: #submit;
 		connect: self ui stepButton signal: #pressed toSelector: #handleNextSignal.
 	
 	self questMorph: ZzQuestContainerMorph new.
