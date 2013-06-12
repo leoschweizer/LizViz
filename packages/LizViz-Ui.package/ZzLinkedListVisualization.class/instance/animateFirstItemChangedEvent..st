@@ -1,7 +1,4 @@
 animation
 animateFirstItemChangedEvent: anEvent
 	
-	| morph linkedMorph |
-	morph := self itemMorphs first.
-	linkedMorph := self morphForItem: anEvent parameter1.
-	self halt: anEvent type.
+	self privateAnimateItemChangedEvent: anEvent for: self headMorph.
