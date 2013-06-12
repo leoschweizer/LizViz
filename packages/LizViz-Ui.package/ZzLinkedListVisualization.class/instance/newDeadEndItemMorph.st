@@ -1,4 +1,4 @@
-item creation
+morph creation
 newDeadEndItemMorph
 	
 	^ ZzLinkedListItemMorph new

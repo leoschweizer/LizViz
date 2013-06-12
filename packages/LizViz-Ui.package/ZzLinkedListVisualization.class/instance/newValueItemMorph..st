@@ -1,4 +1,4 @@
-item creation
+morph creation
 newValueItemMorph: aValue
 	
 	^ ZzLinkedListItemMorph new

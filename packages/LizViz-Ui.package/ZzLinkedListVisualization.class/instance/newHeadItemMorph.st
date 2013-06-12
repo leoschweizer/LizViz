@@ -1,4 +1,4 @@
-item creation
+morph creation
 newHeadItemMorph
 	
 	^ ZzLinkedListItemMorph new
