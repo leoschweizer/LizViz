@@ -1,4 +1,4 @@
 accessing
 animatedList
 	
-	^ (self ownerThatIsA: ZzMainWindow) animatedDatatype
+	^ (self ownerThatIsA: ZzMainWindow) visualization
