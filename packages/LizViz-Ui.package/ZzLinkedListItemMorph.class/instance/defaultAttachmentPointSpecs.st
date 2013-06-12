@@ -5,4 +5,6 @@ defaultAttachmentPointSpecs
 	^ {
 		{ #leftCenter }.
 		{ #rightCenter }.
+		{ #topCenter }.
+		{ #bottomCenter }.
 	}
