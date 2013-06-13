@@ -1,7 +1,6 @@
 animation
 animatePushEvent: anEvent
 
-	self items addLast: anEvent parameter1.
+	self describe: 'Value pushed on stack'.
+	self items addFirst: anEvent parameter1.
 	self render.
-
-	

@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stepDescriptionMorph",
 		"deadEndMorph",
 		"headMorph",
 		"itemMorphs",

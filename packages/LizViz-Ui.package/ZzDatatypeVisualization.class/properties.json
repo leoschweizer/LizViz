@@ -8,7 +8,8 @@
 	"instvars" : [
 		"items",
 		"panel",
-		"eventQueue" ],
+		"eventQueue",
+		"stepDescriptionMorph" ],
 	"name" : "ZzDatatypeVisualization",
 	"pools" : [
 		 ],

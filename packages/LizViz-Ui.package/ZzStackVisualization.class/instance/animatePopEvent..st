@@ -1,7 +1,8 @@
 animation
 animatePopEvent: anEvent
 
-	self items removeLast.
+	self describe: 'Item popped from stack'.
+	self items removeFirst.
 	self render.
 
 	

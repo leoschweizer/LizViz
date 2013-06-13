@@ -1,21 +1,21 @@
 visualization
 render
 
-	| morph |
+	| morph position |
+	self itemMorphs do: [:m | m abandon].
+	self itemMorphs: nil.
 	morph := self headMorph.
-	morph bottomLeft: self panel bottomCenter + (headMorph width / -2 @ -15).
-	self panel
-		removeAllMorphs;
-		addMorph: morph.
+	position := morph topRight + (20@0).
 	
 	self items do: [:each | | previousMorph |
 		previousMorph := morph.
 		morph := self newValueItemMorph: each value.
-		morph bottomLeft: previousMorph topLeft + (10 - 20 atRandom @ 10 negated + 20 atRandom).
+		morph topLeft: position.
 		previousMorph
 			nextItemMorph: morph;
 			updateConnectors.
-		self itemMorphs add: morph.
-		self panel addMorph: morph].
+		self itemMorphs addFirst: morph.
+		self panel addMorph: morph.
+		position := morph bottomLeft + ((15 - 30 atRandom) @ (10 + (10 atRandom)))].
 
-	self moveItemsToVisibleArea.
+	self visualizationChanged.
