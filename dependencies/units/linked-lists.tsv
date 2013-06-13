@@ -1,5 +1,6 @@
 Unit 1: Linked Lists	
 In this unit you are going to learn all about Linked Lists, get basic understanding of their API and insight into their internals.	
+VisualizationClass	ZzLinkedListVisualization
 	
 Task	Explanation: Basics of Lists
 Description	Explain the basic data structure of a list in general and describes its characteristics.
