@@ -1,14 +1,19 @@
 stream parsing
 readUnit: anId from: aStream
 	
-	| title description unit task |
+	| title description visualizationClass unit task |
 	title := aStream nextLine withBlanksTrimmed.
 	description := aStream nextLine withBlanksTrimmed.
-	
-	unit := ZzUnit 
+	visualizationClass := aStream nextLine withBlanksTrimmed.
+	visualizationClass := Smalltalk 
+		at: ((visualizationClass subStrings: Character tab asString) second asSymbol)
+		ifAbsent: ZzLinkedListVisualization.
+
+	unit := (ZzUnit 
 		id: anId 
 		title: title 
-		description: description.
+		description: description)
+			visualizationClass: visualizationClass.
 	
 	[task := self readTaskFrom: aStream] whileNotNil: 
 		[unit quests ifNotEmptyDo: [:list | list last next: task].
