@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"absentMappingBlock" : "JR 6/11/2013 14:31:15.581",
-		"animateAttachToListEvent:" : "JR 6/12/2013 22:42:24.072",
+		"absentMappingBlock" : "or 6/14/2013 13:01:05.371",
+		"animateAttachToListEvent:" : "or 6/14/2013 13:43:16.138",
 		"animateFirstItemChangedEvent:" : "JR 6/12/2013 22:40:27.45",
 		"animateFirstItemReadEvent:" : "JR 6/12/2013 22:39:16.999",
 		"animateLastItemChangedEvent:" : "JR 6/12/2013 22:40:22.098",
@@ -31,11 +31,11 @@
 		"newHeadItemMorph" : "JR 6/11/2013 08:42:10.838",
 		"newValueItemMorph:" : "JR 6/11/2013 08:42:39.032",
 		"positionFor:" : "JR 6/11/2013 19:33:45.192",
-		"privateAnimateItemChangedEvent:for:" : "JR 6/12/2013 21:44:10.592",
+		"privateAnimateItemChangedEvent:for:" : "or 6/14/2013 13:28:23.447",
 		"readColor" : "JR 6/11/2013 16:30:07.02",
 		"render" : "JR 6/11/2013 18:04:04.674",
 		"resetAllTransformations" : "JR 6/12/2013 21:45:40.957",
-		"truncateToIndex:" : "or 6/13/2013 17:00:48.131",
+		"truncateToIndex:" : "or 6/14/2013 13:16:43.859",
 		"truncateToMorph:" : "JR 6/11/2013 16:56:43.534",
 		"unboundColor" : "JR 6/11/2013 16:30:23.234",
 		"writeColor" : "JR 6/11/2013 16:30:12.466" } }

@@ -1,10 +1,10 @@
 action processing
 add
 	
-	| x |
-	self flag: #jr. "die Liste für den Log muss genauso viele Elemente behinhalten wie die Liste, die visualisiert werden soll"
-	x := ZzAnimationManager 
-		animate: (ZzAddFirstOperationTest new createExecutionLogFor: ZzGodList new)
-		on: self animatedList.
-	[x hasMoreSteps] whileTrue: [x stepForward].
-	self currentItem: nil
+	| list |
+	list := ZzGodList new.
+	self animatedList items withIndexDo: [:value :index |
+		self animatedList map: (list addLast: value) toIndex: index].
+	(self ownerThatIsA: ZzMainWindow) animation eventQueue addAll:
+		(ZzAddFirstOperationTest new createExecutionLogFor: list).
+	(self ownerThatIsA: ZzMainWindow) startStepping.

@@ -9,10 +9,11 @@ failed: aQuest
 
 	previousItem := nil.
 	self visualization items do: [:item | | listItem |
-		listItem := ZzSingleLinkedListItem new 
-			owner: aQuest testedListInstance;
-			value: item.
-		previousItem ifNil: [aQuest testedListInstance firstItem: listItem] ifNotNil: [previousItem nextItem: listItem].
+		listItem := aQuest testedListInstance createItem value: item.
+		previousItem 
+			ifNil: [aQuest testedListInstance firstItem: listItem] 
+			ifNotNil: [previousItem nextItem: listItem.
+				listItem previousItem: previousItem].
 		previousItem := listItem].
 	self animate: (aQuest testset anyOne methodClass new createExecutionLogFor: aQuest testedListInstance).
 	aQuest cleanup.

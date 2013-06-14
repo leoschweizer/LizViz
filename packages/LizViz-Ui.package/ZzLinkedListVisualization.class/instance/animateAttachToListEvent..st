@@ -8,5 +8,8 @@ animateAttachToListEvent: anEvent
 	morph recolor: self unboundColor.
 	position := self positionFor: morph.
 	self panel addMorph: morph centeredNear: position.
-	self itemMorphs addLast: morph.
+
+	anEvent sourceItem nextItem isNil 
+		ifTrue:[self itemMorphs addLast: morph]
+		ifFalse: [self itemMorphs add: morph before: (self morphForItem: anEvent sourceItem nextItem)].
 	self itemMorphMapping at: anEvent sourceItem put: morph.
