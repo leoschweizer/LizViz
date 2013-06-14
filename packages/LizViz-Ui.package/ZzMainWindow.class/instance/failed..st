@@ -1,14 +1,18 @@
 quest-management
 failed: aQuest
 	
-	| toBeReplaced |
+	| previousItem |
 	aQuest failureMessage ifNotNilDo: [:message |
 		(UiMessage error: message asHtmlText)
 			center: (self center - (0@100));
 			openInWorld].
+
+	previousItem := nil.
+	self visualization items do: [:item | | listItem |
+		listItem := ZzSingleLinkedListItem new 
+			owner: aQuest testedListInstance;
+			value: item.
+		previousItem ifNil: [aQuest testedListInstance firstItem: listItem] ifNotNil: [previousItem nextItem: listItem].
+		previousItem := listItem].
+	self animate: (aQuest testset anyOne methodClass new createExecutionLogFor: aQuest testedListInstance).
 	aQuest cleanup.
-	
-	self flag: #todo. "wire to actual trace based on list with same elements as visualization"
-	toBeReplaced := ZzGodList new.
-	self visualization items do: [:item | toBeReplaced add: item].
-	self animate: (ZzAddLastOperationTest new createExecutionLogFor: toBeReplaced).

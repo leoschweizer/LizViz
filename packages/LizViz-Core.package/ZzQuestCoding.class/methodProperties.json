@@ -3,7 +3,7 @@
 		"title:assignment:achievements:description:code:traits:testset:" : "JR 5/28/2013 13:38:11.916" },
 	"instance" : {
 		"buildList:" : "ls 6/6/2013 13:07:29.404",
-		"cleanup" : "ls 6/8/2013 14:02:08.785",
+		"cleanup" : "or 6/14/2013 12:26:10.224",
 		"code" : "JR 5/20/2013 10:30:13.948",
 		"code:" : "ls 6/5/2013 14:36:27.683",
 		"failureMessage" : "JR 6/10/2013 23:14:37.204",
@@ -12,9 +12,11 @@
 		"test:against:" : "ls 6/5/2013 14:37:53.823",
 		"testResult" : "ls 6/8/2013 14:01:31.408",
 		"testResult:" : "ls 6/8/2013 14:01:22.477",
+		"testedListInstance" : "or 6/14/2013 12:13:24.799",
+		"testedListInstance:" : "or 6/14/2013 12:13:24.829",
 		"testset" : "ls 5/27/2013 17:46:44.013",
 		"testset:" : "ls 5/27/2013 17:47:30.806",
 		"traits" : "ls 6/5/2013 14:36:41.163",
 		"traits:" : "ls 6/5/2013 14:36:45.073",
 		"uiClass" : "JR 5/19/2013 22:26:43.293",
-		"verify:" : "JR 6/11/2013 08:51:08.393" } }
+		"verify:" : "or 6/14/2013 12:14:14.067" } }

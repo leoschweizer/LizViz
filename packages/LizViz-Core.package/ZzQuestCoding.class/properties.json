@@ -9,7 +9,8 @@
 		"traits",
 		"testset",
 		"testResult",
-		"code" ],
+		"code",
+		"testedListInstance" ],
 	"name" : "ZzQuestCoding",
 	"pools" : [
 		 ],
