@@ -11,5 +11,7 @@ animateAttachToListEvent: anEvent
 
 	anEvent sourceItem nextItem isNil 
 		ifTrue:[self itemMorphs addLast: morph]
-		ifFalse: [self itemMorphs add: morph before: (self morphForItem: anEvent sourceItem nextItem)].
+		ifFalse: [
+			self itemMorphs add: morph before: (self morphForItem: anEvent sourceItem nextItem).
+			self items add: anEvent sourceItem value beforeIndex: (self itemMorphs indexOf: morph)].
 	self itemMorphMapping at: anEvent sourceItem put: morph.

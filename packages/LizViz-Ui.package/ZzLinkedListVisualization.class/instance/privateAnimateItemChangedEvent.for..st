@@ -13,3 +13,5 @@ privateAnimateItemChangedEvent: anEvent for: aMorph
 		nextItemMorph: linkedMorph;
 		updateConnectors;
 		recolorConnector: self writeColor.
+	
+	self removeUnreferenced.
