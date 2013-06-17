@@ -1,0 +1,4 @@
+accessing
+deadEndMorph 
+
+	^ nil

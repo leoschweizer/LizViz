@@ -1,10 +1,6 @@
 action processing
 removeFirst
 
-	| list |
-	list := ZzGodList new.
-	self animatedList items withIndexDo: [:value :index |
-		self animatedList map: (list addLast: value) toIndex: index].
 	(self ownerThatIsA: ZzMainWindow) animation eventQueue addAll:
-		(ZzRemoveFirstOperationTest new createExecutionLogFor: list).
+		(ZzRemoveFirstOperationTest new createExecutionLogFor: self setupList).
 	(self ownerThatIsA: ZzMainWindow) startStepping.

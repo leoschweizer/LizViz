@@ -3,13 +3,8 @@
 		 },
 	"instance" : {
 		"absentMappingBlock" : "or 6/13/2013 15:16:24.658",
-		"animatePopEvent:" : "or 6/13/2013 16:48:41.06",
-		"animatePushEvent:" : "or 6/13/2013 16:48:50.429",
-		"eventMappingFor:" : "or 6/13/2013 16:47:53.951",
+		"animateAttachToListEvent:" : "or 6/17/2013 19:45:08.45",
+		"animateFirstItemChangedEvent:" : "or 6/17/2013 20:12:22.011",
+		"deadEndMorph" : "or 6/17/2013 19:56:49.864",
 		"headMorph" : "or 6/13/2013 16:58:09.971",
-		"headMorph:" : "or 6/13/2013 16:54:59.25",
-		"itemMorphs" : "or 6/13/2013 16:47:29.943",
-		"itemMorphs:" : "or 6/13/2013 16:54:59.281",
-		"newHeadItemMorph" : "or 6/13/2013 14:46:02.018",
-		"newValueItemMorph:" : "or 6/13/2013 16:49:42.879",
-		"render" : "or 6/13/2013 16:55:55.642" } }
+		"render" : "or 6/17/2013 19:53:21.888" } }

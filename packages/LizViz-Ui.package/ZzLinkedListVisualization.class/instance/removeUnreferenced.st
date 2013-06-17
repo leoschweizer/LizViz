@@ -5,7 +5,7 @@ removeUnreferenced
 
 	referenced := OrderedCollection new.
 	current := self headMorph.
-	[current nextItemMorph isNil and: current = self deadEndMorph] whileFalse: [
+	[current nextItemMorph isNil or: current = self deadEndMorph] whileFalse: [
 		current := current nextItemMorph.
 		referenced add: current].
 	self itemMorphs withIndexDo: [:m :i |

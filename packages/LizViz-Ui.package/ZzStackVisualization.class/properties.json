@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"headMorph",
-		"itemMorphs" ],
+		 ],
 	"name" : "ZzStackVisualization",
 	"pools" : [
 		 ],
-	"super" : "ZzDatatypeVisualization",
+	"super" : "ZzLinkedListVisualization",
 	"type" : "normal" }

@@ -1,5 +1,6 @@
 action processing
 pop
 	
-	self animatedList animate: (ZzVisualizationEvent new 
-		type: #pop).
+	(self ownerThatIsA: ZzMainWindow) animation eventQueue addAll:
+		(ZzPopOperationTest new createExecutionLogFor: self setupList).
+	(self ownerThatIsA: ZzMainWindow) startStepping.
