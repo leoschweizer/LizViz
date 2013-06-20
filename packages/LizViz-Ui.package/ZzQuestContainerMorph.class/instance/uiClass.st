@@ -1,0 +1,4 @@
+abstract
+uiClass
+
+	^ self subclassResponsibility

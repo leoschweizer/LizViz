@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzCodeQuestMorph",
+	"pools" : [
+		 ],
+	"super" : "ZzQuestContainerMorph",
+	"type" : "normal" }

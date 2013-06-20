@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Ui",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"checkboxes" ],
+	"name" : "ZzMultipleChoiceQuestMorph",
+	"pools" : [
+		 ],
+	"super" : "ZzQuestContainerMorph",
+	"type" : "normal" }
