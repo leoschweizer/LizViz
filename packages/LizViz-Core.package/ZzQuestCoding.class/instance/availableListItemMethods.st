@@ -1,0 +1,4 @@
+accessing
+availableListItemMethods
+
+	^ #(#nextItem #nextItem:)
