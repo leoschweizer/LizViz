@@ -7,4 +7,5 @@ testAll
 		runIsolated: #testReturnType;
 		runIsolated: #testSizeOfNonEmptyList;
 		runIsolated: #testSizeOfEmptyList;
+		runIsolated: #testSizeOfRandomList;
 		runIsolated: #testSideEffects.
