@@ -267,7 +267,7 @@ initializePanel
 	stepButton setProperty: #objectName toValue: 'stepButton'.
 	unnamedMorph1 addChild: stepButton.
 	bottomContainer addChild: unnamedMorph1.
-	visualizationContainer := UiScrollArea new.
+	visualizationContainer := ZzScrollArea new.
 	visualizationContainer extent: (532@281).
 	visualizationContainer position: (2@99).
 	visualizationContainer hResizing: (#spaceFill).
