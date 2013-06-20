@@ -16,5 +16,5 @@ failed: aQuest
 				listItem previousItem: previousItem].
 		previousItem := listItem].
 	self animate: (aQuest testset anyOne methodClass new createExecutionLogFor: aQuest testedListInstance)] on: Error 
-		do: [Transcript show: 'Error occured while animating...'; cr].
+		do: [:e | Transcript show: 'Error occured while animating: ', e asString; cr].
 	aQuest cleanup.
