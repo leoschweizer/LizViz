@@ -7,10 +7,11 @@ Description	What is a Stack?
 Explanation	A Stack, also called First In Last Out (FILO)-Queue, is a collection, where the newest element always is the firstItem.
 	It supports the operations push: value to add an element on top of the stack and pop to retrieve the topmost element.
 Actions	#push, #pop
-Achievements	Stack (API), Common Datatype
+Achievements	Common Datatype
+Required Achievements	Stack (API)
 	
 Task	Explanation: TODO
 Description	TODO
 Explanation	TODO
 Actions	
-Achievements	Stack (API)
+Achievements	
