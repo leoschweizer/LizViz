@@ -54,16 +54,16 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
 	assignmentText := UiTextEdit new.
-	assignmentText extent: (160@51).
-	assignmentText position: (10@9).
-	assignmentText hResizing: (#rigid).
-	assignmentText vResizing: (#shrinkWrap).
+	assignmentText extent: (159@84).
+	assignmentText position: (9@9).
+	assignmentText hResizing: (#spaceFill).
+	assignmentText vResizing: (#spaceFill).
 	assignmentText minWidth: (2).
 	assignmentText minHeight: (2).
 	assignmentText cellInset: (0).
@@ -80,14 +80,14 @@ initializePanel
 	assignmentText frameFractions: (0@0 corner: 1@1).
 	assignmentText frameOffsets: (0@0 corner: 0@0).
 	assignmentText balloonText: (nil).
-	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	assignmentText widgetResizable: (true).
 	assignmentText horizontalScrollBarPolicy: (#alwaysOff).
-	assignmentText verticalScrollBarPolicy: (#alwaysOn).
+	assignmentText verticalScrollBarPolicy: (#alwaysOff).
 	assignmentText outerBorderWidth: (1).
 	assignmentText scrollBarThickness: (9).
 	assignmentText theText: ('').
-	assignmentText readOnly: (false).
+	assignmentText readOnly: (true).
 	assignmentText autoConvert: (false).
 	assignmentText autoAccept: (false).
 	assignmentText acceptOnFocusLost: (false).
@@ -96,8 +96,8 @@ initializePanel
 	assignmentText setProperty: #objectName toValue: 'assignmentText'.
 	unnamedMorph1 addChild: assignmentText.
 	code := UiTextEdit new.
-	code extent: (156@84).
-	code position: (175@9).
+	code extent: (159@84).
+	code position: (172@9).
 	code hResizing: (#spaceFill).
 	code vResizing: (#spaceFill).
 	code minWidth: (2).
@@ -116,7 +116,7 @@ initializePanel
 	code frameFractions: (0@0 corner: 1@1).
 	code frameOffsets: (0@0 corner: 0@0).
 	code balloonText: (nil).
-	code balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	code balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	code widgetResizable: (true).
 	code horizontalScrollBarPolicy: (#alwaysOff).
 	code verticalScrollBarPolicy: (#alwaysOn).
@@ -154,7 +154,7 @@ initializePanel
 	submitQuestButton frameFractions: (0@0 corner: 1@1).
 	submitQuestButton frameOffsets: (0@0 corner: 0@0).
 	submitQuestButton balloonText: (nil).
-	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	submitQuestButton enabled: (true).
 	submitQuestButton setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	submitQuestButton icon: (UiSilkIcons acceptIcon).

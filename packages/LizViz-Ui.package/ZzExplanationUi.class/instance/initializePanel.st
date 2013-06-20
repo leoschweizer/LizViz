@@ -81,14 +81,14 @@ initializePanel
 	explanationText frameFractions: (0@0 corner: 1@1).
 	explanationText frameOffsets: (0@0 corner: 0@0).
 	explanationText balloonText: (nil).
-	explanationText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	explanationText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	explanationText widgetResizable: (true).
 	explanationText horizontalScrollBarPolicy: (#alwaysOff).
 	explanationText verticalScrollBarPolicy: (#alwaysOn).
-	explanationText outerBorderWidth: (1).
+	explanationText outerBorderWidth: (0).
 	explanationText scrollBarThickness: (9).
 	explanationText theText: ('').
-	explanationText readOnly: (false).
+	explanationText readOnly: (true).
 	explanationText autoConvert: (false).
 	explanationText autoAccept: (false).
 	explanationText acceptOnFocusLost: (false).
@@ -118,7 +118,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -145,7 +145,7 @@ initializePanel
 	buttonContainer frameFractions: (0@0 corner: 1@1).
 	buttonContainer frameOffsets: (0@0 corner: 0@0).
 	buttonContainer balloonText: (nil).
-	buttonContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	buttonContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	buttonContainer color: (Color transparent).
 	buttonContainer borderWidth: (0).
 	buttonContainer borderStyle2: (#simple).

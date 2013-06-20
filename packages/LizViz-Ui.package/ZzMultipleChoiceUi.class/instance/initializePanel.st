@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -80,14 +80,14 @@ initializePanel
 	assignmentText frameFractions: (0@0 corner: 1@1).
 	assignmentText frameOffsets: (0@0 corner: 0@0).
 	assignmentText balloonText: (nil).
-	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	assignmentText widgetResizable: (true).
 	assignmentText horizontalScrollBarPolicy: (#alwaysOff).
 	assignmentText verticalScrollBarPolicy: (#alwaysOn).
 	assignmentText outerBorderWidth: (1).
 	assignmentText scrollBarThickness: (9).
 	assignmentText theText: ('').
-	assignmentText readOnly: (false).
+	assignmentText readOnly: (true).
 	assignmentText autoConvert: (false).
 	assignmentText autoAccept: (false).
 	assignmentText acceptOnFocusLost: (false).
@@ -179,7 +179,7 @@ initializePanel
 	submitQuestButton frameFractions: (0@0 corner: 1@1).
 	submitQuestButton frameOffsets: (0@0 corner: 0@0).
 	submitQuestButton balloonText: (nil).
-	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	submitQuestButton enabled: (true).
 	submitQuestButton setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	submitQuestButton icon: (UiSilkIcons acceptIcon).
