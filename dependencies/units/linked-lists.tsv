@@ -85,3 +85,12 @@ Assignment	Now that we have implemented a size operation and learnt about comple
 Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
 Solution	b
 Achievements	List (API), O-Notation
+	
+Task	Implementation: Make it grow!
+Description	Implement a method to add elements to the front of the list
+Assignment	A list only is useful, if you can add elements to it. Implement a method, that allows to add elements to the front of the list. It receives a number as a parameter and returns the growed list.
+Traits	
+Testset	ZzAddFirstOperationTest>>#testAll
+Code	addFirst: aValue
+	^ self
+Achievements	Stack (API)
