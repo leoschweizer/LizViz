@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"title:assignment:achievements:description:" : "JR 5/28/2013 13:37:05.078" },
+		 },
 	"instance" : {
 		"achievements" : "JR 5/28/2013 13:31:53.304",
 		"achievements:" : "ls 6/5/2013 14:34:29.07",
@@ -15,6 +15,8 @@
 		"icon" : "JR 5/28/2013 15:23:09.06",
 		"next" : "ls 6/8/2013 15:14:18.836",
 		"next:" : "ls 6/8/2013 15:14:12.717",
+		"requiredAchievements" : "ls 6/20/2013 16:30:33.872",
+		"requiredAchievements:" : "ls 6/20/2013 16:11:15.126",
 		"successMessage" : "ls 6/8/2013 14:23:01.681",
 		"title" : "JR 5/9/2013 09:29:22.999",
 		"title:" : "ls 6/5/2013 14:35:07.614",

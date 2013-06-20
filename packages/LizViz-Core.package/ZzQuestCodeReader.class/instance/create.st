@@ -1,11 +1,12 @@
 stream parsing
 create
 	
-	^ ZzQuestCoding
-		title: self title
-		assignment: self assignment
-		achievements: self achievements
-		description: self description
-		code: self code
-		traits: self traits
+	^ ZzQuestCoding new
+		title: self title;
+		assignment: self assignment;
+		achievements: self achievements;
+		requiredAchievements: self requiredAchievements;
+		description: self description;
+		code: self code;
+		traits: self traits;
 		testset: self testset

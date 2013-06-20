@@ -1,4 +1,4 @@
 accessing
-achievements: aString
+achievements: aCollection
 	
-	achievements := aString
+	achievements := aCollection.

@@ -1,4 +1,4 @@
 as yet unclassified
 quests
 	
-	^ quests ifNil: [ quests := Dictionary new ]
+	^ quests ifNil: [quests := Dictionary new]

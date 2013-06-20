@@ -1,10 +1,11 @@
 stream parsing
 create
 	
-	^ ZzQuestMultipleChoice
-		title: self title
-		assignment: self assignment
-		achievements: self achievements
-		description: self description
-		choices: self choices
+	^ ZzQuestMultipleChoice new
+		title: self title;
+		assignment: self assignment;
+		achievements: self achievements;
+		requiredAchievements: self requiredAchievements;
+		description: self description;
+		choices: self choices;
 		solution: self solution

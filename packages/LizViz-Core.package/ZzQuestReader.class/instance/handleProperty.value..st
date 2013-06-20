@@ -9,3 +9,6 @@ handleProperty: key value: value
 	
 	key = 'Achievements' ifTrue: 
 		[^ self achievements: (self separate: value by: ',')].
+	
+	key = 'Required Achievements' ifTrue:
+		[^ self requiredAchievements: (self separate: value by: ',')].

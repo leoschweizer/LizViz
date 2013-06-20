@@ -9,7 +9,8 @@
 		"description",
 		"assignment",
 		"title",
-		"achievements" ],
+		"achievements",
+		"requiredAchievements" ],
 	"name" : "ZzQuestReader",
 	"pools" : [
 		 ],
