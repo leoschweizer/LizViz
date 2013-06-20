@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	headerContainer := UiContainer new.
 	headerContainer changeTableLayout.
-	headerContainer extent: (536@70).
+	headerContainer extent: (536@60).
 	headerContainer position: (0@0).
 	headerContainer hResizing: (#spaceFill).
 	headerContainer vResizing: (#shrinkWrap).
@@ -43,7 +43,7 @@ initializePanel
 	headerContainer cellInset: (4).
 	headerContainer cellPositioning: (#center).
 	headerContainer cellSpacing: (#none).
-	headerContainer layoutInset: (10).
+	headerContainer layoutInset: (4).
 	headerContainer listCentering: (#topLeft).
 	headerContainer listDirection: (#leftToRight).
 	headerContainer listSpacing: (#none).
@@ -62,8 +62,8 @@ initializePanel
 	headerContainer setProperty: #objectName toValue: 'headerContainer'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (457@50).
-	unnamedMorph1 position: (10@10).
+	unnamedMorph1 extent: (469@50).
+	unnamedMorph1 position: (4@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -82,7 +82,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -90,7 +90,7 @@ initializePanel
 	headlineLabel := UiLabel new.
 	headlineLabel changeTableLayout.
 	headlineLabel extent: (96@19).
-	headlineLabel position: (14@14).
+	headlineLabel position: (8@8).
 	headlineLabel hResizing: (#shrinkWrap).
 	headlineLabel vResizing: (#shrinkWrap).
 	headlineLabel minWidth: (2).
@@ -118,7 +118,7 @@ initializePanel
 	questTitleLabel := UiLabel new.
 	questTitleLabel changeTableLayout.
 	questTitleLabel extent: (54@19).
-	questTitleLabel position: (14@37).
+	questTitleLabel position: (8@31).
 	questTitleLabel hResizing: (#shrinkWrap).
 	questTitleLabel vResizing: (#shrinkWrap).
 	questTitleLabel minWidth: (2).
@@ -147,7 +147,7 @@ initializePanel
 	menuButton := UiPushButton new.
 	menuButton changeTableLayout.
 	menuButton extent: (53@21).
-	menuButton position: (472@25).
+	menuButton position: (478@19).
 	menuButton hResizing: (#shrinkWrap).
 	menuButton vResizing: (#shrinkWrap).
 	menuButton minWidth: (2).
@@ -166,7 +166,7 @@ initializePanel
 	menuButton frameFractions: (0@0 corner: 1@1).
 	menuButton frameOffsets: (0@0 corner: 0@0).
 	menuButton balloonText: (nil).
-	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	menuButton enabled: (true).
 	menuButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0306Small'.
 	menuButton icon: (UiDiagonaIcons icon0306Small).
@@ -180,8 +180,8 @@ initializePanel
 	panel addChild: headerContainer.
 	bottomContainer := UiContainer new.
 	bottomContainer changeTableLayout.
-	bottomContainer extent: (536@390).
-	bottomContainer position: (0@70).
+	bottomContainer extent: (536@400).
+	bottomContainer position: (0@60).
 	bottomContainer hResizing: (#spaceFill).
 	bottomContainer vResizing: (#spaceFill).
 	bottomContainer minWidth: (400).
@@ -209,7 +209,7 @@ initializePanel
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (279@30).
-	unnamedMorph2 position: (129@72).
+	unnamedMorph2 position: (129@62).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -236,7 +236,7 @@ initializePanel
 	unnamedMorph3 := UiLabel new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (101@19).
-	unnamedMorph3 position: (133@78).
+	unnamedMorph3 position: (133@68).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -263,7 +263,7 @@ initializePanel
 	stepSlider := UiSlider new.
 	stepSlider changeTableLayout.
 	stepSlider extent: (100@14).
-	stepSlider position: (246@80).
+	stepSlider position: (246@70).
 	stepSlider hResizing: (#rigid).
 	stepSlider vResizing: (#rigid).
 	stepSlider minWidth: (2).
@@ -297,7 +297,7 @@ initializePanel
 	stepButton := UiPushButton new.
 	stepButton changeTableLayout.
 	stepButton extent: (45@21).
-	stepButton position: (358@76).
+	stepButton position: (358@66).
 	stepButton hResizing: (#shrinkWrap).
 	stepButton vResizing: (#shrinkWrap).
 	stepButton minWidth: (2).
@@ -329,8 +329,8 @@ initializePanel
 	unnamedMorph2 addChild: stepButton.
 	bottomContainer addChild: unnamedMorph2.
 	visualizationContainer := ZzScrollArea new.
-	visualizationContainer extent: (532@308).
-	visualizationContainer position: (2@106).
+	visualizationContainer extent: (532@313).
+	visualizationContainer position: (2@96).
 	visualizationContainer hResizing: (#spaceFill).
 	visualizationContainer vResizing: (#spaceFill).
 	visualizationContainer minWidth: (400).
@@ -359,8 +359,8 @@ initializePanel
 	bottomContainer addChild: visualizationContainer.
 	questContainer := UiContainer new.
 	questContainer changeTableLayout.
-	questContainer extent: (532@40).
-	questContainer position: (2@418).
+	questContainer extent: (532@45).
+	questContainer position: (2@413).
 	questContainer hResizing: (#spaceFill).
 	questContainer vResizing: (#spaceFill).
 	questContainer minWidth: (2).

@@ -11,5 +11,5 @@ initializeWith: aQuest in: aWindow
 		
 	aQuest actions do: [:a | 
 		button := (UiPushButton new text: a).
-		self connect: button signal: #pressed toSelector: a.
+		self connect: button signal: #clicked: toSelector: a.
 		self ui buttonContainer addMorph: button].
