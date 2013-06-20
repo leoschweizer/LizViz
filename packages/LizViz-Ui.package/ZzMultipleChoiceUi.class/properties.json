@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"multipleChoice" ],
+		"assignmentText",
+		"multipleChoice",
+		"submitQuestButton" ],
 	"name" : "ZzMultipleChoiceUi",
 	"pools" : [
 		 ],

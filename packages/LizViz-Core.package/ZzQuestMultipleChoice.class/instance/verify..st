@@ -1,8 +1,7 @@
 verification
-verify: data
+verify: checked
 	
-	| checked solution |
+	| solution |
 	solution := self solution.
-	checked := data at: #multipleChoice ifAbsent: [^ false].
 	^ (solution size = checked size)
 		and: [solution includesAllOf: checked]

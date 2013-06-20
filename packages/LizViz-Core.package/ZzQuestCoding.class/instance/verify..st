@@ -1,8 +1,6 @@
 verification
-verify: data
+verify: code
 	
-	| code |
-	code := data at: #code ifAbsent: [^ false].
 	code asString withBlanksTrimmed = '' ifTrue: [ | t |
 		t := ZzAnswerVerificationTest new description: 'You forgot to implement the method!'.
 		self testResult: (TestResult new runCase: t).

@@ -9,3 +9,4 @@ initializeVisualizationFor: aUnit
 		yourself.
 	self visualization: visualization.
 	self initializeAnimation.
+	self unitTitle: aUnit title.

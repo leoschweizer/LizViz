@@ -1,4 +1,0 @@
-signals
-questChanged
-	
-	self emit.

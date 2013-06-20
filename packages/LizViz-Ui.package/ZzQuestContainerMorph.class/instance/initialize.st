@@ -1,5 +1,6 @@
 initialization
 initialize
-	
+
 	super initialize.
-	self connect: self signal: #questChanged toSelector: #updateUi.
+	self ui: (self uiClass new
+		setupUi: self).

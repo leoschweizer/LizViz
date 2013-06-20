@@ -6,8 +6,3 @@ initializeUi
 		color: Color white;
 		borderColor: Color white;
 		extent: self ui visualizationContainer extent).
-	self ui questDescriptionLabel
-		autoFit: true;
-		wrapFlag: true.
-	
-	self initializeQuestContainer.

@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explanationDisplay" ],
+		"explanationDisplay",
+		"explanationText",
+		"buttonContainer",
+		"submitQuestButton" ],
 	"name" : "ZzExplanationUi",
 	"pools" : [
 		 ],

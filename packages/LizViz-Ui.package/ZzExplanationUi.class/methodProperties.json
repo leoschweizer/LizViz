@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"explanationDisplay" : "JR 6/10/2013 21:37:17.57",
-		"initializePanel" : "JR 6/10/2013 21:37:17.607" } }
+		"buttonContainer" : "or 6/20/2013 14:01:16.465",
+		"explanationDisplay" : "or 6/20/2013 14:01:16.388",
+		"explanationText" : "or 6/20/2013 14:01:16.433",
+		"initializePanel" : "or 6/20/2013 14:57:21.281",
+		"submitQuestButton" : "or 6/20/2013 14:01:16.486" } }
