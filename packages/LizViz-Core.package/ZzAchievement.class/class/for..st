@@ -7,7 +7,7 @@ for: aCollectionOfUnits
 	aCollectionOfUnits do: [:unit |
 		unit quests do: [:quest |
 			quest achievements do: [:key | | achievement |
-				achievement := achievements at: key ifAbsentPut: [ self title: key ].
-				achievement add: quest in: unit ]]].
+				achievement := achievements at: key ifAbsentPut: [self title: key].
+				achievement add: quest]]].
 	
 	^ achievements

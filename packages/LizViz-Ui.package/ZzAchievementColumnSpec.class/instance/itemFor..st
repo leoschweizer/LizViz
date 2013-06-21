@@ -20,10 +20,10 @@ itemFor: aNode
 		color: Color transparent;
 		yourself.
 	
-	achievement quests keysAndValuesDo: [:quest :unit | | button |
+	achievement quests do: [:quest | | button |
 		button := (ZzEinmalMitMorphicAbkotzenHackButton new
 			buttonStyle: #iconOnly;
-			balloonText: unit title, Character lf, quest description;
+			balloonText: quest unit title, Character lf, quest description;
 			setProperty: #selectable toValue: false;
 			yourself).
 		button icon: ((self savegame isLocked: quest)
