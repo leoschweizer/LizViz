@@ -1,11 +1,8 @@
 accessing
 stepDescriptionMorph
 	
-	^ stepDescriptionMorph ifNil: [ | owner |
-		stepDescriptionMorph := self newStepDescriptionMorph.
-		owner := self panel ownerThatIsA: ZzMainWindow.
-		stepDescriptionMorph 
-			disableTableLayout: true;
-			bottomLeft: (owner topLeft + (5@125)).
-		owner addMorph: stepDescriptionMorph.
-		stepDescriptionMorph]
+	^ stepDescriptionMorph ifNil:
+		[stepDescriptionMorph := ((self panel ownerThatIsA: ZzMainWindow) makeNotificationTopLeft: '')
+			color: Color gray;
+			textColor: Color white;
+			stopFadeOut]

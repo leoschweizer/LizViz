@@ -1,4 +1,4 @@
 visualization
 render
 	
-	self subclassResponsibility
+	self subclassResponsibility.

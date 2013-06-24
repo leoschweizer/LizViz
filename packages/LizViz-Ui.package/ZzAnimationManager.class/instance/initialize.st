@@ -2,4 +2,4 @@ initialize-release
 initialize
 	
 	super initialize.
-	self index: 0
+	self index: 0.

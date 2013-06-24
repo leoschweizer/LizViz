@@ -8,6 +8,7 @@
 	"instvars" : [
 		"assignmentText",
 		"code",
+		"availableMethodsButton",
 		"submitQuestButton" ],
 	"name" : "ZzCodeUi",
 	"pools" : [

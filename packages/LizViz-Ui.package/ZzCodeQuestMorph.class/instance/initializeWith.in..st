@@ -11,3 +11,4 @@ initializeWith: aQuest in: aWindow
 		margins: (5@5 corner: 5@5).
 	
 	self ui code theText: aQuest code.
+	self connect: self ui availableMethodsButton signal: #clicked: toSelector: #showAvailableMethods.

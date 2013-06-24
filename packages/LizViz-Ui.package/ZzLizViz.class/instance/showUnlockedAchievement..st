@@ -1,6 +1,7 @@
 actions
 showUnlockedAchievement: anAchievement
 	
-	(UiMessage success: ('Achievement unlocked: <b>', anAchievement title, '</b>!') asHtmlText)
-		topRight: (self topRight + (-18@106));
-		openInWorld.
+	(self unitMorph makeNotificationTopRight: ('Achievement unlocked: <b>', anAchievement title, '</b>!'))
+		color: Color green muchDarker;
+		textColor: Color white.
+		

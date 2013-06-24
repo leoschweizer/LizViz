@@ -3,9 +3,9 @@ failed: aQuest
 	
 	| previousItem |
 	aQuest failureMessage ifNotNilDo: [:message |
-		(UiMessage error: message asHtmlText)
-			center: (self center - (0@100));
-			openInWorld].
+		(self makeNotificationCenter: message)
+			color: Color red darker;
+			textColor: Color yellow].
 
 	[previousItem := nil.
 	self visualization items do: [:item | | listItem |

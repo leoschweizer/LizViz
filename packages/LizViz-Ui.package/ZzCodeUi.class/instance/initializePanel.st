@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (330@92).
+	unnamedMorph1 extent: (330@85).
 	unnamedMorph1 position: (5@5).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
@@ -54,13 +54,13 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
 	assignmentText := UiTextEdit new.
-	assignmentText extent: (159@84).
+	assignmentText extent: (159@77).
 	assignmentText position: (9@9).
 	assignmentText hResizing: (#spaceFill).
 	assignmentText vResizing: (#spaceFill).
@@ -80,7 +80,7 @@ initializePanel
 	assignmentText frameFractions: (0@0 corner: 1@1).
 	assignmentText frameOffsets: (0@0 corner: 0@0).
 	assignmentText balloonText: (nil).
-	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	assignmentText widgetResizable: (true).
 	assignmentText horizontalScrollBarPolicy: (#alwaysOff).
 	assignmentText verticalScrollBarPolicy: (#alwaysOff).
@@ -96,7 +96,7 @@ initializePanel
 	assignmentText setProperty: #objectName toValue: 'assignmentText'.
 	unnamedMorph1 addChild: assignmentText.
 	code := UiTextEdit new.
-	code extent: (159@84).
+	code extent: (159@77).
 	code position: (172@9).
 	code hResizing: (#spaceFill).
 	code vResizing: (#spaceFill).
@@ -132,10 +132,70 @@ initializePanel
 	code setProperty: #objectName toValue: 'code'.
 	unnamedMorph1 addChild: code.
 	panel addChild: unnamedMorph1.
+	unnamedMorph2 := UiContainer new.
+	unnamedMorph2 changeTableLayout.
+	unnamedMorph2 extent: (157@30).
+	unnamedMorph2 position: (178@95).
+	unnamedMorph2 hResizing: (#shrinkWrap).
+	unnamedMorph2 vResizing: (#shrinkWrap).
+	unnamedMorph2 minWidth: (2).
+	unnamedMorph2 minHeight: (2).
+	unnamedMorph2 cellInset: (4).
+	unnamedMorph2 cellPositioning: (#center).
+	unnamedMorph2 cellSpacing: (#none).
+	unnamedMorph2 layoutInset: (4).
+	unnamedMorph2 listCentering: (#topLeft).
+	unnamedMorph2 listDirection: (#leftToRight).
+	unnamedMorph2 listSpacing: (#none).
+	unnamedMorph2 maxCellSize: (1073741823).
+	unnamedMorph2 minCellSize: (0).
+	unnamedMorph2 wrapCentering: (#topLeft).
+	unnamedMorph2 wrapDirection: (#none).
+	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph2 balloonText: (nil).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph2 color: (Color transparent).
+	unnamedMorph2 borderWidth: (0).
+	unnamedMorph2 borderStyle2: (#simple).
+	unnamedMorph2 borderColor: (Color black).
+	availableMethodsButton := UiPushButton new.
+	availableMethodsButton changeTableLayout.
+	availableMethodsButton extent: (44@21).
+	availableMethodsButton position: (182@99).
+	availableMethodsButton hResizing: (#shrinkWrap).
+	availableMethodsButton vResizing: (#shrinkWrap).
+	availableMethodsButton minWidth: (2).
+	availableMethodsButton minHeight: (2).
+	availableMethodsButton cellInset: (4).
+	availableMethodsButton cellPositioning: (#center).
+	availableMethodsButton cellSpacing: (#none).
+	availableMethodsButton layoutInset: (2@0 corner: 2@0).
+	availableMethodsButton listCentering: (#topLeft).
+	availableMethodsButton listDirection: (#leftToRight).
+	availableMethodsButton listSpacing: (#none).
+	availableMethodsButton maxCellSize: (1073741823).
+	availableMethodsButton minCellSize: (0).
+	availableMethodsButton wrapCentering: (#topLeft).
+	availableMethodsButton wrapDirection: (#none).
+	availableMethodsButton frameFractions: (0@0 corner: 1@1).
+	availableMethodsButton frameOffsets: (0@0 corner: 0@0).
+	availableMethodsButton balloonText: (nil).
+	availableMethodsButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	availableMethodsButton enabled: (true).
+	availableMethodsButton setProperty: #iconByDesigner toValue: 'UiSilkIcons informationIcon'.
+	availableMethodsButton icon: (UiSilkIcons informationIcon).
+	availableMethodsButton text: ('API').
+	availableMethodsButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	availableMethodsButton checkable: (false).
+	availableMethodsButton checked: (false).
+	availableMethodsButton autoExclusive: (false).
+	availableMethodsButton setProperty: #objectName toValue: 'availableMethodsButton'.
+	unnamedMorph2 addChild: availableMethodsButton.
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.
 	submitQuestButton extent: (98@21).
-	submitQuestButton position: (237@104).
+	submitQuestButton position: (232@99).
 	submitQuestButton hResizing: (#shrinkWrap).
 	submitQuestButton vResizing: (#shrinkWrap).
 	submitQuestButton minWidth: (2).
@@ -154,7 +214,7 @@ initializePanel
 	submitQuestButton frameFractions: (0@0 corner: 1@1).
 	submitQuestButton frameOffsets: (0@0 corner: 0@0).
 	submitQuestButton balloonText: (nil).
-	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	submitQuestButton enabled: (true).
 	submitQuestButton setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	submitQuestButton icon: (UiSilkIcons acceptIcon).
@@ -164,5 +224,6 @@ initializePanel
 	submitQuestButton checked: (false).
 	submitQuestButton autoExclusive: (false).
 	submitQuestButton setProperty: #objectName toValue: 'submitQuestButton'.
-	panel addChild: submitQuestButton.
+	unnamedMorph2 addChild: submitQuestButton.
+	panel addChild: unnamedMorph2.
 	panel setProperty: #uiClassName toValue: 'ZzCode'.

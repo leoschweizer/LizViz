@@ -4,9 +4,9 @@ solved: aQuest
 	self emit.
 	
 	aQuest successMessage ifNotNilDo: [:message |
-		(UiMessage success: message asHtmlText)
-			center: (self center - (0@100));
-			openInWorld].
+		(self makeNotificationCenter: message)
+			color: Color green muchDarker;
+			textColor: Color white].
 	aQuest cleanup.
 	
 	aQuest hasNext ifFalse: [^ self showStartScreen].

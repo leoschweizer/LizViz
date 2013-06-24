@@ -1,4 +1,4 @@
 accessing
 index: aNumber
 	
-	index := aNumber
+	index := aNumber.

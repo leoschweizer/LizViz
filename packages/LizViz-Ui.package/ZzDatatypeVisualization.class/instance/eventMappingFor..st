@@ -1,4 +1,4 @@
 visualization
 eventMappingFor: anEvent
 
-	self subclassResponsibility
+	self subclassResponsibility.
