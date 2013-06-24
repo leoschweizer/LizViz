@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"widgetClassName" : "or 6/24/2013 14:49:43.206" },
 	"instance" : {
-		"initialize" : "ls 6/24/2013 14:17:17.321" } }
+		"hasKeyboard" : "or 6/24/2013 14:44:50.271",
+		"initialize" : "or 6/24/2013 15:11:52.38",
+		"initializeEventHandler" : "or 6/24/2013 14:44:19.792" } }

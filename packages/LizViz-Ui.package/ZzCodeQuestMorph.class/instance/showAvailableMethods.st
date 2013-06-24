@@ -6,15 +6,15 @@ showAvailableMethods
 	methodStream nextPutAll: '<b>List Methods</b><br>'.
 	self quest availableListMethods do: [:each | 
 		methodStream 
-			nextPutAll: '- ';
+			nextPutAll: '- <font color="#0000ff">';
 			nextPutAll: each asString;
-			nextPutAll: '<br>']. 
+			nextPutAll: '</font><br>']. 
 	methodStream nextPutAll: '<b>ListItem Methods</b><br>'.
 	self quest availableListItemMethods 
 		do: [:each | methodStream 
-			nextPutAll: '- ';
+			nextPutAll: '- <font color="#0000ff">';
 			nextPutAll: each asString]
-		separatedBy: [methodStream nextPutAll: '<br>'].
+		separatedBy: [methodStream nextPutAll: '</font><br>'].
 	((self ownerThatIsA: ZzMainWindow) makeNotificationTopRight: methodStream contents asHtmlText)
 		textColor: Color black;
 		color: Color gray muchLighter;

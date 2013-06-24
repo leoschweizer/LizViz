@@ -81,7 +81,7 @@ initializePanel
 	explanationText frameFractions: (0@0 corner: 1@1).
 	explanationText frameOffsets: (0@0 corner: 0@0).
 	explanationText balloonText: (nil).
-	explanationText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	explanationText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	explanationText widgetResizable: (true).
 	explanationText horizontalScrollBarPolicy: (#alwaysOff).
 	explanationText verticalScrollBarPolicy: (#alwaysOn).
@@ -118,7 +118,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -134,23 +134,51 @@ initializePanel
 	buttonContainer cellInset: (4).
 	buttonContainer cellPositioning: (#center).
 	buttonContainer cellSpacing: (#none).
-	buttonContainer layoutInset: (4).
+	buttonContainer layoutInset: (0).
 	buttonContainer listCentering: (#topLeft).
 	buttonContainer listDirection: (#leftToRight).
 	buttonContainer listSpacing: (#none).
 	buttonContainer maxCellSize: (1073741823).
 	buttonContainer minCellSize: (0).
-	buttonContainer wrapCentering: (#topLeft).
+	buttonContainer wrapCentering: (#center).
 	buttonContainer wrapDirection: (#none).
 	buttonContainer frameFractions: (0@0 corner: 1@1).
 	buttonContainer frameOffsets: (0@0 corner: 0@0).
 	buttonContainer balloonText: (nil).
-	buttonContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	buttonContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.925)).
 	buttonContainer color: (Color transparent).
 	buttonContainer borderWidth: (0).
 	buttonContainer borderStyle2: (#simple).
 	buttonContainer borderColor: (Color black).
 	buttonContainer setProperty: #objectName toValue: 'buttonContainer'.
+	actionLabel := UiLabel new.
+	actionLabel changeTableLayout.
+	actionLabel extent: (56@19).
+	actionLabel position: (9@108).
+	actionLabel hResizing: (#shrinkWrap).
+	actionLabel vResizing: (#shrinkWrap).
+	actionLabel minWidth: (2).
+	actionLabel minHeight: (2).
+	actionLabel cellInset: (0).
+	actionLabel cellPositioning: (#center).
+	actionLabel cellSpacing: (#none).
+	actionLabel layoutInset: (0).
+	actionLabel listCentering: (#topLeft).
+	actionLabel listDirection: (#leftToRight).
+	actionLabel listSpacing: (#none).
+	actionLabel maxCellSize: (1073741823).
+	actionLabel minCellSize: (0).
+	actionLabel wrapCentering: (#topLeft).
+	actionLabel wrapDirection: (#none).
+	actionLabel frameFractions: (0@0 corner: 1@1).
+	actionLabel frameOffsets: (0@0 corner: 0@0).
+	actionLabel balloonText: (nil).
+	actionLabel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	actionLabel text: ('Try these:').
+	actionLabel setProperty: #formByDesigner toValue: 'nil'.
+	actionLabel form: (nil).
+	actionLabel setProperty: #objectName toValue: 'actionLabel'.
+	buttonContainer addChild: actionLabel.
 	unnamedMorph1 addChild: buttonContainer.
 	submitQuestButton := UiPushButton new.
 	submitQuestButton changeTableLayout.

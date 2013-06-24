@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buttonContainer" : "or 6/20/2013 17:19:12.438",
-		"explanationDisplay" : "or 6/20/2013 17:19:12.36",
-		"explanationText" : "or 6/20/2013 17:19:12.405",
-		"initializePanel" : "ls 6/24/2013 13:52:30.575",
-		"submitQuestButton" : "or 6/20/2013 17:19:12.481" } }
+		"actionLabel" : "or 6/24/2013 15:26:45.219",
+		"buttonContainer" : "or 6/24/2013 15:26:45.163",
+		"explanationDisplay" : "or 6/24/2013 15:26:45.073",
+		"explanationText" : "or 6/24/2013 15:26:45.12",
+		"initializePanel" : "or 6/24/2013 15:26:45.315",
+		"submitQuestButton" : "or 6/24/2013 15:26:45.262" } }

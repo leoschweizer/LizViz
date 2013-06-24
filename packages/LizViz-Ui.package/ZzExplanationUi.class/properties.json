@@ -9,6 +9,7 @@
 		"explanationDisplay",
 		"explanationText",
 		"buttonContainer",
+		"actionLabel",
 		"submitQuestButton" ],
 	"name" : "ZzExplanationUi",
 	"pools" : [

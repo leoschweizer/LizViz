@@ -54,12 +54,12 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
-	assignmentText := UiTextEdit new.
+	assignmentText := ZzReadOnlyTextEdit new.
 	assignmentText extent: (159@77).
 	assignmentText position: (9@9).
 	assignmentText hResizing: (#spaceFill).
@@ -80,11 +80,11 @@ initializePanel
 	assignmentText frameFractions: (0@0 corner: 1@1).
 	assignmentText frameOffsets: (0@0 corner: 0@0).
 	assignmentText balloonText: (nil).
-	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	assignmentText balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	assignmentText widgetResizable: (true).
 	assignmentText horizontalScrollBarPolicy: (#alwaysOff).
 	assignmentText verticalScrollBarPolicy: (#alwaysOff).
-	assignmentText outerBorderWidth: (1).
+	assignmentText outerBorderWidth: (0).
 	assignmentText scrollBarThickness: (9).
 	assignmentText theText: ('').
 	assignmentText readOnly: (true).
@@ -154,7 +154,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -181,7 +181,7 @@ initializePanel
 	availableMethodsButton frameFractions: (0@0 corner: 1@1).
 	availableMethodsButton frameOffsets: (0@0 corner: 0@0).
 	availableMethodsButton balloonText: (nil).
-	availableMethodsButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	availableMethodsButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	availableMethodsButton enabled: (true).
 	availableMethodsButton setProperty: #iconByDesigner toValue: 'UiSilkIcons informationIcon'.
 	availableMethodsButton icon: (UiSilkIcons informationIcon).
@@ -214,7 +214,7 @@ initializePanel
 	submitQuestButton frameFractions: (0@0 corner: 1@1).
 	submitQuestButton frameOffsets: (0@0 corner: 0@0).
 	submitQuestButton balloonText: (nil).
-	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	submitQuestButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	submitQuestButton enabled: (true).
 	submitQuestButton setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	submitQuestButton icon: (UiSilkIcons acceptIcon).

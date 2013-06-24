@@ -8,8 +8,10 @@ initializeWith: aQuest in: aWindow
 	self ui explanationText 
 		theText: htmlText;
 		readOnly: true.
-		
+	aQuest actions isEmpty ifTrue: [self ui actionLabel abandon].
 	aQuest actions do: [:a | 
-		button := (UiPushButton new text: a).
+		button := (UiToolButton new 
+			buttonStyle: #textOnly;
+			text: '<font color="#0000ff>', a, '</font>').
 		self connect: button signal: #clicked: toSelector: a.
-		self ui buttonContainer addMorph: button].
+		self ui buttonContainer addMorphBack: button].
