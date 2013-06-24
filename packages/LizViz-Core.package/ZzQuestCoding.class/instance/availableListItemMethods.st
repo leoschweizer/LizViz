@@ -1,4 +1,4 @@
 accessing
 availableListItemMethods
 
-	^ #(#nextItem #nextItem:)
+	^ #(#nextItem #nextItem: #value #value:)
