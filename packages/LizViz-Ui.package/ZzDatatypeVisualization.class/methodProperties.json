@@ -4,7 +4,7 @@
 	"instance" : {
 		"absentMappingBlock" : "JR 6/11/2013 14:31:49.768",
 		"animate:" : "JR 6/11/2013 14:36:45.496",
-		"describe:" : "or 6/24/2013 12:58:22.736",
+		"describe:" : "or 6/24/2013 13:33:01.348",
 		"eventMappingFor:" : "or 6/24/2013 12:51:14.597",
 		"items" : "JR 6/11/2013 08:23:20.587",
 		"items:" : "ls 6/10/2013 14:15:37.93",
@@ -13,5 +13,5 @@
 		"removeStepDescriptionMorph" : "or 6/24/2013 13:11:59.162",
 		"render" : "or 6/24/2013 12:51:27.19",
 		"resetAllTransformations" : "or 6/24/2013 13:14:47.284",
-		"stepDescriptionMorph" : "or 6/24/2013 12:46:58.838",
+		"stepDescriptionMorph" : "or 6/24/2013 13:33:38.047",
 		"visualizationChanged" : "JR 6/11/2013 17:33:19.112" } }

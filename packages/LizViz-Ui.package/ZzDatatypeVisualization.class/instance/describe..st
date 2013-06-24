@@ -1,6 +1,4 @@
 visualization
 describe: aString
 	
-	self stepDescriptionMorph 
-		contents: aString asHtmlText;
-		stopFadeOut.
+	self stepDescriptionMorph contents: aString asHtmlText.
