@@ -60,7 +60,7 @@ initializePanel
 	explanationDisplay borderStyle2: (#simple).
 	explanationDisplay borderColor: (Color black).
 	explanationDisplay setProperty: #objectName toValue: 'explanationDisplay'.
-	explanationText := UiTextEdit new.
+	explanationText := ZzReadOnlyTextEdit new.
 	explanationText extent: (339@90).
 	explanationText position: (5@5).
 	explanationText hResizing: (#spaceFill).

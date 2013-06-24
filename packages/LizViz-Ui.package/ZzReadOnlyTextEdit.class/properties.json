@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Ui-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzReadOnlyTextEdit",
+	"pools" : [
+		 ],
+	"super" : "UiTextEdit",
+	"type" : "normal" }
