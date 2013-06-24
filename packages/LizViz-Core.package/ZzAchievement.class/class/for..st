@@ -8,6 +8,6 @@ for: aCollectionOfUnits
 		unit quests do: [:quest |
 			quest achievements do: [:key | | achievement |
 				achievement := achievements at: key ifAbsentPut: [self title: key].
-				achievement add: quest]]].
+				achievement quests add: quest]]].
 	
 	^ achievements
