@@ -7,3 +7,5 @@ initialize
 		initializeStartScreen;
 		initializeUnitScreen;
 		showStartScreen.
+		
+	self connect: self currentSavegame signal: #achievementUnlocked: toSelector: #showUnlockedAchievement:.
