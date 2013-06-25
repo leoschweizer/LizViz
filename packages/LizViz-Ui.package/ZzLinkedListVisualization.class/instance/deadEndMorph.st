@@ -3,6 +3,6 @@ deadEndMorph
 	
 	^ deadEndMorph ifNil: [
 		deadEndMorph := self newDeadEndItemMorph.
-		deadEndMorph position: self panel topRight - (deadEndMorph extent x @ 0).
+		deadEndMorph topRight: self panel topRight + (-5@5).
 		self panel addMorph: deadEndMorph.
 		deadEndMorph]

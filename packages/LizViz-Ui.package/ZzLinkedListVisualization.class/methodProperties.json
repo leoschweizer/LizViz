@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"absentMappingBlock" : "or 6/14/2013 13:01:05.371",
-		"animateAttachToListEvent:" : "or 6/14/2013 14:56:51.571",
+		"animateAttachToListEvent:" : "or 6/25/2013 11:32:24.794",
 		"animateFirstItemChangedEvent:" : "JR 6/12/2013 22:40:27.45",
 		"animateFirstItemReadEvent:" : "JR 6/12/2013 22:39:16.999",
 		"animateLastItemChangedEvent:" : "JR 6/12/2013 22:40:22.098",
@@ -16,7 +16,7 @@
 		"animateValueReadEvent:" : "JR 6/12/2013 22:43:35.182",
 		"checkCorners" : "JR 6/11/2013 19:37:04.126",
 		"clearItemMorphMapping" : "JR 6/11/2013 18:49:43.559",
-		"deadEndMorph" : "JR 6/11/2013 18:03:03.319",
+		"deadEndMorph" : "or 6/25/2013 11:37:31.615",
 		"deadEndMorph:" : "or 6/17/2013 19:39:52.724",
 		"eventMappingFor:" : "JR 6/11/2013 16:49:03.665",
 		"headMorph" : "JR 6/11/2013 18:05:07.809",
