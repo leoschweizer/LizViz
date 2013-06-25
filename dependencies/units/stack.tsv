@@ -13,7 +13,7 @@ Required Achievements	Stack (API)
 Task	Implementation: Push it to the limit!
 Description	Implement a method which pushes an item to the stop of the stack
 Assignment	The push method is used to add an item on top of the stack, id est adds it as the first list element. Implement it!
-Traits	TZzPushOperation
+Traits	TZzAddFirstOperation
 Testset	ZzPushOperationTest>>#testAll
 Code	push: aValue
 	    ^ self
@@ -22,7 +22,7 @@ Achievements
 Task	Implementation: Mainstream pop
 Description	Implement a method which pops the topmost item from the stack
 Assignment	Implement the pop method for the stack. It removes the topmost (=first) list element and returns it.
-Traits	TZzPopOperation
+Traits	TZzRemoveFirstOperation
 Testset	ZzPopOperationTest>>#testAll
 Code	pop
 	    ^ removedItem
