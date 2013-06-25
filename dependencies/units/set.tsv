@@ -8,7 +8,7 @@ Explanation	A Set is an unordered list, where each value only exists once. It is
 	It supports the operations add and remove.
 Actions	#add, #remove
 Achievements	Common Datatype
-Required Achievements	Queue (API)
+Required Achievements	
 	
 Task	Implementation: Add to the Set
 Description	Implement a method which adds an item to the set
