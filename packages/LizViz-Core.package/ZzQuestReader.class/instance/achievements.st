@@ -1,4 +1,4 @@
 accessing
 achievements
 	
-	^ achievements
+	^ achievements ifNil: [OrderedCollection new]

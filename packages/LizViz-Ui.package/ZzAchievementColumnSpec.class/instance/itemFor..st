@@ -21,9 +21,9 @@ itemFor: aNode
 		yourself.
 	
 	achievement quests do: [:quest | | button |
-		button := (ZzEinmalMitMorphicAbkotzenHackButton new
+		button := (ZzAchievementButton new
 			buttonStyle: #iconOnly;
-			balloonText: quest unit title, Character lf, quest description;
+			balloonText: quest unit title, Character lf, quest title;
 			setProperty: #selectable toValue: false;
 			yourself).
 		button icon: ((self savegame isLocked: quest)

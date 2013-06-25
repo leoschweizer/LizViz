@@ -1,4 +1,4 @@
 as yet unclassified
 testOperation
 	
-	self listInstance addFirst: 1.
+	self listInstance addFirst: 9 atRandom.

@@ -1,14 +1,14 @@
 {
-	"category" : "LizViz-Ui-Support",
+	"category" : "LizViz-Tests-AnswerVerification",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clickBlock" ],
-	"name" : "ZzEinmalMitMorphicAbkotzenHackButton",
+		 ],
+	"name" : "ZzAddSetOperationTest",
 	"pools" : [
 		 ],
-	"super" : "UiToolButton",
+	"super" : "ZzAnswerVerificationTest",
 	"type" : "normal" }

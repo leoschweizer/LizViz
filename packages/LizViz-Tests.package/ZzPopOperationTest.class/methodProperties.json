@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAll" : "or 6/25/2013 14:35:55.679",
 		"testOperation" : "ls 6/10/2013 21:25:32.543",
-		"testPopFromEmptyList" : "or 6/10/2013 19:17:07.296",
-		"testPopFromNonEmptyList" : "or 6/10/2013 19:18:33.669",
+		"testPopFromEmptyList" : "or 6/25/2013 15:46:48.368",
+		"testPopFromNonEmptyList" : "or 6/25/2013 15:49:24.061",
 		"testSelector" : "or 6/10/2013 19:10:13.116" } }

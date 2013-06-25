@@ -1,6 +1,8 @@
 stream parsing
 handleProperty: key value: value
 	
+	value ifNil: [^ self].
+	
 	key = 'Description' ifTrue: 
 		[^ self description: value].
 	
