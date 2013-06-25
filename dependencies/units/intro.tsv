@@ -1,11 +1,11 @@
-Unit 1: Linked Lists	
-In this unit you are going to learn all about Linked Lists, get basic understanding of their API and insight into their internals.	
+Getting Started	
+In this unit you are going to implement a Linked List. A whole world awaits us!	
 VisualizationClass	ZzLinkedListVisualization
 	
 Task	Explanation: Basics of Lists
-Description	Explain the basic data structure of a list in general and describes its characteristics.
+Description	Explains the basic data structure of a list in general and describes its characteristics.
 Explanation	A "List" is a data type, which is equally available in most programming languages. Though the internal implementation might differ, it always provides means for inserting and accessing elements in an ordered fashion. Thus, each added element might be accessed by its index position within the list.
-Actions	#nextItem, #add, #removeFirst
+Actions	#add, #removeFirst
 Achievements	List (API), Common Datatype
 	
 Task	Multiple Choice: Duplicated Elements
@@ -22,29 +22,15 @@ Explanation	Indexed collections, such as lists, are implemented by facilitating 
 	In the array-based approach an continues block of memory is allocated and the fixed-size list elements added continuesly. Indexed elements are accessed by calculating their memory position by multiplying their index with the lists element's size. 
 	
 	On the other hand, a list might be constructed using nodes linking each other in insert-order. Access is then performed by traversing the node's graph until the node with the requested index is found.
-Achievements	List (API), Linked List, Array List
 	
-Task	Multiple Choice: Access Performance
-Description	Points out the performance of the two list types.
-Assignment	After inserting seven elements in order you try to access the fifths. Which implementation provides faster access?
-Choices	linked => Linked List, arrayed => Arrayed List, both => access is equally fast
-Solution	arrayed
-Achievements	Linked List, Array List
+	For now, we will stick to Linked Lists. You can learn more about Arrayed Lists later.
+Achievements	List (API), Linked List, Array List
 	
 Task	Multiple Choice: Capacity of Linked Lists
 Description	Questions and explains the capacity of linked lists.
-Assignment	In the following we facilitate linked lists if not stated different. In a linked list elements are stored within nodes, which are linked to each other. Does this imply an implementation-inherent capacity limitation?
+Assignment	In a linked list elements are stored within nodes, which are linked to each other. Does this imply an implementation-inherent capacity limitation?
 Choices	yes => yes, no => no
 Solution	no
-Achievements	Linked List
-	
-Task	Explanation: Types of Linked Lists
-Description	Distinguish the basic data structure of a linked list into double and single linked list.
-Explanation	The group of "Linked Lists" is distinguished into two kinds: the single linked list vs. double linked list.
-	
-	In a single linked list for each node a reference to the successing node is stored among with a reference to the root (= first) node.
-	
-	A double linked list additionally stores the backwards path; each node keeps track of its predecessing node and a reference to the last node is hold.
 Achievements	Linked List
 	
 Task	Explanation: Visualize Insertion
@@ -53,16 +39,16 @@ Explanation	A single linked list, which we simply refer to as linked list during
 	After insertion of a first element [operation: add(E)] a new node referencing the inserted element is created and set as root. It does not contain any reference to a successing node yet.
 	
 	With the addition of more elements (standard implementation: at the end) the node list is traversed beginning from root until a node without successor is found. A new node is created at this position and a reference to it is stored within the previously last node.
-Actions	#add, #nextItem
+Actions	#add
 Achievements	Linked List, List (API)
 	
-Task	Implementation: Have I got any?
+Task	Implementation: I feel void and null
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy. It shall return true, if the list contains no items and false otherwise.
 Traits	TZzAddFirstOperation
 Testset	ZzIsEmptyOperationTest>>#testAll
 Code	isEmpty
-	^ true | false
+	    ^ true | false
 Achievements	List (API)
 	
 Task	Implementation: How many?
@@ -71,20 +57,17 @@ Assignment	We can now check, if we have any items in the list. But it would be c
 Traits	TZzAddFirstOperation
 Testset	ZzSizeOperationTest>>#testAll
 Code	size
-	 ^42
+	    ^42
 Achievements	List (API), Linked List
 	
-Task	Explanation: Run-time complexity & O-Notation
-Description	The basics of O-Notation
-Explanation	Read http://en.wikipedia.org/wiki/Big_O_notation
-Achievements	O-Notation
-	
-Task	Multiple Choice: Can we check the size efficiently?
-Description	The complexity of the size operation
-Assignment	Now that we have implemented a size operation and learnt about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
-Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
-Solution	b
-Achievements	List (API), O-Notation
+Task	Implementation: Kill it with fire
+Description	Implement a method which removes the first list item
+Assignment	In order to make a list nicely short, clean and tidy, we need to remove its items. Implement a method, which removes the first list item and returns it.
+Traits	TZzRemoveFirstOperation
+Testset	ZzRemoveFirstOperationTest>>#testAll
+Code	removeFirst
+	    ^ removedItem
+Achievements	List (API), Linked List, Stack (API)
 	
 Task	Implementation: Make it grow!
 Description	Implement a method to add elements to the front of the list
@@ -94,3 +77,12 @@ Testset	ZzAddFirstOperationTest>>#testAll
 Code	addFirst: aValue
 	^ self
 Achievements	Stack (API)
+	
+Task	Implementation: Nuke it from orbit!
+Description	Implement a method which removes the last list item
+Assignment	Sometimes it is more convenient to remove the last item in the list instead of the first one. Implement a method, which provides this functionality.
+Traits	TZzRemoveLastOperation
+Testset	ZzRemoveLastOperationTest>>#testAll
+Code	removeLast
+	    ^ removedItem
+Achievements	List (API), Linked List
