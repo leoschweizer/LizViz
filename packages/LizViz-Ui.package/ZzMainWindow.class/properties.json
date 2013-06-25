@@ -12,7 +12,8 @@
 		"lizViz",
 		"lastAnimationStep",
 		"visualization",
-		"animation" ],
+		"animation",
+		"notificationCallbacks" ],
 	"name" : "ZzMainWindow",
 	"pools" : [
 		 ],

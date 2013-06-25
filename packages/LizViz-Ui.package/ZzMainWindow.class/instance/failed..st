@@ -1,20 +1,11 @@
 quest-management
 failed: aQuest
 	
-	| previousItem |
 	aQuest failureMessage ifNotNilDo: [:message |
-		(self makeNotificationCenter: message)
-			color: Color red darker;
-			textColor: Color yellow].
+		^ self notificationCallbacks 
+			at: ((self makeNotificationCenter: message)
+				color: Color red darker;
+				textColor: Color yellow)
+			put: [self animateTest: aQuest]].
 
-	[previousItem := nil.
-	self visualization items do: [:item | | listItem |
-		listItem := aQuest testedListInstance createItem value: item.
-		previousItem 
-			ifNil: [aQuest testedListInstance firstItem: listItem] 
-			ifNotNil: [previousItem nextItem: listItem.
-				listItem previousItem: previousItem].
-		previousItem := listItem].
-	self animate: (aQuest testset anyOne methodClass new createExecutionLogFor: aQuest testedListInstance)] on: Error 
-		do: [:e | Transcript show: 'Error occured while animating: ', e asString; cr].
-	aQuest cleanup.
+	self animateTest: aQuest.
