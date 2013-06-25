@@ -54,7 +54,7 @@ Achievements	List (API)
 Task	Implementation: How many?
 Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
-Traits	TZzAddFirstOperation
+Traits	TZzAddFirstOperation, TZzIsEmptyOperation
 Testset	ZzSizeOperationTest>>#testAll
 Code	size
 	    ^42
@@ -63,7 +63,7 @@ Achievements	List (API), Linked List
 Task	Implementation: Kill it with fire
 Description	Implement a method which removes the first list item
 Assignment	In order to make a list nicely short, clean and tidy, we need to remove its items. Implement a method, which removes the first list item and returns it.
-Traits	TZzRemoveFirstOperation
+Traits	TZzSizeOperation, TZzIsEmptyOperation
 Testset	ZzRemoveFirstOperationTest>>#testAll
 Code	removeFirst
 	    ^ removedItem
@@ -81,7 +81,7 @@ Achievements	Stack (API)
 Task	Implementation: Nuke it from orbit!
 Description	Implement a method which removes the last list item
 Assignment	Sometimes it is more convenient to remove the last item in the list instead of the first one. Implement a method, which provides this functionality.
-Traits	TZzRemoveLastOperation
+Traits	TZzSizeOperation, TZzIsEmptyOperation
 Testset	ZzRemoveLastOperationTest>>#testAll
 Code	removeLast
 	    ^ removedItem
