@@ -31,7 +31,7 @@ Description	Questions and explains the capacity of linked lists.
 Assignment	In a linked list elements are stored within nodes, which are linked to each other. Does this imply an implementation-inherent capacity limitation?
 Choices	yes => yes, no => no
 Solution	no
-Achievements	Linked List
+Achievements	Linked List, Quizmaster
 	
 Task	Explanation: Visualize Insertion
 Description	Explain the basic data structure of a single linked list and visualize the insertion of three list elements.
@@ -45,7 +45,7 @@ Achievements	Linked List, List (API)
 Task	Implementation: I feel void and null
 Description	Implement a test for emptyness on the list.
 Assignment	Since we often want to check, if there are any items in the list, a method for this task would be handy.<br>It shall return:<br>- true, if the list contains no items<br>- false otherwise
-Traits	TZzAddFirstOperation
+Traits	
 Testset	ZzIsEmptyOperationTest>>#testAll
 Code	isEmpty
 	    ^ true | false
@@ -54,7 +54,7 @@ Achievements	List (API)
 Task	Implementation: How many?
 Description	Implement a method which returns the size of the list.
 Assignment	We can now check, if we have any items in the list. But it would be cooler, if we knew, how many exactly there are. Implement a method, which returns the number of items in the list as a number.
-Traits	TZzAddFirstOperation
+Traits	TZzIsEmptyOperation
 Testset	ZzSizeOperationTest>>#testAll
 Code	size
 	    ^42
@@ -62,8 +62,8 @@ Achievements	List (API), Linked List
 	
 Task	Implementation: Kill it with fire
 Description	Implement a method which removes the first list item
-Assignment	In order to make a list nicely short, clean and tidy, we need to remove its items. Implement a method, which removes the first list item and returns it.
-Traits	TZzRemoveFirstOperation
+Assignment	In order to make a list nicely short, clean and tidy, we need to remove its items. Implement a method, which removes the first list item and returns it. If there are no items, <i>nil</i> shall be returned.
+Traits	TZzIsEmptyOperation, TZzSizeOperation
 Testset	ZzRemoveFirstOperationTest>>#testAll
 Code	removeFirst
 	    ^ removedItem
@@ -81,8 +81,8 @@ Achievements	Stack (API)
 Task	Implementation: Nuke it from orbit!
 Description	Implement a method which removes the last list item
 Assignment	Sometimes it is more convenient to remove the last item in the list instead of the first one. Implement a method, which provides this functionality. It shall return the removed list item.
-Traits	TZzRemoveLastOperation
+Traits	TZzIsEmptyOperation
 Testset	ZzRemoveLastOperationTest>>#testAll
 Code	removeLast
 	    ^ removedItem
-Achievements	List (API), Linked List, Queue (API)
+Achievements	List (API), Linked List, Queue (API), Codemaster
