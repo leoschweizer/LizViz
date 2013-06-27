@@ -85,4 +85,4 @@ Traits	TZzRemoveLastOperation
 Testset	ZzRemoveLastOperationTest>>#testAll
 Code	removeLast
 	    ^ removedItem
-Achievements	List (API), Linked List
+Achievements	List (API), Linked List, Queue (API)
