@@ -11,5 +11,4 @@ testRemovalFromNonEmptyList
 	
 	self 
 		assert: self listInstance firstItem == secondItem;
-		assert: self listInstance firstItem value == 2;
-		assert: self listInstance size == 1.
+		assert: self listInstance firstItem value == 2.

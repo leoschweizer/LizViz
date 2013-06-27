@@ -4,6 +4,7 @@
 	"instance" : {
 		"testAddingToEmptyList" : "ls 6/5/2013 14:13:33.48",
 		"testAddingToNonEmptyList" : "ls 6/5/2013 22:19:50.767",
-		"testAll" : "or 6/25/2013 14:38:01.259",
+		"testAll" : "or 6/27/2013 15:18:01.548",
 		"testOperation" : "ls 6/10/2013 21:25:14.42",
+		"testReturnType" : "or 6/27/2013 15:18:09.501",
 		"testSelector" : "ls 6/9/2013 17:47:38.66" } }

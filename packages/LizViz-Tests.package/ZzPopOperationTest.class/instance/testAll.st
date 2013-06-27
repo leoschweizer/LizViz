@@ -4,5 +4,6 @@ testAll
 	
 	self
 		runIsolated: #testSelector;
+		runIsolated: #testReturnType;
 		runIsolated: #testPopFromEmptyList;
 		runIsolated: #testPopFromNonEmptyList

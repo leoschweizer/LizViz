@@ -4,6 +4,7 @@ testAll
 	
 	self
 		runIsolated: #testSelector;
+		runIsolated: #testReturnType;
 		runIsolated: #testRemovalFromEmptyList;
 		runIsolated: #testRemovalFromNonEmptyList;
 		runIsolated: #testSideEffects
