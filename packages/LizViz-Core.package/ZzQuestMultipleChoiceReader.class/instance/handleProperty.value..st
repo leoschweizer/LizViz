@@ -2,7 +2,7 @@ stream parsing
 handleProperty: key value: value
 	
 	key = 'Solution' ifTrue: 
-		[^ self solution: (value subStrings: ' ')].
+		[^ self solution: (value subStrings: ', ')].
 	
 	key = 'Choices' ifTrue: 
 		[^ self choices: (self transformChoices: value)].

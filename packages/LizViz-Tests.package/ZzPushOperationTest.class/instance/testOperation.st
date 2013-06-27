@@ -1,4 +1,4 @@
 as yet unclassified
 testOperation
 	
-	self listInstance push: 1.
+	self listInstance push: 9 atRandom.
