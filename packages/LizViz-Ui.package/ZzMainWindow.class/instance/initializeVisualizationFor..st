@@ -8,5 +8,5 @@ initializeVisualizationFor: aUnit
 		render;
 		yourself.
 	self visualization: visualization.
-	self initializeAnimation.
+	self visualization connect: self ui stepButton signal: #pressed toSelector: #stepForward.
 	self unitTitle: aUnit title.
