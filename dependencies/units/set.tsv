@@ -8,12 +8,12 @@ Explanation	A Set is an unordered list, where each value only exists once. It is
 	It supports the operations add and remove.
 Actions	#add, #remove
 Achievements	Common Datatype
-Required Achievements	
+Required Achievements	Queue (API)
 	
 Task	Implementation: Add to the Set
 Description	Implement a method which adds an item to the set
 Assignment	The add method is used to add a value to the set, if it isn't already included.
-Traits	TZzAddSetOperation
+Traits	
 Testset	ZzAddSetOperationTest>>#testAll
 Code	add: aValue
 	    ^ self
@@ -22,15 +22,15 @@ Achievements
 Task	Implementation: Remove
 Description	Implement a method which removes the specified value
 Assignment	Implement the remove method, which removes a value from the set.
-Traits	TZzRemoveValueOperation
+Traits	TZzIsEmptyOperation
 Testset	ZzRemoveValueOperationTest>>#testAll
 Code	remove: aValue
 	    ^ removedItem
-Achievements	
+Achievements	Codemaster
 	
 Task	Multiple Choice: Roundup
 Description	What can I do with a Set?
 Assignment	For which task would you use a set?
 Choices	a => people waiting in a line, b => phone book
 Solution	b
-Achievements	
+Achievements	Quizmaster
