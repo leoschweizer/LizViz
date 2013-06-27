@@ -13,7 +13,7 @@ Required Achievements	Queue (API)
 Task	Implementation: Enqueue - need a clue?
 Description	Implement a method which enqueues an item to the line
 Assignment	The push method is used to add an item on top of the stack, id est adds it as the first list element. Implement it!
-Traits	TZzEnqueueOperation
+Traits	TZzAddFirstOperation, TZzAddLastOperation
 Testset	ZzEnqueueOperationTest>>#testAll
 Code	enqueue: aValue
 	    ^ self
@@ -22,15 +22,15 @@ Achievements
 Task	Implementation: Dequeue
 Description	Implement a method which dequeues the oldest item
 Assignment	Implement the dequeue method for the queue. It removes the oldest (=last) list element and returns it.
-Traits	TZzDequeueOperation
+Traits	TZzRemoveFirstOperation, TZzRemoveLastOperation, TZzIsEmptyOperation
 Testset	ZzDequeueOperationTest>>#testAll
 Code	dequeue
 	    ^ removedItem
-Achievements	
+Achievements	Codemaster
 	
 Task	Multiple Choice: Roundup
 Description	What can I do with a Q?
 Assignment	What ressembles a Queue?
 Choices	a => people waiting in a line, b => playing a card game, c => navy seals storming a house
 Solution	a
-Achievements	
+Achievements	Quizmaster
