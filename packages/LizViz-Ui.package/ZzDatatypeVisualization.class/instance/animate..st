@@ -1,4 +1,4 @@
-visualization
+event handling
 animate: anEvent
 	
 	| block |

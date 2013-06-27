@@ -8,8 +8,9 @@ removeUnreferenced
 	[current nextItemMorph isNil or: current = self deadEndMorph] whileFalse: [
 		current := current nextItemMorph.
 		referenced add: current].
+	referenced addAll: self itemsReferencedByEvents.
 	self itemMorphs withIndexDo: [:m :i |
-		((m submorphs first contents = 'nil') not and: (referenced includes: m) not) ifTrue: [
+		(referenced includes: m) ifFalse: [
 			m 
 				nextItemMorph: nil;
 				abandonAnimated.
