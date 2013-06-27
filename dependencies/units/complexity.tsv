@@ -28,4 +28,4 @@ Description	The complexity of the size operation
 Assignment	Now that we have implemented a size operation and learnt about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
 Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
 Solution	b
-Achievements	List (API), O-Notation
+Achievements	O-Notation, Quizmaster
