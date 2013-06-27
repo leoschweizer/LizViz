@@ -13,6 +13,7 @@
 		"bottomContainer",
 		"stepSlider",
 		"stepButton",
+		"resetButton",
 		"visualizationContainer",
 		"questContainer" ],
 	"name" : "ZzMainWindowUi",

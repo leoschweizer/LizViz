@@ -4,8 +4,8 @@
 	"instance" : {
 		"testAll" : "or 6/27/2013 15:16:49.36",
 		"testOnEmptyList" : "ls 6/10/2013 11:53:41.079",
-		"testOnNonEmptyList" : "or 6/27/2013 17:13:56.184",
+		"testOnNonEmptyList" : "or 6/27/2013 19:10:16.584",
 		"testOperation" : "ls 6/10/2013 21:25:22.73",
 		"testReturnType" : "ls 6/10/2013 11:31:07.538",
 		"testSelector" : "ls 6/9/2013 17:59:21.369",
-		"testSideEffects" : "or 6/27/2013 17:16:07.93" } }
+		"testSideEffects" : "or 6/27/2013 19:10:54.625" } }

@@ -5,7 +5,7 @@
 		"testAll" : "or 6/27/2013 15:21:21.118",
 		"testOperation" : "ls 6/10/2013 21:25:56.009",
 		"testRemovalFromEmptyList" : "or 6/25/2013 15:31:19.387",
-		"testRemovalFromNonEmptyList" : "or 6/27/2013 15:06:56.097",
+		"testRemovalFromNonEmptyList" : "or 6/27/2013 19:12:20.102",
 		"testReturnType" : "or 6/27/2013 15:21:51.61",
 		"testSelector" : "ls 6/9/2013 17:48:11.191",
-		"testSideEffects" : "or 6/25/2013 15:33:52.956" } }
+		"testSideEffects" : "or 6/27/2013 19:12:37.186" } }

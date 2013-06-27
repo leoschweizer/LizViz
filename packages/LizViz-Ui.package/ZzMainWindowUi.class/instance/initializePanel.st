@@ -82,7 +82,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -166,7 +166,7 @@ initializePanel
 	menuButton frameFractions: (0@0 corner: 1@1).
 	menuButton frameOffsets: (0@0 corner: 0@0).
 	menuButton balloonText: (nil).
-	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	menuButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	menuButton enabled: (true).
 	menuButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0306Small'.
 	menuButton icon: (UiDiagonaIcons icon0306Small).
@@ -208,8 +208,8 @@ initializePanel
 	bottomContainer setProperty: #objectName toValue: 'bottomContainer'.
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (279@30).
-	unnamedMorph2 position: (129@62).
+	unnamedMorph2 extent: (427@30).
+	unnamedMorph2 position: (55@62).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -236,7 +236,7 @@ initializePanel
 	unnamedMorph3 := UiLabel new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (101@19).
-	unnamedMorph3 position: (133@68).
+	unnamedMorph3 position: (59@68).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -263,7 +263,7 @@ initializePanel
 	stepSlider := UiSlider new.
 	stepSlider changeTableLayout.
 	stepSlider extent: (100@14).
-	stepSlider position: (246@70).
+	stepSlider position: (172@70).
 	stepSlider hResizing: (#rigid).
 	stepSlider vResizing: (#rigid).
 	stepSlider minWidth: (2).
@@ -297,7 +297,7 @@ initializePanel
 	stepButton := UiPushButton new.
 	stepButton changeTableLayout.
 	stepButton extent: (45@21).
-	stepButton position: (358@66).
+	stepButton position: (284@66).
 	stepButton hResizing: (#shrinkWrap).
 	stepButton vResizing: (#shrinkWrap).
 	stepButton minWidth: (2).
@@ -327,6 +327,39 @@ initializePanel
 	stepButton autoExclusive: (false).
 	stepButton setProperty: #objectName toValue: 'stepButton'.
 	unnamedMorph2 addChild: stepButton.
+	resetButton := UiPushButton new.
+	resetButton changeTableLayout.
+	resetButton extent: (134@21).
+	resetButton position: (343@66).
+	resetButton hResizing: (#shrinkWrap).
+	resetButton vResizing: (#shrinkWrap).
+	resetButton minWidth: (2).
+	resetButton minHeight: (2).
+	resetButton cellInset: (4).
+	resetButton cellPositioning: (#center).
+	resetButton cellSpacing: (#none).
+	resetButton layoutInset: (2@0 corner: 2@0).
+	resetButton listCentering: (#topLeft).
+	resetButton listDirection: (#leftToRight).
+	resetButton listSpacing: (#none).
+	resetButton maxCellSize: (1073741823).
+	resetButton minCellSize: (0).
+	resetButton wrapCentering: (#topLeft).
+	resetButton wrapDirection: (#none).
+	resetButton frameFractions: (0@0 corner: 1@1).
+	resetButton frameOffsets: (0@0 corner: 0@0).
+	resetButton balloonText: (nil).
+	resetButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	resetButton enabled: (true).
+	resetButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0338Normal'.
+	resetButton icon: (UiDiagonaIcons icon0338Normal).
+	resetButton text: ('Reset Visualization').
+	resetButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	resetButton checkable: (false).
+	resetButton checked: (false).
+	resetButton autoExclusive: (false).
+	resetButton setProperty: #objectName toValue: 'resetButton'.
+	unnamedMorph2 addChild: resetButton.
 	bottomContainer addChild: unnamedMorph2.
 	visualizationContainer := ZzScrollArea new.
 	visualizationContainer extent: (532@313).

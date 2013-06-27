@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bottomContainer" : "ls 6/20/2013 17:35:16.026",
-		"headerContainer" : "ls 6/20/2013 17:35:16.001",
-		"headlineLabel" : "ls 6/20/2013 17:35:16.009",
-		"initializePanel" : "ls 6/20/2013 17:35:16.065",
-		"menuButton" : "ls 6/20/2013 17:35:16.021",
-		"questContainer" : "ls 6/20/2013 17:35:16.045",
-		"questTitleLabel" : "ls 6/20/2013 17:35:16.014",
-		"stepButton" : "ls 6/20/2013 17:35:16.035",
-		"stepSlider" : "ls 6/20/2013 17:35:16.03",
-		"visualizationContainer" : "ls 6/20/2013 17:35:16.039" } }
+		"bottomContainer" : "or 6/27/2013 19:16:57.918",
+		"headerContainer" : "or 6/27/2013 19:16:57.821",
+		"headlineLabel" : "or 6/27/2013 19:16:57.856",
+		"initializePanel" : "or 6/27/2013 19:16:58.088",
+		"menuButton" : "or 6/27/2013 19:16:57.895",
+		"questContainer" : "or 6/27/2013 19:16:58.047",
+		"questTitleLabel" : "or 6/27/2013 19:16:57.875",
+		"resetButton" : "or 6/27/2013 19:16:57.991",
+		"stepButton" : "or 6/27/2013 19:16:57.967",
+		"stepSlider" : "or 6/27/2013 19:16:57.938",
+		"visualizationContainer" : "or 6/27/2013 19:16:58.022" } }

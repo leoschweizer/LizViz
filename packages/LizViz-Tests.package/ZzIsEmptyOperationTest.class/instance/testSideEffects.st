@@ -4,11 +4,11 @@ testSideEffects
 	| item |
 	self description: 'Your method has undesired side effects'.
 	
-	self listInstance firstItem: (self listInstance createItem 
-		value: 1;
-		nextItem: (self listInstance createItem 
-			value: 2;
-			nextItem: (self listInstance createItem value: 3))).
+	self 
+		listAddFirst: 3;
+		listAddFirst: 2;
+		listAddFirst: 1.
+		
 	item := self listInstance firstItem nextItem.
 	self listInstance isEmpty.
 	

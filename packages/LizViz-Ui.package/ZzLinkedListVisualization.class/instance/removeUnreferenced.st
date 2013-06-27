@@ -15,5 +15,5 @@ removeUnreferenced
 				nextItemMorph: nil;
 				abandonAnimated.
 			self itemMorphs at: i put: nil.
-			self items removeAt: i]].
+			i <= self items size ifTrue: [self items removeAt: i]]].
 	(self itemMorphs size > (self itemMorphs removeAllSuchThat: [:m | m isNil]) size) ifTrue: [self removeUnreferenced].

@@ -3,8 +3,9 @@ testPopFromNonEmptyList
 	
 	| secondItem |
 	self description: 'Your implementation fails for nonempty lists'.
-	self listInstance firstItem: (self listInstance createItem value: 1).
-	self listInstance firstItem nextItem: (self listInstance createItem value: 2).
+	self 
+		listAddFirst: 2;
+		listAddFirst: 1.
 		
 	self
 		assert: self listInstance firstItem isNil not;

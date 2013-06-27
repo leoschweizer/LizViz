@@ -6,7 +6,7 @@
 		"testOperation" : "ls 6/10/2013 21:26:16.087",
 		"testReturnType" : "ls 6/10/2013 11:31:42.307",
 		"testSelector" : "ls 6/9/2013 17:48:17.495",
-		"testSideEffects" : "or 6/27/2013 17:18:02.2",
+		"testSideEffects" : "or 6/27/2013 19:13:04.537",
 		"testSizeOfEmptyList" : "ls 6/10/2013 11:49:39.24",
-		"testSizeOfNonEmptyList" : "or 6/27/2013 17:18:14.291",
-		"testSizeOfRandomList" : "or 6/27/2013 17:22:56.272" } }
+		"testSizeOfNonEmptyList" : "or 6/27/2013 19:13:28.721",
+		"testSizeOfRandomList" : "or 6/27/2013 19:14:03.51" } }
