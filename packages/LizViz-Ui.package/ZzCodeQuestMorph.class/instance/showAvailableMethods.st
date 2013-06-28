@@ -15,8 +15,8 @@ showAvailableMethods
 			nextPutAll: '- <font color="#0000ff">';
 			nextPutAll: each asString]
 		separatedBy: [methodStream nextPutAll: '</font><br>'].
-	((self ownerThatIsA: ZzMainWindow) makeNotificationTopRight: methodStream contents asHtmlText)
+	self apiMorph: (((self ownerThatIsA: ZzMainWindow) makeNotificationTopRight: methodStream contents asHtmlText)
 		textColor: Color black;
 		color: Color gray muchLighter;
 		font: Preferences standardCodeFont;
-		stopFadeOut.
+		stopFadeOut).

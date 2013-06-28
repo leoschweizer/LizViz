@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"abandon" : "or 6/28/2013 13:52:47.717",
+		"apiMorph" : "or 6/28/2013 13:51:39.332",
+		"apiMorph:" : "or 6/28/2013 13:51:39.377",
 		"collectResultData" : "or 6/20/2013 15:33:21.134",
 		"initializeWith:in:" : "or 6/27/2013 13:53:50.834",
-		"showAvailableMethods" : "or 6/24/2013 15:34:38.109",
+		"showAvailableMethods" : "or 6/28/2013 13:52:20.174",
 		"submitQuestButton" : "or 6/20/2013 15:29:01.901",
 		"uiClass" : "or 6/20/2013 15:29:33.203" } }

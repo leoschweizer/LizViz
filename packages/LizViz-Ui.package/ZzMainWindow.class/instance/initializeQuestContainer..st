@@ -4,7 +4,7 @@ initializeQuestContainer: aQuest
 	[self visualization ifNotNilDo: [:v | v 
 		resetAllTransformations;
 		removeStepDescriptionMorph]] on: Error do: [self initializeVisualizationFor: aQuest unit]. 
-	self questMorph ifNotNilDo: [:q | q delete].
+	self questMorph ifNotNilDo: [:q | q abandon].
 	self questMorph: (ZzQuestContainerMorph for: aQuest in: self).
 	self questMorph
 		hResizing: #spaceFill; 
