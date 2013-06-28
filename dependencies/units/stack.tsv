@@ -5,7 +5,7 @@ VisualizationClass	ZzStackVisualization
 Task	Explanation: Basics of Stacks
 Description	What is a Stack?
 Explanation	A Stack, also called First In Last Out (FILO)-Queue, is a collection, where the newest element always is the firstItem.
-	It supports the operations push: value to add an element on top of the stack and pop to retrieve the topmost element.
+	It supports the operations <font color="#0000ff">push: aValue</font> to add an element on top of the stack and <font color="#0000ff">pop</font> to retrieve the topmost element.
 Actions	#push, #pop
 Achievements	Common Datatype
 Required Achievements	Stack (API)
