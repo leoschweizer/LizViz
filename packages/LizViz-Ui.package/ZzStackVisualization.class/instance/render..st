@@ -16,5 +16,5 @@ render: items
 			updateConnectors.
 		self itemMorphs addLast: morph.
 		self panel addMorph: morph.
-		position := morph bottomLeft + ((15 - 30 atRandom) @ (10 + (10 atRandom)))].
+		position := morph bottomLeft - (0@6)].
 	self visualizationChanged.

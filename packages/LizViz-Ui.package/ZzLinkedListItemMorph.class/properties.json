@@ -11,7 +11,8 @@
 		"mainColor",
 		"nextItemMorph",
 		"connector",
-		"currentColor" ],
+		"currentColor",
+		"displayConnector" ],
 	"name" : "ZzLinkedListItemMorph",
 	"pools" : [
 		 ],

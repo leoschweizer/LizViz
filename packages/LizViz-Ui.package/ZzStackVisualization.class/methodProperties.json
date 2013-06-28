@@ -4,7 +4,8 @@
 	"instance" : {
 		"absentMappingBlock" : "or 6/24/2013 12:52:12.532",
 		"animateAttachToListEvent:" : "or 6/28/2013 12:53:14.004",
-		"animateFirstItemChangedEvent:" : "or 6/28/2013 12:51:44.09",
+		"animateFirstItemChangedEvent:" : "or 6/28/2013 15:01:33.507",
 		"deadEndMorph" : "or 6/17/2013 19:56:49.864",
 		"headMorph" : "or 6/13/2013 16:58:09.971",
-		"render:" : "or 6/28/2013 13:20:33.39" } }
+		"newValueItemMorph:" : "or 6/28/2013 14:26:48.871",
+		"render:" : "or 6/28/2013 14:30:19.111" } }

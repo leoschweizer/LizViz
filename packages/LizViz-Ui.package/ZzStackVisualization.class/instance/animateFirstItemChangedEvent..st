@@ -3,8 +3,17 @@ animateFirstItemChangedEvent: anEvent
 	
 	super animateFirstItemChangedEvent: anEvent.
 	anEvent parameter1 ifNil: [^ self].
-	self itemMorphs first topLeft: self headMorph topRight + (20@0).
-	self itemMorphs allButFirst withIndexDo: [:m :i | m top: ((self itemMorphs at: i) bottom + 20)].
+	(AnimPropertyAnimation 
+		on: self itemMorphs first 
+		property: #topLeft 
+		start: self itemMorphs first topLeft 
+		end: self headMorph topRight + (20@0) duration: 500)
+			register;
+			start: #deleteWhenFinished.
+	self itemMorphs allButFirst withIndexDo: [:m :i | 
+		(AnimPropertyAnimation on: m property: #top start: m top end: self headMorph top + (i * 58) duration: 250)
+			register;
+			start: #deleteWhenFinished].
 	
 	self resetAllTransformations.
 	self visualizationChanged.

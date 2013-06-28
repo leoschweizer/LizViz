@@ -2,6 +2,7 @@ visual properties
 updateConnectors
 	
 	self connector ifNotNilDo: [:connector | connector delete].
+	self displayConnector ifFalse: [^ self].
 	self nextItemMorph ifNil: [^ self transformAsEnd].
 	self connector: (NCAAConnectorMorph new
 		fromMorph: self
