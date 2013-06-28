@@ -1,4 +1,4 @@
 accessing
 itemMorphMapping
 	
-	^ itemMorphMapping ifNil: [itemMorphMapping := Dictionary new]
+	^ itemMorphMapping ifNil: [itemMorphMapping := IdentityDictionary new]

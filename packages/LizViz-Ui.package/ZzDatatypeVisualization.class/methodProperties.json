@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"visualize:on:" : "or 6/27/2013 13:04:58.071" },
+		"on:" : "or 6/28/2013 13:16:39.174" },
 	"instance" : {
 		"absentMappingBlock" : "or 6/27/2013 13:24:58.509",
 		"animate:" : "JR 6/11/2013 14:36:45.496",
@@ -8,12 +8,12 @@
 		"eventMappingFor:" : "or 6/24/2013 12:51:14.597",
 		"eventQueue" : "or 6/27/2013 13:02:20.081",
 		"eventQueue:" : "or 6/27/2013 12:58:12.133",
-		"items" : "JR 6/11/2013 08:23:20.587",
-		"items:" : "ls 6/10/2013 14:15:37.93",
+		"items" : "or 6/28/2013 13:30:52.18",
 		"panel" : "ls 6/10/2013 14:17:41.923",
 		"panel:" : "ls 6/10/2013 14:17:51.071",
 		"removeStepDescriptionMorph" : "or 6/24/2013 13:11:59.162",
 		"render" : "or 6/24/2013 12:51:27.19",
+		"render:" : "or 6/28/2013 13:16:51.17",
 		"resetAllTransformations" : "or 6/24/2013 13:14:47.284",
 		"stepDescriptionMorph" : "or 6/24/2013 13:33:38.047",
 		"stepDescriptionMorph:" : "or 6/27/2013 12:58:12.156",

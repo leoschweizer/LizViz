@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items",
 		"panel",
 		"eventQueue",
 		"stepDescriptionMorph" ],

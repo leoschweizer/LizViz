@@ -10,10 +10,6 @@ animateAttachToListEvent: anEvent
 	self panel addMorph: morph centeredNear: position.
 
 	anEvent sourceItem nextItem isNil 
-		ifTrue: 
-			[self itemMorphs addLast: morph.
-			self items addLast: anEvent sourceItem value]
-		ifFalse: 
-			[self itemMorphs add: morph before: (self morphForItem: anEvent sourceItem nextItem).
-			self items add: anEvent sourceItem value beforeIndex: (self itemMorphs indexOf: morph)].
+		ifTrue: [self itemMorphs addLast: morph]
+		ifFalse: [self itemMorphs add: morph before: (self morphForItem: anEvent sourceItem nextItem)].
 	self itemMorphMapping at: anEvent sourceItem put: morph.

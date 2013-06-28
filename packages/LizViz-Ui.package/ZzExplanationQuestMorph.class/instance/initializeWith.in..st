@@ -12,6 +12,6 @@ initializeWith: aQuest in: aWindow
 	aQuest actions do: [:a | 
 		button := (UiToolButton new 
 			buttonStyle: #textOnly;
-			text: '<font color="#0000ff>', a, '</font>').
+			text: '<font color="#0000ff">', a, '</font>').
 		self connect: button signal: #clicked: toSelector: a.
 		self ui buttonContainer addMorphBack: button].
