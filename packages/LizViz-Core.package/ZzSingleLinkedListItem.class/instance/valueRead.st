@@ -1,4 +1,4 @@
-signals
+logging
 valueRead
 	
 	self log: (ZzVisualizationEvent new

@@ -1,4 +1,4 @@
 accessing
 explanation: aString
 	
-	explanation := aString
+	explanation := aString.

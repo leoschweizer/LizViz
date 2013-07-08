@@ -1,4 +1,4 @@
-signals
+logging
 previousItemChanged: newItem
 	
 	self log: (ZzVisualizationEvent new

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 reset
 	
-	self instances: nil
+	self instances: nil.

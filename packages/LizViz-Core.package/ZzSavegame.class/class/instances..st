@@ -1,4 +1,4 @@
 accessing
-instances: anObject
-
-	instances := anObject
+instances: aDictionary
+	
+	instances := aDictionary.

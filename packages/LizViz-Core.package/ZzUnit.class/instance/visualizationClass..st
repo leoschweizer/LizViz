@@ -1,4 +1,4 @@
 accessing
 visualizationClass: aVisualizationClass
 	
-	visualizationClass := aVisualizationClass
+	visualizationClass := aVisualizationClass.

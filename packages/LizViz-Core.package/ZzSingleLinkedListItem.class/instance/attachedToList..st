@@ -1,4 +1,4 @@
-signals
+logging
 attachedToList: aList
 	
 	self log: (ZzVisualizationEvent new

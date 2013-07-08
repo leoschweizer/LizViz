@@ -1,5 +1,4 @@
 accessing
 achievements
 	
-	^ achievements ifNil: [
-		achievements := ZzAchievement for: self units ]
+	^ achievements ifNil: [achievements := ZzAchievement for: self units]

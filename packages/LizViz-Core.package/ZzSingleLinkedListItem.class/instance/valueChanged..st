@@ -1,4 +1,4 @@
-signals
+logging
 valueChanged: newValue
 	
 	self log: (ZzVisualizationEvent new

@@ -1,4 +1,4 @@
 accessing
 actions: anOrderedCollection
-
-	actions := anOrderedCollection
+	
+	actions := anOrderedCollection.

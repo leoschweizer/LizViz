@@ -9,11 +9,11 @@ readUnit: anId from: aStream
 		at: ((visualizationClass subStrings: Character tab asString) second asSymbol)
 		ifAbsent: ZzLinkedListVisualization.
 
-	unit := (ZzUnit 
-		id: anId 
-		title: title 
-		description: description)
-			visualizationClass: visualizationClass.
+	unit := (ZzUnit new
+		id: anId;
+		title: title; 
+		description: description;
+		visualizationClass: visualizationClass).
 	
 	[task := self readTaskFrom: aStream] whileNotNil: 
 		[unit quests ifNotEmptyDo: [:list | list last next: task].

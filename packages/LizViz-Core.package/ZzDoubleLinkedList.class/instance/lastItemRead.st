@@ -1,4 +1,4 @@
-signals
+logging
 lastItemRead
 	
 	self log: (ZzVisualizationEvent new

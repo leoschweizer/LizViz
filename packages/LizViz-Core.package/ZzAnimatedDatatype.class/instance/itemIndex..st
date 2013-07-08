@@ -1,4 +1,4 @@
 accessing
 itemIndex: anItem
 	
-	self subclassResponsibility
+	^ self subclassResponsibility

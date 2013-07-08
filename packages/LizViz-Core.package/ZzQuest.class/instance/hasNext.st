@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 hasNext
 	
 	^ self next notNil

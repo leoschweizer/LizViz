@@ -1,4 +1,4 @@
 accessing
 testedListInstance: anObject
-
-	testedListInstance := anObject
+	
+	testedListInstance := anObject.
