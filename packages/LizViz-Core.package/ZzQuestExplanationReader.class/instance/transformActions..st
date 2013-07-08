@@ -1,6 +1,6 @@
 stream parsing
 transformActions: aString
-
+	
 	(aString subStrings: ',') do: [:str | | selector |
 		selector := str withBlanksTrimmed.
 		self actions add: ((selector first = $#)

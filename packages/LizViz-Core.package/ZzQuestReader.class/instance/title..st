@@ -1,4 +1,4 @@
 accessing
 title: aString
 	
-	title := aString
+	title := aString.

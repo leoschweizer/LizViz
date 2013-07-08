@@ -1,4 +1,4 @@
 accessing
 achievements
 	
-	^ achievements ifNil: [OrderedCollection new]
+	^ achievements ifNil: [achievements := OrderedCollection new]

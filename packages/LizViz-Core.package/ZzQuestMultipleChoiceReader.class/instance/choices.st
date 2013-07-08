@@ -1,4 +1,4 @@
 accessing
 choices
 	
-	^ choices ifNil: [ Dictionary new ]
+	^ choices ifNil: [choices := Dictionary new]

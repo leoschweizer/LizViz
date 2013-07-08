@@ -3,7 +3,6 @@ testSourceCompositionForMethodAvailableInObject
 	
 	| source class instance |
 	source := 'size', Character cr, Character tab, '^ 42'.
-	"self deny: (ZzSingleLinkedList canUnderstand: #testSelector)."
 	
 	class := ZzListClassFactory new
 		makeSingleLinked;

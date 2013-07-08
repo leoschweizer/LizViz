@@ -1,6 +1,6 @@
 stream parsing
 create
-
+	
 	^ ZzQuestExplanation new
 		title: self title;
 		assignment: self assignment;

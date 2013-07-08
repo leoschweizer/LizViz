@@ -1,4 +1,4 @@
 accessing
 solution: aSet
 	
-	solution := aSet
+	solution := aSet.

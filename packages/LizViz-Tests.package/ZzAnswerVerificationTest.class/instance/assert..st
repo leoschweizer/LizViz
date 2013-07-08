@@ -1,4 +1,4 @@
-as yet unclassified
+assertions
 assert: aBooleanOrBlock
 	
 	^ super

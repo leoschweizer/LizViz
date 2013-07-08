@@ -1,4 +1,4 @@
-as yet unclassified
+utilities
 runIsolated: aSelector
 	
 	"reset state of test case"

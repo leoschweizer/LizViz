@@ -1,4 +1,4 @@
-as yet unclassified
+logging
 createExecutionLogFor: aListInstance
 	
 	self listInstance: aListInstance.

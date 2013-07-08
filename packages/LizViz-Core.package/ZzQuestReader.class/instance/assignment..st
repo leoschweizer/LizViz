@@ -1,4 +1,4 @@
 accessing
 assignment: aString
 	
-	assignment := aString
+	assignment := aString.

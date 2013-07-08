@@ -1,4 +1,4 @@
-as yet unclassified
+assertions
 denyResumable: aBlock
 	
 	^ super 

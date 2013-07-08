@@ -1,4 +1,4 @@
 accessing
 solution
 	
-	^ solution ifNil: [ #() ]
+	^ solution ifNil: [solution := #()]
