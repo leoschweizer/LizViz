@@ -1,4 +1,4 @@
-data accessing
+initialization
 addOption: aSelector named: aName
 	
 	| checkbox |

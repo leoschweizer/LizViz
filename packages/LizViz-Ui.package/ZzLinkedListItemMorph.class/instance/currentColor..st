@@ -1,4 +1,4 @@
 accessing
 currentColor: aColor
 	
-	currentColor := aColor
+	currentColor := aColor.

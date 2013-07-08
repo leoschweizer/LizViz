@@ -1,4 +1,4 @@
 accessing
 headMorph: anObject
-
-	headMorph := anObject
+	
+	headMorph := anObject.

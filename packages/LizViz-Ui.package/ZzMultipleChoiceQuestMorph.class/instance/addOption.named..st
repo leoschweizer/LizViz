@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 addOption: aSelector named: aName
 	
 	| checkbox |

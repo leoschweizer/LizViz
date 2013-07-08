@@ -1,4 +1,4 @@
 accessing
 eventQueue: anObject
-
-	eventQueue := anObject
+	
+	eventQueue := anObject.

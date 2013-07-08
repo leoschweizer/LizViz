@@ -1,6 +1,6 @@
 quest-management
 animateTest: aQuest
-
+	
 	| previousItem |
 	[previousItem := nil.
 	self visualization items withIndexDo: [:item :i | | listItem |

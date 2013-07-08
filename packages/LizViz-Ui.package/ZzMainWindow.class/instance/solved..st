@@ -12,4 +12,3 @@ solved: aQuest
 	aQuest hasNext ifFalse: [^ self showStartScreen].
 	
 	self initializeQuestContainer: aQuest next.
-	"self initializeVisualization."

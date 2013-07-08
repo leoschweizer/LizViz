@@ -15,5 +15,6 @@ animateFirstItemChangedEvent: anEvent
 			register;
 			start: #deleteWhenFinished].
 	
-	self resetAllTransformations.
-	self visualizationChanged.
+	self 
+		resetAllTransformations;
+		visualizationChanged.

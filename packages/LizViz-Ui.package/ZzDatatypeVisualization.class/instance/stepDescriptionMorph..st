@@ -1,4 +1,4 @@
 accessing
 stepDescriptionMorph: anObject
-
-	stepDescriptionMorph := anObject
+	
+	stepDescriptionMorph := anObject.

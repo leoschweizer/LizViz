@@ -1,4 +1,4 @@
 action processing
 remove
-
-	self removeFirst
+	
+	self removeFirst.

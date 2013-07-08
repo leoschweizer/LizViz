@@ -1,4 +1,4 @@
 accessing
 apiMorph: anObject
-
-	apiMorph := anObject
+	
+	apiMorph := anObject.

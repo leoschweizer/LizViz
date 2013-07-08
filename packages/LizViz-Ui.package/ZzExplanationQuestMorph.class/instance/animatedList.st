@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 animatedList
 	
 	^ (self ownerThatIsA: ZzMainWindow) visualization

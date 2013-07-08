@@ -1,4 +1,4 @@
 accessing
 displayConnector: anObject
-
-	displayConnector := anObject
+	
+	displayConnector := anObject.

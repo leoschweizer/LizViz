@@ -1,4 +1,4 @@
 abstract
 submitQuestButton
-
+	
 	^ self subclassResponsibility

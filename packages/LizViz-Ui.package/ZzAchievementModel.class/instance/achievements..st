@@ -2,4 +2,4 @@ accessing
 achievements: aCollection
 	
 	achievements := aCollection.
-	self updateNodes
+	self updateNodes.

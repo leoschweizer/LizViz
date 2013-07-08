@@ -1,4 +1,4 @@
 actions
 showUnitScreen
 	
-	self currentIndex: 2
+	self currentIndex: 2.

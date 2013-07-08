@@ -8,8 +8,8 @@ positionFor: aMorph
 	point := self panel center.
 	breakup := 0.
 	
-	[(breakup > 10) | (self isPositionFree: point radius: radius)] whileFalse: [
-		point := (bounds x atRandom @ bounds y atRandom) + radius.
+	[(breakup > 10) | (self isPositionFree: point radius: radius)] whileFalse: 
+		[point := (bounds x atRandom @ bounds y atRandom) + radius.
 		breakup := breakup + 1].
 	
 	^ point

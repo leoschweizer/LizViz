@@ -1,4 +1,4 @@
 event handling
 eventMappingFor: anEvent
-
-	self subclassResponsibility.
+	
+	^ self subclassResponsibility

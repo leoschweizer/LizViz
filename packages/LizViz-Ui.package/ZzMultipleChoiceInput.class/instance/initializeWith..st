@@ -1,4 +1,4 @@
-data accessing
+initialization
 initializeWith: quest
 	
 	self removeAllMorphs.

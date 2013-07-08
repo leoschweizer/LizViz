@@ -1,4 +1,4 @@
 actions
 showStartScreen
 	
-	self currentIndex: 1
+	self currentIndex: 1.

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: aQuest in: aWindow
 	
 	| htmlText button |

@@ -1,4 +1,4 @@
 accessing
 savegame: aSavegame
 	
-	savegame := aSavegame
+	savegame := aSavegame.

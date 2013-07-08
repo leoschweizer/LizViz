@@ -1,6 +1,6 @@
 building
 itemFor: aNode
-
+	
 	| achievement container |
 	
 	(aNode includesKey: #achievement) ifFalse: [^ self emptyCell].
@@ -28,8 +28,8 @@ itemFor: aNode
 			yourself).
 		button icon: ((self savegame isLocked: quest)
 			ifTrue: [self lockedIcon]
-			ifFalse: [
-				(self savegame isSolved: quest)
+			ifFalse: 
+				[(self savegame isSolved: quest)
 					ifTrue: [self solvedIcon]
 					ifFalse: [self unsolvedIcon]]).
 		self target ifNotNilDo: [:target |

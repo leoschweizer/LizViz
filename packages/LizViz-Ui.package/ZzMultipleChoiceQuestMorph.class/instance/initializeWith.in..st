@@ -1,6 +1,6 @@
-as yet unclassified
+initialization
 initializeWith: aQuest in: aWindow
-
+	
 	super initializeWith: aQuest in: aWindow.
 	self ui assignmentText theText: aQuest assignment asHtmlText.
 	self ui multipleChoice removeAllMorphs.

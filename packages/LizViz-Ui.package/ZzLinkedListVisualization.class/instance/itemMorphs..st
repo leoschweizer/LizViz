@@ -1,4 +1,4 @@
 accessing
 itemMorphs: anObject
-
-	itemMorphs := anObject
+	
+	itemMorphs := anObject.

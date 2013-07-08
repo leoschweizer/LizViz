@@ -1,4 +1,4 @@
 accessing
 deadEndMorph: anObject
-
-	deadEndMorph := anObject
+	
+	deadEndMorph := anObject.

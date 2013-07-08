@@ -1,4 +1,4 @@
-as yet unclassified
+data accessing
 collectResultData 
 	
 	^ self ui code theText

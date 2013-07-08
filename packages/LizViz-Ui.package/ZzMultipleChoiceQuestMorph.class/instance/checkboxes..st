@@ -1,4 +1,4 @@
 accessing
 checkboxes: anObject
-
-	checkboxes := anObject
+	
+	checkboxes := anObject.

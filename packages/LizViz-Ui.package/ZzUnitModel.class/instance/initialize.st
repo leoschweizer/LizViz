@@ -1,5 +1,5 @@
-initialize-release
+initialization
 initialize
 	
 	super initialize.
-	self updateNodes
+	self updateNodes.

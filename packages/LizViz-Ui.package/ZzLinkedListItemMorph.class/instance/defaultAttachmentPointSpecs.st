@@ -2,8 +2,8 @@ visual properties
 defaultAttachmentPointSpecs
 	
 	^ {
-		{ #leftCenter }.
-		{ #rightCenter }.
-		{ #topCenter }.
-		{ #bottomCenter }.
+		{#leftCenter}.
+		{#rightCenter}.
+		{#topCenter}.
+		{#bottomCenter}.
 	}

@@ -1,6 +1,6 @@
 animation
 animateAttachToListEvent: anEvent
-
+	
 	| morph ref |
 	self describe: 'New unbound item created.'.
 	morph := self newValueItemMorph: nil.

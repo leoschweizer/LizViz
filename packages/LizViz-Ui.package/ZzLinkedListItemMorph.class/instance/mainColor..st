@@ -1,4 +1,4 @@
 accessing
 mainColor: anObject
-
-	mainColor := anObject
+	
+	mainColor := anObject.

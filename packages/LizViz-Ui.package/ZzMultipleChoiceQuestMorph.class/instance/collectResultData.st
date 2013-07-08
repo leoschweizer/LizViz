@@ -1,6 +1,6 @@
-as yet unclassified
+data accessing
 collectResultData
-
+	
 	| checked |
 	checked := Set new.
 	self checkboxes associationsDo: [:a |

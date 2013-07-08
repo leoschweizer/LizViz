@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"addOption:named:" : "or 6/20/2013 15:19:36.098",
-		"checkboxes" : "or 6/20/2013 15:20:02.81",
-		"checkboxes:" : "or 6/20/2013 15:20:02.859",
-		"collectResultData" : "or 6/20/2013 15:20:30.773",
-		"initializeWith:in:" : "or 6/27/2013 13:54:01.914",
+		"checkboxes" : "ls 7/8/2013 11:00:15.789",
+		"checkboxes:" : "ls 7/8/2013 11:00:22.045",
+		"collectResultData" : "ls 7/8/2013 11:00:31.675",
+		"initializeWith:in:" : "ls 7/8/2013 11:00:38.227",
 		"submitQuestButton" : "or 6/20/2013 15:15:17.108",
-		"uiClass" : "or 6/20/2013 15:04:07.987" } }
+		"uiClass" : "ls 7/8/2013 11:00:53.079" } }

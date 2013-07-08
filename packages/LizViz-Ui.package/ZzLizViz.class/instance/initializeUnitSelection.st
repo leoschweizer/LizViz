@@ -6,7 +6,14 @@ initializeUnitSelection
 	tree := self menuUi unitSelection.
 	tree
 		removeAllColumns; model: nil;
-		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Tasks'. #text -> #yourself. #icon -> #yourself. #balloonText -> #yourself})
+		addColumn: (
+			(UiItemViewColumnSpec newFrom: {
+				#headerText -> 'Tasks'. 
+				#text -> #yourself. 
+				#icon -> #yourself. 
+				#balloonText -> #yourself
+			})
+			
 			textConverter: [:node | (node includesKey: #unit)
 				ifTrue: [('<b>', (node at: #unit) title, '</b>') asHtmlText]
 				ifFalse: [(node at: #quest) title]];
@@ -24,11 +31,11 @@ initializeUnitSelection
 					quest := node at: #quest.
 					unit := node at: #parent.
 					(self currentSavegame isLocked: quest)
-						ifTrue: [ UiFugueIcons lockSmallIcon ]
-						ifFalse: [
-							(self currentSavegame isSolved: quest)
-								ifTrue: [ UiSilkIcons bulletGreenIcon ]
-								ifFalse: [ UiSilkIcons bulletRedIcon ]]]]);
+						ifTrue: [UiFugueIcons lockSmallIcon]
+						ifFalse: 
+							[(self currentSavegame isSolved: quest)
+								ifTrue: [UiSilkIcons bulletGreenIcon]
+								ifFalse: [UiSilkIcons bulletRedIcon]]]]);
 		
 		setResizeModeForColumn: 2 to: #rigid;
 		setWidthForColumn: 2 to: 20;
@@ -36,7 +43,7 @@ initializeUnitSelection
 		model: model;
 		expandAllTopLevelNodes.
 	
-	self connect: tree signal: #doubleClicked: toSelector: #startQuestNode:.
-	self connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode.
-	
-	self connect: self currentSavegame signal: #changed to: tree selector: #changeAllItems.
+	self 
+		connect: tree signal: #doubleClicked: toSelector: #startQuestNode:;
+		connect: self menuUi unitStartSelectedButton signal: #clicked: toSelector: #startSelectedQuestNode;
+		connect: self currentSavegame signal: #changed to: tree selector: #changeAllItems.

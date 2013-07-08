@@ -1,4 +1,4 @@
 accessing
 notificationCallbacks: anObject
-
-	notificationCallbacks := anObject
+	
+	notificationCallbacks := anObject.

@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"abandon" : "or 6/28/2013 13:52:47.717",
-		"apiMorph" : "or 6/28/2013 13:51:39.332",
-		"apiMorph:" : "or 6/28/2013 13:51:39.377",
+		"abandon" : "ls 7/8/2013 11:03:49.619",
+		"apiMorph" : "ls 7/8/2013 11:04:22.938",
+		"apiMorph:" : "ls 7/8/2013 11:04:27.373",
 		"collectResultData" : "or 6/20/2013 15:33:21.134",
-		"initializeWith:in:" : "or 6/27/2013 13:53:50.834",
+		"initializeWith:in:" : "ls 7/8/2013 11:03:59.145",
 		"showAvailableMethods" : "or 6/28/2013 13:52:20.174",
 		"submitQuestButton" : "or 6/20/2013 15:29:01.901",
-		"uiClass" : "or 6/20/2013 15:29:33.203" } }
+		"uiClass" : "ls 7/8/2013 11:04:19.037" } }

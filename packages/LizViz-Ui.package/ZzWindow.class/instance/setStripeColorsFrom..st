@@ -1,3 +1,3 @@
-as yet unclassified
+label
 setStripeColorsFrom: paneColor
 	"do not want!"

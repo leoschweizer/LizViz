@@ -1,4 +1,4 @@
 ui
 showStartScreen
 	
-	self lizViz showStartScreen
+	self lizViz showStartScreen.

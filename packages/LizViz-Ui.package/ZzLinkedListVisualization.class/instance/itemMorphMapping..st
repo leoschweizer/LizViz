@@ -1,4 +1,4 @@
 accessing
 itemMorphMapping: aDictionary
 	
-	itemMorphMapping := aDictionary
+	itemMorphMapping := aDictionary.

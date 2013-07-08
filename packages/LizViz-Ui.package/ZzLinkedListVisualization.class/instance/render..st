@@ -20,4 +20,5 @@ render: items
 	lastMorph
 		nextItemMorph: self deadEndMorph;
 		updateConnectors.
-	self visualizationChanged
+	
+	self visualizationChanged.

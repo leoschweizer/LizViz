@@ -1,4 +1,4 @@
 accessing
 sourceItemIndex
 	
-	^ self at: #sourceItemIndex.
+	^ self at: #sourceItemIndex

@@ -1,4 +1,4 @@
 accessing
 clickBlock: aBlock
 	
-	clickBlock := aBlock
+	clickBlock := aBlock.

@@ -1,4 +1,4 @@
 accessing
 sourceList
 	
-	^ self at: #sourceList.
+	^ self at: #sourceList
