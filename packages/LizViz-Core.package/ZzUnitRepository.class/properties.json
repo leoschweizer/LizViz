@@ -1,0 +1,14 @@
+{
+	"category" : "LizViz-Core-Reader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZzUnitRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
