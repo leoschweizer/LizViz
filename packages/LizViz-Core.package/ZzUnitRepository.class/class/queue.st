@@ -1,8 +1,8 @@
 units
 queue
 	
-	^ '
-Queue	
+	^ 
+'Queue	
 In this unit you are going to learn all about Queues, get basic understanding of their API and insight into their internals.	
 VisualizationClass	ZzQueueVisualization
 	
@@ -37,5 +37,4 @@ Description	What can I do with a Q?
 Assignment	What ressembles a Queue?
 Choices	a => people waiting in a line, b => playing a card game, c => navy seals storming a house
 Solution	a
-Achievements	Quizmaster
-	'
+Achievements	Quizmaster'

@@ -1,10 +1,9 @@
 units
 summary
 	
-	^ '
-intro
+	^ 
+'intro
 stack
 queue
 set
-complexity
-	'
+complexity'

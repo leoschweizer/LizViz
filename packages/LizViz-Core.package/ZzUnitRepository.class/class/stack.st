@@ -1,8 +1,8 @@
 units
 stack
 	
-	^ '
-Stack	
+	^ 
+'Stack	
 In this unit you are going to learn all about Stacks, get basic understanding of their API and insight into their internals.	
 VisualizationClass	ZzStackVisualization
 	
@@ -43,5 +43,4 @@ Task	Explanation: Further reading
 Description	There is more of course!
 Explanation	Of course there are use cases for a stack, but most of them contain backtracking and recursion, which are out of scope of what you are supposed to learn here.<br>Checkout http://en.wikipedia.org/wiki/Stack_(abstract_data_type)<br>#Neuland
 Actions	
-Achievements	
-	'
+Achievements	'

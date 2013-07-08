@@ -1,8 +1,8 @@
 units
 set
 	
-	^ '
-Set	
+	^ 
+'Set	
 In this unit you are going to learn all about Sets, get basic understanding of their API and insight into their internals.	
 VisualizationClass	ZzSetVisualization
 	
@@ -37,5 +37,4 @@ Description	What can I do with a Set?
 Assignment	For which task would you use a set?
 Choices	a => people waiting in a line, b => phone book
 Solution	b
-Achievements	Quizmaster
-	'
+Achievements	Quizmaster'

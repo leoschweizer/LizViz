@@ -1,8 +1,8 @@
 units
 intro
 	
-	^ '
-Getting Started	
+	^ 
+'Getting Started	
 In this unit you are going to implement a Linked List. A whole world awaits us!	
 VisualizationClass	ZzLinkedListVisualization
 	
@@ -89,5 +89,4 @@ Traits	TZzIsEmptyOperation
 Testset	ZzRemoveLastOperationTest>>#testAll
 Code	removeLast
 	    ^ removedItem
-Achievements	List (API), Linked List, Queue (API), Codemaster
-	'
+Achievements	List (API), Linked List, Queue (API), Codemaster'

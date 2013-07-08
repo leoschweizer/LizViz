@@ -1,8 +1,8 @@
 units
 complexity
 	
-	^ '
-Advanced: Complexity	
+	^ 
+'Advanced: Complexity	
 In this unit you are going to learn about complexity	
 VisualizationClass	ZzLinkedListVisualization
 	
@@ -32,5 +32,4 @@ Description	The complexity of the size operation
 Assignment	Now that we have implemented a size operation and learnt about complexity, we can estimate, how elaborate it is, to calculate the size of a Linked List. The complexity is...
 Choices	a => constant - O(1), b => linear - O(n), c => quadratic - O(n²)
 Solution	b
-Achievements	O-Notation, Quizmaster
-	'
+Achievements	O-Notation, Quizmaster'
