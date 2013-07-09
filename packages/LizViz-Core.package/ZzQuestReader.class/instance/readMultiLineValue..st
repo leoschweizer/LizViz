@@ -11,7 +11,7 @@ readMultiLineValue: aStream
 	"
 	[aStream peekFor: Character tab] whileTrue: 
 		["break up if we encounter \t\n, but not \t\n\t<Text>"
-		(aStream peekFor: Character lf) ifTrue: 
+		((aStream peekFor: Character lf) or: [(aStream peekFor: Character cr)]) ifTrue: 
 			[(aStream peekFor: Character tab)
 				ifTrue: [value := value, Character lf] "we encountered a paragraph break"
 				ifFalse: 
