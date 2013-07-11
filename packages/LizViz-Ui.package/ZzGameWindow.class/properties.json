@@ -13,7 +13,7 @@
 		"lastAnimationStep",
 		"visualization",
 		"notificationCallbacks" ],
-	"name" : "ZzMainWindow",
+	"name" : "ZzGameWindow",
 	"pools" : [
 		 ],
 	"super" : "Morph",

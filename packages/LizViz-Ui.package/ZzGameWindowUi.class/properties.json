@@ -16,7 +16,7 @@
 		"resetButton",
 		"visualizationContainer",
 		"questContainer" ],
-	"name" : "ZzMainWindowUi",
+	"name" : "ZzGameWindowUi",
 	"pools" : [
 		 ],
 	"super" : "UserInterface",

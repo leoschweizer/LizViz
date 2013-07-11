@@ -1,4 +1,4 @@
 accessing
 animatedList
 	
-	^ (self ownerThatIsA: ZzMainWindow) visualization
+	^ self gameWindow visualization

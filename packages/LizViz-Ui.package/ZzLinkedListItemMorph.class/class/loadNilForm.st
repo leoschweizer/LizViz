@@ -1,5 +1,7 @@
 as yet unclassified
 loadNilForm
 	
-	nilForm := ZzLizViz loadFormDependency: 'Nil.png'.
+	"nilForm := ZzLizViz loadFormDependency: 'Nil.png'."
+	nilForm := Form fromBinaryStream: 
+		(Base64MimeConverter mimeDecodeToBytes: ZzGitHubSurrogate nilFormContents readStream).
 	^ nilForm

@@ -2,5 +2,5 @@ initialization
 initializeUnitScreen
 	
 	self
-		unitMorph: (ZzMainWindow new lizViz: self);
+		unitMorph: (ZzGameWindow new lizViz: self);
 		addPage: self unitMorph.

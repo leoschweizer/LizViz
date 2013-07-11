@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ZzUnitRepository",
+	"name" : "ZzGitHubSurrogate",
 	"pools" : [
 		 ],
 	"super" : "Object",
