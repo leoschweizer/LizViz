@@ -1,4 +1,4 @@
-as yet unclassified
+images
 headForm
 	
 	^ headForm ifNil: [ self loadHeadForm ]

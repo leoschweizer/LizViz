@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 widgetClassName
 
 	^ 'Readonly Text Edit'

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 solvedQuests
 	
 	^ solvedQuests ifNil: [solvedQuests := Set new]

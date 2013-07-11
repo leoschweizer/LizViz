@@ -1,4 +1,4 @@
-as yet unclassified
+images
 loadItemForm
 	
 	"itemForm := ZzLizViz loadFormDependency: 'Circle.png'."

@@ -1,4 +1,4 @@
-as yet unclassified
+images
 loadNilForm
 	
 	"nilForm := ZzLizViz loadFormDependency: 'Nil.png'."

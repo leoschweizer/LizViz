@@ -1,4 +1,4 @@
-as yet unclassified
+images
 nilForm
 	
 	^ nilForm ifNil: [ self loadNilForm ]

@@ -1,4 +1,4 @@
-as yet unclassified
+images
 loadHeadForm
 	
 	"headForm := ZzLizViz loadFormDependency: 'Head.png'."

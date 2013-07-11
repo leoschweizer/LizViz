@@ -1,4 +1,4 @@
-as yet unclassified
+images
 resetImages
 
 	itemForm := nil.
